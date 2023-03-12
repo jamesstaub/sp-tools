@@ -1,0 +1,195 @@
+{
+	"pattrstorage" : 	{
+		"name" : "performance",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"_filter-to-corpus-1::comp-loudness" : [ 100.0 ],
+					"_filter-to-corpus-1::comp-spectral" : [ 50.0 ],
+					"_filter-to-corpus-1::granular-rate" : [ 200.000000000000057 ],
+					"_filter-to-corpus-1::granular-variation" : [ 25.196850393700782 ],
+					"_filter-to-corpus-1::live.button[1]" : [ 0.0 ],
+					"_filter-to-corpus-1::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::live.menu" : [ 4.0 ],
+					"_filter-to-corpus-1::player-attack" : [ 10.0 ],
+					"_filter-to-corpus-1::player-hold" : [ 100.0 ],
+					"_filter-to-corpus-1::player-voices" : [ 8.0 ],
+					"_filter-to-corpus-1::setup-range" : [ 4.021937842778794, 82.632541133455206 ],
+					"_filter-to-corpus-1::toggle-granular" : [ 1.0 ],
+					"_filter-to-corpus-1::toggle-granular-random" : [ 0.0 ],
+					"_filter-to-corpus-1::toggle-use-setup" : [ 1.0 ],
+					"_filter-to-corpus-1::toggle_timestretch" : [ 1.0 ],
+					"_filter-to-corpus-1::ts-pitch" : [ 0.0 ],
+					"_filter-to-corpus-1::ts-speed" : [ 50.0 ],
+					"_filter-to-corpus-1::toggle-granular-random[1]" : [ 0.0 ],
+					"_ramp-engine::events" : [ 100 ],
+					"_ramp-engine::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 0.072222222222222, 0.658385093167702, 0, 0.0, 1.0, 0.0, 0, -0.795, "curve" ],
+					"_ramp-engine::live.toggle" : [ 0.0 ],
+					"_ramp-engine::loop" : [ 1 ],
+					"_ramp-engine::speed" : [ 181.731619880499579 ],
+					"_speed-controller::u954003948" : [ 10.0 ],
+					"_speed-controller::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 15,
+								"numouts" : 15
+							}
+
+						}
+ ],
+					"_speed-controller::history" : [ 4 ],
+					"_filter-to-corpus-2::comp-loudness" : [ 100.0 ],
+					"_filter-to-corpus-2::comp-spectral" : [ 50.0 ],
+					"_filter-to-corpus-2::granular-rate" : [ 300.0 ],
+					"_filter-to-corpus-2::granular-variation" : [ 79.489661835166132 ],
+					"_filter-to-corpus-2::live.button[1]" : [ 0.0 ],
+					"_filter-to-corpus-2::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-2::live.menu" : [ 0.0 ],
+					"_filter-to-corpus-2::player-attack" : [ 150.0 ],
+					"_filter-to-corpus-2::player-hold" : [ 100.0 ],
+					"_filter-to-corpus-2::player-voices" : [ 6.0 ],
+					"_filter-to-corpus-2::setup-range" : [ 42.047531992687382, 97.623400365630715 ],
+					"_filter-to-corpus-2::toggle-granular" : [ 1.0 ],
+					"_filter-to-corpus-2::toggle-granular-random" : [ 0.0 ],
+					"_filter-to-corpus-2::toggle-use-setup" : [ 1.0 ],
+					"_filter-to-corpus-2::toggle_timestretch" : [ 0.0 ],
+					"_filter-to-corpus-2::ts-pitch" : [ 0.0 ],
+					"_filter-to-corpus-2::ts-speed" : [ 149.920000000000016 ],
+					"_filter-to-corpus-2::toggle-granular-random[1]" : [ 1.0 ],
+					"_filter-to-corpus-2::corpus-menu" : [ 3 ],
+					"u954003948" : [  ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"_filter-to-corpus-1::comp-loudness" : [ 73.22834645669289 ],
+					"_filter-to-corpus-1::comp-spectral" : [ 7.086614173228313 ],
+					"_filter-to-corpus-1::granular-rate" : [ 184.951849262768462 ],
+					"_filter-to-corpus-1::granular-variation" : [ 98.427292958943269 ],
+					"_filter-to-corpus-1::live.button[1]" : [ 0.0 ],
+					"_filter-to-corpus-1::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::live.menu" : [ 4.0 ],
+					"_filter-to-corpus-1::player-attack" : [ 10.0 ],
+					"_filter-to-corpus-1::player-hold" : [ 100.0 ],
+					"_filter-to-corpus-1::player-voices" : [ 12.0 ],
+					"_filter-to-corpus-1::setup-range" : [ 7.678244972577697, 94.332723948811704 ],
+					"_filter-to-corpus-1::toggle-granular" : [ 0.0 ],
+					"_filter-to-corpus-1::toggle-granular-random" : [ 0.0 ],
+					"_filter-to-corpus-1::toggle-use-setup" : [ 1.0 ],
+					"_filter-to-corpus-1::toggle_timestretch" : [ 0.0 ],
+					"_filter-to-corpus-1::ts-pitch" : [ 0.0 ],
+					"_filter-to-corpus-1::ts-speed" : [ 100.0 ],
+					"_filter-to-corpus-1::toggle-granular-random[1]" : [ 0.0 ],
+					"_ramp-engine::events" : [ 100 ],
+					"_ramp-engine::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 0.151851851851852, 0.53416149068323, 0, 0.0, 0.548148148148148, 0.298136645962733, 0, 0.0, 1.0, 0.0, 0, 0.0, "curve" ],
+					"_ramp-engine::live.toggle" : [ 0.0 ],
+					"_ramp-engine::loop" : [ 1 ],
+					"_ramp-engine::speed" : [ 181.731619880499579 ],
+					"_speed-controller::u954003948" : [ 184.951849262768462 ],
+					"_speed-controller::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 15,
+								"numouts" : 15,
+								"connections" : [ 									{
+										"in" : 6,
+										"out" : 10,
+										"gain" : 1.0
+									}
+ ]
+							}
+
+						}
+ ],
+					"_speed-controller::history" : [ 4 ],
+					"_filter-to-corpus-2::comp-loudness" : [ 73.22834645669289 ],
+					"_filter-to-corpus-2::comp-spectral" : [ 7.086614173228313 ],
+					"_filter-to-corpus-2::granular-rate" : [ 184.951849262768462 ],
+					"_filter-to-corpus-2::granular-variation" : [ 98.427292958943269 ],
+					"_filter-to-corpus-2::live.button[1]" : [ 0.0 ],
+					"_filter-to-corpus-2::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-2::live.menu" : [ 4.0 ],
+					"_filter-to-corpus-2::player-attack" : [ 10.0 ],
+					"_filter-to-corpus-2::player-hold" : [ 100.0 ],
+					"_filter-to-corpus-2::player-voices" : [ 12.0 ],
+					"_filter-to-corpus-2::setup-range" : [ 7.678244972577697, 94.332723948811704 ],
+					"_filter-to-corpus-2::toggle-granular" : [ 0.0 ],
+					"_filter-to-corpus-2::toggle-granular-random" : [ 0.0 ],
+					"_filter-to-corpus-2::toggle-use-setup" : [ 1.0 ],
+					"_filter-to-corpus-2::toggle_timestretch" : [ 1.0 ],
+					"_filter-to-corpus-2::ts-pitch" : [ 0.0 ],
+					"_filter-to-corpus-2::ts-speed" : [ 100.0 ],
+					"_filter-to-corpus-2::toggle-granular-random[1]" : [ 0.0 ],
+					"_filter-to-corpus-2::corpus-menu" : [  ],
+					"u954003948" : [  ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"_filter-to-corpus-1::comp-loudness" : [ 100.0 ],
+					"_filter-to-corpus-1::comp-spectral" : [ 50.0 ],
+					"_filter-to-corpus-1::granular-rate" : [ 319.999999999999829 ],
+					"_filter-to-corpus-1::granular-variation" : [ 25.196850393700782 ],
+					"_filter-to-corpus-1::live.button[1]" : [ 0.0 ],
+					"_filter-to-corpus-1::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::live.menu" : [ 4.0 ],
+					"_filter-to-corpus-1::player-attack" : [ 10.0 ],
+					"_filter-to-corpus-1::player-hold" : [ 100.0 ],
+					"_filter-to-corpus-1::player-voices" : [ 8.0 ],
+					"_filter-to-corpus-1::setup-range" : [ 4.021937842778794, 82.632541133455206 ],
+					"_filter-to-corpus-1::toggle-granular" : [ 1.0 ],
+					"_filter-to-corpus-1::toggle-granular-random" : [ 0.0 ],
+					"_filter-to-corpus-1::toggle-use-setup" : [ 1.0 ],
+					"_filter-to-corpus-1::toggle_timestretch" : [ 1.0 ],
+					"_filter-to-corpus-1::ts-pitch" : [ 0.0 ],
+					"_filter-to-corpus-1::ts-speed" : [ 50.0 ],
+					"_filter-to-corpus-1::toggle-granular-random[1]" : [ 0.0 ],
+					"_ramp-engine::events" : [ 100 ],
+					"_ramp-engine::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 0.072222222222222, 0.658385093167702, 0, 0.0, 1.0, 0.0, 0, -0.795, "curve" ],
+					"_ramp-engine::live.toggle" : [ 0.0 ],
+					"_ramp-engine::loop" : [ 1 ],
+					"_ramp-engine::speed" : [ 181.731619880499579 ],
+					"_speed-controller::u954003948" : [ 319.999999999999829 ],
+					"_speed-controller::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 15,
+								"numouts" : 15
+							}
+
+						}
+ ],
+					"_speed-controller::history" : [ 4 ],
+					"_filter-to-corpus-2::comp-loudness" : [ -2.36220472440931 ],
+					"_filter-to-corpus-2::comp-spectral" : [ 50.0 ],
+					"_filter-to-corpus-2::granular-rate" : [ 300.0 ],
+					"_filter-to-corpus-2::granular-variation" : [ 79.489661835166132 ],
+					"_filter-to-corpus-2::live.button[1]" : [ 0.0 ],
+					"_filter-to-corpus-2::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-2::live.menu" : [ 4.0 ],
+					"_filter-to-corpus-2::player-attack" : [ 10.0 ],
+					"_filter-to-corpus-2::player-hold" : [ 100.0 ],
+					"_filter-to-corpus-2::player-voices" : [ 6.0 ],
+					"_filter-to-corpus-2::setup-range" : [ 42.047531992687382, 97.623400365630715 ],
+					"_filter-to-corpus-2::toggle-granular" : [ 1.0 ],
+					"_filter-to-corpus-2::toggle-granular-random" : [ 0.0 ],
+					"_filter-to-corpus-2::toggle-use-setup" : [ 1.0 ],
+					"_filter-to-corpus-2::toggle_timestretch" : [ 1.0 ],
+					"_filter-to-corpus-2::ts-pitch" : [ 0.0 ],
+					"_filter-to-corpus-2::ts-speed" : [ 25.0 ],
+					"_filter-to-corpus-2::toggle-granular-random[1]" : [ 1.0 ],
+					"_filter-to-corpus-2::corpus-menu" : [ 1 ],
+					"u954003948" : [  ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

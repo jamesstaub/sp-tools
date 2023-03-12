@@ -2,18 +2,17 @@
 	"name" : "sp-tools",
 	"version" : 1,
 	"creationdate" : 3752619303,
-	"modificationdate" : 3753291071,
-	"viewrect" : [ -1.0, 115.0, 1680.0, 873.0 ],
+	"modificationdate" : 3761310286,
+	"viewrect" : [ -1920.0, 115.0, 1920.0, 931.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
-	"showdependencies" : 1,
+	"showdependencies" : 0,
 	"autolocalize" : 0,
 	"contents" : 	{
 		"patchers" : 		{
 			"cello-corpus-player.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1,
-				"toplevel" : 1
+				"local" : 1
 			}
 ,
 			"slice-to-files.maxpat" : 			{
@@ -30,30 +29,60 @@
 				"local" : 1
 			}
 ,
-			"input-processor.maxpat" : 			{
+			"_input-processor.maxpat" : 			{
+				"kind" : "patcher"
+			}
+,
+			"arrowhead-performer.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1,
+				"toplevel" : 1
+			}
+,
+			"_filter-to-corpus.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
-
-		}
 ,
-		"media" : 		{
-
-		}
+			"_filter_slider.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
 ,
-		"code" : 		{
-
-		}
+			"_ramp-engine.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
 ,
-		"data" : 		{
-
-		}
+			"_onset-frame.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
 ,
-		"externals" : 		{
-
-		}
+			"_speed-classifier.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
 ,
-		"other" : 		{
+			"_midi-sync.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"_speed-controller.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"_timbre_classifier.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"_gmm-classifier.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
 
 		}
 
