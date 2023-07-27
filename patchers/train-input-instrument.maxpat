@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -1882.0, 115.0, 1852.0, 903.0 ],
+		"rect" : [ -1877.0, 115.0, 1852.0, 931.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -2472,7 +2472,7 @@
 					"destination" : [ "obj-36", 0 ],
 					"source" : [ "obj-51", 0 ],
 					"watchpoint_flags" : 1,
-					"watchpoint_id" : 1
+					"watchpoint_id" : 5
 				}
 
 			}
@@ -2735,15 +2735,8 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "Data_Noise-128.wav",
-				"bootpath" : "~/Documents/Max 8/Packages/SP-tools-0.7/media/Data Samples",
-				"patcherrelativepath" : "../../../Packages/SP-tools-0.7/media/Data Samples",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bow-test.wav",
-				"bootpath" : "~/Documents/Max 8/SP-Tools-Data",
-				"patcherrelativepath" : "../../../SP-Tools-Data",
+				"bootpath" : "~/Documents/Max 8/Packages/SP-tools-0.8/media/Data Samples",
+				"patcherrelativepath" : "../../../Packages/SP-tools-0.8/media/Data Samples",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
@@ -2847,93 +2840,86 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "pluc-test.wav",
-				"bootpath" : "~/Documents/Max 8/SP-Tools-Data",
-				"patcherrelativepath" : "../../../SP-Tools-Data",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "sp.classmatch.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/SP-tools-0.7/patchers",
-				"patcherrelativepath" : "../../../Packages/SP-tools-0.7/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/SP-tools-0.8/patchers",
+				"patcherrelativepath" : "../../../Packages/SP-tools-0.8/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sp.classtrain.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/SP-tools-0.7/patchers",
-				"patcherrelativepath" : "../../../Packages/SP-tools-0.7/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/SP-tools-0.8/patchers",
+				"patcherrelativepath" : "../../../Packages/SP-tools-0.8/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sp.clustertrain.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/SP-tools-0.7/patchers",
-				"patcherrelativepath" : "../../../Packages/SP-tools-0.7/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/SP-tools-0.8/patchers",
+				"patcherrelativepath" : "../../../Packages/SP-tools-0.8/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sp.descriptorframe.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/SP-tools-0.7/patchers",
-				"patcherrelativepath" : "../../../Packages/SP-tools-0.7/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/SP-tools-0.8/patchers",
+				"patcherrelativepath" : "../../../Packages/SP-tools-0.8/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sp.melbandframe.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/SP-tools-0.7/patchers",
-				"patcherrelativepath" : "../../../Packages/SP-tools-0.7/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/SP-tools-0.8/patchers",
+				"patcherrelativepath" : "../../../Packages/SP-tools-0.8/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sp.mfccframe.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/SP-tools-0.7/patchers",
-				"patcherrelativepath" : "../../../Packages/SP-tools-0.7/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/SP-tools-0.8/patchers",
+				"patcherrelativepath" : "../../../Packages/SP-tools-0.8/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sp.onsetframe~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/SP-tools-0.7/patchers",
-				"patcherrelativepath" : "../../../Packages/SP-tools-0.7/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/SP-tools-0.8/patchers",
+				"patcherrelativepath" : "../../../Packages/SP-tools-0.8/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sp.onset~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/SP-tools-0.7/patchers",
-				"patcherrelativepath" : "../../../Packages/SP-tools-0.7/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/SP-tools-0.8/patchers",
+				"patcherrelativepath" : "../../../Packages/SP-tools-0.8/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sp.plotter.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/SP-tools-0.7/patchers",
-				"patcherrelativepath" : "../../../Packages/SP-tools-0.7/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/SP-tools-0.8/patchers",
+				"patcherrelativepath" : "../../../Packages/SP-tools-0.8/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sp.realtimeframe~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/SP-tools-0.7/patchers",
-				"patcherrelativepath" : "../../../Packages/SP-tools-0.7/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/SP-tools-0.8/patchers",
+				"patcherrelativepath" : "../../../Packages/SP-tools-0.8/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sp.setupanalysis.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/SP-tools-0.7/patchers",
-				"patcherrelativepath" : "../../../Packages/SP-tools-0.7/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/SP-tools-0.8/patchers",
+				"patcherrelativepath" : "../../../Packages/SP-tools-0.8/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sp.setuptrain~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/SP-tools-0.7/patchers",
-				"patcherrelativepath" : "../../../Packages/SP-tools-0.7/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/SP-tools-0.8/patchers",
+				"patcherrelativepath" : "../../../Packages/SP-tools-0.8/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}

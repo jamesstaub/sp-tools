@@ -2,8 +2,8 @@
 	"name" : "sp-tools",
 	"version" : 1,
 	"creationdate" : 3752619303,
-	"modificationdate" : 3761310286,
-	"viewrect" : [ -1920.0, 115.0, 1920.0, 931.0 ],
+	"modificationdate" : 3773264226,
+	"viewrect" : [ -1911.0, 115.0, 1920.0, 931.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 0,
@@ -54,6 +54,11 @@
 				"local" : 1
 			}
 ,
+			"_speed-controller.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"_onset-frame.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -69,17 +74,32 @@
 				"local" : 1
 			}
 ,
-			"_speed-controller.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
 			"_timbre_classifier.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
 			"_gmm-classifier.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"_feedback-attenuate.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"__pattr-send-matrix.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"_timbre-to_midi.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"sunnyside-performer.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}

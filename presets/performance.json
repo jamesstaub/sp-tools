@@ -5,59 +5,208 @@
 			"1" : 			{
 				"id" : 1,
 				"data" : 				{
-					"_filter-to-corpus-1::comp-loudness" : [ 100.0 ],
-					"_filter-to-corpus-1::comp-spectral" : [ 50.0 ],
-					"_filter-to-corpus-1::granular-rate" : [ 200.000000000000057 ],
-					"_filter-to-corpus-1::granular-variation" : [ 25.196850393700782 ],
+					"live.gain~" : [ -1.409071620538441 ],
+					"live.gain~[1]" : [ -12.014663586213409 ],
+					"u954003948" : [ 250.000000000000085 ],
+					"_filter-to-corpus-1::corpus-menu" : [ 1 ],
+					"_filter-to-corpus-1::comp-loudness" : [ 0.0 ],
+					"_filter-to-corpus-1::comp-spectral" : [ 100.0 ],
+					"_filter-to-corpus-1::granular-rate" : [ 55.875000000000014 ],
+					"_filter-to-corpus-1::granular-variation" : [ 39.179106820875099 ],
 					"_filter-to-corpus-1::live.button[1]" : [ 0.0 ],
 					"_filter-to-corpus-1::live.button[2]" : [ 0.0 ],
 					"_filter-to-corpus-1::live.menu" : [ 4.0 ],
-					"_filter-to-corpus-1::player-attack" : [ 10.0 ],
+					"_filter-to-corpus-1::player-attack" : [ 23.053908769395406 ],
 					"_filter-to-corpus-1::player-hold" : [ 100.0 ],
 					"_filter-to-corpus-1::player-voices" : [ 8.0 ],
-					"_filter-to-corpus-1::setup-range" : [ 4.021937842778794, 82.632541133455206 ],
-					"_filter-to-corpus-1::toggle-granular" : [ 1.0 ],
+					"_filter-to-corpus-1::setup-range" : [ 45.0, 55.0 ],
+					"_filter-to-corpus-1::toggle-enabled" : [ 1.0 ],
+					"_filter-to-corpus-1::toggle-granular" : [ 0.0 ],
 					"_filter-to-corpus-1::toggle-granular-random" : [ 0.0 ],
+					"_filter-to-corpus-1::toggle-roundrobin" : [ 1.0 ],
 					"_filter-to-corpus-1::toggle-use-setup" : [ 1.0 ],
 					"_filter-to-corpus-1::toggle_timestretch" : [ 1.0 ],
-					"_filter-to-corpus-1::ts-pitch" : [ 0.0 ],
-					"_filter-to-corpus-1::ts-speed" : [ 50.0 ],
-					"_filter-to-corpus-1::toggle-granular-random[1]" : [ 0.0 ],
+					"_filter-to-corpus-1::ts-pitch" : [ -12.0 ],
+					"_filter-to-corpus-1::ts-speed" : [ 100.0 ],
+					"_filter-to-corpus-1::duration-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::duration-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::duration-corpus-filter-slider::slider" : [ 12469.115646258504057 ],
+					"_filter-to-corpus-1::centroid-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::centroid-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::centroid-corpus-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-1::pitch-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::pitch-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::pitch-corpus-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-1::confidence-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::confidence-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::confidence-corpus-filter-slider::slider" : [ 1.0 ],
+					"_filter-to-corpus-1::loudness-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::loudness-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::loudness-corpus-filter-slider::slider" : [ 75.0 ],
+					"_filter-to-corpus-1::centroid-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::centroid-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::centroid-input-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-1::pitch-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::pitch-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::pitch-input-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-1::confidence-input-filter-slider::comparator" : [ 0.0 ],
+					"_filter-to-corpus-1::confidence-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::confidence-input-filter-slider::slider" : [ 0.134866365741036 ],
+					"_filter-to-corpus-1::loudness-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::loudness-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::loudness-input-filter-slider::slider" : [ 81.481482445845131 ],
 					"_ramp-engine::events" : [ 100 ],
 					"_ramp-engine::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 0.072222222222222, 0.658385093167702, 0, 0.0, 1.0, 0.0, 0, -0.795, "curve" ],
 					"_ramp-engine::live.toggle" : [ 0.0 ],
 					"_ramp-engine::loop" : [ 1 ],
 					"_ramp-engine::speed" : [ 181.731619880499579 ],
-					"_speed-controller::u954003948" : [ 10.0 ],
-					"_speed-controller::crosspatch" : [ 						{
+					"_speed-controller::history" : [ 8 ],
+					"_speed-controller::__pattr-send-matrix::crosspatch" : [ 						{
 							"data" : 							{
 								"numins" : 15,
-								"numouts" : 15
+								"numouts" : 15,
+								"connections" : [ 									{
+										"in" : 6,
+										"out" : 7,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 1,
+										"out" : 1,
+										"gain" : 1.0
+									}
+ ]
 							}
 
 						}
  ],
-					"_speed-controller::history" : [ 4 ],
-					"_filter-to-corpus-2::comp-loudness" : [ 100.0 ],
+					"_filter-to-corpus-2::corpus-menu" : [ 1 ],
+					"_filter-to-corpus-2::comp-loudness" : [ 8.661417322834694 ],
 					"_filter-to-corpus-2::comp-spectral" : [ 50.0 ],
-					"_filter-to-corpus-2::granular-rate" : [ 300.0 ],
-					"_filter-to-corpus-2::granular-variation" : [ 79.489661835166132 ],
+					"_filter-to-corpus-2::granular-rate" : [ 250.000000000000085 ],
+					"_filter-to-corpus-2::granular-variation" : [ 43.2691893942213 ],
 					"_filter-to-corpus-2::live.button[1]" : [ 0.0 ],
 					"_filter-to-corpus-2::live.button[2]" : [ 0.0 ],
-					"_filter-to-corpus-2::live.menu" : [ 0.0 ],
-					"_filter-to-corpus-2::player-attack" : [ 150.0 ],
+					"_filter-to-corpus-2::live.menu" : [ 4.0 ],
+					"_filter-to-corpus-2::player-attack" : [ 10.0 ],
 					"_filter-to-corpus-2::player-hold" : [ 100.0 ],
 					"_filter-to-corpus-2::player-voices" : [ 6.0 ],
-					"_filter-to-corpus-2::setup-range" : [ 42.047531992687382, 97.623400365630715 ],
-					"_filter-to-corpus-2::toggle-granular" : [ 1.0 ],
+					"_filter-to-corpus-2::setup-range" : [ 5.484460694698354, 93.235831809872025 ],
+					"_filter-to-corpus-2::toggle-enabled" : [ 1.0 ],
+					"_filter-to-corpus-2::toggle-granular" : [ 0.0 ],
 					"_filter-to-corpus-2::toggle-granular-random" : [ 0.0 ],
+					"_filter-to-corpus-2::toggle-roundrobin" : [ 1.0 ],
 					"_filter-to-corpus-2::toggle-use-setup" : [ 1.0 ],
-					"_filter-to-corpus-2::toggle_timestretch" : [ 0.0 ],
-					"_filter-to-corpus-2::ts-pitch" : [ 0.0 ],
-					"_filter-to-corpus-2::ts-speed" : [ 149.920000000000016 ],
-					"_filter-to-corpus-2::toggle-granular-random[1]" : [ 1.0 ],
-					"_filter-to-corpus-2::corpus-menu" : [ 3 ],
-					"u954003948" : [  ]
+					"_filter-to-corpus-2::toggle_timestretch" : [ 1.0 ],
+					"_filter-to-corpus-2::ts-pitch" : [ -5.0 ],
+					"_filter-to-corpus-2::ts-speed" : [ 100.0 ],
+					"_filter-to-corpus-2::duration-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-2::duration-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-2::duration-corpus-filter-slider::slider" : [ 12469.115646258504057 ],
+					"_filter-to-corpus-2::centroid-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-2::centroid-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-2::centroid-corpus-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-2::pitch-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-2::pitch-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-2::pitch-corpus-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-2::confidence-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-2::confidence-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-2::confidence-corpus-filter-slider::slider" : [ 1.0 ],
+					"_filter-to-corpus-2::loudness-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-2::loudness-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-2::loudness-corpus-filter-slider::slider" : [ 75.0 ],
+					"_filter-to-corpus-2::centroid-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-2::centroid-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-2::centroid-input-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-2::pitch-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-2::pitch-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-2::pitch-input-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-2::confidence-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-2::confidence-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-2::confidence-input-filter-slider::slider" : [ 0.864373750020945 ],
+					"_filter-to-corpus-2::loudness-input-filter-slider::comparator" : [ 0.0 ],
+					"_filter-to-corpus-2::loudness-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-2::loudness-input-filter-slider::slider" : [ 29.64284630747661 ],
+					"patcher[1]::u954003948" : [ -12.0 ],
+					"_speed-controller[1]::history" : [ 4 ],
+					"_speed-controller[1]::__pattr-send-matrix::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 15,
+								"numouts" : 15,
+								"connections" : [ 									{
+										"in" : 11,
+										"out" : 11,
+										"gain" : 1.0
+									}
+ ]
+							}
+
+						}
+ ],
+					"__pattr-send-matrix[1]::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 15,
+								"numouts" : 15,
+								"connections" : [ 									{
+										"in" : 1,
+										"out" : 2,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 2,
+										"out" : 10,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 5,
+										"out" : 1,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 5,
+										"out" : 0,
+										"gain" : 1.0
+									}
+ ]
+							}
+
+						}
+ ],
+					"patcher[2]::u954003948" : [ 1.0 ],
+					"__pattr-send-matrix::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 15,
+								"numouts" : 15,
+								"connections" : [ 									{
+										"in" : 3,
+										"out" : 10,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 3,
+										"out" : 11,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 2,
+										"out" : 10,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 2,
+										"out" : 11,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 5,
+										"out" : 2,
+										"gain" : 1.0
+									}
+ ]
+							}
+
+						}
+ ]
 				}
 
 			}
@@ -65,35 +214,140 @@
 			"2" : 			{
 				"id" : 2,
 				"data" : 				{
-					"_filter-to-corpus-1::comp-loudness" : [ 73.22834645669289 ],
-					"_filter-to-corpus-1::comp-spectral" : [ 7.086614173228313 ],
-					"_filter-to-corpus-1::granular-rate" : [ 184.951849262768462 ],
-					"_filter-to-corpus-1::granular-variation" : [ 98.427292958943269 ],
+					"live.gain~" : [ -3.143712574850298 ],
+					"live.gain~[1]" : [ -3.0 ],
+					"u954003948" : [ 250.000000000000085 ],
+					"_filter-to-corpus-1::corpus-menu" : [ 1 ],
+					"_filter-to-corpus-1::comp-loudness" : [ 100.0 ],
+					"_filter-to-corpus-1::comp-spectral" : [ 100.0 ],
+					"_filter-to-corpus-1::granular-rate" : [ 888.0 ],
+					"_filter-to-corpus-1::granular-variation" : [ 3.150444419396749 ],
 					"_filter-to-corpus-1::live.button[1]" : [ 0.0 ],
 					"_filter-to-corpus-1::live.button[2]" : [ 0.0 ],
 					"_filter-to-corpus-1::live.menu" : [ 4.0 ],
-					"_filter-to-corpus-1::player-attack" : [ 10.0 ],
+					"_filter-to-corpus-1::player-attack" : [ 23.053908769395406 ],
 					"_filter-to-corpus-1::player-hold" : [ 100.0 ],
 					"_filter-to-corpus-1::player-voices" : [ 12.0 ],
-					"_filter-to-corpus-1::setup-range" : [ 7.678244972577697, 94.332723948811704 ],
-					"_filter-to-corpus-1::toggle-granular" : [ 0.0 ],
-					"_filter-to-corpus-1::toggle-granular-random" : [ 0.0 ],
+					"_filter-to-corpus-1::setup-range" : [ 3.656307129798903, 94.332723948811704 ],
+					"_filter-to-corpus-1::toggle-enabled" : [ 1.0 ],
+					"_filter-to-corpus-1::toggle-granular" : [ 1.0 ],
+					"_filter-to-corpus-1::toggle-granular-random" : [ 1.0 ],
+					"_filter-to-corpus-1::toggle-roundrobin" : [ 1.0 ],
 					"_filter-to-corpus-1::toggle-use-setup" : [ 1.0 ],
-					"_filter-to-corpus-1::toggle_timestretch" : [ 0.0 ],
-					"_filter-to-corpus-1::ts-pitch" : [ 0.0 ],
-					"_filter-to-corpus-1::ts-speed" : [ 100.0 ],
-					"_filter-to-corpus-1::toggle-granular-random[1]" : [ 0.0 ],
+					"_filter-to-corpus-1::toggle_timestretch" : [ 1.0 ],
+					"_filter-to-corpus-1::ts-pitch" : [ -12.0 ],
+					"_filter-to-corpus-1::ts-speed" : [ 99.947442606779688 ],
+					"_filter-to-corpus-1::duration-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::duration-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::duration-corpus-filter-slider::slider" : [ 12469.115646258504057 ],
+					"_filter-to-corpus-1::centroid-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::centroid-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::centroid-corpus-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-1::pitch-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::pitch-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::pitch-corpus-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-1::confidence-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::confidence-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::confidence-corpus-filter-slider::slider" : [ 1.0 ],
+					"_filter-to-corpus-1::loudness-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::loudness-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::loudness-corpus-filter-slider::slider" : [ 75.0 ],
+					"_filter-to-corpus-1::centroid-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::centroid-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::centroid-input-filter-slider::slider" : [ 88.652857470818418 ],
+					"_filter-to-corpus-1::pitch-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::pitch-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::pitch-input-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-1::confidence-input-filter-slider::comparator" : [ 0.0 ],
+					"_filter-to-corpus-1::confidence-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::confidence-input-filter-slider::slider" : [ 0.134866365741036 ],
+					"_filter-to-corpus-1::loudness-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::loudness-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::loudness-input-filter-slider::slider" : [ 81.481482445845131 ],
 					"_ramp-engine::events" : [ 100 ],
 					"_ramp-engine::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 0.151851851851852, 0.53416149068323, 0, 0.0, 0.548148148148148, 0.298136645962733, 0, 0.0, 1.0, 0.0, 0, 0.0, "curve" ],
 					"_ramp-engine::live.toggle" : [ 0.0 ],
 					"_ramp-engine::loop" : [ 1 ],
 					"_ramp-engine::speed" : [ 181.731619880499579 ],
-					"_speed-controller::u954003948" : [ 184.951849262768462 ],
-					"_speed-controller::crosspatch" : [ 						{
+					"_speed-controller::history" : [ 4 ],
+					"_speed-controller::__pattr-send-matrix::crosspatch" : [ 						{
 							"data" : 							{
 								"numins" : 15,
 								"numouts" : 15,
 								"connections" : [ 									{
+										"in" : 6,
+										"out" : 7,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 9,
+										"out" : 9,
+										"gain" : 1.0
+									}
+ ]
+							}
+
+						}
+ ],
+					"_filter-to-corpus-2::corpus-menu" : [ 1 ],
+					"_filter-to-corpus-2::comp-loudness" : [ 73.22834645669289 ],
+					"_filter-to-corpus-2::comp-spectral" : [ 7.086614173228313 ],
+					"_filter-to-corpus-2::granular-rate" : [ 250.000000000000085 ],
+					"_filter-to-corpus-2::granular-variation" : [ 98.427292958943269 ],
+					"_filter-to-corpus-2::live.button[1]" : [ 0.0 ],
+					"_filter-to-corpus-2::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-2::live.menu" : [ 4.0 ],
+					"_filter-to-corpus-2::player-attack" : [ 10.0 ],
+					"_filter-to-corpus-2::player-hold" : [ 100.0 ],
+					"_filter-to-corpus-2::player-voices" : [ 12.0 ],
+					"_filter-to-corpus-2::setup-range" : [ 7.678244972577697, 94.332723948811704 ],
+					"_filter-to-corpus-2::toggle-enabled" : [ 1.0 ],
+					"_filter-to-corpus-2::toggle-granular" : [ 0.0 ],
+					"_filter-to-corpus-2::toggle-granular-random" : [ 0.0 ],
+					"_filter-to-corpus-2::toggle-roundrobin" : [ 1.0 ],
+					"_filter-to-corpus-2::toggle-use-setup" : [ 1.0 ],
+					"_filter-to-corpus-2::toggle_timestretch" : [ 1.0 ],
+					"_filter-to-corpus-2::ts-pitch" : [ 0.0 ],
+					"_filter-to-corpus-2::ts-speed" : [ 10.0 ],
+					"_filter-to-corpus-2::duration-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-2::duration-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-2::duration-corpus-filter-slider::slider" : [ 12469.115646258504057 ],
+					"_filter-to-corpus-2::centroid-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-2::centroid-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-2::centroid-corpus-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-2::pitch-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-2::pitch-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-2::pitch-corpus-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-2::confidence-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-2::confidence-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-2::confidence-corpus-filter-slider::slider" : [ 1.0 ],
+					"_filter-to-corpus-2::loudness-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-2::loudness-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-2::loudness-corpus-filter-slider::slider" : [ 75.0 ],
+					"_filter-to-corpus-2::centroid-input-filter-slider::comparator" : [ 0.0 ],
+					"_filter-to-corpus-2::centroid-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-2::centroid-input-filter-slider::slider" : [ 58.051509468043122 ],
+					"_filter-to-corpus-2::pitch-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-2::pitch-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-2::pitch-input-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-2::confidence-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-2::confidence-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-2::confidence-input-filter-slider::slider" : [ 0.864373750020945 ],
+					"_filter-to-corpus-2::loudness-input-filter-slider::comparator" : [ 0.0 ],
+					"_filter-to-corpus-2::loudness-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-2::loudness-input-filter-slider::slider" : [ 29.64284630747661 ],
+					"patcher[1]::u954003948" : [ 0 ],
+					"_speed-controller[1]::history" : [ 8 ],
+					"_speed-controller[1]::__pattr-send-matrix::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 15,
+								"numouts" : 15,
+								"connections" : [ 									{
+										"in" : 11,
+										"out" : 11,
+										"gain" : 1.0
+									}
+, 									{
 										"in" : 6,
 										"out" : 10,
 										"gain" : 1.0
@@ -103,27 +357,55 @@
 
 						}
  ],
-					"_speed-controller::history" : [ 4 ],
-					"_filter-to-corpus-2::comp-loudness" : [ 73.22834645669289 ],
-					"_filter-to-corpus-2::comp-spectral" : [ 7.086614173228313 ],
-					"_filter-to-corpus-2::granular-rate" : [ 184.951849262768462 ],
-					"_filter-to-corpus-2::granular-variation" : [ 98.427292958943269 ],
-					"_filter-to-corpus-2::live.button[1]" : [ 0.0 ],
-					"_filter-to-corpus-2::live.button[2]" : [ 0.0 ],
-					"_filter-to-corpus-2::live.menu" : [ 4.0 ],
-					"_filter-to-corpus-2::player-attack" : [ 10.0 ],
-					"_filter-to-corpus-2::player-hold" : [ 100.0 ],
-					"_filter-to-corpus-2::player-voices" : [ 12.0 ],
-					"_filter-to-corpus-2::setup-range" : [ 7.678244972577697, 94.332723948811704 ],
-					"_filter-to-corpus-2::toggle-granular" : [ 0.0 ],
-					"_filter-to-corpus-2::toggle-granular-random" : [ 0.0 ],
-					"_filter-to-corpus-2::toggle-use-setup" : [ 1.0 ],
-					"_filter-to-corpus-2::toggle_timestretch" : [ 1.0 ],
-					"_filter-to-corpus-2::ts-pitch" : [ 0.0 ],
-					"_filter-to-corpus-2::ts-speed" : [ 100.0 ],
-					"_filter-to-corpus-2::toggle-granular-random[1]" : [ 0.0 ],
-					"_filter-to-corpus-2::corpus-menu" : [  ],
-					"u954003948" : [  ]
+					"__pattr-send-matrix[1]::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 15,
+								"numouts" : 15,
+								"connections" : [ 									{
+										"in" : 1,
+										"out" : 0,
+										"gain" : 1.0
+									}
+ ]
+							}
+
+						}
+ ],
+					"patcher[2]::u954003948" : [ 0 ],
+					"__pattr-send-matrix::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 15,
+								"numouts" : 15,
+								"connections" : [ 									{
+										"in" : 3,
+										"out" : 10,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 3,
+										"out" : 11,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 2,
+										"out" : 10,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 2,
+										"out" : 11,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 5,
+										"out" : 2,
+										"gain" : 1.0
+									}
+ ]
+							}
+
+						}
+ ]
 				}
 
 			}
@@ -131,31 +413,743 @@
 			"3" : 			{
 				"id" : 3,
 				"data" : 				{
-					"_filter-to-corpus-1::comp-loudness" : [ 100.0 ],
-					"_filter-to-corpus-1::comp-spectral" : [ 50.0 ],
-					"_filter-to-corpus-1::granular-rate" : [ 319.999999999999829 ],
-					"_filter-to-corpus-1::granular-variation" : [ 25.196850393700782 ],
+					"live.gain~" : [ -6.138478947616569 ],
+					"live.gain~[1]" : [ -5.421424866801829 ],
+					"u954003948" : [ 223.500000000000057 ],
+					"_filter-to-corpus-1::corpus-menu" : [ 3 ],
+					"_filter-to-corpus-1::comp-loudness" : [ 0.792906149513379 ],
+					"_filter-to-corpus-1::comp-spectral" : [ 79.290614951337872 ],
+					"_filter-to-corpus-1::granular-rate" : [ 893.999999999999886 ],
+					"_filter-to-corpus-1::granular-variation" : [ 40.509930248109335 ],
 					"_filter-to-corpus-1::live.button[1]" : [ 0.0 ],
 					"_filter-to-corpus-1::live.button[2]" : [ 0.0 ],
 					"_filter-to-corpus-1::live.menu" : [ 4.0 ],
-					"_filter-to-corpus-1::player-attack" : [ 10.0 ],
-					"_filter-to-corpus-1::player-hold" : [ 100.0 ],
+					"_filter-to-corpus-1::player-attack" : [ 24.271455275468384 ],
+					"_filter-to-corpus-1::player-hold" : [ 59.490069751890672 ],
 					"_filter-to-corpus-1::player-voices" : [ 8.0 ],
-					"_filter-to-corpus-1::setup-range" : [ 4.021937842778794, 82.632541133455206 ],
+					"_filter-to-corpus-1::setup-range" : [ 10.968921389396709, 90.6764168190128 ],
+					"_filter-to-corpus-1::toggle-enabled" : [ 1.0 ],
 					"_filter-to-corpus-1::toggle-granular" : [ 1.0 ],
-					"_filter-to-corpus-1::toggle-granular-random" : [ 0.0 ],
+					"_filter-to-corpus-1::toggle-granular-random" : [ 1.0 ],
+					"_filter-to-corpus-1::toggle-roundrobin" : [ 1.0 ],
 					"_filter-to-corpus-1::toggle-use-setup" : [ 1.0 ],
-					"_filter-to-corpus-1::toggle_timestretch" : [ 1.0 ],
-					"_filter-to-corpus-1::ts-pitch" : [ 0.0 ],
-					"_filter-to-corpus-1::ts-speed" : [ 50.0 ],
-					"_filter-to-corpus-1::toggle-granular-random[1]" : [ 0.0 ],
+					"_filter-to-corpus-1::toggle_timestretch" : [ 0.0 ],
+					"_filter-to-corpus-1::ts-pitch" : [ 1.0 ],
+					"_filter-to-corpus-1::ts-speed" : [ 47.206559918100062 ],
+					"_filter-to-corpus-1::duration-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::duration-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::duration-corpus-filter-slider::slider" : [ 7903.492063492063608 ],
+					"_filter-to-corpus-1::centroid-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::centroid-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::centroid-corpus-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-1::pitch-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::pitch-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::pitch-corpus-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-1::confidence-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::confidence-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::confidence-corpus-filter-slider::slider" : [ 1.0 ],
+					"_filter-to-corpus-1::loudness-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::loudness-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::loudness-corpus-filter-slider::slider" : [ 75.0 ],
+					"_filter-to-corpus-1::centroid-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::centroid-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::centroid-input-filter-slider::slider" : [ 88.652857470818418 ],
+					"_filter-to-corpus-1::pitch-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::pitch-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::pitch-input-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-1::confidence-input-filter-slider::comparator" : [ 0.0 ],
+					"_filter-to-corpus-1::confidence-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::confidence-input-filter-slider::slider" : [ 0.057157970459046 ],
+					"_filter-to-corpus-1::loudness-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::loudness-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::loudness-input-filter-slider::slider" : [ 81.481482445845131 ],
 					"_ramp-engine::events" : [ 100 ],
 					"_ramp-engine::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 0.072222222222222, 0.658385093167702, 0, 0.0, 1.0, 0.0, 0, -0.795, "curve" ],
 					"_ramp-engine::live.toggle" : [ 0.0 ],
 					"_ramp-engine::loop" : [ 1 ],
 					"_ramp-engine::speed" : [ 181.731619880499579 ],
-					"_speed-controller::u954003948" : [ 319.999999999999829 ],
-					"_speed-controller::crosspatch" : [ 						{
+					"_speed-controller::history" : [ 4 ],
+					"_speed-controller::__pattr-send-matrix::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 15,
+								"numouts" : 15,
+								"connections" : [ 									{
+										"in" : 6,
+										"out" : 7,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 1,
+										"out" : 13,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 14,
+										"out" : 12,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 1,
+										"out" : 8,
+										"gain" : 1.0
+									}
+ ]
+							}
+
+						}
+ ],
+					"_filter-to-corpus-2::corpus-menu" : [ 0 ],
+					"_filter-to-corpus-2::comp-loudness" : [ 24.409448818897687 ],
+					"_filter-to-corpus-2::comp-spectral" : [ 50.0 ],
+					"_filter-to-corpus-2::granular-rate" : [ 223.500000000000057 ],
+					"_filter-to-corpus-2::granular-variation" : [ 43.2691893942213 ],
+					"_filter-to-corpus-2::live.button[1]" : [ 0.0 ],
+					"_filter-to-corpus-2::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-2::live.menu" : [ 4.0 ],
+					"_filter-to-corpus-2::player-attack" : [ 28.915775112681875 ],
+					"_filter-to-corpus-2::player-hold" : [ 42.994342862042878 ],
+					"_filter-to-corpus-2::player-voices" : [ 6.0 ],
+					"_filter-to-corpus-2::setup-range" : [ 9.506398537477148, 93.235831809872025 ],
+					"_filter-to-corpus-2::toggle-enabled" : [ 1.0 ],
+					"_filter-to-corpus-2::toggle-granular" : [ 1.0 ],
+					"_filter-to-corpus-2::toggle-granular-random" : [ 0.0 ],
+					"_filter-to-corpus-2::toggle-roundrobin" : [ 1.0 ],
+					"_filter-to-corpus-2::toggle-use-setup" : [ 1.0 ],
+					"_filter-to-corpus-2::toggle_timestretch" : [ 1.0 ],
+					"_filter-to-corpus-2::ts-pitch" : [ 0.0 ],
+					"_filter-to-corpus-2::ts-speed" : [ 100.0 ],
+					"_filter-to-corpus-2::duration-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-2::duration-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-2::duration-corpus-filter-slider::slider" : [ 48134.965986394556239 ],
+					"_filter-to-corpus-2::centroid-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-2::centroid-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-2::centroid-corpus-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-2::pitch-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-2::pitch-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-2::pitch-corpus-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-2::confidence-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-2::confidence-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-2::confidence-corpus-filter-slider::slider" : [ 1.0 ],
+					"_filter-to-corpus-2::loudness-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-2::loudness-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-2::loudness-corpus-filter-slider::slider" : [ 75.0 ],
+					"_filter-to-corpus-2::centroid-input-filter-slider::comparator" : [ 0.0 ],
+					"_filter-to-corpus-2::centroid-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-2::centroid-input-filter-slider::slider" : [ 36.626789475972544 ],
+					"_filter-to-corpus-2::pitch-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-2::pitch-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-2::pitch-input-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-2::confidence-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-2::confidence-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-2::confidence-input-filter-slider::slider" : [ 0.864373750020945 ],
+					"_filter-to-corpus-2::loudness-input-filter-slider::comparator" : [ 0.0 ],
+					"_filter-to-corpus-2::loudness-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-2::loudness-input-filter-slider::slider" : [ 29.64284630747661 ],
+					"patcher[1]::u954003948" : [ 0 ],
+					"_speed-controller[1]::history" : [ 16 ],
+					"_speed-controller[1]::__pattr-send-matrix::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 15,
+								"numouts" : 15,
+								"connections" : [ 									{
+										"in" : 11,
+										"out" : 11,
+										"gain" : 1.0
+									}
+ ]
+							}
+
+						}
+ ],
+					"__pattr-send-matrix[1]::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 15,
+								"numouts" : 15,
+								"connections" : [ 									{
+										"in" : 1,
+										"out" : 2,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 2,
+										"out" : 10,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 5,
+										"out" : 0,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 1,
+										"out" : 0,
+										"gain" : 1.0
+									}
+ ]
+							}
+
+						}
+ ],
+					"patcher[2]::u954003948" : [ 1.0 ],
+					"__pattr-send-matrix::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 15,
+								"numouts" : 15,
+								"connections" : [ 									{
+										"in" : 3,
+										"out" : 10,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 3,
+										"out" : 11,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 2,
+										"out" : 10,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 2,
+										"out" : 11,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 5,
+										"out" : 2,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 3,
+										"out" : 4,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 3,
+										"out" : 3,
+										"gain" : 1.0
+									}
+ ]
+							}
+
+						}
+ ]
+				}
+
+			}
+,
+			"4" : 			{
+				"id" : 4,
+				"data" : 				{
+					"live.gain~" : [ -2.308029610071188 ],
+					"live.gain~[1]" : [ -4.401197604790426 ],
+					"u954003948" : [ 10.0 ],
+					"_filter-to-corpus-1::corpus-menu" : [ 3 ],
+					"_filter-to-corpus-1::comp-loudness" : [ 0.0 ],
+					"_filter-to-corpus-1::comp-spectral" : [ 0.0 ],
+					"_filter-to-corpus-1::granular-rate" : [ 100.000000000000014 ],
+					"_filter-to-corpus-1::granular-variation" : [ 2.497495146151479 ],
+					"_filter-to-corpus-1::live.button[1]" : [ 0.0 ],
+					"_filter-to-corpus-1::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::live.menu" : [ 4.0 ],
+					"_filter-to-corpus-1::player-attack" : [ 10.0 ],
+					"_filter-to-corpus-1::player-hold" : [ 97.502504853848521 ],
+					"_filter-to-corpus-1::player-voices" : [ 8.0 ],
+					"_filter-to-corpus-1::setup-range" : [ 45.0, 55.0 ],
+					"_filter-to-corpus-1::toggle-enabled" : [ 1.0 ],
+					"_filter-to-corpus-1::toggle-granular" : [ 0.0 ],
+					"_filter-to-corpus-1::toggle-granular-random" : [ 1.0 ],
+					"_filter-to-corpus-1::toggle-roundrobin" : [ 1.0 ],
+					"_filter-to-corpus-1::toggle-use-setup" : [ 1.0 ],
+					"_filter-to-corpus-1::toggle_timestretch" : [ 0.0 ],
+					"_filter-to-corpus-1::ts-pitch" : [ 0.0 ],
+					"_filter-to-corpus-1::ts-speed" : [ 100.0 ],
+					"_filter-to-corpus-1::duration-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::duration-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::duration-corpus-filter-slider::slider" : [ 2015.368356722971839 ],
+					"_filter-to-corpus-1::centroid-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::centroid-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::centroid-corpus-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-1::pitch-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::pitch-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::pitch-corpus-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-1::confidence-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::confidence-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::confidence-corpus-filter-slider::slider" : [ 1.0 ],
+					"_filter-to-corpus-1::loudness-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::loudness-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::loudness-corpus-filter-slider::slider" : [ 75.0 ],
+					"_filter-to-corpus-1::centroid-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::centroid-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::centroid-input-filter-slider::slider" : [ 95.311892062948459 ],
+					"_filter-to-corpus-1::pitch-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::pitch-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::pitch-input-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-1::confidence-input-filter-slider::comparator" : [ 0.0 ],
+					"_filter-to-corpus-1::confidence-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::confidence-input-filter-slider::slider" : [ 0.134866365741036 ],
+					"_filter-to-corpus-1::loudness-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::loudness-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::loudness-input-filter-slider::slider" : [ 83.235868410757405 ],
+					"_ramp-engine::events" : [ 100 ],
+					"_ramp-engine::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 0.072222222222222, 0.658385093167702, 0, 0.0, 1.0, 0.0, 0, -0.795, "curve" ],
+					"_ramp-engine::live.toggle" : [ 0.0 ],
+					"_ramp-engine::loop" : [ 1 ],
+					"_ramp-engine::speed" : [ 181.731619880499579 ],
+					"_speed-controller::history" : [ 4 ],
+					"_speed-controller::__pattr-send-matrix::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 15,
+								"numouts" : 15,
+								"connections" : [ 									{
+										"in" : 6,
+										"out" : 7,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 0,
+										"out" : 9,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 14,
+										"out" : 12,
+										"gain" : 1.0
+									}
+ ]
+							}
+
+						}
+ ],
+					"_filter-to-corpus-2::corpus-menu" : [ 3 ],
+					"_filter-to-corpus-2::comp-loudness" : [ 0.0 ],
+					"_filter-to-corpus-2::comp-spectral" : [ 0.0 ],
+					"_filter-to-corpus-2::granular-rate" : [ 250.000000000000085 ],
+					"_filter-to-corpus-2::granular-variation" : [ 43.2691893942213 ],
+					"_filter-to-corpus-2::live.button[1]" : [ 0.0 ],
+					"_filter-to-corpus-2::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-2::live.menu" : [ 4.0 ],
+					"_filter-to-corpus-2::player-attack" : [ 24.406263477492121 ],
+					"_filter-to-corpus-2::player-hold" : [ 99.158376041068507 ],
+					"_filter-to-corpus-2::player-voices" : [ 6.0 ],
+					"_filter-to-corpus-2::setup-range" : [ 8.775137111517367, 95.063985374771477 ],
+					"_filter-to-corpus-2::toggle-enabled" : [ 1.0 ],
+					"_filter-to-corpus-2::toggle-granular" : [ 0.0 ],
+					"_filter-to-corpus-2::toggle-granular-random" : [ 0.0 ],
+					"_filter-to-corpus-2::toggle-roundrobin" : [ 1.0 ],
+					"_filter-to-corpus-2::toggle-use-setup" : [ 1.0 ],
+					"_filter-to-corpus-2::toggle_timestretch" : [ 1.0 ],
+					"_filter-to-corpus-2::ts-pitch" : [ 0.0 ],
+					"_filter-to-corpus-2::ts-speed" : [ 100.0 ],
+					"_filter-to-corpus-2::duration-corpus-filter-slider::comparator" : [ 0.0 ],
+					"_filter-to-corpus-2::duration-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-2::duration-corpus-filter-slider::slider" : [ 431.379759995748998 ],
+					"_filter-to-corpus-2::centroid-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-2::centroid-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-2::centroid-corpus-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-2::pitch-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-2::pitch-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-2::pitch-corpus-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-2::confidence-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-2::confidence-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-2::confidence-corpus-filter-slider::slider" : [ 1.0 ],
+					"_filter-to-corpus-2::loudness-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-2::loudness-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-2::loudness-corpus-filter-slider::slider" : [ 75.0 ],
+					"_filter-to-corpus-2::centroid-input-filter-slider::comparator" : [ 0.0 ],
+					"_filter-to-corpus-2::centroid-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-2::centroid-input-filter-slider::slider" : [ 21.835928141846271 ],
+					"_filter-to-corpus-2::pitch-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-2::pitch-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-2::pitch-input-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-2::confidence-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-2::confidence-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-2::confidence-input-filter-slider::slider" : [ 0.440545818610498 ],
+					"_filter-to-corpus-2::loudness-input-filter-slider::comparator" : [ 0.0 ],
+					"_filter-to-corpus-2::loudness-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-2::loudness-input-filter-slider::slider" : [ 28.84990349847671 ],
+					"patcher[1]::u954003948" : [ 0 ],
+					"_speed-controller[1]::history" : [ 1 ],
+					"_speed-controller[1]::__pattr-send-matrix::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 15,
+								"numouts" : 15,
+								"connections" : [ 									{
+										"in" : 0,
+										"out" : 8,
+										"gain" : 1.0
+									}
+ ]
+							}
+
+						}
+ ],
+					"__pattr-send-matrix[1]::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 15,
+								"numouts" : 15,
+								"connections" : [ 									{
+										"in" : 1,
+										"out" : 2,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 5,
+										"out" : 0,
+										"gain" : 1.0
+									}
+ ]
+							}
+
+						}
+ ],
+					"patcher[2]::u954003948" : [ 0 ],
+					"__pattr-send-matrix::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 15,
+								"numouts" : 15,
+								"connections" : [ 									{
+										"in" : 5,
+										"out" : 2,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 3,
+										"out" : 10,
+										"gain" : 1.0
+									}
+ ]
+							}
+
+						}
+ ]
+				}
+
+			}
+,
+			"13" : 			{
+				"id" : 13,
+				"data" : 				{
+					"live.gain~" : [ -2.308029610071188 ],
+					"live.gain~[1]" : [ -4.401197604790426 ],
+					"u954003948" : [ 44.0, 55.0 ],
+					"_filter-to-corpus-1::corpus-menu" : [ 0 ],
+					"_filter-to-corpus-1::comp-loudness" : [ 0.0 ],
+					"_filter-to-corpus-1::comp-spectral" : [ 0.0 ],
+					"_filter-to-corpus-1::granular-rate" : [ 410.000000000000114 ],
+					"_filter-to-corpus-1::granular-variation" : [ 15.868469642244223 ],
+					"_filter-to-corpus-1::live.button[1]" : [ 0.0 ],
+					"_filter-to-corpus-1::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::live.menu" : [ 4.0 ],
+					"_filter-to-corpus-1::player-attack" : [ 52.742883374882076 ],
+					"_filter-to-corpus-1::player-hold" : [ 47.49209263875786 ],
+					"_filter-to-corpus-1::player-voices" : [ 8.0 ],
+					"_filter-to-corpus-1::setup-range" : [ 0.0, 100.0 ],
+					"_filter-to-corpus-1::toggle-enabled" : [ 1.0 ],
+					"_filter-to-corpus-1::toggle-granular" : [ 0.0 ],
+					"_filter-to-corpus-1::toggle-granular-random" : [ 0.0 ],
+					"_filter-to-corpus-1::toggle-roundrobin" : [ 1.0 ],
+					"_filter-to-corpus-1::toggle-use-setup" : [ 1.0 ],
+					"_filter-to-corpus-1::toggle_timestretch" : [ 1.0 ],
+					"_filter-to-corpus-1::ts-pitch" : [ -12.0 ],
+					"_filter-to-corpus-1::ts-speed" : [ 52.742883374882076 ],
+					"_filter-to-corpus-1::duration-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::duration-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::duration-corpus-filter-slider::slider" : [ 48134.965986394556239 ],
+					"_filter-to-corpus-1::centroid-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::centroid-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::centroid-corpus-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-1::pitch-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::pitch-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::pitch-corpus-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-1::confidence-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::confidence-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::confidence-corpus-filter-slider::slider" : [ 1.0 ],
+					"_filter-to-corpus-1::loudness-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::loudness-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::loudness-corpus-filter-slider::slider" : [ 75.0 ],
+					"_filter-to-corpus-1::centroid-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::centroid-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::centroid-input-filter-slider::slider" : [ 60.241815742203102 ],
+					"_filter-to-corpus-1::pitch-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::pitch-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::pitch-input-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-1::confidence-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::confidence-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::confidence-input-filter-slider::slider" : [ 1.0 ],
+					"_filter-to-corpus-1::loudness-input-filter-slider::comparator" : [ 0.0 ],
+					"_filter-to-corpus-1::loudness-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::loudness-input-filter-slider::slider" : [ 12.198104509478789 ],
+					"_ramp-engine::events" : [ 100 ],
+					"_ramp-engine::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 0.072222222222222, 0.658385093167702, 0, 0.0, 1.0, 0.0, 0, -0.795, "curve" ],
+					"_ramp-engine::live.toggle" : [ 0.0 ],
+					"_ramp-engine::loop" : [ 1 ],
+					"_ramp-engine::speed" : [ 181.731619880499579 ],
+					"_speed-controller::history" : [ 4 ],
+					"_speed-controller::__pattr-send-matrix::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 15,
+								"numouts" : 15,
+								"connections" : [ 									{
+										"in" : 1,
+										"out" : 11,
+										"gain" : 1.0
+									}
+ ]
+							}
+
+						}
+ ],
+					"_filter-to-corpus-2::corpus-menu" : [ 2 ],
+					"_filter-to-corpus-2::comp-loudness" : [ 0.0 ],
+					"_filter-to-corpus-2::comp-spectral" : [ 0.0 ],
+					"_filter-to-corpus-2::granular-rate" : [ 410.000000000000114 ],
+					"_filter-to-corpus-2::granular-variation" : [ 0.0 ],
+					"_filter-to-corpus-2::live.button[1]" : [ 0.0 ],
+					"_filter-to-corpus-2::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-2::live.menu" : [ 4.0 ],
+					"_filter-to-corpus-2::player-attack" : [ 10.0 ],
+					"_filter-to-corpus-2::player-hold" : [ 100.0 ],
+					"_filter-to-corpus-2::player-voices" : [ 6.0 ],
+					"_filter-to-corpus-2::setup-range" : [ 44.0, 55.0 ],
+					"_filter-to-corpus-2::toggle-enabled" : [ 0.0 ],
+					"_filter-to-corpus-2::toggle-granular" : [ 0.0 ],
+					"_filter-to-corpus-2::toggle-granular-random" : [ 0.0 ],
+					"_filter-to-corpus-2::toggle-roundrobin" : [ 1.0 ],
+					"_filter-to-corpus-2::toggle-use-setup" : [ 1.0 ],
+					"_filter-to-corpus-2::toggle_timestretch" : [ 1.0 ],
+					"_filter-to-corpus-2::ts-pitch" : [ -12.0 ],
+					"_filter-to-corpus-2::ts-speed" : [ 100.0 ],
+					"_filter-to-corpus-2::duration-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-2::duration-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-2::duration-corpus-filter-slider::slider" : [ 7709.024943310657363 ],
+					"_filter-to-corpus-2::centroid-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-2::centroid-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-2::centroid-corpus-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-2::pitch-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-2::pitch-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-2::pitch-corpus-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-2::confidence-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-2::confidence-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-2::confidence-corpus-filter-slider::slider" : [ 1.0 ],
+					"_filter-to-corpus-2::loudness-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-2::loudness-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-2::loudness-corpus-filter-slider::slider" : [ 75.0 ],
+					"_filter-to-corpus-2::centroid-input-filter-slider::comparator" : [ 0.0 ],
+					"_filter-to-corpus-2::centroid-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-2::centroid-input-filter-slider::slider" : [ 56.226254239576477 ],
+					"_filter-to-corpus-2::pitch-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-2::pitch-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-2::pitch-input-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-2::confidence-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-2::confidence-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-2::confidence-input-filter-slider::slider" : [ 1.0 ],
+					"_filter-to-corpus-2::loudness-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-2::loudness-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-2::loudness-input-filter-slider::slider" : [ 89.242410188931672 ],
+					"patcher[1]::u954003948" : [ 0 ],
+					"_speed-controller[1]::history" : [ 1 ],
+					"_speed-controller[1]::__pattr-send-matrix::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 15,
+								"numouts" : 15,
+								"connections" : [ 									{
+										"in" : 1,
+										"out" : 11,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 0,
+										"out" : 9,
+										"gain" : 1.0
+									}
+ ]
+							}
+
+						}
+ ],
+					"__pattr-send-matrix[1]::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 15,
+								"numouts" : 15,
+								"connections" : [ 									{
+										"in" : 0,
+										"out" : 6,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 1,
+										"out" : 6,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 5,
+										"out" : 6,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 3,
+										"out" : 10,
+										"gain" : 1.0
+									}
+ ]
+							}
+
+						}
+ ],
+					"patcher[2]::u954003948" : [ 0 ],
+					"__pattr-send-matrix::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 15,
+								"numouts" : 15,
+								"connections" : [ 									{
+										"in" : 2,
+										"out" : 6,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 3,
+										"out" : 6,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 4,
+										"out" : 6,
+										"gain" : 1.0
+									}
+ ]
+							}
+
+						}
+ ]
+				}
+
+			}
+,
+			"14" : 			{
+				"id" : 14,
+				"data" : 				{
+					"live.gain~" : [ -4.0 ],
+					"live.gain~[1]" : [ -4.0 ],
+					"u954003948" : [ 10.0 ],
+					"_filter-to-corpus-1::corpus-menu" : [ 3 ],
+					"_filter-to-corpus-1::comp-loudness" : [ 0.0 ],
+					"_filter-to-corpus-1::comp-spectral" : [ 100.0 ],
+					"_filter-to-corpus-1::granular-rate" : [ 55.500000000000007 ],
+					"_filter-to-corpus-1::granular-variation" : [ 39.179106820875099 ],
+					"_filter-to-corpus-1::live.button[1]" : [ 0.0 ],
+					"_filter-to-corpus-1::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::live.menu" : [ 4.0 ],
+					"_filter-to-corpus-1::player-attack" : [ 10.0 ],
+					"_filter-to-corpus-1::player-hold" : [ 23.34030780581217 ],
+					"_filter-to-corpus-1::player-voices" : [ 8.0 ],
+					"_filter-to-corpus-1::setup-range" : [ 22.0, 77.0 ],
+					"_filter-to-corpus-1::toggle-enabled" : [ 1.0 ],
+					"_filter-to-corpus-1::toggle-granular" : [ 0.0 ],
+					"_filter-to-corpus-1::toggle-granular-random" : [ 0.0 ],
+					"_filter-to-corpus-1::toggle-roundrobin" : [ 1.0 ],
+					"_filter-to-corpus-1::toggle-use-setup" : [ 1.0 ],
+					"_filter-to-corpus-1::toggle_timestretch" : [ 1.0 ],
+					"_filter-to-corpus-1::ts-pitch" : [ 0.0 ],
+					"_filter-to-corpus-1::ts-speed" : [ 100.0 ],
+					"_filter-to-corpus-1::duration-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::duration-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::duration-corpus-filter-slider::slider" : [ 7903.492063492063608 ],
+					"_filter-to-corpus-1::centroid-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::centroid-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::centroid-corpus-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-1::pitch-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::pitch-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::pitch-corpus-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-1::confidence-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::confidence-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::confidence-corpus-filter-slider::slider" : [ 1.0 ],
+					"_filter-to-corpus-1::loudness-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::loudness-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::loudness-corpus-filter-slider::slider" : [ 75.0 ],
+					"_filter-to-corpus-1::centroid-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::centroid-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::centroid-input-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-1::pitch-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::pitch-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::pitch-input-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-1::confidence-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::confidence-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::confidence-input-filter-slider::slider" : [ 1.0 ],
+					"_filter-to-corpus-1::loudness-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::loudness-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::loudness-input-filter-slider::slider" : [ 100.0 ],
+					"_ramp-engine::events" : [ 100 ],
+					"_ramp-engine::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 0.072222222222222, 0.658385093167702, 0, 0.0, 1.0, 0.0, 0, -0.795, "curve" ],
+					"_ramp-engine::live.toggle" : [ 0.0 ],
+					"_ramp-engine::loop" : [ 1 ],
+					"_ramp-engine::speed" : [ 181.731619880499579 ],
+					"_speed-controller::history" : [ 8 ],
+					"_speed-controller::__pattr-send-matrix::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 15,
+								"numouts" : 15,
+								"connections" : [ 									{
+										"in" : 1,
+										"out" : 0,
+										"gain" : 1.0
+									}
+ ]
+							}
+
+						}
+ ],
+					"_filter-to-corpus-2::corpus-menu" : [ 4 ],
+					"_filter-to-corpus-2::comp-loudness" : [ 0.0 ],
+					"_filter-to-corpus-2::comp-spectral" : [ 0.0 ],
+					"_filter-to-corpus-2::granular-rate" : [ 223.500000000000057 ],
+					"_filter-to-corpus-2::granular-variation" : [ 43.2691893942213 ],
+					"_filter-to-corpus-2::live.button[1]" : [ 0.0 ],
+					"_filter-to-corpus-2::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-2::live.menu" : [ 4.0 ],
+					"_filter-to-corpus-2::player-attack" : [ 10.0 ],
+					"_filter-to-corpus-2::player-hold" : [ 100.0 ],
+					"_filter-to-corpus-2::player-voices" : [ 6.0 ],
+					"_filter-to-corpus-2::setup-range" : [ 5.850091407678245, 91.042047531992694 ],
+					"_filter-to-corpus-2::toggle-enabled" : [ 0.0 ],
+					"_filter-to-corpus-2::toggle-granular" : [ 0.0 ],
+					"_filter-to-corpus-2::toggle-granular-random" : [ 0.0 ],
+					"_filter-to-corpus-2::toggle-roundrobin" : [ 1.0 ],
+					"_filter-to-corpus-2::toggle-use-setup" : [ 1.0 ],
+					"_filter-to-corpus-2::toggle_timestretch" : [ 0.0 ],
+					"_filter-to-corpus-2::ts-pitch" : [ 0.0 ],
+					"_filter-to-corpus-2::ts-speed" : [ 100.0 ],
+					"_filter-to-corpus-2::duration-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-2::duration-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-2::duration-corpus-filter-slider::slider" : [ 15232.29024943310651 ],
+					"_filter-to-corpus-2::centroid-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-2::centroid-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-2::centroid-corpus-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-2::pitch-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-2::pitch-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-2::pitch-corpus-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-2::confidence-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-2::confidence-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-2::confidence-corpus-filter-slider::slider" : [ 1.0 ],
+					"_filter-to-corpus-2::loudness-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-2::loudness-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-2::loudness-corpus-filter-slider::slider" : [ 75.0 ],
+					"_filter-to-corpus-2::centroid-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-2::centroid-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-2::centroid-input-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-2::pitch-input-filter-slider::comparator" : [ 0.0 ],
+					"_filter-to-corpus-2::pitch-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-2::pitch-input-filter-slider::slider" : [ 73.220009814955603 ],
+					"_filter-to-corpus-2::confidence-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-2::confidence-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-2::confidence-input-filter-slider::slider" : [ 1.0 ],
+					"_filter-to-corpus-2::loudness-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-2::loudness-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-2::loudness-input-filter-slider::slider" : [ 100.0 ],
+					"patcher[1]::u954003948" : [ 0 ],
+					"_speed-controller[1]::history" : [ 4 ],
+					"_speed-controller[1]::__pattr-send-matrix::crosspatch" : [ 						{
 							"data" : 							{
 								"numins" : 15,
 								"numouts" : 15
@@ -163,27 +1157,324 @@
 
 						}
  ],
+					"__pattr-send-matrix[1]::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 15,
+								"numouts" : 15,
+								"connections" : [ 									{
+										"in" : 1,
+										"out" : 2,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 5,
+										"out" : 1,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 5,
+										"out" : 0,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 2,
+										"out" : 6,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 3,
+										"out" : 6,
+										"gain" : 1.0
+									}
+ ]
+							}
+
+						}
+ ],
+					"patcher[2]::u954003948" : [ 0 ],
+					"__pattr-send-matrix::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 15,
+								"numouts" : 15,
+								"connections" : [ 									{
+										"in" : 3,
+										"out" : 11,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 2,
+										"out" : 11,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 0,
+										"out" : 6,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 1,
+										"out" : 6,
+										"gain" : 1.0
+									}
+ ]
+							}
+
+						}
+ ]
+				}
+
+			}
+,
+			"15" : 			{
+				"id" : 15,
+				"data" : 				{
+					"live.gain~" : [ -3.143712574850298 ],
+					"live.gain~[1]" : [ -5.421424866801829 ],
+					"u954003948" : [ 10.228617597581174 ],
+					"_filter-to-corpus-1::corpus-menu" : [ 3 ],
+					"_filter-to-corpus-1::comp-loudness" : [ 0.0 ],
+					"_filter-to-corpus-1::comp-spectral" : [ 0.0 ],
+					"_filter-to-corpus-1::granular-rate" : [ 1500.0 ],
+					"_filter-to-corpus-1::granular-variation" : [ 36.889663453726605 ],
+					"_filter-to-corpus-1::live.button[1]" : [ 0.0 ],
+					"_filter-to-corpus-1::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::live.menu" : [ 4.0 ],
+					"_filter-to-corpus-1::player-attack" : [ 10.228617597581174 ],
+					"_filter-to-corpus-1::player-hold" : [ 63.110336546273381 ],
+					"_filter-to-corpus-1::player-voices" : [ 8.0 ],
+					"_filter-to-corpus-1::setup-range" : [ 10.968921389396709, 90.6764168190128 ],
+					"_filter-to-corpus-1::toggle-enabled" : [ 1.0 ],
+					"_filter-to-corpus-1::toggle-granular" : [ 0.0 ],
+					"_filter-to-corpus-1::toggle-granular-random" : [ 0.0 ],
+					"_filter-to-corpus-1::toggle-roundrobin" : [ 1.0 ],
+					"_filter-to-corpus-1::toggle-use-setup" : [ 1.0 ],
+					"_filter-to-corpus-1::toggle_timestretch" : [ 0.0 ],
+					"_filter-to-corpus-1::ts-pitch" : [ -12.0 ],
+					"_filter-to-corpus-1::ts-speed" : [ 47.206559918100062 ],
+					"_filter-to-corpus-1::duration-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::duration-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::duration-corpus-filter-slider::slider" : [ 7903.492063492063608 ],
+					"_filter-to-corpus-1::centroid-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::centroid-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::centroid-corpus-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-1::pitch-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::pitch-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::pitch-corpus-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-1::confidence-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::confidence-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::confidence-corpus-filter-slider::slider" : [ 1.0 ],
+					"_filter-to-corpus-1::loudness-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::loudness-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::loudness-corpus-filter-slider::slider" : [ 75.0 ],
+					"_filter-to-corpus-1::centroid-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::centroid-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::centroid-input-filter-slider::slider" : [ 88.652857470818418 ],
+					"_filter-to-corpus-1::pitch-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::pitch-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::pitch-input-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-1::confidence-input-filter-slider::comparator" : [ 0.0 ],
+					"_filter-to-corpus-1::confidence-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::confidence-input-filter-slider::slider" : [ 0.057157970459046 ],
+					"_filter-to-corpus-1::loudness-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::loudness-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::loudness-input-filter-slider::slider" : [ 76.803119872745711 ],
+					"_ramp-engine::events" : [ 100 ],
+					"_ramp-engine::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 0.072222222222222, 0.658385093167702, 0, 0.0, 1.0, 0.0, 0, -0.795, "curve" ],
+					"_ramp-engine::live.toggle" : [ 0.0 ],
+					"_ramp-engine::loop" : [ 1 ],
+					"_ramp-engine::speed" : [ 181.731619880499579 ],
 					"_speed-controller::history" : [ 4 ],
-					"_filter-to-corpus-2::comp-loudness" : [ -2.36220472440931 ],
+					"_speed-controller::__pattr-send-matrix::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 15,
+								"numouts" : 15,
+								"connections" : [ 									{
+										"in" : 6,
+										"out" : 7,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 1,
+										"out" : 13,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 14,
+										"out" : 12,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 1,
+										"out" : 8,
+										"gain" : 1.0
+									}
+ ]
+							}
+
+						}
+ ],
+					"_filter-to-corpus-2::corpus-menu" : [ 4 ],
+					"_filter-to-corpus-2::comp-loudness" : [ 24.409448818897687 ],
 					"_filter-to-corpus-2::comp-spectral" : [ 50.0 ],
-					"_filter-to-corpus-2::granular-rate" : [ 300.0 ],
-					"_filter-to-corpus-2::granular-variation" : [ 79.489661835166132 ],
+					"_filter-to-corpus-2::granular-rate" : [ 888.0 ],
+					"_filter-to-corpus-2::granular-variation" : [ 43.2691893942213 ],
 					"_filter-to-corpus-2::live.button[1]" : [ 0.0 ],
 					"_filter-to-corpus-2::live.button[2]" : [ 0.0 ],
 					"_filter-to-corpus-2::live.menu" : [ 4.0 ],
-					"_filter-to-corpus-2::player-attack" : [ 10.0 ],
-					"_filter-to-corpus-2::player-hold" : [ 100.0 ],
+					"_filter-to-corpus-2::player-attack" : [ 28.915775112681875 ],
+					"_filter-to-corpus-2::player-hold" : [ 42.994342862042878 ],
 					"_filter-to-corpus-2::player-voices" : [ 6.0 ],
-					"_filter-to-corpus-2::setup-range" : [ 42.047531992687382, 97.623400365630715 ],
-					"_filter-to-corpus-2::toggle-granular" : [ 1.0 ],
+					"_filter-to-corpus-2::setup-range" : [ 9.506398537477148, 93.235831809872025 ],
+					"_filter-to-corpus-2::toggle-enabled" : [ 1.0 ],
+					"_filter-to-corpus-2::toggle-granular" : [ 0.0 ],
 					"_filter-to-corpus-2::toggle-granular-random" : [ 0.0 ],
+					"_filter-to-corpus-2::toggle-roundrobin" : [ 1.0 ],
 					"_filter-to-corpus-2::toggle-use-setup" : [ 1.0 ],
 					"_filter-to-corpus-2::toggle_timestretch" : [ 1.0 ],
-					"_filter-to-corpus-2::ts-pitch" : [ 0.0 ],
-					"_filter-to-corpus-2::ts-speed" : [ 25.0 ],
-					"_filter-to-corpus-2::toggle-granular-random[1]" : [ 1.0 ],
-					"_filter-to-corpus-2::corpus-menu" : [ 1 ],
-					"u954003948" : [  ]
+					"_filter-to-corpus-2::ts-pitch" : [ -12.0 ],
+					"_filter-to-corpus-2::ts-speed" : [ 100.0 ],
+					"_filter-to-corpus-2::duration-corpus-filter-slider::comparator" : [ 0.0 ],
+					"_filter-to-corpus-2::duration-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-2::duration-corpus-filter-slider::slider" : [ 516.348822014681559 ],
+					"_filter-to-corpus-2::centroid-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-2::centroid-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-2::centroid-corpus-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-2::pitch-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-2::pitch-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-2::pitch-corpus-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-2::confidence-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-2::confidence-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-2::confidence-corpus-filter-slider::slider" : [ 1.0 ],
+					"_filter-to-corpus-2::loudness-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-2::loudness-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-2::loudness-corpus-filter-slider::slider" : [ 75.0 ],
+					"_filter-to-corpus-2::centroid-input-filter-slider::comparator" : [ 0.0 ],
+					"_filter-to-corpus-2::centroid-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-2::centroid-input-filter-slider::slider" : [ 36.626789475972544 ],
+					"_filter-to-corpus-2::pitch-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-2::pitch-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-2::pitch-input-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-2::confidence-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-2::confidence-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-2::confidence-input-filter-slider::slider" : [ 0.864373750020945 ],
+					"_filter-to-corpus-2::loudness-input-filter-slider::comparator" : [ 0.0 ],
+					"_filter-to-corpus-2::loudness-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-2::loudness-input-filter-slider::slider" : [ 9.224568975729163 ],
+					"patcher[1]::u954003948" : [ 0 ],
+					"_speed-controller[1]::history" : [ 16 ],
+					"_speed-controller[1]::__pattr-send-matrix::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 15,
+								"numouts" : 15,
+								"connections" : [ 									{
+										"in" : 11,
+										"out" : 11,
+										"gain" : 1.0
+									}
+ ]
+							}
+
+						}
+ ],
+					"__pattr-send-matrix[1]::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 15,
+								"numouts" : 15,
+								"connections" : [ 									{
+										"in" : 1,
+										"out" : 2,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 2,
+										"out" : 10,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 5,
+										"out" : 0,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 1,
+										"out" : 0,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 1,
+										"out" : 6,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 2,
+										"out" : 6,
+										"gain" : 1.0
+									}
+ ]
+							}
+
+						}
+ ],
+					"patcher[2]::u954003948" : [ 0 ],
+					"__pattr-send-matrix::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 15,
+								"numouts" : 15,
+								"connections" : [ 									{
+										"in" : 3,
+										"out" : 10,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 3,
+										"out" : 11,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 2,
+										"out" : 10,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 2,
+										"out" : 11,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 5,
+										"out" : 2,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 3,
+										"out" : 4,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 3,
+										"out" : 3,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 2,
+										"out" : 6,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 3,
+										"out" : 6,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 5,
+										"out" : 6,
+										"gain" : 1.0
+									}
+ ]
+							}
+
+						}
+ ]
 				}
 
 			}

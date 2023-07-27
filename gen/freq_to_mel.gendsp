@@ -1,0 +1,168 @@
+{
+	"patcher" : 	{
+		"fileversion" : 1,
+		"appversion" : 		{
+			"major" : 8,
+			"minor" : 5,
+			"revision" : 0,
+			"architecture" : "x64",
+			"modernui" : 1
+		}
+,
+		"classnamespace" : "dsp.gen",
+		"rect" : [ 34.0, 115.0, 1197.0, 901.0 ],
+		"bglocked" : 0,
+		"openinpresentation" : 0,
+		"default_fontsize" : 12.0,
+		"default_fontface" : 0,
+		"default_fontname" : "Arial",
+		"gridonopen" : 1,
+		"gridsize" : [ 15.0, 15.0 ],
+		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
+		"statusbarvisible" : 2,
+		"toolbarvisible" : 1,
+		"lefttoolbarpinned" : 0,
+		"toptoolbarpinned" : 0,
+		"righttoolbarpinned" : 0,
+		"bottomtoolbarpinned" : 0,
+		"toolbars_unpinned_last_save" : 0,
+		"tallnewobj" : 0,
+		"boxanimatetime" : 200,
+		"enablehscroll" : 1,
+		"enablevscroll" : 1,
+		"devicewidth" : 0.0,
+		"description" : "",
+		"digest" : "",
+		"tags" : "",
+		"style" : "",
+		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
+		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-30",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 698.0, 109.0, 143.0, 22.0 ],
+					"text" : "buffer hzcf hz_centers 40"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-29",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 698.0, 80.0, 147.0, 22.0 ],
+					"text" : "buffer mcf mel_centers 40"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"code" : "// Define an array to store the center frequency of each band in Mel scale\n\r\nBuffer mcf(\"mel_centers\");\r\nBuffer hzcf(\"hz_centers\");\r\n\r\n// Define the parameters\nnumber_of_bands = 40;\nmin_freq = 40.0;\nmax_freq = 10000.0;\n\r\n\n// Convert min and max frequencies to Mel scale\nmel_min_freq = 2595.0 * log10(1.0 + (min_freq / 700.0));\nmel_max_freq = 2595.0 * log10(1.0 + (max_freq / 700.0));\n\r\n\n// Compute the Mel frequency spacing between adjacent bands\nmel_freq_spacing = (mel_max_freq - mel_min_freq) / (number_of_bands + 1);\n\n\n// Compute the center frequency of each band in Mel scale\nfor (i=0; i < number_of_bands; i+=1) {\r\n\tmcf.pole(i, 1);\r\n  //mcf.poke(i, mel_min_freq + (i + 1) * mel_freq_spacing);\n}\n\n// Convert the center frequency of each band from Mel scale to Hz\nfor (i=0; i < number_of_bands; i+=1) {\r\n // hzcf.poke(i, 700.0 * (pow(10.0, mcf.peek(i) / 2595.0) - 1.0));\n}\r\n\r\nout1 = hzcf;",
+					"fontface" : 0,
+					"fontname" : "<Monospaced>",
+					"fontsize" : 12.0,
+					"id" : "obj-22",
+					"maxclass" : "codebox",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 128.0, 185.0, 959.0, 540.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-19",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 376.0, 56.0, 403.0, 20.0 ],
+					"text" : "Hz = 700 * (exp(mel/1127) - 1)"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-16",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 376.0, 28.0, 413.0, 20.0 ],
+					"text" : "mel = 1/log(2) * (log(1 + (Hz/1000))) * 1000 where Hz is the frequency in Hz."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 754.0, 226.0, 96.0, 22.0 ],
+					"text" : "param max_freq"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 640.0, 221.0, 93.0, 22.0 ],
+					"text" : "param min_freq"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"annotation" : "frequency in hz to convert\n",
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 50.0, 14.0, 28.0, 22.0 ],
+					"text" : "in 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 147.0, 793.0, 35.0, 22.0 ],
+					"text" : "out 1"
+				}
+
+			}
+ ],
+		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-22", 0 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"source" : [ "obj-22", 0 ]
+				}
+
+			}
+ ]
+	}
+
+}
