@@ -2,8 +2,8 @@
 	"name" : "sp-tools",
 	"version" : 1,
 	"creationdate" : 3752619303,
-	"modificationdate" : 3773264226,
-	"viewrect" : [ -1911.0, 115.0, 1920.0, 931.0 ],
+	"modificationdate" : 3776980347,
+	"viewrect" : [ 0.0, 115.0, 1680.0, 852.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 0,
@@ -100,6 +100,11 @@
 			}
 ,
 			"sunnyside-performer.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"_novelty.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
