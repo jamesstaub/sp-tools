@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 115.0, 1612.0, 852.0 ],
+		"rect" : [ -1886.0, 115.0, 1845.0, 931.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -1236,7 +1236,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "int", "ts-pitch" ],
-					"patching_rect" : [ 865.0, 478.5, 373.0, 310.0 ],
+					"patching_rect" : [ 865.0, 478.5, 533.0, 313.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 748.0, 922.0, 350.0, 311.0 ],
 					"varname" : "_speed-controller[1]",
@@ -2457,7 +2457,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 152.5, 150.0, 150.0, 33.0 ],
+					"patching_rect" : [ 248.0, 23.0, 150.0, 33.0 ],
 					"text" : "TODO:\nspectral dampen input"
 				}
 
@@ -2508,7 +2508,7 @@
 					"patching_rect" : [ 11.0, 471.0, 319.0, 66.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 6.5, 580.0, 320.0, 66.0 ],
-					"text" : "knock",
+					"text" : "bow-hi",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -2531,7 +2531,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ -1886.0, 115.0, 1551.0, 931.0 ],
+						"rect" : [ -1886.0, 116.0, 1852.0, 931.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -3860,7 +3860,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "int", "ts-pitch" ],
-					"patching_rect" : [ 862.0, 120.0, 373.0, 310.0 ],
+					"patching_rect" : [ 862.0, 120.0, 533.0, 313.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 356.1785888671875, 922.0, 350.0, 311.0 ],
 					"varname" : "_speed-controller",
@@ -4068,7 +4068,7 @@
 					"numoutlets" : 9,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "", "list", "", "list", "", "", "signal", "signal" ],
-					"patching_rect" : [ 11.0, 1.0, 277.0, 284.0 ],
+					"patching_rect" : [ 11.0, -19.0, 277.0, 284.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.0, 3.0, 328.0, 454.0 ],
 					"viewvisibility" : 1
@@ -5419,6 +5419,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "sp.onsetframe~.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/SP-tools-0.8/patchers",
+				"patcherrelativepath" : "../../../Packages/SP-tools-0.8/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "sp.onset~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/SP-tools-0.8/patchers",
 				"patcherrelativepath" : "../../../Packages/SP-tools-0.8/patchers",
@@ -5441,6 +5448,20 @@
 			}
 , 			{
 				"name" : "sp.ramp.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/SP-tools-0.8/patchers",
+				"patcherrelativepath" : "../../../Packages/SP-tools-0.8/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sp.setupanalysis.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/SP-tools-0.8/patchers",
+				"patcherrelativepath" : "../../../Packages/SP-tools-0.8/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sp.setuptrain~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/SP-tools-0.8/patchers",
 				"patcherrelativepath" : "../../../Packages/SP-tools-0.8/patchers",
 				"type" : "JSON",

@@ -2,7 +2,7 @@
 	"name" : "sp-tools",
 	"version" : 1,
 	"creationdate" : 3752619303,
-	"modificationdate" : 3776980347,
+	"modificationdate" : 3777854119,
 	"viewrect" : [ 0.0, 115.0, 1680.0, 852.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
@@ -107,6 +107,15 @@
 			"_novelty.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
+			}
+,
+			"_shertler-input-processor.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"arrowhead-performer -2mics.maxpat" : 			{
+				"kind" : "patcher"
 			}
 
 		}
