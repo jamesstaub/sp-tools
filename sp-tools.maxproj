@@ -2,8 +2,8 @@
 	"name" : "sp-tools",
 	"version" : 1,
 	"creationdate" : 3752619303,
-	"modificationdate" : 3777854119,
-	"viewrect" : [ 0.0, 115.0, 1680.0, 852.0 ],
+	"modificationdate" : 3780265903,
+	"viewrect" : [ -1.0, 115.0, 1680.0, 901.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 0,
@@ -35,8 +35,7 @@
 ,
 			"arrowhead-performer.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1,
-				"toplevel" : 1
+				"local" : 1
 			}
 ,
 			"_filter-to-corpus.maxpat" : 			{
@@ -115,7 +114,18 @@
 			}
 ,
 			"arrowhead-performer -2mics.maxpat" : 			{
-				"kind" : "patcher"
+				"kind" : "patcher",
+				"toplevel" : 1
+			}
+,
+			"_adc.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"_analysis_frames.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
 			}
 
 		}
