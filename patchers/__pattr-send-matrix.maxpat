@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -1886.0, 87.0, 1565.0, 959.0 ],
+		"rect" : [ 34.0, 115.0, 1612.0, 849.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -273,6 +273,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1010.5, 23.0, 35.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1.53125, 2.0, 35.0, 22.0 ],
 					"text" : "clear"
 				}
 
@@ -1127,7 +1129,13 @@
 						"crosspatch" : [ 							{
 								"data" : 								{
 									"numins" : 15,
-									"numouts" : 15
+									"numouts" : 15,
+									"connections" : [ 										{
+											"in" : 0,
+											"out" : 9,
+											"gain" : 1.0
+										}
+ ]
 								}
 
 							}
@@ -2908,6 +2916,12 @@
 , 			{
 				"box" : 				{
 					"candycane" : 8,
+					"connections" : [ 						{
+							"in" : 0,
+							"out" : 9,
+							"gain" : 1.0
+						}
+ ],
 					"dividers" : "none",
 					"fontface" : 0,
 					"fontname" : "Arial",

@@ -2,8 +2,8 @@
 	"name" : "sp-tools",
 	"version" : 1,
 	"creationdate" : 3752619303,
-	"modificationdate" : 3780265903,
-	"viewrect" : [ -1.0, 115.0, 1680.0, 901.0 ],
+	"modificationdate" : 3781997788,
+	"viewrect" : [ 0.0, 115.0, 1680.0, 849.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 0,
@@ -124,6 +124,11 @@
 			}
 ,
 			"_analysis_frames.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"_bounce-sinusoid.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
