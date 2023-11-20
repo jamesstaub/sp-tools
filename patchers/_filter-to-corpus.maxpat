@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 115.0, 1612.0, 849.0 ],
+		"rect" : [ 34.0, 143.0, 1612.0, 821.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -2683,8 +2683,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 778.499999999999432, 687.095540073067241, 55.0, 22.0 ],
-					"text" : "mode $1"
+					"patching_rect" : [ 706.499999999999432, 719.095540073067241, 114.0, 22.0 ],
+					"text" : "timestretchmode $1"
 				}
 
 			}
@@ -2707,7 +2707,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 692.499999999999432, 687.095540073067241, 84.0, 22.0 ],
+					"patching_rect" : [ 655.499999999999432, 687.095540073067241, 84.0, 22.0 ],
 					"text" : "timestretch $1"
 				}
 
@@ -4983,7 +4983,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-50", 0 ],
-					"midpoints" : [ 742.249999999999545, 682.867281202492222, 787.999999999999432, 682.867281202492222 ],
+					"midpoints" : [ 742.249999999999545, 682.867281202492222, 715.999999999999432, 682.867281202492222 ],
 					"source" : [ "obj-52", 1 ]
 				}
 
@@ -5411,13 +5411,6 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "fluid.plotter.js",
-				"bootpath" : "~/Documents/Max 8/Packages/FluidCorpusManipulation/jsui",
-				"patcherrelativepath" : "../../../Packages/FluidCorpusManipulation/jsui",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "fluid.robustscale~.mxo",
 				"type" : "iLaX"
 			}
@@ -5427,50 +5420,57 @@
 			}
 , 			{
 				"name" : "sp.corpusmatch.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/SP-tools-0.8/patchers",
-				"patcherrelativepath" : "../../../Packages/SP-tools-0.8/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/SP-Tools/patchers",
+				"patcherrelativepath" : "../../../Packages/SP-Tools/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sp.corpusplayer~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/SP-tools-0.8/patchers",
-				"patcherrelativepath" : "../../../Packages/SP-tools-0.8/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sp.crossbank~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/SP-tools-0.8/patchers",
-				"patcherrelativepath" : "../../../Packages/SP-tools-0.8/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/SP-Tools/patchers",
+				"patcherrelativepath" : "../../../Packages/SP-Tools/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sp.datagranular.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/SP-tools-0.8/patchers",
-				"patcherrelativepath" : "../../../Packages/SP-tools-0.8/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/SP-Tools/patchers",
+				"patcherrelativepath" : "../../../Packages/SP-Tools/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sp.filter.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/SP-tools-0.8/patchers",
-				"patcherrelativepath" : "../../../Packages/SP-tools-0.8/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/SP-Tools/patchers",
+				"patcherrelativepath" : "../../../Packages/SP-Tools/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.playbackcore~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/SP-tools-0.8/patchers",
-				"patcherrelativepath" : "../../../Packages/SP-tools-0.8/patchers",
-				"type" : "JSON",
+				"name" : "sp.plotter.js",
+				"bootpath" : "~/Documents/Max 8/Packages/SP-Tools/jsui",
+				"patcherrelativepath" : "../../../Packages/SP-Tools/jsui",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sp.plotter.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/SP-tools-0.8/patchers",
-				"patcherrelativepath" : "../../../Packages/SP-tools-0.8/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/SP-Tools/patchers",
+				"patcherrelativepath" : "../../../Packages/SP-Tools/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "widgetcrossbank~.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/SP-Tools/misc/Misc",
+				"patcherrelativepath" : "../../../Packages/SP-Tools/misc/Misc",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "widgetplaybackcore~.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/SP-Tools/misc/Misc",
+				"patcherrelativepath" : "../../../Packages/SP-Tools/misc/Misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}

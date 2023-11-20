@@ -2,8 +2,8 @@
 	"name" : "sp-tools",
 	"version" : 1,
 	"creationdate" : 3752619303,
-	"modificationdate" : 3781997788,
-	"viewrect" : [ 0.0, 115.0, 1680.0, 849.0 ],
+	"modificationdate" : 3783128386,
+	"viewrect" : [ 0.0, 116.0, 1680.0, 795.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 0,
@@ -129,6 +129,21 @@
 			}
 ,
 			"_bounce-sinusoid.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"_concat.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"_sp_classify_timbre.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"__classify_robust_scale.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
