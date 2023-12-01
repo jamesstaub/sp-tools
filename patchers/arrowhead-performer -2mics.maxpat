@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 116.0, 1612.0, 795.0 ],
+		"rect" : [ 33.0, 116.0, 1612.0, 819.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,11 +40,23 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-42",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 394.0, 465.0, 150.0, 60.0 ],
+					"text" : "TODO:\nadd control for sp.corpusplayer loop message"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-40",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 188.0, 107.0, 150.0, 20.0 ],
+					"patching_rect" : [ 202.5, 143.5, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 188.0, 107.0, 150.0, 20.0 ],
 					"text" : "longer lockout if bursting"
@@ -1122,13 +1134,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-31",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 823.0, 1221.0, 50.0, 35.0 ],
-					"text" : "0.494912"
+					"patching_rect" : [ 823.0, 1221.0, 50.0, 22.0 ],
+					"text" : "0.5"
 				}
 
 			}
@@ -2369,7 +2380,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 866.0, 860.0, 136.0, 22.0 ],
-					"restore" : [ 1.0 ],
+					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -2786,7 +2797,7 @@
 					"restore" : 					{
 						"gate-receive-scenes" : [ 1.0 ],
 						"gate-send-scenes" : [ 1.0 ],
-						"live.gain~" : [ -7.04799849120662 ],
+						"live.gain~" : [ -2.89423765211167 ],
 						"live.gain~[1]" : [ -1.527700504502803 ],
 						"live.tab[2]" : [ 15.0 ],
 						"live.tab[3]" : [ 0.0 ]
@@ -3867,7 +3878,7 @@
 					"patching_rect" : [ 22.0, 580.0, 319.0, 66.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 6.5, 580.0, 320.0, 66.0 ],
-					"text" : "pluck-low",
+					"text" : "bow-lo",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -6627,6 +6638,10 @@
 					"parameter_shortname" : "live.tab[2]",
 					"parameter_type" : 2,
 					"parameter_unitstyle" : 9
+				}
+,
+				"obj-6::obj-38" : 				{
+					"parameter_longname" : "live.dial[4]"
 				}
 
 			}

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 115.0, 1852.0, 931.0 ],
+		"rect" : [ -1886.0, 115.0, 1852.0, 931.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 192.0, 88.0, 77.0, 22.0 ],
+					"text" : "loadmess 70"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-94",
 					"maxclass" : "newobj",
@@ -244,8 +256,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 234.5, 242.0, 182.0, 22.0 ],
-					"text" : "0.125 0.25 0.33 0.5 1 1.5 2. 3. 4."
+					"patching_rect" : [ 328.5, 258.0, 222.0, 22.0 ],
+					"text" : "0.0625 0.125 0.25 0.33 0.5 1 1.5 2. 3. 4."
 				}
 
 			}
@@ -781,7 +793,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ -70.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.gain~[2]",
+							"parameter_longname" : "live.gain~[3]",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_shortname" : "live.gain~[1]",
@@ -885,7 +897,7 @@
 										"filename" : "DLSMusicDevice.maxsnap",
 										"filepath" : "~/Documents/Max 8/Snapshots",
 										"filepos" : -1,
-										"snapshotfileid" : "eb23f42784e46891250664f3fabf06a4"
+										"snapshotfileid" : "0427df9bc2d93bf26238f9538da20f8a"
 									}
 
 								}
@@ -1140,6 +1152,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
 					"source" : [ "obj-19", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"source" : [ "obj-2", 0 ]
 				}
 
 			}
@@ -1428,7 +1447,28 @@
 				}
 
 			}
- ]
+ ],
+		"parameters" : 		{
+			"obj-1" : [ "vst~[1]", "vst~", 0 ],
+			"obj-27" : [ "live.gain~[3]", "live.gain~[1]", 0 ],
+			"obj-41" : [ "number[7]", "number[3]", 0 ],
+			"obj-42" : [ "number[6]", "number[2]", 0 ],
+			"obj-43" : [ "number[5]", "number[1]", 0 ],
+			"obj-44" : [ "number[8]", "number", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [  ],
+		"autosave" : 0
 	}
 
 }
