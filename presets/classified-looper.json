@@ -7,11 +7,12 @@
 				"data" : 				{
 					"live.dial[1]" : [ 100.000000000000114 ],
 					"live.gain~" : [ -3.143712574850298 ],
-					"live.text" : [ 0.0 ],
-					"live.text[1]" : [ 0.0 ],
+					"live.text" : [ 1.0 ],
+					"live.text[1]" : [ 1.0 ],
 					"number" : [ 53.5625 ],
 					"umenu[1]" : [ 7 ],
 					"umenu[2]" : [ 7 ],
+					"u954003948" : [ 50.0 ],
 					"_ramp-engine::events" : [ 16 ],
 					"_ramp-engine::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 0.085185185185185, 1.0, 0, 0.0, 0.172222222222222, 0.0, 0, 0.0, 0.416666666666667, 0.434782608695652, 0, 0.0, 0.542592592592593, 0.0, 0, 0.0, 0.544444444444444, 0.527950310559006, 0, 0.0, 0.642592592592593, 0.608695652173913, 0, -0.695, 0.661111111111111, 1.0, 0, 0.0, 0.694444444444444, 0.192546583850932, 0, 0.0, 0.768518518518518, 0.229813664596273, 0, 0.85, 0.894444444444444, 0.732919254658385, 0, 0.0, 1.0, 0.236024844720497, 0, 0.0, "curve" ],
 					"_ramp-engine::live.tab" : [ 1.0 ],
@@ -77,8 +78,7 @@
 					"_filter-to-corpus-looper-1::confidence-input-filter-slider::slider" : [ 1.0 ],
 					"_filter-to-corpus-looper-1::loudness-input-filter-slider::comparator" : [ 1.0 ],
 					"_filter-to-corpus-looper-1::loudness-input-filter-slider::live.button[2]" : [ 0.0 ],
-					"_filter-to-corpus-looper-1::loudness-input-filter-slider::slider" : [ 100.0 ],
-					"u954003948" : [  ]
+					"_filter-to-corpus-looper-1::loudness-input-filter-slider::slider" : [ 100.0 ]
 				}
 
 			}
@@ -93,6 +93,7 @@
 					"number" : [ 100.0 ],
 					"umenu[1]" : [ 3 ],
 					"umenu[2]" : [ 9 ],
+					"u954003948" : [ 10.0 ],
 					"_ramp-engine::events" : [ 16 ],
 					"_ramp-engine::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 0.085185185185185, 1.0, 0, 0.0, 0.172222222222222, 0.0, 0, 0.0, 0.416666666666667, 0.434782608695652, 0, 0.0, 0.542592592592593, 0.0, 0, 0.0, 0.544444444444444, 0.527950310559006, 0, 0.0, 0.642592592592593, 0.608695652173913, 0, -0.695, 0.661111111111111, 1.0, 0, 0.0, 0.694444444444444, 0.192546583850932, 0, 0.0, 0.768518518518518, 0.229813664596273, 0, 0.85, 0.894444444444444, 0.732919254658385, 0, 0.0, 1.0, 0.236024844720497, 0, 0.0, "curve" ],
 					"_ramp-engine::live.tab" : [ 1.0 ],
@@ -158,8 +159,7 @@
 					"_filter-to-corpus-looper-1::confidence-input-filter-slider::slider" : [ 1.0 ],
 					"_filter-to-corpus-looper-1::loudness-input-filter-slider::comparator" : [ 1.0 ],
 					"_filter-to-corpus-looper-1::loudness-input-filter-slider::live.button[2]" : [ 0.0 ],
-					"_filter-to-corpus-looper-1::loudness-input-filter-slider::slider" : [ 100.0 ],
-					"u954003948" : [ 10.0 ]
+					"_filter-to-corpus-looper-1::loudness-input-filter-slider::slider" : [ 100.0 ]
 				}
 
 			}
