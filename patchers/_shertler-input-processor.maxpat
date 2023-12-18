@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 116.0, 1612.0, 819.0 ],
+		"rect" : [ 34.0, 115.0, 1612.0, 901.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -1516,7 +1516,7 @@
 					"comment" : "onset gate",
 					"id" : "obj-42",
 					"ignoreclick" : 1,
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1529,7 +1529,7 @@
 					"comment" : "onset trogger",
 					"id" : "obj-39",
 					"ignoreclick" : 1,
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2119,7 +2119,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "preset" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 40.0, 25.0, 25.0 ]
 								}
 
@@ -2447,7 +2447,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1025.641113000000132, 382.114167000000066, 203.939552000000049, 25.0 ],
+					"patching_rect" : [ 1054.641113000000132, 382.114167000000066, 203.939552000000049, 25.0 ],
 					"pattrmode" : 1,
 					"prefix_mode" : 2,
 					"presentation" : 1,
@@ -3039,11 +3039,15 @@
 					"presentation_rect" : [ 4.0, 112.786614219201283, 136.0, 26.0 ],
 					"preset_data" : [ 						{
 							"number" : 1,
-							"data" : [ 5, "obj-156", "umenu", "int", 1, 5, "obj-129", "umenu", "int", 6, 5, "obj-131", "umenu", "int", 1, 5, "obj-23", "live.dial", "float", -80.0, 5, "obj-21", "live.dial", "float", 10.0, 5, "obj-25", "live.dial", "float", 70.0 ]
+							"data" : [ 5, "obj-156", "umenu", "int", 1, 5, "obj-158", "umenu", "int", 1, 5, "obj-129", "umenu", "int", 6, 5, "obj-131", "umenu", "int", 1, 5, "obj-23", "live.dial", "float", -80.0, 5, "obj-21", "live.dial", "float", 10.0, 5, "obj-25", "live.dial", "float", 70.0 ]
 						}
 , 						{
 							"number" : 2,
-							"data" : [ 5, "obj-156", "umenu", "int", 2, 5, "obj-129", "umenu", "int", 6, 5, "<invalid>", "live.dial", "float", 4.0, 5, "obj-131", "umenu", "int", 1, 5, "<invalid>", "live.dial", "float", 81.0, 5, "<invalid>", "slider", "float", 9.0 ]
+							"data" : [ 5, "obj-156", "umenu", "int", 1, 5, "obj-158", "umenu", "int", 1, 5, "obj-129", "umenu", "int", 6, 5, "obj-131", "umenu", "int", 1, 5, "obj-23", "live.dial", "float", -80.0, 5, "obj-21", "live.dial", "float", 30.0, 5, "obj-25", "live.dial", "float", 80.0 ]
+						}
+, 						{
+							"number" : 3,
+							"data" : [ 5, "obj-156", "umenu", "int", 1, 5, "obj-158", "umenu", "int", 1, 5, "obj-129", "umenu", "int", 6, 5, "obj-131", "umenu", "int", 1, 5, "obj-23", "live.dial", "float", -90.0, 5, "obj-21", "live.dial", "float", 40.0, 5, "obj-25", "live.dial", "float", 80.0 ]
 						}
  ]
 				}
@@ -3054,7 +3058,7 @@
 					"comment" : "onset-frame rolling buffer",
 					"id" : "obj-8",
 					"ignoreclick" : 1,
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -3164,16 +3168,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-149", 0 ],
-					"order" : 1,
+					"destination" : [ "obj-156", 0 ],
+					"order" : 0,
 					"source" : [ "obj-13", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-156", 0 ],
-					"order" : 0,
+					"destination" : [ "obj-158", 0 ],
+					"order" : 1,
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -3497,7 +3501,91 @@
 				}
 
 			}
- ]
+ ],
+		"parameters" : 		{
+			"obj-21" : [ "live.dial[25]", "lockout", 0 ],
+			"obj-23" : [ "live.dial[24]", "floor", 0 ],
+			"obj-25" : [ "live.dial[26]", "sensitivity", 0 ],
+			"obj-28::obj-19" : [ "live.gain~[2]", "live.gain~", 0 ],
+			"obj-28::obj-20" : [ "live.text[21]", "live.text", 0 ],
+			"obj-28::obj-21" : [ "live.text[20]", "live.text", 0 ],
+			"obj-28::obj-41" : [ "live.text[6]", "live.text", 0 ],
+			"obj-31" : [ "live.text[2]", "live.text", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "_adc.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sp-tools/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cello-schertler-dpa-timbres.wav",
+				"bootpath" : "~/Dropbox/audio",
+				"patcherrelativepath" : "../../../../../Dropbox/audio",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dk.multiconvolve~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.ampfeature~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.onsetfeature~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "sp.convolver~.maxpat",
+				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/patchers",
+				"patcherrelativepath" : "../../../Library/SP-Tools/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sp.onsetframe~.maxpat",
+				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/patchers",
+				"patcherrelativepath" : "../../../Library/SP-Tools/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sp.onset~.maxpat",
+				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/patchers",
+				"patcherrelativepath" : "../../../Library/SP-Tools/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sp.spectralonset~.maxpat",
+				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/patchers",
+				"patcherrelativepath" : "../../../Library/SP-Tools/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "widgetonsetfeaturecore~.maxpat",
+				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/misc/Misc",
+				"patcherrelativepath" : "../../../Library/SP-Tools/misc/Misc",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

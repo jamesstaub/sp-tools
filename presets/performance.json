@@ -7,16 +7,16 @@
 				"data" : 				{
 					"gate-receive-scenes" : [ 1.0 ],
 					"gate-send-scenes" : [ 1.0 ],
-					"live.gain~" : [ -6.0 ],
-					"live.gain~[1]" : [ -2.310486757337145 ],
+					"live.gain~" : [ -2.272548317823933 ],
+					"live.gain~[1]" : [ -1.674123120973533 ],
 					"live.tab[2]" : [ 15.0 ],
 					"live.tab[3]" : [ 0.0 ],
 					"u954003948" : [ 45.0, 55.0 ],
 					"u954003948[1]" : [ 0 ],
 					"_filter-to-corpus-1::corpus-menu" : [ 1 ],
-					"_filter-to-corpus-1::comp-loudness" : [ 100.0 ],
+					"_filter-to-corpus-1::comp-loudness" : [ 48.031496062992119 ],
 					"_filter-to-corpus-1::comp-spectral" : [ 0.0 ],
-					"_filter-to-corpus-1::granular-rate" : [ 32.562500000000014 ],
+					"_filter-to-corpus-1::granular-rate" : [ 32.875 ],
 					"_filter-to-corpus-1::granular-rate-relative" : [ 0.0 ],
 					"_filter-to-corpus-1::granular-variation" : [ 25.196850393700782 ],
 					"_filter-to-corpus-1::live.button[1]" : [ 0.0 ],
@@ -25,7 +25,7 @@
 					"_filter-to-corpus-1::player-attack" : [ 16.881550453726462 ],
 					"_filter-to-corpus-1::player-hold" : [ 100.0 ],
 					"_filter-to-corpus-1::player-voices" : [ 8.0 ],
-					"_filter-to-corpus-1::setup-range" : [ 0.0, 100.0 ],
+					"_filter-to-corpus-1::setup-range" : [ 20.0, 79.0 ],
 					"_filter-to-corpus-1::toggle-enabled" : [ 1.0 ],
 					"_filter-to-corpus-1::toggle-granular" : [ 0.0 ],
 					"_filter-to-corpus-1::toggle-granular-random" : [ 0.0 ],
@@ -77,9 +77,9 @@
 						}
  ],
 					"_filter-to-corpus-2::corpus-menu" : [ 1 ],
-					"_filter-to-corpus-2::comp-loudness" : [ 100.0 ],
+					"_filter-to-corpus-2::comp-loudness" : [ 54.330708661417333 ],
 					"_filter-to-corpus-2::comp-spectral" : [ 0.0 ],
-					"_filter-to-corpus-2::granular-rate" : [ 171.92999999999995 ],
+					"_filter-to-corpus-2::granular-rate" : [ 173.580000000000041 ],
 					"_filter-to-corpus-2::granular-rate-relative" : [ 0.435483870967742 ],
 					"_filter-to-corpus-2::granular-variation" : [ 25.196850393700785 ],
 					"_filter-to-corpus-2::live.button[1]" : [ 0.0 ],
@@ -156,13 +156,7 @@
 							}
 
 						}
- ],
-					"_ramp-engine::events" : [ 16 ],
-					"_ramp-engine::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 0.085185185185185, 1.0, 0, 0.0, 0.172222222222222, 0.0, 0, 0.0, 0.542592592592593, 0.0, 0, 0.0, 0.544444444444444, 0.527950310559006, 0, 0.0, 0.642592592592593, 0.608695652173913, 0, -0.695, 0.661111111111111, 1.0, 0, 0.0, 0.768518518518518, 0.229813664596273, 0, 0.85, 0.894444444444444, 0.732919254658385, 0, 0.0, 1.0, 0.236024844720497, 0, 0.0, "curve" ],
-					"_ramp-engine::live.tab" : [ 1.0 ],
-					"_ramp-engine::live.toggle" : [ 1.0 ],
-					"_ramp-engine::loop" : [ 1 ],
-					"_ramp-engine::speed" : [ 100.000000000000114 ]
+ ]
 				}
 
 			}
@@ -336,13 +330,7 @@
 							}
 
 						}
- ],
-					"_ramp-engine::events" : [ 16 ],
-					"_ramp-engine::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 0.085185185185185, 1.0, 0, 0.0, 0.172222222222222, 0.0, 0, 0.0, 0.542592592592593, 0.0, 0, 0.0, 0.544444444444444, 0.527950310559006, 0, 0.0, 0.642592592592593, 0.608695652173913, 0, -0.695, 0.661111111111111, 1.0, 0, 0.0, 0.768518518518518, 0.229813664596273, 0, 0.85, 0.894444444444444, 0.732919254658385, 0, 0.0, 1.0, 0.236024844720497, 0, 0.0, "curve" ],
-					"_ramp-engine::live.tab" : [ 1.0 ],
-					"_ramp-engine::live.toggle" : [ 1.0 ],
-					"_ramp-engine::loop" : [ 1 ],
-					"_ramp-engine::speed" : [ 100.000000000000114 ]
+ ]
 				}
 
 			}
@@ -543,13 +531,7 @@
 							}
 
 						}
- ],
-					"_ramp-engine::events" : [ 16 ],
-					"_ramp-engine::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 0.085185185185185, 1.0, 0, 0.0, 0.172222222222222, 0.0, 0, 0.0, 0.542592592592593, 0.0, 0, 0.0, 0.544444444444444, 0.527950310559006, 0, 0.0, 0.642592592592593, 0.608695652173913, 0, -0.695, 0.661111111111111, 1.0, 0, 0.0, 0.768518518518518, 0.229813664596273, 0, 0.85, 0.894444444444444, 0.732919254658385, 0, 0.0, 1.0, 0.236024844720497, 0, 0.0, "curve" ],
-					"_ramp-engine::live.tab" : [ 1.0 ],
-					"_ramp-engine::live.toggle" : [ 1.0 ],
-					"_ramp-engine::loop" : [ 1 ],
-					"_ramp-engine::speed" : [ 100.000000000000114 ]
+ ]
 				}
 
 			}
@@ -745,13 +727,7 @@
 							}
 
 						}
- ],
-					"_ramp-engine::events" : [  ],
-					"_ramp-engine::function" : [  ],
-					"_ramp-engine::live.tab" : [  ],
-					"_ramp-engine::live.toggle" : [  ],
-					"_ramp-engine::loop" : [  ],
-					"_ramp-engine::speed" : [  ]
+ ]
 				}
 
 			}
@@ -762,26 +738,26 @@
 					"gate-receive-scenes" : [ 1.0 ],
 					"gate-send-scenes" : [ 1.0 ],
 					"live.gain~" : [ -3.143712574850298 ],
-					"live.gain~[1]" : [ -3.0 ],
+					"live.gain~[1]" : [ -2.257874015748015 ],
 					"live.tab[2]" : [ 15.0 ],
 					"live.tab[3]" : [ 0.0 ],
-					"u954003948" : [ 0.00025789706358 ],
+					"u954003948" : [ 0.0 ],
 					"u954003948[1]" : [ 0 ],
 					"_filter-to-corpus-1::corpus-menu" : [ 1 ],
 					"_filter-to-corpus-1::comp-loudness" : [ 100.0 ],
 					"_filter-to-corpus-1::comp-spectral" : [ -100.0 ],
-					"_filter-to-corpus-1::granular-rate" : [ 65.125000000000014 ],
-					"_filter-to-corpus-1::granular-rate-relative" : [ 0.19665043103881 ],
+					"_filter-to-corpus-1::granular-rate" : [ 130.250000000000028 ],
+					"_filter-to-corpus-1::granular-rate-relative" : [ 0.308633934784653 ],
 					"_filter-to-corpus-1::granular-variation" : [ 51.181940482388868 ],
 					"_filter-to-corpus-1::live.button[1]" : [ 0.0 ],
 					"_filter-to-corpus-1::live.button[2]" : [ 0.0 ],
 					"_filter-to-corpus-1::live.menu" : [ 4.0 ],
-					"_filter-to-corpus-1::player-attack" : [ 13.495250968295302 ],
+					"_filter-to-corpus-1::player-attack" : [ 12.129733134399146 ],
 					"_filter-to-corpus-1::player-hold" : [ 100.0 ],
 					"_filter-to-corpus-1::player-voices" : [ 12.0 ],
 					"_filter-to-corpus-1::setup-range" : [ 45.0, 55.0 ],
 					"_filter-to-corpus-1::toggle-enabled" : [ 1.0 ],
-					"_filter-to-corpus-1::toggle-granular" : [ 1.0 ],
+					"_filter-to-corpus-1::toggle-granular" : [ 0.0 ],
 					"_filter-to-corpus-1::toggle-granular-random" : [ 1.0 ],
 					"_filter-to-corpus-1::toggle-roundrobin" : [ 1.0 ],
 					"_filter-to-corpus-1::toggle-use-setup" : [ 1.0 ],
@@ -841,19 +817,19 @@
 						}
  ],
 					"_filter-to-corpus-2::corpus-menu" : [ 0 ],
-					"_filter-to-corpus-2::comp-loudness" : [ 73.22834645669289 ],
-					"_filter-to-corpus-2::comp-spectral" : [ 7.086614173228313 ],
-					"_filter-to-corpus-2::granular-rate" : [ 32.562500000000014 ],
-					"_filter-to-corpus-2::granular-rate-relative" : [ 0.00025789706358 ],
+					"_filter-to-corpus-2::comp-loudness" : [ 2.362204724409537 ],
+					"_filter-to-corpus-2::comp-spectral" : [ -100.0 ],
+					"_filter-to-corpus-2::granular-rate" : [ 781.500000000000568 ],
+					"_filter-to-corpus-2::granular-rate-relative" : [ 0.75 ],
 					"_filter-to-corpus-2::granular-variation" : [ 98.427292958943269 ],
 					"_filter-to-corpus-2::live.button[1]" : [ 0.0 ],
 					"_filter-to-corpus-2::live.button[2]" : [ 0.0 ],
-					"_filter-to-corpus-2::live.menu" : [ 4.0 ],
-					"_filter-to-corpus-2::player-attack" : [ 10.0 ],
-					"_filter-to-corpus-2::player-hold" : [ 60.029129333596117 ],
+					"_filter-to-corpus-2::live.menu" : [ 2.0 ],
+					"_filter-to-corpus-2::player-attack" : [ 13.326109459716308 ],
+					"_filter-to-corpus-2::player-hold" : [ 60.931945725490017 ],
 					"_filter-to-corpus-2::player-voices" : [ 5.0 ],
 					"_filter-to-corpus-2::setup-range" : [ 45.0, 55.0 ],
-					"_filter-to-corpus-2::toggle-enabled" : [ 1.0 ],
+					"_filter-to-corpus-2::toggle-enabled" : [ 0.0 ],
 					"_filter-to-corpus-2::toggle-granular" : [ 1.0 ],
 					"_filter-to-corpus-2::toggle-granular-random" : [ 0.0 ],
 					"_filter-to-corpus-2::toggle-roundrobin" : [ 1.0 ],
@@ -863,10 +839,10 @@
 					"_filter-to-corpus-2::ts-speed" : [ 100.0 ],
 					"_filter-to-corpus-2::duration-corpus-filter-slider::comparator" : [ 1.0 ],
 					"_filter-to-corpus-2::duration-corpus-filter-slider::live.button[2]" : [ 0.0 ],
-					"_filter-to-corpus-2::duration-corpus-filter-slider::slider" : [ 7296.0 ],
-					"_filter-to-corpus-2::centroid-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-2::duration-corpus-filter-slider::slider" : [ 4067.555625915527798 ],
+					"_filter-to-corpus-2::centroid-corpus-filter-slider::comparator" : [ 0.0 ],
 					"_filter-to-corpus-2::centroid-corpus-filter-slider::live.button[2]" : [ 0.0 ],
-					"_filter-to-corpus-2::centroid-corpus-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-2::centroid-corpus-filter-slider::slider" : [ 31.440547033708697 ],
 					"_filter-to-corpus-2::pitch-corpus-filter-slider::comparator" : [ 1.0 ],
 					"_filter-to-corpus-2::pitch-corpus-filter-slider::live.button[2]" : [ 0.0 ],
 					"_filter-to-corpus-2::pitch-corpus-filter-slider::slider" : [ 127.0 ],
@@ -905,8 +881,8 @@
 										"gain" : 1.0
 									}
 , 									{
-										"in" : 0,
-										"out" : 14,
+										"in" : 14,
+										"out" : 6,
 										"gain" : 1.0
 									}
  ]
@@ -941,13 +917,7 @@
 							}
 
 						}
- ],
-					"_ramp-engine::events" : [ 16 ],
-					"_ramp-engine::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 0.085185185185185, 1.0, 0, 0.0, 0.172222222222222, 0.0, 0, 0.0, 0.542592592592593, 0.0, 0, 0.0, 0.544444444444444, 0.527950310559006, 0, 0.0, 0.642592592592593, 0.608695652173913, 0, -0.695, 0.661111111111111, 1.0, 0, 0.0, 0.768518518518518, 0.229813664596273, 0, 0.85, 0.894444444444444, 0.732919254658385, 0, 0.0, 1.0, 0.236024844720497, 0, 0.0, "curve" ],
-					"_ramp-engine::live.tab" : [ 1.0 ],
-					"_ramp-engine::live.toggle" : [ 1.0 ],
-					"_ramp-engine::loop" : [ 1 ],
-					"_ramp-engine::speed" : [ 100.000000000000114 ]
+ ]
 				}
 
 			}
@@ -1121,13 +1091,7 @@
 							}
 
 						}
- ],
-					"_ramp-engine::events" : [ 16 ],
-					"_ramp-engine::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 0.085185185185185, 1.0, 0, 0.0, 0.172222222222222, 0.0, 0, 0.0, 0.542592592592593, 0.0, 0, 0.0, 0.544444444444444, 0.527950310559006, 0, 0.0, 0.642592592592593, 0.608695652173913, 0, -0.695, 0.661111111111111, 1.0, 0, 0.0, 0.768518518518518, 0.229813664596273, 0, 0.85, 0.894444444444444, 0.732919254658385, 0, 0.0, 1.0, 0.236024844720497, 0, 0.0, "curve" ],
-					"_ramp-engine::live.tab" : [ 1.0 ],
-					"_ramp-engine::live.toggle" : [ 1.0 ],
-					"_ramp-engine::loop" : [ 1 ],
-					"_ramp-engine::speed" : [ 100.000000000000114 ]
+ ]
 				}
 
 			}
@@ -1137,16 +1101,16 @@
 				"data" : 				{
 					"gate-receive-scenes" : [ 1.0 ],
 					"gate-send-scenes" : [ 1.0 ],
-					"live.gain~" : [ -2.89423765211167 ],
+					"live.gain~" : [ -0.272906227630628 ],
 					"live.gain~[1]" : [ -1.527700504502803 ],
 					"live.tab[2]" : [ 15.0 ],
 					"live.tab[3]" : [ 0.0 ],
-					"u954003948" : [ 0.001121317667759 ],
+					"u954003948" : [ 12.995319610045613 ],
 					"u954003948[1]" : [ 0 ],
 					"_filter-to-corpus-1::corpus-menu" : [ 6 ],
 					"_filter-to-corpus-1::comp-loudness" : [ 100.0 ],
 					"_filter-to-corpus-1::comp-spectral" : [ 100.0 ],
-					"_filter-to-corpus-1::granular-rate" : [ 32.562500000000014 ],
+					"_filter-to-corpus-1::granular-rate" : [ 32.875 ],
 					"_filter-to-corpus-1::granular-rate-relative" : [ 0.001121317667759 ],
 					"_filter-to-corpus-1::granular-variation" : [ 100.0 ],
 					"_filter-to-corpus-1::live.button[1]" : [ 0.0 ],
@@ -1163,7 +1127,7 @@
 					"_filter-to-corpus-1::toggle-use-setup" : [ 1.0 ],
 					"_filter-to-corpus-1::toggle_timestretch" : [ 1.0 ],
 					"_filter-to-corpus-1::ts-pitch" : [ -5.0 ],
-					"_filter-to-corpus-1::ts-speed" : [ 38.663027039360529 ],
+					"_filter-to-corpus-1::ts-speed" : [ 12.995319610045613 ],
 					"_filter-to-corpus-1::duration-corpus-filter-slider::comparator" : [ 0.0 ],
 					"_filter-to-corpus-1::duration-corpus-filter-slider::live.button[2]" : [ 0.0 ],
 					"_filter-to-corpus-1::duration-corpus-filter-slider::slider" : [ 599.529671246947032 ],
@@ -1209,7 +1173,7 @@
 					"_filter-to-corpus-2::corpus-menu" : [ 5 ],
 					"_filter-to-corpus-2::comp-loudness" : [ 49.606299212598458 ],
 					"_filter-to-corpus-2::comp-spectral" : [ 100.0 ],
-					"_filter-to-corpus-2::granular-rate" : [ 111.000000000000028 ],
+					"_filter-to-corpus-2::granular-rate" : [ 173.580000000000041 ],
 					"_filter-to-corpus-2::granular-rate-relative" : [ 0.435483870967742 ],
 					"_filter-to-corpus-2::granular-variation" : [ 25.196850393700782 ],
 					"_filter-to-corpus-2::live.button[1]" : [ 0.0 ],
@@ -1307,13 +1271,7 @@
 							}
 
 						}
- ],
-					"_ramp-engine::events" : [ 16 ],
-					"_ramp-engine::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 0.085185185185185, 1.0, 0, 0.0, 0.172222222222222, 0.0, 0, 0.0, 0.542592592592593, 0.0, 0, 0.0, 0.544444444444444, 0.527950310559006, 0, 0.0, 0.642592592592593, 0.608695652173913, 0, -0.695, 0.661111111111111, 1.0, 0, 0.0, 0.768518518518518, 0.229813664596273, 0, 0.85, 0.894444444444444, 0.732919254658385, 0, 0.0, 1.0, 0.236024844720497, 0, 0.0, "curve" ],
-					"_ramp-engine::live.tab" : [ 1.0 ],
-					"_ramp-engine::live.toggle" : [ 1.0 ],
-					"_ramp-engine::loop" : [ 1 ],
-					"_ramp-engine::speed" : [ 100.000000000000114 ]
+ ]
 				}
 
 			}
@@ -1466,13 +1424,7 @@
 							}
 
 						}
- ],
-					"_ramp-engine::events" : [ 16 ],
-					"_ramp-engine::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 0.085185185185185, 1.0, 0, 0.0, 0.172222222222222, 0.0, 0, 0.0, 0.542592592592593, 0.0, 0, 0.0, 0.544444444444444, 0.527950310559006, 0, 0.0, 0.642592592592593, 0.608695652173913, 0, -0.695, 0.661111111111111, 1.0, 0, 0.0, 0.768518518518518, 0.229813664596273, 0, 0.85, 0.894444444444444, 0.732919254658385, 0, 0.0, 1.0, 0.236024844720497, 0, 0.0, "curve" ],
-					"_ramp-engine::live.tab" : [ 1.0 ],
-					"_ramp-engine::live.toggle" : [ 1.0 ],
-					"_ramp-engine::loop" : [ 1 ],
-					"_ramp-engine::speed" : [ 100.000000000000114 ]
+ ]
 				}
 
 			}
@@ -1484,24 +1436,24 @@
 					"gate-send-scenes" : [ 1.0 ],
 					"live.gain~" : [ -3.143712574850298 ],
 					"live.gain~[1]" : [ -5.421424866801829 ],
-					"live.tab[2]" : [ 15.0 ],
+					"live.tab[2]" : [ 9.0 ],
 					"live.tab[3]" : [ 0.0 ],
-					"u954003948" : [ 229.253608646979899 ],
+					"u954003948" : [ 100.0 ],
 					"u954003948[1]" : [ 0 ],
 					"_filter-to-corpus-1::corpus-menu" : [ 2 ],
 					"_filter-to-corpus-1::comp-loudness" : [ 100.0 ],
 					"_filter-to-corpus-1::comp-spectral" : [ 100.0 ],
-					"_filter-to-corpus-1::granular-rate" : [ 80.465250956765146 ],
+					"_filter-to-corpus-1::granular-rate" : [ 65.125000000000014 ],
 					"_filter-to-corpus-1::granular-rate-relative" : [ 0.19665043103881 ],
 					"_filter-to-corpus-1::granular-variation" : [ 7.476258823489573 ],
 					"_filter-to-corpus-1::live.button[1]" : [ 0.0 ],
 					"_filter-to-corpus-1::live.button[2]" : [ 0.0 ],
 					"_filter-to-corpus-1::live.menu" : [ 2.0 ],
 					"_filter-to-corpus-1::player-attack" : [ 10.0 ],
-					"_filter-to-corpus-1::player-hold" : [ 60.134108744149891 ],
+					"_filter-to-corpus-1::player-hold" : [ 100.0 ],
 					"_filter-to-corpus-1::player-voices" : [ 8.0 ],
 					"_filter-to-corpus-1::setup-range" : [ 10.968921389396709, 90.6764168190128 ],
-					"_filter-to-corpus-1::toggle-enabled" : [ 1.0 ],
+					"_filter-to-corpus-1::toggle-enabled" : [ 0.0 ],
 					"_filter-to-corpus-1::toggle-granular" : [ 0.0 ],
 					"_filter-to-corpus-1::toggle-granular-random" : [ 0.0 ],
 					"_filter-to-corpus-1::toggle-roundrobin" : [ 1.0 ],
@@ -1559,8 +1511,8 @@
 					"_filter-to-corpus-2::corpus-menu" : [ 3 ],
 					"_filter-to-corpus-2::comp-loudness" : [ 100.0 ],
 					"_filter-to-corpus-2::comp-spectral" : [ 100.0 ],
-					"_filter-to-corpus-2::granular-rate" : [ 229.253608646979899 ],
-					"_filter-to-corpus-2::granular-rate-relative" : [ 0.733870967741935 ],
+					"_filter-to-corpus-2::granular-rate" : [ 50.0 ],
+					"_filter-to-corpus-2::granular-rate-relative" : [ 0.774193548387097 ],
 					"_filter-to-corpus-2::granular-variation" : [ 32.283464566929197 ],
 					"_filter-to-corpus-2::live.button[1]" : [ 0.0 ],
 					"_filter-to-corpus-2::live.button[2]" : [ 0.0 ],
@@ -1570,7 +1522,7 @@
 					"_filter-to-corpus-2::player-voices" : [ 8.0 ],
 					"_filter-to-corpus-2::setup-range" : [ 9.506398537477148, 93.235831809872025 ],
 					"_filter-to-corpus-2::toggle-enabled" : [ 1.0 ],
-					"_filter-to-corpus-2::toggle-granular" : [ 1.0 ],
+					"_filter-to-corpus-2::toggle-granular" : [ 0.0 ],
 					"_filter-to-corpus-2::toggle-granular-random" : [ 1.0 ],
 					"_filter-to-corpus-2::toggle-roundrobin" : [ 0.0 ],
 					"_filter-to-corpus-2::toggle-use-setup" : [ 1.0 ],
@@ -1612,7 +1564,7 @@
 								"numouts" : 15,
 								"connections" : [ 									{
 										"in" : 0,
-										"out" : 11,
+										"out" : 14,
 										"gain" : 1.0
 									}
  ]
@@ -1672,13 +1624,7 @@
 							}
 
 						}
- ],
-					"_ramp-engine::events" : [ 16 ],
-					"_ramp-engine::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 0.085185185185185, 1.0, 0, 0.0, 0.172222222222222, 0.0, 0, 0.0, 0.542592592592593, 0.0, 0, 0.0, 0.544444444444444, 0.527950310559006, 0, 0.0, 0.642592592592593, 0.608695652173913, 0, -0.695, 0.661111111111111, 1.0, 0, 0.0, 0.768518518518518, 0.229813664596273, 0, 0.85, 0.894444444444444, 0.732919254658385, 0, 0.0, 1.0, 0.236024844720497, 0, 0.0, "curve" ],
-					"_ramp-engine::live.tab" : [ 1.0 ],
-					"_ramp-engine::live.toggle" : [ 1.0 ],
-					"_ramp-engine::loop" : [ 1 ],
-					"_ramp-engine::speed" : [ 100.000000000000114 ]
+ ]
 				}
 
 			}
@@ -1878,13 +1824,7 @@
 							}
 
 						}
- ],
-					"_ramp-engine::events" : [ 16 ],
-					"_ramp-engine::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 0.085185185185185, 1.0, 0, 0.0, 0.172222222222222, 0.0, 0, 0.0, 0.542592592592593, 0.0, 0, 0.0, 0.544444444444444, 0.527950310559006, 0, 0.0, 0.642592592592593, 0.608695652173913, 0, -0.695, 0.661111111111111, 1.0, 0, 0.0, 0.768518518518518, 0.229813664596273, 0, 0.85, 0.894444444444444, 0.732919254658385, 0, 0.0, 1.0, 0.236024844720497, 0, 0.0, "curve" ],
-					"_ramp-engine::live.tab" : [ 1.0 ],
-					"_ramp-engine::live.toggle" : [ 1.0 ],
-					"_ramp-engine::loop" : [ 1 ],
-					"_ramp-engine::speed" : [ 100.000000000000114 ]
+ ]
 				}
 
 			}
@@ -2084,13 +2024,7 @@
 							}
 
 						}
- ],
-					"_ramp-engine::events" : [  ],
-					"_ramp-engine::function" : [  ],
-					"_ramp-engine::live.tab" : [  ],
-					"_ramp-engine::live.toggle" : [  ],
-					"_ramp-engine::loop" : [  ],
-					"_ramp-engine::speed" : [  ]
+ ]
 				}
 
 			}
@@ -2259,13 +2193,7 @@
 							}
 
 						}
- ],
-					"_ramp-engine::events" : [  ],
-					"_ramp-engine::function" : [  ],
-					"_ramp-engine::live.tab" : [  ],
-					"_ramp-engine::live.toggle" : [  ],
-					"_ramp-engine::loop" : [  ],
-					"_ramp-engine::speed" : [  ]
+ ]
 				}
 
 			}
@@ -2444,13 +2372,7 @@
 							}
 
 						}
- ],
-					"_ramp-engine::events" : [ 16 ],
-					"_ramp-engine::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 0.085185185185185, 1.0, 0, 0.0, 0.172222222222222, 0.0, 0, 0.0, 0.542592592592593, 0.0, 0, 0.0, 0.544444444444444, 0.527950310559006, 0, 0.0, 0.642592592592593, 0.608695652173913, 0, -0.695, 0.661111111111111, 1.0, 0, 0.0, 0.768518518518518, 0.229813664596273, 0, 0.85, 0.894444444444444, 0.732919254658385, 0, 0.0, 1.0, 0.236024844720497, 0, 0.0, "curve" ],
-					"_ramp-engine::live.tab" : [ 1.0 ],
-					"_ramp-engine::live.toggle" : [ 1.0 ],
-					"_ramp-engine::loop" : [ 1 ],
-					"_ramp-engine::speed" : [ 100.000000000000114 ]
+ ]
 				}
 
 			}
@@ -2635,13 +2557,7 @@
 							}
 
 						}
- ],
-					"_ramp-engine::events" : [ 16 ],
-					"_ramp-engine::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 0.085185185185185, 1.0, 0, 0.0, 0.172222222222222, 0.0, 0, 0.0, 0.542592592592593, 0.0, 0, 0.0, 0.544444444444444, 0.527950310559006, 0, 0.0, 0.642592592592593, 0.608695652173913, 0, -0.695, 0.661111111111111, 1.0, 0, 0.0, 0.768518518518518, 0.229813664596273, 0, 0.85, 0.894444444444444, 0.732919254658385, 0, 0.0, 1.0, 0.236024844720497, 0, 0.0, "curve" ],
-					"_ramp-engine::live.tab" : [ 1.0 ],
-					"_ramp-engine::live.toggle" : [ 1.0 ],
-					"_ramp-engine::loop" : [ 1 ],
-					"_ramp-engine::speed" : [ 100.000000000000114 ]
+ ]
 				}
 
 			}
@@ -2815,13 +2731,7 @@
 							}
 
 						}
- ],
-					"_ramp-engine::events" : [  ],
-					"_ramp-engine::function" : [  ],
-					"_ramp-engine::live.tab" : [  ],
-					"_ramp-engine::live.toggle" : [  ],
-					"_ramp-engine::loop" : [  ],
-					"_ramp-engine::speed" : [  ]
+ ]
 				}
 
 			}
