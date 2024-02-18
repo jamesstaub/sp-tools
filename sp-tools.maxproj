@@ -2,7 +2,7 @@
 	"name" : "sp-tools",
 	"version" : 1,
 	"creationdate" : 3752608503,
-	"modificationdate" : 3784067915,
+	"modificationdate" : 3791059744,
 	"viewrect" : [ 0.0, 115.0, 1680.0, 901.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
@@ -69,11 +69,6 @@
 			}
 ,
 			"_midi-sync.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"_timbre_classifier.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -158,6 +153,21 @@
 			}
 ,
 			"_filter_to_corpus_gui.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"HipodromoPerformer.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"__kitchen_sink_looper.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"__count_recent_classes.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
