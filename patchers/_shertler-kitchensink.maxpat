@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 115.0, 1361.0, 901.0 ],
+		"rect" : [ -1885.0, 117.0, 1852.0, 931.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,43 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-11",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 868.641113000000132, 497.332117164062424, 70.0, 22.0 ],
+					"text" : "loadmess 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 826.0, 490.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 0.345098039215686, 0.298039215686275, 1.0 ],
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 818.0, 521.426544000000035, 129.0, 22.0 ],
+					"text" : "s toggle_visualizations",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"comment" : "kitchen dumpout",
 					"id" : "obj-3",
@@ -114,7 +151,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ -20 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.dial[20]",
+							"parameter_longname" : "live.dial[31]",
 							"parameter_mmax" : 0.0,
 							"parameter_mmin" : -80.0,
 							"parameter_shortname" : "threshold",
@@ -144,7 +181,7 @@
 							"parameter_exponent" : 3.0,
 							"parameter_initial" : [ 30.000000000000011 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.dial[16]",
+							"parameter_longname" : "live.dial[32]",
 							"parameter_mmax" : 1000.0,
 							"parameter_shortname" : "lockout",
 							"parameter_type" : 0,
@@ -172,7 +209,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ -55 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.dial[14]",
+							"parameter_longname" : "live.dial[30]",
 							"parameter_mmax" : 0.0,
 							"parameter_mmin" : -99.0,
 							"parameter_shortname" : "floor",
@@ -202,7 +239,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 50 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.dial[13]",
+							"parameter_longname" : "live.dial[33]",
 							"parameter_mmax" : 100.0,
 							"parameter_shortname" : "sensitivity",
 							"parameter_type" : 0,
@@ -347,7 +384,7 @@
 										"valueof" : 										{
 											"parameter_initial" : [ 0.0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "live.dial[17]",
+											"parameter_longname" : "live.dial[29]",
 											"parameter_mmax" : 100.0,
 											"parameter_shortname" : "offset",
 											"parameter_type" : 0,
@@ -438,7 +475,7 @@
 										"valueof" : 										{
 											"parameter_initial" : [ 100 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "live.dial[1]",
+											"parameter_longname" : "live.dial[28]",
 											"parameter_mmax" : 100.0,
 											"parameter_shortname" : "depth",
 											"parameter_type" : 0,
@@ -515,7 +552,7 @@
 										"valueof" : 										{
 											"parameter_initial" : [ 0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "live.dial[2]",
+											"parameter_longname" : "live.dial[27]",
 											"parameter_mmax" : 100.0,
 											"parameter_shortname" : "attack",
 											"parameter_type" : 0,
@@ -2175,7 +2212,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[2]",
+							"parameter_longname" : "live.text[29]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -3129,7 +3166,7 @@
 					"fontsize" : 14.0,
 					"hint" : "",
 					"id" : "obj-156",
-					"items" : [ "None", ",", "PreSonus AudioBox iTwo", ",", "BlackHole 16ch", ",", "MacBook Pro Speakers", ",", "ZoomAudioDevice", ",", "PS AGG" ],
+					"items" : [ "None", ",", "ASUS VS228", ",", "BlackHole 16ch", ",", "MacBook Pro Speakers", ",", "ZoomAudioDevice" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -3169,7 +3206,7 @@
 					"fontsize" : 14.0,
 					"hint" : "",
 					"id" : "obj-158",
-					"items" : [ "None", ",", "PreSonus AudioBox iTwo", ",", "BlackHole 16ch", ",", "MacBook Pro Microphone", ",", "ZoomAudioDevice", ",", "PS AGG" ],
+					"items" : [ "None", ",", "BlackHole 16ch", ",", "MacBook Pro Microphone", ",", "ZoomAudioDevice" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -3936,6 +3973,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-131", 0 ],
 					"source" : [ "obj-120", 0 ]
 				}
@@ -4400,6 +4444,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-50", 1 ],
 					"source" : [ "obj-56", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"source" : [ "obj-9", 0 ]
 				}
 
 			}
