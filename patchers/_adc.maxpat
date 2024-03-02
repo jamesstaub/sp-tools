@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 115.0, 1612.0, 901.0 ],
+		"rect" : [ 33.0, 115.0, 1052.0, 901.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -42,7 +42,7 @@
 				"box" : 				{
 					"comment" : "ch2",
 					"id" : "obj-2",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -54,7 +54,7 @@
 				"box" : 				{
 					"comment" : "ch1",
 					"id" : "obj-1",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -73,7 +73,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 105.0, 129.0, 54.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 75.535157226855802, 3.0, 57.399999999999977, 26.0 ],
+					"presentation_rect" : [ 70.215108872289704, 3.0, 62.720048354566075, 26.0 ],
 					"text" : "PIEZO",
 					"textjustification" : 1
 				}
@@ -91,7 +91,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 466.0, 154.0, 136.0, 36.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 146.666667103767395, 71.0, 389.0, 36.0 ],
+					"presentation_rect" : [ 237.666667103767395, 71.0, 389.0, 36.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[2]",
@@ -142,7 +142,7 @@
 					"patching_rect" : [ 466.0, 49.0, 447.0, 66.0 ],
 					"pitchcorrection" : 0,
 					"presentation" : 1,
-					"presentation_rect" : [ 146.666667103767395, 3.0, 389.0, 66.0 ],
+					"presentation_rect" : [ 237.666667103767395, 3.0, 389.0, 66.0 ],
 					"quality" : "basic",
 					"timestretch" : [ 0 ]
 				}
@@ -182,7 +182,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 227.955205581421865, 61.0, 57.399999999999977, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 57.0, 136.0, 24.0 ],
+					"presentation_rect" : [ 2.0, 57.0, 130.935157226855779, 24.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
@@ -264,7 +264,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 168.555205581421887, 61.0, 57.399999999999977, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 70.215108872289704, 31.0, 68.040096709132172, 24.0 ],
+					"presentation_rect" : [ 70.215108872289704, 31.0, 62.720048354566075, 24.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
@@ -293,7 +293,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 111.0, 61.0, 57.399999999999977, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 31.0, 67.399999999999977, 24.0 ],
+					"presentation_rect" : [ 2.0, 31.0, 62.07995164543388, 24.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
@@ -470,7 +470,33 @@
 				}
 
 			}
- ]
+ ],
+		"parameters" : 		{
+			"obj-19" : [ "live.gain~[2]", "live.gain~", 0 ],
+			"obj-20" : [ "live.text[21]", "live.text", 0 ],
+			"obj-21" : [ "live.text[20]", "live.text", 0 ],
+			"obj-41" : [ "live.text[6]", "live.text", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "cello-schertler-dpa-timbres.wav",
+				"bootpath" : "~/Dropbox/audio",
+				"patcherrelativepath" : "../../../../../Dropbox/audio",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -1886.0, 115.0, 1417.0, 877.0 ],
+		"rect" : [ 34.0, 115.0, 1612.0, 901.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -178,7 +178,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "int", "int", "int" ],
-					"patching_rect" : [ 547.781536515552943, 147.0, 71.0, 22.0 ],
+					"patching_rect" : [ 546.781536515552943, 129.0, 71.0, 22.0 ],
 					"text" : "unpack i i i i"
 				}
 
@@ -190,7 +190,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 552.781536515552943, 117.0, 127.0, 22.0 ],
+					"patching_rect" : [ 546.781536515552943, 99.0, 127.0, 22.0 ],
 					"text" : "loadmess 8 32 64 128"
 				}
 
@@ -447,7 +447,7 @@
 				"box" : 				{
 					"comment" : "from classkitchensink ",
 					"id" : "obj-2",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -473,7 +473,7 @@
 				"box" : 				{
 					"comment" : "loop 1 out",
 					"id" : "obj-21",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -485,7 +485,7 @@
 				"box" : 				{
 					"comment" : "loop 2 out",
 					"id" : "obj-17",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -531,7 +531,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 737.26670477390212, 62.0, 56.0, 22.0 ],
+					"patching_rect" : [ 558.26670477390212, 13.0, 56.0, 22.0 ],
 					"restore" : 					{
 						"live.text" : [ 1.0 ],
 						"live.text[1]" : [ 1.0 ],
@@ -950,7 +950,103 @@
 				}
 
 			}
- ]
+ ],
+		"parameters" : 		{
+			"obj-177" : [ "number", "number", 0 ],
+			"obj-44::obj-21" : [ "live.dial[14]", "speed", 0 ],
+			"obj-44::obj-25" : [ "live.dial[24]", "pitch", 0 ],
+			"obj-44::obj-26" : [ "live.dial[37]", "flatness", 0 ],
+			"obj-44::obj-27" : [ "live.dial[22]", "loudness", 0 ],
+			"obj-44::obj-28" : [ "live.dial[12]", "transpose", 0 ],
+			"obj-44::obj-36" : [ "live.dial[38]", "centroid", 0 ],
+			"obj-44::obj-74" : [ "umenu[6]", "umenu", 0 ],
+			"obj-48::obj-21" : [ "live.dial[6]", "speed", 0 ],
+			"obj-48::obj-25" : [ "live.dial[5]", "pitch", 0 ],
+			"obj-48::obj-26" : [ "live.dial[3]", "flatness", 0 ],
+			"obj-48::obj-27" : [ "live.dial[2]", "loudness", 0 ],
+			"obj-48::obj-28" : [ "live.dial[4]", "transpose", 0 ],
+			"obj-48::obj-36" : [ "live.dial[1]", "centroid", 0 ],
+			"obj-48::obj-74" : [ "umenu[1]", "umenu", 0 ],
+			"obj-77" : [ "live.text[20]", "live.text", 0 ],
+			"obj-84" : [ "live.text", "live.text", 0 ],
+			"obj-85" : [ "live.text[30]", "live.text", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-48::obj-21" : 				{
+					"parameter_longname" : "live.dial[6]"
+				}
+,
+				"obj-48::obj-25" : 				{
+					"parameter_longname" : "live.dial[5]"
+				}
+,
+				"obj-48::obj-26" : 				{
+					"parameter_longname" : "live.dial[3]"
+				}
+,
+				"obj-48::obj-27" : 				{
+					"parameter_longname" : "live.dial[2]"
+				}
+,
+				"obj-48::obj-28" : 				{
+					"parameter_longname" : "live.dial[4]"
+				}
+,
+				"obj-48::obj-36" : 				{
+					"parameter_longname" : "live.dial[1]"
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "__kitchen_sink_looper.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sp-tools/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fluid.buf2list.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.list2buf.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "sp.datalooper~.maxpat",
+				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/patchers",
+				"patcherrelativepath" : "../../../Library/SP-Tools/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sp.datatranspose.maxpat",
+				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/patchers",
+				"patcherrelativepath" : "../../../Library/SP-Tools/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sp.quantizetime~.maxpat",
+				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/patchers",
+				"patcherrelativepath" : "../../../Library/SP-Tools/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
