@@ -40,6 +40,21 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-104",
+					"linecount" : 9,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1184.0, 622.0, 150.0, 127.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 9,
+					"presentation_rect" : [ 1075.0, 615.891305923461914, 150.0, 127.0 ],
+					"text" : "recent gate durations to playback length + granular time\n\nocta scene on preset\n\nsend midi notes to the thru track for tape machine to ping it, add to patchbay"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-100",
 					"maxclass" : "meter~",
 					"numinlets" : 1,
@@ -4042,7 +4057,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 250.0, 111.0, 50.0, 22.0 ],
-									"text" : "36"
+									"text" : "39"
 								}
 
 							}
@@ -5516,7 +5531,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1927.0, 1460.0, 136.0, 22.0 ],
-					"restore" : [ 0.0 ],
+					"restore" : [ 14.0, 85.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -5548,24 +5563,24 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 1184.0, 107.0, 118.0, 22.0 ],
 					"restore" : 					{
-						"env-recorder-class-history-threshold-long" : [ 0.406287282271534 ],
-						"env-recorder-class-history-threshold-short" : [ 0.460808876163207 ],
+						"env-recorder-class-history-threshold-long" : [ 0.5 ],
+						"env-recorder-class-history-threshold-short" : [ 0.502087807205917 ],
 						"gate-receive-scenes" : [ 1.0 ],
 						"gate-send-scenes" : [ 1.0 ],
 						"live.gain~" : [ -2.377952755905525 ],
 						"live.gain~[1]" : [ -3.121019108280251 ],
 						"live.numbox" : [ 0.0 ],
-						"live.numbox[1]" : [ 0.0 ],
-						"live.numbox[2]" : [ 0.0 ],
-						"live.numbox[3]" : [ 1.0 ],
-						"live.numbox[4]" : [ 0.777777777777778 ],
-						"live.numbox[5]" : [ 0.0 ],
-						"live.numbox[6]" : [ 0.222222222222222 ],
+						"live.numbox[1]" : [ 0.111111111111111 ],
+						"live.numbox[2]" : [ 0.444444444444444 ],
+						"live.numbox[3]" : [ 0.444444444444444 ],
+						"live.numbox[4]" : [ 0.538461538461539 ],
+						"live.numbox[5]" : [ 0.384615384615385 ],
+						"live.numbox[6]" : [ 0.076923076923077 ],
 						"live.numbox[7]" : [ 0.0 ],
 						"live.tab[2]" : [ 8.0 ],
 						"live.tab[3]" : [ 0.0 ],
-						"long-env-gate-history" : [ 8.0 ],
-						"short-env-gate-history" : [ 3.0 ]
+						"long-env-gate-history" : [ 12.0 ],
+						"short-env-gate-history" : [ 8.0 ]
 					}
 ,
 					"text" : "autopattr @greedy 1",
