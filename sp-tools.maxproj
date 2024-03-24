@@ -2,8 +2,8 @@
 	"name" : "sp-tools",
 	"version" : 1,
 	"creationdate" : 3752608503,
-	"modificationdate" : 3792103325,
-	"viewrect" : [ -1920.0, 115.0, 1913.0, 931.0 ],
+	"modificationdate" : 3792457798,
+	"viewrect" : [ 3.0, 116.0, 1680.0, 901.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 0,
@@ -183,6 +183,11 @@
 			}
 ,
 			"_envelope.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"_concat-module.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}

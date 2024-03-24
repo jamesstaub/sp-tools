@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 0,
+			"minor" : 6,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 115.0, 1224.0, 901.0 ],
+		"rect" : [ 34.0, 115.0, 1205.0, 901.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -258,7 +258,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 492.21875, 50.371274156756499, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.28125, 4.0, 24.0, 24.0 ]
+					"presentation_rect" : [ 5.28125, 4.0, 24.0, 24.0 ],
+					"varname" : "toggle"
 				}
 
 			}
@@ -340,11 +341,11 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "__pattr-send-matrix.maxpat",
-					"numinlets" : 16,
+					"numinlets" : 21,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "int", "comp-loudness" ],
-					"patching_rect" : [ 49.961594327290854, 389.789971449175255, 346.909091234207153, 319.500000357627869 ],
+					"outlettype" : [ "int", "granular-rate-relative" ],
+					"patching_rect" : [ 49.961594327290854, 380.789971449175255, 346.909091234207153, 319.500000357627869 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 277.0, 480.0, 671.0 ],
 					"varname" : "__pattr-send-matrix",
@@ -363,8 +364,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 0,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -528,12 +529,12 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 767.59375, 20.0, 56.0, 22.0 ],
+					"patching_rect" : [ 767.59375, 20.0, 118.0, 22.0 ],
 					"restore" : 					{
 						"history" : [ 16 ]
 					}
 ,
-					"text" : "autopattr",
+					"text" : "autopattr @greedy 1",
 					"varname" : "u082006233"
 				}
 
@@ -655,17 +656,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-70",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 39.75, 78.162468936163066, 150.0, 20.0 ],
-					"text" : "a temporal model of sorts"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-61",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -772,8 +762,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-164", 0 ],
-					"source" : [ "obj-10", 0 ]
+					"destination" : [ "obj-13", 0 ],
+					"source" : [ "obj-10", 1 ]
 				}
 
 			}
@@ -1135,13 +1125,14 @@
  ],
 		"parameters" : 		{
 			"obj-19::obj-61" : [ "live.numbox[10]", "live.numbox", 0 ],
-			"obj-19::obj-64" : [ "live.numbox[1]", "live.numbox", 0 ],
+			"obj-19::obj-64" : [ "live.numbox[11]", "live.numbox", 0 ],
 			"obj-19::obj-67" : [ "live.numbox[8]", "live.numbox", 0 ],
 			"obj-19::obj-68" : [ "live.numbox[9]", "live.numbox", 0 ],
 			"obj-2::obj-61" : [ "live.numbox[4]", "live.numbox", 0 ],
 			"obj-2::obj-64" : [ "live.numbox[5]", "live.numbox", 0 ],
 			"obj-2::obj-67" : [ "live.numbox[6]", "live.numbox", 0 ],
 			"obj-2::obj-68" : [ "live.numbox[7]", "live.numbox", 0 ],
+			"obj-6::obj-9::obj-11::obj-14::obj-71" : [ "notes", "notes", 1 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -1157,7 +1148,7 @@
 				}
 ,
 				"obj-19::obj-64" : 				{
-					"parameter_longname" : "live.numbox[1]"
+					"parameter_longname" : "live.numbox[11]"
 				}
 ,
 				"obj-19::obj-67" : 				{
@@ -1215,6 +1206,13 @@
 			}
 , 			{
 				"name" : "sp.descriptordisplay.maxpat",
+				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/patchers",
+				"patcherrelativepath" : "../../../Library/SP-Tools/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sp.quantizepitch.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/patchers",
 				"patcherrelativepath" : "../../../Library/SP-Tools/patchers",
 				"type" : "JSON",

@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 0,
+			"minor" : 6,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -1886.0, 115.0, 1292.0, 931.0 ],
+		"rect" : [ 34.0, 115.0, 945.0, 901.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -138,6 +138,7 @@
 			}
 , 			{
 				"box" : 				{
+					"activefgdialcolor" : [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
 					"activeneedlecolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
 					"dialcolor" : [ 0.352941176470588, 0.352941176470588, 0.352941176470588, 1.0 ],
 					"id" : "obj-21",
@@ -150,6 +151,10 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 180.0, 130.426544000000035, 47.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
+						"activefgdialcolor" : 						{
+							"expression" : "themecolor.live_value_arc_zombie"
+						}
+,
 						"activeneedlecolor" : 						{
 							"expression" : "themecolor.live_value_bar"
 						}
@@ -162,12 +167,17 @@
 							"expression" : ""
 						}
 ,
+						"tricolor" : 						{
+							"expression" : "themecolor.live_dial_needle"
+						}
+,
 						"valueof" : 						{
 							"parameter_exponent" : 3.0,
 							"parameter_initial" : [ 30.000000000000011 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.dial[32]",
 							"parameter_mmax" : 1000.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "lockout",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 2
@@ -182,6 +192,7 @@
 			}
 , 			{
 				"box" : 				{
+					"activefgdialcolor" : [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
 					"activeneedlecolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
 					"dialcolor" : [ 0.352941176470588, 0.352941176470588, 0.352941176470588, 1.0 ],
 					"id" : "obj-23",
@@ -194,6 +205,10 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 133.0, 130.426544000000035, 47.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
+						"activefgdialcolor" : 						{
+							"expression" : "themecolor.live_value_arc_zombie"
+						}
+,
 						"activeneedlecolor" : 						{
 							"expression" : "themecolor.live_value_bar"
 						}
@@ -206,12 +221,17 @@
 							"expression" : ""
 						}
 ,
+						"tricolor" : 						{
+							"expression" : "themecolor.live_dial_needle"
+						}
+,
 						"valueof" : 						{
 							"parameter_initial" : [ -55 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.dial[30]",
 							"parameter_mmax" : 0.0,
 							"parameter_mmin" : -99.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "floor",
 							"parameter_type" : 0,
 							"parameter_units" : "dB",
@@ -227,6 +247,7 @@
 			}
 , 			{
 				"box" : 				{
+					"activefgdialcolor" : [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
 					"activeneedlecolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
 					"dialcolor" : [ 0.352941176470588, 0.352941176470588, 0.352941176470588, 1.0 ],
 					"id" : "obj-25",
@@ -239,6 +260,10 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 85.0, 130.426544000000035, 47.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
+						"activefgdialcolor" : 						{
+							"expression" : "themecolor.live_value_arc_zombie"
+						}
+,
 						"activeneedlecolor" : 						{
 							"expression" : "themecolor.live_value_bar"
 						}
@@ -251,11 +276,16 @@
 							"expression" : ""
 						}
 ,
+						"tricolor" : 						{
+							"expression" : "themecolor.live_dial_needle"
+						}
+,
 						"valueof" : 						{
 							"parameter_initial" : [ 50 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.dial[33]",
 							"parameter_mmax" : 100.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "sensitivity",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -491,8 +521,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 0,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -537,8 +567,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 0,
+											"minor" : 6,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1179,8 +1209,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 0,
+											"minor" : 6,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1634,6 +1664,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[29]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -1705,8 +1736,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 0,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1941,8 +1972,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 0,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2177,8 +2208,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 0,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2345,8 +2376,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 0,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2586,7 +2617,7 @@
 					"fontsize" : 14.0,
 					"hint" : "",
 					"id" : "obj-156",
-					"items" : [ "None", ",", "ASUS VS228", ",", "BlackHole 16ch", ",", "MacBook Pro Speakers", ",", "ZoomAudioDevice" ],
+					"items" : [ "None", ",", "ASUS VS228", ",", "EarPods", ",", "BlackHole 16ch", ",", "MacBook Pro Speakers", ",", "ZoomAudioDevice" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2626,7 +2657,7 @@
 					"fontsize" : 14.0,
 					"hint" : "",
 					"id" : "obj-158",
-					"items" : [ "None", ",", "BlackHole 16ch", ",", "MacBook Pro Microphone", ",", "ZoomAudioDevice" ],
+					"items" : [ "None", ",", "EarPods Microphone", ",", "BlackHole 16ch", ",", "MacBook Pro Microphone", ",", "ZoomAudioDevice" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2653,8 +2684,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 0,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2843,8 +2874,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 0,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}

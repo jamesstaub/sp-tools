@@ -1,0 +1,64 @@
+{
+	"pattrstorage" : 	{
+		"name" : "hipodromo-performance",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"sp.sampler~::absoluteview" : [ 1.0 ],
+					"sp.sampler~::algorithm" : [ 4.0 ],
+					"sp.sampler~::gain" : [ -3.0 ],
+					"sp.sampler~::in" : [ 0.0 ],
+					"sp.sampler~::incurve" : [ 100.0 ],
+					"sp.sampler~::length" : [ 100.0 ],
+					"sp.sampler~::lengthabsolute" : [ 867.999999999999545 ],
+					"sp.sampler~::live.drop[4]" : [ "" ],
+					"sp.sampler~::loop" : [ 1.0 ],
+					"sp.sampler~::out" : [ 8.661417322834646 ],
+					"sp.sampler~::outcurve" : [ -100.0 ],
+					"sp.sampler~::pitch" : [ -12.0 ],
+					"sp.sampler~::speed" : [ 20.0 ],
+					"sp.sampler~::start" : [ 0.0 ],
+					"sp.sampler~::startabsolute" : [ 0.0 ],
+					"sp.sampler~::steal" : [ 1.0 ],
+					"sp.sampler~::tabopen" : [ 0.0 ],
+					"sp.sampler~::timestretch" : [ 1.0 ],
+					"sp.sampler~::voices" : [ 16.0 ],
+					"sp.sampler~[1]::absoluteview" : [ 0.0 ],
+					"sp.sampler~[1]::algorithm" : [ 0.0 ],
+					"sp.sampler~[1]::gain" : [ 0.0 ],
+					"sp.sampler~[1]::in" : [ 0.0 ],
+					"sp.sampler~[1]::incurve" : [ 0.0 ],
+					"sp.sampler~[1]::length" : [ 100.0 ],
+					"sp.sampler~[1]::lengthabsolute" : [ 60000.0 ],
+					"sp.sampler~[1]::live.drop[4]" : [ "" ],
+					"sp.sampler~[1]::loop" : [ 0.0 ],
+					"sp.sampler~[1]::out" : [ 0.0 ],
+					"sp.sampler~[1]::outcurve" : [ 0.0 ],
+					"sp.sampler~[1]::pitch" : [ 0.0 ],
+					"sp.sampler~[1]::speed" : [ 100.0 ],
+					"sp.sampler~[1]::start" : [ 0.0 ],
+					"sp.sampler~[1]::startabsolute" : [ 0.0 ],
+					"sp.sampler~[1]::steal" : [ 1.0 ],
+					"sp.sampler~[1]::tabopen" : [ 0.0 ],
+					"sp.sampler~[1]::timestretch" : [ 0.0 ],
+					"sp.sampler~[1]::voices" : [ 16.0 ],
+					"granular-rate-relative" : [ 0.857526406513177 ],
+					"live.dial[3]" : [ 30.000000000000011 ],
+					"live.dial[4]" : [ 28.740157480314977 ],
+					"live.dial[5]" : [ -71.37007874015751 ],
+					"live.gain~" : [ 0.0 ],
+					"live.gain~[1]" : [ -16.739694302917833 ],
+					"live.gain~[2]" : [ -8.0 ],
+					"number" : [ 138.900000000000006 ],
+					"umenu[1]" : [ 13 ],
+					"umenu[2]" : [ 14 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
