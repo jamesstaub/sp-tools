@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 115.0, 1612.0, 901.0 ],
+		"rect" : [ 34.0, 115.0, 1612.0, 873.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,10 +45,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1184.0, 622.0, 150.0, 127.0 ],
+					"patching_rect" : [ 1184.0, 622.0, 153.0, 127.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 9,
-					"presentation_rect" : [ 1075.0, 615.891305923461914, 150.0, 127.0 ],
+					"presentation_rect" : [ 1075.0, 615.891305923461914, 153.0, 127.0 ],
 					"text" : "recent gate durations to playback length + granular time\n\nocta scene on preset\n\nsend midi notes to the thru track for tape machine to ping it, add to patchbay"
 				}
 
@@ -96,7 +96,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 557.0, 650.0, 154.0, 52.0 ],
+					"patching_rect" : [ 305.033333381016917, 723.0, 154.0, 52.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 557.0, 573.0, 235.0, 29.0 ],
@@ -113,7 +113,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 583.0, 621.0, 163.0, 29.0 ],
+					"patching_rect" : [ 300.533333381016973, 687.0, 163.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 557.0, 551.0, 200.0, 18.0 ],
 					"text" : "0 - 1 ratio of each class over the given history"
@@ -130,7 +130,7 @@
 					"orientation" : 1,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 417.0, 681.0, 171.0, 27.0 ],
+					"patching_rect" : [ 403.0, 658.0, 171.0, 27.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 388.0, 551.0, 144.0, 27.0 ],
 					"saved_attribute_attributes" : 					{
@@ -524,7 +524,7 @@
 					"orientation" : 1,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 643.0, 674.0, 171.0, 27.0 ],
+					"patching_rect" : [ 609.0, 653.0, 171.0, 27.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 388.0, 582.0, 144.0, 27.0 ],
 					"saved_attribute_attributes" : 					{
@@ -2195,7 +2195,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 7.033333381016917, 479.170105576515198, 382.0, 273.293811082839966 ],
+					"patching_rect" : [ 7.033333381016917, 479.170105576515198, 296.0, 274.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 621.0, 256.587788581848145, 346.424246549606323 ],
 					"varname" : "_envelope",
@@ -2307,7 +2307,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1289.608697414398193, 1454.111041869613473, 136.0, 22.0 ],
-					"restore" : [ 0.0 ],
+					"restore" : [ -100.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -4057,7 +4057,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 250.0, 111.0, 50.0, 22.0 ],
-									"text" : "39"
+									"text" : "48"
 								}
 
 							}
@@ -5531,7 +5531,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1927.0, 1460.0, 136.0, 22.0 ],
-					"restore" : [ 14.0, 85.0 ],
+					"restore" : [ -5.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -5563,24 +5563,24 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 1184.0, 107.0, 118.0, 22.0 ],
 					"restore" : 					{
-						"env-recorder-class-history-threshold-long" : [ 0.5 ],
-						"env-recorder-class-history-threshold-short" : [ 0.502087807205917 ],
+						"env-recorder-class-history-threshold-long" : [ 0.406287282271534 ],
+						"env-recorder-class-history-threshold-short" : [ 0.460808876163207 ],
 						"gate-receive-scenes" : [ 1.0 ],
 						"gate-send-scenes" : [ 1.0 ],
-						"live.gain~" : [ -2.377952755905525 ],
-						"live.gain~[1]" : [ -3.121019108280251 ],
+						"live.gain~" : [ -1.245501451431565 ],
+						"live.gain~[1]" : [ -1.779527559055126 ],
 						"live.numbox" : [ 0.0 ],
-						"live.numbox[1]" : [ 0.111111111111111 ],
-						"live.numbox[2]" : [ 0.444444444444444 ],
-						"live.numbox[3]" : [ 0.444444444444444 ],
-						"live.numbox[4]" : [ 0.538461538461539 ],
-						"live.numbox[5]" : [ 0.384615384615385 ],
-						"live.numbox[6]" : [ 0.076923076923077 ],
-						"live.numbox[7]" : [ 0.0 ],
+						"live.numbox[1]" : [ 0.5 ],
+						"live.numbox[2]" : [ 0.0 ],
+						"live.numbox[3]" : [ 0.5 ],
+						"live.numbox[4]" : [ 0.444444444444444 ],
+						"live.numbox[5]" : [ 0.111111111111111 ],
+						"live.numbox[6]" : [ 0.333333333333333 ],
+						"live.numbox[7]" : [ 0.111111111111111 ],
 						"live.tab[2]" : [ 8.0 ],
 						"live.tab[3]" : [ 0.0 ],
-						"long-env-gate-history" : [ 12.0 ],
-						"short-env-gate-history" : [ 8.0 ]
+						"long-env-gate-history" : [ 8.0 ],
+						"short-env-gate-history" : [ 3.0 ]
 					}
 ,
 					"text" : "autopattr @greedy 1",
@@ -5689,7 +5689,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 50.0, 447.197627782821655, 136.0, 22.0 ],
-									"restore" : [ 0 ],
+									"restore" : [ 0.550823425172591 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -6382,7 +6382,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "float", "signal" ],
-					"patching_rect" : [ 45.370401382446289, 854.304346323013306, 493.217387199401855, 91.391307353973389 ],
+					"patching_rect" : [ 29.0, 849.0, 493.217387199401855, 91.391307353973389 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 278.0, 611.0, 499.59604799747467, 83.782611846923828 ],
 					"varname" : "pluck-ramp",
