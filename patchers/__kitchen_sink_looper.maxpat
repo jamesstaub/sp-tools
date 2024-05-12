@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 0,
+			"minor" : 6,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -1886.0, 115.0, 1422.0, 877.0 ],
+		"rect" : [ 30.0, 116.0, 1612.0, 901.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,31 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"color" : [ 0.968627450980392, 0.431372549019608, 0.431372549019608, 1.0 ],
+					"id" : "obj-97",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 101.5, 465.0, 65.0, 22.0 ],
+					"text" : "r midi-bpm"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-96",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 102.5, 513.0, 125.0, 22.0 ],
+					"text" : "tempo $1, sync global"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.01 ],
 					"blinkcolor" : [ 1.0, 0.345098039215686, 0.298039215686275, 1.0 ],
 					"id" : "obj-29",
@@ -68,7 +93,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"id" : "obj-10",
 					"maxclass" : "multislider",
 					"numinlets" : 1,
@@ -99,7 +123,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 0.500057733058156, 34.774773041734989, 148.0, 21.0 ],
+					"patching_rect" : [ 1.0, 8.0, 148.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.500057733058156, 33.5, 62.0, 21.0 ],
 					"text" : "transpose"
@@ -123,6 +147,7 @@
 							"parameter_enum" : [ "1n", "1nt", "2n", "4n", "4nt", "8n", "8nt", "16n", "16nt", "32n", "32nt", "64n", "64nt", "128n", "128nt", "256n", "256nt" ],
 							"parameter_longname" : "live.menu",
 							"parameter_mmax" : 16,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.menu",
 							"parameter_type" : 2
 						}
@@ -201,6 +226,7 @@
 							"parameter_longname" : "live.dial[22]",
 							"parameter_mmax" : 50.0,
 							"parameter_mmin" : -50.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "loudness",
 							"parameter_type" : 0,
 							"parameter_units" : "dB",
@@ -233,6 +259,7 @@
 							"parameter_longname" : "live.dial[37]",
 							"parameter_mmax" : 50.0,
 							"parameter_mmin" : -50.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "flatness",
 							"parameter_type" : 0,
 							"parameter_units" : "dB",
@@ -265,6 +292,7 @@
 							"parameter_longname" : "live.dial[12]",
 							"parameter_mmax" : 100.0,
 							"parameter_mmin" : -100.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "transpose",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -296,6 +324,7 @@
 							"parameter_longname" : "live.dial[24]",
 							"parameter_mmax" : 50.0,
 							"parameter_mmin" : -50.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "pitch",
 							"parameter_type" : 0,
 							"parameter_units" : "st",
@@ -320,8 +349,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 0,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -422,6 +451,7 @@
 							"parameter_longname" : "live.dial[14]",
 							"parameter_mmax" : 500.0,
 							"parameter_mmin" : -500.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "speed",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -527,8 +557,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 0,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -663,6 +693,7 @@
 							"parameter_longname" : "live.dial[38]",
 							"parameter_mmax" : 50.0,
 							"parameter_mmin" : -50.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "centroid",
 							"parameter_type" : 0,
 							"parameter_units" : "st",
@@ -1247,6 +1278,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-45", 0 ],
 					"source" : [ "obj-9", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-51", 0 ],
+					"source" : [ "obj-96", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-96", 0 ],
+					"source" : [ "obj-97", 0 ]
 				}
 
 			}

@@ -2,19 +2,14 @@
 	"name" : "sp-tools",
 	"version" : 1,
 	"creationdate" : 3752608503,
-	"modificationdate" : 3792457798,
-	"viewrect" : [ 3.0, 116.0, 1680.0, 901.0 ],
+	"modificationdate" : 3797781139,
+	"viewrect" : [ 0.0, 115.0, 1680.0, 901.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 0,
 	"autolocalize" : 0,
 	"contents" : 	{
 		"patchers" : 		{
-			"cello-corpus-player.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
 			"slice-to-files.maxpat" : 			{
 				"kind" : "patcher"
 			}
@@ -188,6 +183,21 @@
 			}
 ,
 			"_concat-module.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"_descriptor-synth.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"sunnyside-24-performer.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"_dynamic_pattr_matrix.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}

@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 0,
+			"minor" : 6,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -1886.0, 115.0, 1845.0, 931.0 ],
+		"rect" : [ 34.0, 115.0, 1126.0, 901.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,26 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 489.0, 89.0, 56.0, 22.0 ],
+					"restore" : 					{
+						"live.menu" : [ 1.0 ],
+						"lockout" : [ 200.0 ],
+						"threshold" : [ 0.35 ],
+						"window" : [ 200.0 ]
+					}
+,
+					"text" : "autopattr",
+					"varname" : "u822015905"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Ableton Sans Bold",
 					"fontsize" : 16.0,
 					"id" : "obj-3",
@@ -57,7 +77,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-19",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -69,7 +89,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-18",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -81,7 +101,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-16",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -93,11 +113,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-15",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 128.0, 45.0, 30.0, 30.0 ]
 				}
 
@@ -129,8 +149,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 0,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -197,8 +217,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 0,
+											"minor" : 6,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -255,8 +275,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 5,
-															"revision" : 0,
+															"minor" : 6,
+															"revision" : 1,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -784,7 +804,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "signal" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 58.5, 32.0, 30.0, 30.0 ]
 								}
 
@@ -1359,6 +1379,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.menu",
 							"parameter_mmax" : 4,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.menu",
 							"parameter_type" : 2
 						}
@@ -1386,6 +1407,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.dial[7]",
 							"parameter_mmax" : 1.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "threshold",
 							"parameter_type" : 0,
 							"parameter_units" : "dB",
@@ -1394,7 +1416,7 @@
 
 					}
 ,
-					"varname" : "live.dial[2]"
+					"varname" : "threshold"
 				}
 
 			}
@@ -1416,6 +1438,7 @@
 							"parameter_longname" : "live.dial[9]",
 							"parameter_mmax" : 500.0,
 							"parameter_mmin" : 35.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "lockout",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 2
@@ -1423,7 +1446,7 @@
 
 					}
 ,
-					"varname" : "live.dial[1]"
+					"varname" : "lockout"
 				}
 
 			}
@@ -1445,6 +1468,7 @@
 							"parameter_longname" : "live.dial[12]",
 							"parameter_mmax" : 5000.0,
 							"parameter_mmin" : 35.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "window",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 2
@@ -1452,7 +1476,7 @@
 
 					}
 ,
-					"varname" : "live.dial"
+					"varname" : "window"
 				}
 
 			}
@@ -1622,7 +1646,37 @@
 				}
 
 			}
- ]
+ ],
+		"parameters" : 		{
+			"obj-1" : [ "live.dial[7]", "threshold", 0 ],
+			"obj-58" : [ "live.dial[12]", "window", 0 ],
+			"obj-59" : [ "live.dial[9]", "lockout", 0 ],
+			"obj-8" : [ "live.menu", "live.menu", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "fluid.noveltyfeature~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "sp.novelty~.maxpat",
+				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/patchers",
+				"patcherrelativepath" : "../../../Library/SP-Tools/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

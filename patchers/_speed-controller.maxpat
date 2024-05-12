@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 115.0, 1205.0, 901.0 ],
+		"rect" : [ 34.0, 115.0, 1612.0, 901.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,30 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"comment" : "controller",
+					"id" : "obj-26",
+					"index" : 0,
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 346.3125, 740.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "speed",
+					"id" : "obj-27",
+					"index" : 0,
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 251.3125, 740.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"comment" : "controllers out",
 					"id" : "obj-38",
@@ -342,12 +366,12 @@
 					"maxclass" : "bpatcher",
 					"name" : "__pattr-send-matrix.maxpat",
 					"numinlets" : 21,
-					"numoutlets" : 2,
+					"numoutlets" : 4,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "int", "granular-rate-relative" ],
+					"outlettype" : [ "int", "granular-rate-relative", "int", "waveguide-mesh::timer-nodes-on" ],
 					"patching_rect" : [ 49.961594327290854, 380.789971449175255, 346.909091234207153, 319.500000357627869 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 277.0, 480.0, 671.0 ],
+					"presentation_rect" : [ 2.0, 277.0, 526.0, 955.0 ],
 					"varname" : "__pattr-send-matrix",
 					"viewvisibility" : 1
 				}
@@ -601,7 +625,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 377.870685561498021, 740.0, 30.0, 30.0 ]
+					"patching_rect" : [ 145.0, 740.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -738,7 +762,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1475.0, 642.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -3.0, 0.0, 577.0, 979.0 ],
+					"presentation_rect" : [ -3.0, 0.0, 577.0, 1264.0 ],
 					"proportion" : 0.5
 				}
 
@@ -990,6 +1014,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-160", 0 ],
 					"source" : [ "obj-6", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"source" : [ "obj-6", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-27", 0 ],
+					"source" : [ "obj-6", 2 ]
 				}
 
 			}
