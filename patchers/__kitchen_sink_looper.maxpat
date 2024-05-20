@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 30.0, 116.0, 1612.0, 901.0 ],
+		"rect" : [ 34.0, 115.0, 1612.0, 901.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -167,7 +167,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 794.0, 113.0, 56.0, 22.0 ],
 					"restore" : 					{
-						"live.menu" : [ 7.0 ],
+						"live.menu" : [ 16.0 ],
 						"looper-speed" : [ 100.000000000000114 ],
 						"transpose" : [ 0.0 ],
 						"transpose-centroid" : [ 0.0 ],
@@ -811,7 +811,7 @@
 				"box" : 				{
 					"comment" : "data looper",
 					"id" : "obj-8",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -895,7 +895,7 @@
 				"box" : 				{
 					"comment" : "class, descriptors(buf), melbands(buf), MFCCs(buf)",
 					"id" : "obj-1",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -920,7 +920,7 @@
 				"box" : 				{
 					"comment" : "quantize time",
 					"id" : "obj-80",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -933,7 +933,7 @@
 				"box" : 				{
 					"comment" : "kitchensink without class",
 					"id" : "obj-91",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1295,58 +1295,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-14" : [ "live.menu", "live.menu", 0 ],
-			"obj-21" : [ "live.dial[14]", "speed", 0 ],
-			"obj-25" : [ "live.dial[24]", "pitch", 0 ],
-			"obj-26" : [ "live.dial[37]", "flatness", 0 ],
-			"obj-27" : [ "live.dial[22]", "loudness", 0 ],
-			"obj-28" : [ "live.dial[12]", "transpose", 0 ],
-			"obj-36" : [ "live.dial[38]", "centroid", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "fluid.buf2list.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.list2buf.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "sp.datalooper~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/patchers",
-				"patcherrelativepath" : "../../../Library/SP-Tools/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sp.datatranspose.maxpat",
-				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/patchers",
-				"patcherrelativepath" : "../../../Library/SP-Tools/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sp.quantizetime~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/patchers",
-				"patcherrelativepath" : "../../../Library/SP-Tools/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

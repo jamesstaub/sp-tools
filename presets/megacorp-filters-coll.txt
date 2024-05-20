@@ -1,0 +1,10 @@
+1, "filter duration >= 500 and centroid >= 10 and pitch <= 92 and pitch_confidence <= 1. and loudness >= -60";
+2, "filter duration <= 633.333436 and centroid >= 40.745835 and pitch <= 31.220835 and pitch_confidence <= 1. and loudness >= -70.156249";
+3, "filter duration >= 570.833436 and centroid >= 40.745835 and pitch >= 33.602085 and pitch_confidence <= 1. and loudness >= -70.156249";
+4, "filter duration >= 570.833436 and centroid >= 40.745835 and pitch <= 78.845835 and pitch_confidence <= 1. and loudness >= -70.156249";
+5, "filter duration <= 1568.5744 and centroid >= 20.108335 and pitch <= 78.052085 and pitch_confidence >= 0.245833 and loudness >= -61.25";
+6, "filter duration <= 1568.5744 and centroid >= 36.777085 and pitch <= 127. and pitch_confidence >= 0.564583 and loudness >= -61.25";
+7, "filter duration <= 6258.333436 and centroid <= 32.014585 and pitch <= 60.589585 and pitch_confidence <= 1. and loudness <= 0.";
+8, "filter duration <= 6000 and centroid <= 32.014585 and pitch <= 39.952085 and pitch_confidence <= 0.346737 and loudness <= -43.437499";
+9, "filter duration <= 6000 and centroid <= 90 and pitch <= 90. and pitch_confidence <= 1. and loudness <= -12";
+10, "filter duration >= 1000 and centroid >= 72. and pitch <= 127. and pitch_confidence <= 1. and loudness <= 0.";
