@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 0,
+			"minor" : 6,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -1886.0, 115.0, 1852.0, 931.0 ],
+		"rect" : [ 33.0, 115.0, 1317.0, 901.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,30 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-54",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 150.0, 369.0, 22.0, 22.0 ],
+					"text" : "t b"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-35",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1020.0, 380.0, 29.5, 22.0 ],
+					"text" : "xlo"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"filename" : "fluid.waveform~",
 					"id" : "obj-75",
 					"maxclass" : "jsui",
@@ -47,7 +71,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 60.0, 530.0, 260.0, 250.0 ]
+					"patching_rect" : [ 40.0, 680.0, 970.0, 230.0 ]
 				}
 
 			}
@@ -122,8 +146,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1010.0, 102.0, 181.0, 23.0 ],
-					"text" : "combine results. i @triggers 1"
+					"patching_rect" : [ 1010.0, 102.0, 159.0, 23.0 ],
+					"text" : "combine xlo. i @triggers 1"
 				}
 
 			}
@@ -162,8 +186,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 970.0, 175.0, 161.0, 23.0 ],
-					"text" : "groove~ results.1 @loop 1"
+					"patching_rect" : [ 970.0, 175.0, 143.0, 23.0 ],
+					"text" : "groove~ syn.1 @loop 1"
 				}
 
 			}
@@ -197,6 +221,7 @@
 							"parameter_longname" : "live.gain~",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
@@ -380,7 +405,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1572.0, 261.0, 72.0, 20.0 ],
-					"text" : "09:51.301"
+					"text" : "00:27.337"
 				}
 
 			}
@@ -431,14 +456,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 0,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 141.0, 1612.0, 875.0 ],
+						"rect" : [ -1831.0, 115.0, 1554.0, 931.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -665,7 +690,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "", "", "int" ],
-					"patching_rect" : [ 900.0, 399.0, 61.0, 22.0 ],
+					"patching_rect" : [ 900.0, 370.0, 61.0, 22.0 ],
 					"text" : "counter"
 				}
 
@@ -681,8 +706,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 0,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -993,8 +1018,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 900.0, 430.0, 100.0, 22.0 ],
-					"text" : "sprintf results.%s"
+					"patching_rect" : [ 900.0, 430.0, 83.0, 22.0 ],
+					"text" : "sprintf syn.%s"
 				}
 
 			}
@@ -1005,8 +1030,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 653.0, 603.0, 218.0, 22.0 ],
-					"text" : "fluid.bufcompose~ @destination results"
+					"patching_rect" : [ 653.0, 603.0, 202.0, 22.0 ],
+					"text" : "fluid.bufcompose~ @destination syn"
 				}
 
 			}
@@ -1017,12 +1042,12 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 500.0, 603.0, 140.5, 22.0 ],
+					"patching_rect" : [ 500.0, 603.0, 90.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0
 					}
 ,
-					"text" : "polybuffer~ results"
+					"text" : "polybuffer~ syn"
 				}
 
 			}
@@ -1081,8 +1106,8 @@
 					"id" : "obj-12",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 9,
-					"outlettype" : [ "float", "list", "float", "float", "float", "float", "float", "", "int" ],
+					"numoutlets" : 10,
+					"outlettype" : [ "float", "list", "float", "float", "float", "float", "float", "", "int", "" ],
 					"patching_rect" : [ 32.5, 369.0, 103.0, 22.0 ],
 					"text" : "info~ src"
 				}
@@ -1195,7 +1220,7 @@
 			}
 , 			{
 				"box" : 				{
-					"attr" : "minslicelength",
+					"attr" : "metric",
 					"id" : "obj-1",
 					"maxclass" : "attrui",
 					"numinlets" : 1,
@@ -1311,6 +1336,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-54", 0 ],
+					"source" : [ "obj-12", 9 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-13", 0 ]
 				}
@@ -1319,15 +1351,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
-					"order" : 1,
-					"source" : [ "obj-16", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-61", 0 ],
-					"order" : 0,
 					"source" : [ "obj-16", 0 ]
 				}
 
@@ -1350,6 +1373,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-42", 0 ],
 					"source" : [ "obj-2", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-75", 0 ],
+					"midpoints" : [ 49.0, 528.0, 59.0, 535.0 ],
+					"source" : [ "obj-20", 0 ]
 				}
 
 			}
@@ -1551,6 +1582,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
 					"source" : [ "obj-53", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-61", 0 ],
+					"source" : [ "obj-54", 0 ]
 				}
 
 			}
@@ -1786,6 +1824,10 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "fluid.bufsinefeature~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "fluid.bufspectralshape~.mxo",
 				"type" : "iLaX"
 			}
@@ -1825,13 +1867,6 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "fluid.plotter.js",
-				"bootpath" : "~/Documents/Max 8/Packages/FluidCorpusManipulation/jsui",
-				"patcherrelativepath" : "../../../Packages/FluidCorpusManipulation/jsui",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "fluid.robustscale~.mxo",
 				"type" : "iLaX"
 			}
@@ -1847,51 +1882,65 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.corpusanalysis.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/SP-tools-0.7/patchers",
-				"patcherrelativepath" : "../../../Packages/SP-tools-0.7/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "sp.corpuscreate.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/SP-tools-0.7/patchers",
-				"patcherrelativepath" : "../../../Packages/SP-tools-0.7/patchers",
+				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/patchers",
+				"patcherrelativepath" : "../../../Library/SP-Tools/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sp.descriptorframe.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/SP-tools-0.7/patchers",
-				"patcherrelativepath" : "../../../Packages/SP-tools-0.7/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sp.folderloop.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/SP-tools-0.7/patchers",
-				"patcherrelativepath" : "../../../Packages/SP-tools-0.7/patchers",
+				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/patchers",
+				"patcherrelativepath" : "../../../Library/SP-Tools/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sp.melbandframe.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/SP-tools-0.7/patchers",
-				"patcherrelativepath" : "../../../Packages/SP-tools-0.7/patchers",
+				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/patchers",
+				"patcherrelativepath" : "../../../Library/SP-Tools/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sp.mfccframe.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/SP-tools-0.7/patchers",
-				"patcherrelativepath" : "../../../Packages/SP-tools-0.7/patchers",
+				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/patchers",
+				"patcherrelativepath" : "../../../Library/SP-Tools/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "sp.plotter.js",
+				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/jsui",
+				"patcherrelativepath" : "../../../Library/SP-Tools/jsui",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "sp.plotter.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/SP-tools-0.7/patchers",
-				"patcherrelativepath" : "../../../Packages/SP-tools-0.7/patchers",
+				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/patchers",
+				"patcherrelativepath" : "../../../Library/SP-Tools/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sp.sineframe.maxpat",
+				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/patchers",
+				"patcherrelativepath" : "../../../Library/SP-Tools/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "widgetcorpusfolderanalysis.maxpat",
+				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/misc/Misc",
+				"patcherrelativepath" : "../../../Library/SP-Tools/misc/Misc",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "widgetfolderloop.maxpat",
+				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/misc/Misc",
+				"patcherrelativepath" : "../../../Library/SP-Tools/misc/Misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 115.0, 1612.0, 901.0 ],
+		"rect" : [ 35.0, 116.0, 1612.0, 901.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -201,7 +201,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bubblesize" : 18,
+					"bubblesize" : 16,
 					"id" : "obj-13",
 					"maxclass" : "preset",
 					"numinlets" : 1,
@@ -209,7 +209,7 @@
 					"outlettype" : [ "preset", "int", "preset", "int", "" ],
 					"patching_rect" : [ 700.777602999999999, 130.0, 85.0, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 144.0, 35.286614219201283, 27.0, 79.0 ],
+					"presentation_rect" : [ 143.0, 9.0, 87.0, 26.0 ],
 					"preset_data" : [ 						{
 							"number" : 1,
 							"data" : [ 5, "obj-156", "umenu", "int", 1, 5, "obj-158", "umenu", "int", 1, 5, "obj-129", "umenu", "int", 6, 5, "obj-131", "umenu", "int", 1, 5, "obj-34", "umenu", "int", 0, 5, "obj-23", "live.dial", "float", -80.0, 5, "obj-21", "live.dial", "float", 15.0, 5, "obj-25", "live.dial", "float", 70.0 ]
@@ -1717,8 +1717,6 @@
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 908.0, 62.0, 88.399999999999977, 24.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 9.0, 90.286614219201283, 130.0, 24.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
@@ -2607,24 +2605,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 0,
-					"fontname" : "Lato",
-					"fontsize" : 14.0,
-					"hint" : "",
-					"id" : "obj-152",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1081.115982000000258, 322.186631000000034, 100.0, 23.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 441.086997999999994, 162.572463999999968, 99.0, 23.0 ],
-					"text" : "Output Device",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-153",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -2632,24 +2612,6 @@
 					"outlettype" : [ "", "int" ],
 					"patching_rect" : [ 909.474869000000126, 243.5, 130.0, 22.0 ],
 					"text" : "adstatus optionname 0"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 0,
-					"fontname" : "Lato",
-					"fontsize" : 14.0,
-					"hint" : "",
-					"id" : "obj-154",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 909.474869000000126, 322.186631000000034, 88.0, 23.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 441.086997999999994, 130.5, 87.0, 23.0 ],
-					"text" : "Input Device",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -2673,21 +2635,21 @@
 					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1 ],
 					"bgfillcolor_type" : "color",
 					"fontface" : 1,
-					"fontname" : "Ableton Sans Medium",
-					"fontsize" : 14.0,
+					"fontname" : "Ableton Sans Light",
+					"fontsize" : 9.0,
 					"hint" : "",
 					"id" : "obj-156",
-					"items" : [ "None", ",", "BlackHole 16ch", ",", "MacBook Pro Speakers", ",", "ZoomAudioDevice" ],
+					"items" : [ "None", ",", "PreSonus AudioBox iTwo", ",", "BlackHole 16ch", ",", "MacBook Pro Speakers", ",", "ZoomAudioDevice", ",", "PS AGG" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1075.641113000000132, 355.114167000000066, 203.939552000000049, 25.0 ],
+					"patching_rect" : [ 1075.641113000000132, 355.114167000000066, 203.939552000000049, 19.0 ],
 					"pattrmode" : 1,
 					"prefix_mode" : 2,
 					"presentation" : 1,
-					"presentation_rect" : [ 247.086997999999994, 162.572463999999968, 195.939552000000049, 25.0 ],
+					"presentation_rect" : [ 143.0, 58.0, 87.0, 19.0 ],
 					"prototypename" : "Lato9",
 					"style" : "AudioStatus_Menu"
 				}
@@ -2713,21 +2675,21 @@
 					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1 ],
 					"bgfillcolor_type" : "color",
 					"fontface" : 1,
-					"fontname" : "Ableton Sans Medium",
-					"fontsize" : 14.0,
+					"fontname" : "Ableton Sans Light",
+					"fontsize" : 9.0,
 					"hint" : "",
 					"id" : "obj-158",
-					"items" : [ "None", ",", "BlackHole 16ch", ",", "MacBook Pro Microphone", ",", "ZoomAudioDevice" ],
+					"items" : [ "None", ",", "PreSonus AudioBox iTwo", ",", "BlackHole 16ch", ",", "MacBook Pro Microphone", ",", "ZoomAudioDevice", ",", "PS AGG" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 909.474869000000126, 355.114167000000066, 158.939552000000049, 25.0 ],
+					"patching_rect" : [ 909.474869000000126, 355.114167000000066, 158.939552000000049, 19.0 ],
 					"pattrmode" : 1,
 					"prefix_mode" : 2,
 					"presentation" : 1,
-					"presentation_rect" : [ 247.086997999999994, 130.5, 195.939552000000049, 25.0 ],
+					"presentation_rect" : [ 143.0, 37.0, 87.0, 19.0 ],
 					"prototypename" : "Lato9",
 					"style" : "AudioStatus_Menu"
 				}
@@ -3117,15 +3079,15 @@
 				"box" : 				{
 					"fontface" : 0,
 					"fontname" : "Ableton Sans Medium",
-					"fontsize" : 14.0,
+					"fontsize" : 8.0,
 					"hint" : "",
 					"id" : "obj-126",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 750.241000999999869, 395.665344000000005, 120.0, 23.0 ],
+					"patching_rect" : [ 750.241000999999869, 395.665344000000005, 76.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 441.086997999999994, 195.5, 74.0, 23.0 ],
+					"presentation_rect" : [ 192.0, 78.0, 47.0, 16.0 ],
 					"text" : "SIGNAL ",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
@@ -3135,15 +3097,15 @@
 				"box" : 				{
 					"fontface" : 0,
 					"fontname" : "Ableton Sans Medium",
-					"fontsize" : 14.0,
+					"fontsize" : 8.0,
 					"hint" : "",
 					"id" : "obj-127",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 757.741000999999869, 278.5, 108.0, 23.0 ],
+					"patching_rect" : [ 757.741000999999869, 278.5, 75.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 305.026550000000043, 195.5, 57.0, 23.0 ],
+					"presentation_rect" : [ 141.0, 78.0, 40.0, 16.0 ],
 					"text" : "I/O ",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
@@ -3173,7 +3135,7 @@
 					"bgfillcolor_type" : "color",
 					"fontface" : 1,
 					"fontname" : "Lato",
-					"fontsize" : 14.0,
+					"fontsize" : 8.0,
 					"hint" : "",
 					"id" : "obj-129",
 					"items" : [ 1, ",", 2, ",", 4, ",", 8, ",", 16, ",", 32, ",", 64, ",", 128, ",", 256, ",", 512, ",", 1024, ",", 2048, ",", 4096 ],
@@ -3182,11 +3144,11 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 704.085631999999805, 395.665344000000005, 43.939551999999999, 25.0 ],
+					"patching_rect" : [ 704.085631999999805, 395.665344000000005, 43.939551999999999, 18.0 ],
 					"pattrmode" : 1,
 					"prefix_mode" : 2,
 					"presentation" : 1,
-					"presentation_rect" : [ 385.086997999999994, 195.5, 56.939551999999992, 25.0 ],
+					"presentation_rect" : [ 192.0, 95.0, 38.0, 18.0 ],
 					"prototypename" : "Lato9",
 					"style" : "AudioStatus_Menu"
 				}
@@ -3216,7 +3178,7 @@
 					"bgfillcolor_type" : "color",
 					"fontface" : 1,
 					"fontname" : "Lato",
-					"fontsize" : 14.0,
+					"fontsize" : 8.0,
 					"hint" : "",
 					"id" : "obj-131",
 					"items" : [ 32, ",", 64, ",", 128, ",", 256, ",", 512, ",", 1024, ",", 2048 ],
@@ -3225,11 +3187,11 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 701.777602999999885, 278.5, 43.939551999999999, 25.0 ],
+					"patching_rect" : [ 701.777602999999885, 278.5, 43.939551999999999, 18.0 ],
 					"pattrmode" : 1,
 					"prefix_mode" : 2,
 					"presentation" : 1,
-					"presentation_rect" : [ 247.086997999999994, 195.5, 56.939551999999992, 25.0 ],
+					"presentation_rect" : [ 142.0, 95.0, 38.0, 18.0 ],
 					"prototypename" : "Lato9",
 					"style" : "AudioStatus_Menu"
 				}
@@ -3570,20 +3532,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-158", 0 ],
 					"source" : [ "obj-148", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-154", 0 ],
-					"source" : [ "obj-149", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-152", 0 ],
-					"source" : [ "obj-150", 0 ]
 				}
 
 			}

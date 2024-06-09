@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 0,
+			"minor" : 6,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 115.0, 1612.0, 687.0 ],
+		"rect" : [ 35.0, 116.0, 1612.0, 901.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -75,12 +75,13 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 862.0, 558.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 453.80952380952408, 36.0, 58.0, 49.0 ],
+					"presentation_rect" : [ 312.0, 5.0, 58.0, 49.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "int", "float" ],
 							"parameter_longname" : "live.tab[2]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.tab[2]",
 							"parameter_type" : 2,
 							"parameter_unitstyle" : 9
@@ -103,7 +104,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 132.523809523809973, 410.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 453.80952380952408, 110.0, 50.0, 22.0 ]
+					"presentation_rect" : [ 345.0, 56.0, 40.0, 22.0 ]
 				}
 
 			}
@@ -118,7 +119,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 195.880952380952863, 410.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 453.80952380952408, 150.0, 50.0, 22.0 ]
+					"presentation_rect" : [ 344.0, 92.0, 40.0, 22.0 ]
 				}
 
 			}
@@ -143,7 +144,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 195.880952380952863, 379.0, 61.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 453.80952380952408, 133.0, 31.0, 21.0 ],
+					"presentation_rect" : [ 311.0, 92.0, 31.0, 21.0 ],
 					"text" : "max"
 				}
 
@@ -157,7 +158,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 132.523809523809973, 379.0, 61.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 453.80952380952408, 87.0, 28.0, 21.0 ],
+					"presentation_rect" : [ 312.0, 56.0, 28.0, 21.0 ],
 					"text" : "min"
 				}
 
@@ -187,7 +188,7 @@
 						"function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 0.085185185185185, 1.0, 0, 0.0, 0.172222222222222, 0.0, 0, 0.0, 0.416666666666667, 0.434782608695652, 0, 0.0, 0.542592592592593, 0.0, 0, 0.0, 0.544444444444444, 0.527950310559006, 0, 0.0, 0.642592592592593, 0.608695652173913, 0, -0.695, 0.661111111111111, 1.0, 0, 0.0, 0.694444444444444, 0.192546583850932, 0, 0.0, 0.768518518518518, 0.229813664596273, 0, 0.85, 0.894444444444444, 0.732919254658385, 0, 0.0, 1.0, 0.236024844720497, 0, 0.0, "curve" ],
 						"live.tab" : [ 1.0 ],
 						"live.toggle" : [ 1.0 ],
-						"loop" : [ 1 ],
+						"loop" : [ 0 ],
 						"speed" : [ 100.000000000000114 ]
 					}
 ,
@@ -214,7 +215,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-42",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -266,6 +267,7 @@
 							"parameter_enum" : [ "off", "on" ],
 							"parameter_longname" : "live.toggle[2]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.toggle",
 							"parameter_type" : 2
 						}
@@ -314,7 +316,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 524.333333000000039, 373.5, 578.0, 95.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 36.0, 449.0, 132.0 ],
+					"presentation_rect" : [ 1.0, 36.0, 306.0, 83.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"slidercolor" : [ 1.0, 0.345098039215686, 0.298039215686275, 1.0 ],
 					"varname" : "multislider"
@@ -337,7 +339,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-17",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -349,6 +351,7 @@
 , 			{
 				"box" : 				{
 					"addpoints_with_curve" : [ 0.0, 0.0, 0, 0.0, 0.085185185185185, 1.0, 0, 0.0, 0.172222222222222, 0.0, 0, 0.0, 0.416666666666667, 0.434782608695652, 0, 0.0, 0.542592592592593, 0.0, 0, 0.0, 0.544444444444444, 0.527950310559006, 0, 0.0, 0.642592592592593, 0.608695652173913, 0, -0.695, 0.661111111111111, 1.0, 0, 0.0, 0.694444444444444, 0.192546583850932, 0, 0.0, 0.768518518518518, 0.229813664596273, 0, 0.85, 0.894444444444444, 0.732919254658385, 0, 0.0, 1.0, 0.236024844720497, 0, 0.0 ],
+					"classic_curve" : 1,
 					"domain" : 1.0,
 					"id" : "obj-10",
 					"maxclass" : "function",
@@ -359,7 +362,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 469.333333000000039, 44.0, 582.0, 227.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 36.0, 449.0, 136.0 ],
+					"presentation_rect" : [ 1.0, 36.0, 306.0, 87.0 ],
 					"varname" : "function"
 				}
 
@@ -407,6 +410,7 @@
 							"parameter_longname" : "live.dial[3]",
 							"parameter_mmax" : 500.0,
 							"parameter_mmin" : -500.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "speed",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -485,6 +489,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "toggle[4]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "toggle",
 							"parameter_type" : 2
 						}
@@ -524,6 +529,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_longname" : "number[3]",
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "number[2]",
 							"parameter_type" : 3
 						}
@@ -796,7 +802,34 @@
 				}
 
 			}
- ]
+ ],
+		"parameters" : 		{
+			"obj-11" : [ "toggle[4]", "toggle", 0 ],
+			"obj-3" : [ "live.tab[2]", "live.tab[2]", 0 ],
+			"obj-34" : [ "number[3]", "number[2]", 0 ],
+			"obj-38" : [ "live.dial[3]", "speed", 0 ],
+			"obj-40" : [ "live.toggle[2]", "live.toggle", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "sp.ramp.maxpat",
+				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/patchers",
+				"patcherrelativepath" : "../../../Library/SP-Tools/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
