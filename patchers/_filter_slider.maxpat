@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 0,
+			"minor" : 6,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -1886.0, 115.0, 1422.0, 931.0 ],
+		"rect" : [ 34.0, 143.0, 1239.0, 873.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,31 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-35",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 49.0, 402.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"format" : 6,
+					"id" : "obj-33",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 36.0, 439.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"attr" : "knobcolor",
 					"id" : "obj-22",
@@ -85,9 +110,9 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 612.5, 114.279177376290136, 56.0, 22.0 ],
 					"restore" : 					{
-						"comparator" : [ 1.0 ],
+						"comparator" : [ 0.0 ],
 						"live.button[2]" : [ 0.0 ],
-						"slider" : [ 39.267189651712904 ]
+						"slider" : [ 9415.691609977324333 ]
 					}
 ,
 					"text" : "autopattr",
@@ -98,12 +123,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-31",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 517.0, 398.220822162843319, 69.0, 22.0 ],
-					"text" : "-60.030849"
+					"patching_rect" : [ 517.0, 398.220822162843319, 69.0, 35.0 ],
+					"text" : "1042.24425"
 				}
 
 			}
@@ -187,7 +213,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 162.0, 458.889590837156675, 50.0, 22.0 ],
-					"text" : "<="
+					"text" : ">="
 				}
 
 			}
@@ -219,7 +245,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-7",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -231,11 +257,11 @@
 				"box" : 				{
 					"comment" : "value",
 					"id" : "obj-6",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 153.0, 186.889588539133456, 30.0, 30.0 ]
 				}
 
@@ -282,7 +308,7 @@
 				"box" : 				{
 					"comment" : "min size mean",
 					"id" : "obj-4",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -338,14 +364,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 0,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ -1886.0, 116.0, 1852.0, 931.0 ],
+						"rect" : [ 34.0, 143.0, 1612.0, 873.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -640,8 +666,9 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[11]",
+							"parameter_longname" : "live.text[15]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -668,8 +695,9 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "on" ],
-							"parameter_longname" : "live.button[10]",
+							"parameter_longname" : "live.button[13]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.button",
 							"parameter_type" : 2
 						}
@@ -690,7 +718,7 @@
 					"knobcolor" : [ 1.0, 0.345098039215686, 0.298039215686275, 1.0 ],
 					"knobshape" : 5,
 					"maxclass" : "slider",
-					"min" : -100.0,
+					"min" : 11.609977324263038,
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -698,7 +726,7 @@
 					"patching_rect" : [ 517.0, 370.33123332568664, 187.0, 21.88958883715668 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 145.666665017604828, 2.556248371134188, 176.0, 21.88958883715668 ],
-					"size" : 100.0
+					"size" : 9415.691609977324333
 				}
 
 			}
@@ -720,19 +748,19 @@
 
 					}
 ,
-					"text" : "loudness",
+					"text" : "duration",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"elementcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
+					"elementcolor" : [ 0.807843, 0.898039, 0.909804, 1.0 ],
 					"floatoutput" : 1,
 					"id" : "obj-100",
 					"knobcolor" : [ 0.807843, 0.898039, 0.909804, 1.0 ],
 					"maxclass" : "slider",
-					"min" : -100.0,
+					"min" : 11.609977324263038,
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -740,7 +768,7 @@
 					"patching_rect" : [ 153.0, 302.88958883715668, 187.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 145.666665017604828, 2.556248371134188, 176.0, 22.0 ],
-					"size" : 100.0,
+					"size" : 9415.691609977324333,
 					"varname" : "slider"
 				}
 
@@ -819,6 +847,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
+					"order" : 0,
+					"source" : [ "obj-100", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-33", 0 ],
+					"order" : 1,
 					"source" : [ "obj-100", 0 ]
 				}
 
@@ -1022,6 +1059,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-100", 0 ],
+					"source" : [ "obj-35", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
 					"source" : [ "obj-4", 0 ]
 				}
@@ -1095,23 +1139,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-109" : [ "live.button[10]", "live.button", 0 ],
-			"obj-158" : [ "live.text[11]", "live.text", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [  ],
-		"autosave" : 0,
 		"bgcolor" : [ 0.156862745098039, 0.156862745098039, 0.156862745098039, 1.0 ]
 	}
 
