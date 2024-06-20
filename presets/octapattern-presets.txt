@@ -1,13 +1,14 @@
 2, lush rich harmonic harp ceramic;
-3, low looping string polyrhythms;
+3, tk 5 glitch looper;
 4, anxious cello harp dissonance;
-5, big bow harmonies buzzy busy pings rapid-micro-phrase;
-7, ceramic keyslap machinesloops;
-6, busy buzzy waveguide drone;
+5, BREATHE bow harmonies buzzy busy pings rapid-micro-phrase;
+7, ceramic keyslap machinesloops quick mimicry heavy knock on body;
+6, plinky buzzy waveguide drone tk 6 glitchloop;
 8, shimmery plucky dronefeedback timbre-play;
-9, ecclisiastic aplomb;
-10, lowharp mean bass pluckloopss automatic;
-13, piched percus loops with bass drones;
-16, wwaveguide bowing with synth textures;
-17, elec-C chordal drone;
-
+9, ecclisiastic aplomb diatonic pizz;
+10, lowharp mean bass pluckloopss automatic toggle tk 6+7;
+11, weaving tones gentle reactive sustained;
+12, subby bounce bow wooden timbre varietals;
+ 13, piched percus loops with bass drones;
+ 16, wwaveguide bowing with synth textures;
+ 17, elec-C chordal drone;
