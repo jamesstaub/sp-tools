@@ -6,9 +6,11 @@
 6, plinky buzzy waveguide drone tk 6 glitchloop;
 8, shimmery plucky dronefeedback timbre-play;
 9, ecclisiastic aplomb diatonic pizz;
-10, lowharp mean bass pluckloopss automatic toggle tk 6+7;
-11, weaving tones gentle reactive sustained;
-12, subby bounce bow wooden timbre varietals;
- 13, piched percus loops with bass drones;
- 16, wwaveguide bowing with synth textures;
- 17, elec-C chordal drone;
+10, BOLD lowharp mean bass pluckloopss automatic toggle tk 6+7;
+11, harpy trillz;
+12, subby bounce bow wooden timbre varietals - catch a ;beat
+13, piched percus loops with bass drones;
+14, little tweeky loops;
+15, full court percuzzo - SCENES 3+11 tuning fork drone;
+16, wwaveguide bowing with synth textures;
+17, elec-C chordal drone;

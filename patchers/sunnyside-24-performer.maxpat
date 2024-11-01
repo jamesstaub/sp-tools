@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -1887.0, 115.0, 1852.0, 931.0 ],
+		"rect" : [ 34.0, 115.0, 1219.0, 901.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -56,7 +56,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ -1887.0, 115.0, 1852.0, 931.0 ],
+						"rect" : [ 34.0, 115.0, 1612.0, 901.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -601,11 +601,11 @@
 				"box" : 				{
 					"comment" : "kitchen input",
 					"id" : "obj-1",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 319.0, 22.0, 30.0, 30.0 ]
 				}
 
@@ -614,7 +614,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-37",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -626,7 +626,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-24",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -650,7 +650,7 @@
 				"box" : 				{
 					"comment" : "audio in to novelty",
 					"id" : "obj-10",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -696,7 +696,7 @@
 				"box" : 				{
 					"comment" : "kitchen input",
 					"id" : "obj-20",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -887,7 +887,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 424.0, 695.0, 624.0, 22.0 ],
-					"text" : "filter <= -60.73281 and >= 27. and >= 27. and >= -99. and >= -25."
+					"text" : "filter >= 9427.301587 and <= 138.61 and <= 138.61 and <= 12.61 and <= 86.61"
 				}
 
 			}
@@ -2315,7 +2315,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "duration" ],
+					"args" : [ "time_centroid" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -2972,7 +2972,218 @@
 				}
 
 			}
- ]
+ ],
+		"parameters" : 		{
+			"obj-14" : [ "live.menu[12]", "live.menu", 0 ],
+			"obj-169::obj-109" : [ "live.button[13]", "live.button", 0 ],
+			"obj-169::obj-158" : [ "live.text[15]", "live.text", 0 ],
+			"obj-176" : [ "rslider[3]", "rslider", 0 ],
+			"obj-192::obj-109" : [ "live.button[2]", "live.button", 0 ],
+			"obj-192::obj-158" : [ "live.text[2]", "live.text", 0 ],
+			"obj-197::obj-109" : [ "live.button[3]", "live.button", 0 ],
+			"obj-197::obj-158" : [ "live.text[3]", "live.text", 0 ],
+			"obj-221::obj-109" : [ "live.button[4]", "live.button", 0 ],
+			"obj-221::obj-158" : [ "live.text[4]", "live.text", 0 ],
+			"obj-26::obj-11" : [ "toggle[4]", "toggle", 0 ],
+			"obj-26::obj-3" : [ "live.tab[2]", "live.tab[2]", 0 ],
+			"obj-26::obj-34" : [ "number[3]", "number[2]", 0 ],
+			"obj-26::obj-38" : [ "live.dial[3]", "speed", 0 ],
+			"obj-26::obj-40" : [ "live.toggle[2]", "live.toggle", 0 ],
+			"obj-30::obj-109" : [ "live.button[1]", "live.button", 0 ],
+			"obj-30::obj-158" : [ "live.text[1]", "live.text", 0 ],
+			"obj-46" : [ "live.button[29]", "live.button", 0 ],
+			"obj-8" : [ "live.toggle[3]", "live.toggle", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-192::obj-109" : 				{
+					"parameter_longname" : "live.button[2]"
+				}
+,
+				"obj-192::obj-158" : 				{
+					"parameter_longname" : "live.text[2]"
+				}
+,
+				"obj-197::obj-109" : 				{
+					"parameter_longname" : "live.button[3]"
+				}
+,
+				"obj-197::obj-158" : 				{
+					"parameter_longname" : "live.text[3]"
+				}
+,
+				"obj-221::obj-109" : 				{
+					"parameter_longname" : "live.button[4]"
+				}
+,
+				"obj-221::obj-158" : 				{
+					"parameter_longname" : "live.text[4]"
+				}
+,
+				"obj-30::obj-109" : 				{
+					"parameter_longname" : "live.button[1]"
+				}
+,
+				"obj-30::obj-158" : 				{
+					"parameter_longname" : "live.text[1]"
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "_filter_slider.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sp-tools/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "_ramp-engine.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sp-tools/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fluid.buf2list.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.bufcompose~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.datasetquery~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.dataset~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.kdtree~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.labelset~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.list2buf.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.mlpregressor~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.normalize~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.robustscale~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.umap~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "megacorp-filters-coll.txt",
+				"bootpath" : "~/Documents/Max 8/Projects/sp-tools/presets",
+				"patcherrelativepath" : "../presets",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sp.controllers.maxpat",
+				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/patchers",
+				"patcherrelativepath" : "../../../Library/SP-Tools/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sp.corpusmatch.maxpat",
+				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/patchers",
+				"patcherrelativepath" : "../../../Library/SP-Tools/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sp.corpusplayer~.maxpat",
+				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/patchers",
+				"patcherrelativepath" : "../../../Library/SP-Tools/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sp.datadelay.maxpat",
+				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/patchers",
+				"patcherrelativepath" : "../../../Library/SP-Tools/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sp.datatranspose.maxpat",
+				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/patchers",
+				"patcherrelativepath" : "../../../Library/SP-Tools/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sp.plotter.js",
+				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/jsui",
+				"patcherrelativepath" : "../../../Library/SP-Tools/jsui",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sp.plotter.maxpat",
+				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/patchers",
+				"patcherrelativepath" : "../../../Library/SP-Tools/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sp.quantizetime~.maxpat",
+				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/patchers",
+				"patcherrelativepath" : "../../../Library/SP-Tools/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sp.ramp.maxpat",
+				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/patchers",
+				"patcherrelativepath" : "../../../Library/SP-Tools/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "widgetcrossbank~.maxpat",
+				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/misc/Misc",
+				"patcherrelativepath" : "../../../Library/SP-Tools/misc/Misc",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "widgetplaybackcore~.maxpat",
+				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/misc/Misc",
+				"patcherrelativepath" : "../../../Library/SP-Tools/misc/Misc",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
