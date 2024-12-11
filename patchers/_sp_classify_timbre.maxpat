@@ -86,7 +86,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "signal", "signal" ],
 					"patching_rect" : [ 605.0, 165.0, 103.0, 22.0 ],
-					"text" : "sp.spectralonset~"
+					"text" : "dk.spectralonset~"
 				}
 
 			}
@@ -248,7 +248,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "float", "", "" ],
 					"patching_rect" : [ 1343.0, 483.0, 85.0, 22.0 ],
-					"text" : "sp.classmatch"
+					"text" : "dk.classmatch"
 				}
 
 			}
@@ -285,7 +285,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "float", "", "" ],
 					"patching_rect" : [ 827.0, 506.5, 85.0, 22.0 ],
-					"text" : "sp.classmatch"
+					"text" : "dk.classmatch"
 				}
 
 			}
@@ -536,7 +536,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "sp.classifierdisplay.maxpat",
+					"name" : "dk.classifierdisplay.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
@@ -566,7 +566,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "int", "float" ],
 					"patching_rect" : [ 16.0, 547.5, 330.0, 22.0 ],
-					"text" : "sp.classcreate"
+					"text" : "dk.classcreate"
 				}
 
 			}
@@ -651,7 +651,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "sp.classifierdisplay.maxpat",
+					"name" : "dk.classifierdisplay.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
@@ -684,7 +684,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "sp.classifierdisplay.maxpat",
+					"name" : "dk.classifierdisplay.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
@@ -751,7 +751,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "", "signal", "signal" ],
 					"patching_rect" : [ 348.0, 423.5, 108.0, 22.0 ],
-					"text" : "sp.mfcc~ @input 4"
+					"text" : "dk.mfcc~ @input 4"
 				}
 
 			}
@@ -1323,70 +1323,70 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.classcreate.maxpat",
+				"name" : "dk.classcreate.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/patchers",
 				"patcherrelativepath" : "../../../Library/SP-Tools/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.classifierdisplay.maxpat",
+				"name" : "dk.classifierdisplay.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/patchers",
 				"patcherrelativepath" : "../../../Library/SP-Tools/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.classmatch.maxpat",
+				"name" : "dk.classmatch.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/patchers",
 				"patcherrelativepath" : "../../../Library/SP-Tools/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.convolver~.maxpat",
+				"name" : "dk.convolver~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/patchers",
 				"patcherrelativepath" : "../../../Library/SP-Tools/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.mfccframe.maxpat",
+				"name" : "dk.mfccframe.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/patchers",
 				"patcherrelativepath" : "../../../Library/SP-Tools/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.mfcc~.maxpat",
+				"name" : "dk.mfcc~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/patchers",
 				"patcherrelativepath" : "../../../Library/SP-Tools/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.onsetframe~.maxpat",
+				"name" : "dk.onsetframe~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/patchers",
 				"patcherrelativepath" : "../../../Library/SP-Tools/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.onset~.maxpat",
+				"name" : "dk.onset~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/patchers",
 				"patcherrelativepath" : "../../../Library/SP-Tools/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.spectralonset~.maxpat",
+				"name" : "dk.spectralonset~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/patchers",
 				"patcherrelativepath" : "../../../Library/SP-Tools/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.triggeralign~.maxpat",
+				"name" : "dk.triggeralign~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/patchers",
 				"patcherrelativepath" : "../../../Library/SP-Tools/patchers",
 				"type" : "JSON",

@@ -46,7 +46,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 32.512841085592896, 432.610411162843377, 176.0, 22.0 ],
-					"text" : "sp.corpusmatch"
+					"text" : "dk.corpusmatch"
 				}
 
 			}
@@ -61,7 +61,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "sp.sampler~.maxpat",
+					"name" : "dk.sampler~.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
@@ -1675,7 +1675,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1011.666666666666742, 537.029746179552603, 92.0, 22.0 ],
-					"text" : "sp.datagranular"
+					"text" : "dk.datagranular"
 				}
 
 			}
@@ -4264,7 +4264,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 32.512841085592896, 154.0, 74.499999999999972, 22.0 ],
-					"text" : "sp.filter"
+					"text" : "dk.filter"
 				}
 
 			}
@@ -4411,7 +4411,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "sp.plotter.maxpat",
+					"name" : "dk.plotter.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
@@ -5650,49 +5650,49 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.corpusmatch.maxpat",
+				"name" : "dk.corpusmatch.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/sp-tools_v09test2/patchers",
 				"patcherrelativepath" : "../../../Library/sp-tools_v09test2/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.corpusplayer~.maxpat",
+				"name" : "dk.corpusplayer~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/sp-tools_v09test2/patchers",
 				"patcherrelativepath" : "../../../Library/sp-tools_v09test2/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.datagranular.maxpat",
+				"name" : "dk.datagranular.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/sp-tools_v09test2/patchers",
 				"patcherrelativepath" : "../../../Library/sp-tools_v09test2/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.filter.maxpat",
+				"name" : "dk.filter.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/sp-tools_v09test2/patchers",
 				"patcherrelativepath" : "../../../Library/sp-tools_v09test2/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.plotter.js",
+				"name" : "dk.plotter.js",
 				"bootpath" : "~/Documents/Max 8/Library/sp-tools_v09test2/jsui",
 				"patcherrelativepath" : "../../../Library/sp-tools_v09test2/jsui",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.plotter.maxpat",
+				"name" : "dk.plotter.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/sp-tools_v09test2/patchers",
 				"patcherrelativepath" : "../../../Library/sp-tools_v09test2/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.sampler~.maxpat",
+				"name" : "dk.sampler~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/sp-tools_v09test2/patchers",
 				"patcherrelativepath" : "../../../Library/sp-tools_v09test2/patchers",
 				"type" : "JSON",

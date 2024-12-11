@@ -659,7 +659,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "to sp.ramp",
+					"comment" : "to dk.ramp",
 					"id" : "obj-3",
 					"index" : 0,
 					"maxclass" : "inlet",
@@ -816,7 +816,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "signal", "signal", "signal", "signal" ],
 					"patching_rect" : [ 65.0, 600.0, 59.0, 22.0 ],
-					"text" : "sp.ramp~"
+					"text" : "dk.ramp~"
 				}
 
 			}
@@ -1268,7 +1268,7 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "sp.ramp~.maxpat",
+				"name" : "dk.ramp~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/patchers",
 				"patcherrelativepath" : "../../../Library/SP-Tools/patchers",
 				"type" : "JSON",

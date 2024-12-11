@@ -95,7 +95,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "list", "" ],
 					"patching_rect" : [ 462.0, 126.786614219201283, 169.0, 22.0 ],
-					"text" : "sp.melbandframe @realtime 1"
+					"text" : "dk.melbandframe @realtime 1"
 				}
 
 			}
@@ -155,7 +155,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "list", "" ],
 					"patching_rect" : [ 265.555205581421887, 126.786614219201283, 149.0, 22.0 ],
-					"text" : "sp.mfccframe @realtime 1"
+					"text" : "dk.mfccframe @realtime 1"
 				}
 
 			}
@@ -167,7 +167,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 18.555205581421887, 126.786614219201283, 227.0, 22.0 ],
-					"text" : "sp.descriptorframe @realtime 1 @pitch 1"
+					"text" : "dk.descriptorframe @realtime 1 @pitch 1"
 				}
 
 			}
@@ -284,21 +284,21 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "sp.descriptorframe.maxpat",
+				"name" : "dk.descriptorframe.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/SP-tools-0.8/patchers",
 				"patcherrelativepath" : "../../../Packages/SP-tools-0.8/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.melbandframe.maxpat",
+				"name" : "dk.melbandframe.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/SP-tools-0.8/patchers",
 				"patcherrelativepath" : "../../../Packages/SP-tools-0.8/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.mfccframe.maxpat",
+				"name" : "dk.mfccframe.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/SP-tools-0.8/patchers",
 				"patcherrelativepath" : "../../../Packages/SP-tools-0.8/patchers",
 				"type" : "JSON",

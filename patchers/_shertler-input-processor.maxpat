@@ -205,7 +205,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "signal", "signal" ],
 					"patching_rect" : [ 695.0, 686.0, 61.0, 22.0 ],
-					"text" : "sp.onset~"
+					"text" : "dk.onset~"
 				}
 
 			}
@@ -1507,7 +1507,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "signal", "signal" ],
 					"patching_rect" : [ 14.555205581421887, 214.42767333984375, 143.0, 22.0 ],
-					"text" : "sp.onsetframe~ @input 4"
+					"text" : "dk.onsetframe~ @input 4"
 				}
 
 			}
@@ -3550,28 +3550,28 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "sp.convolver~.maxpat",
+				"name" : "dk.convolver~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/patchers",
 				"patcherrelativepath" : "../../../Library/SP-Tools/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.onsetframe~.maxpat",
+				"name" : "dk.onsetframe~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/patchers",
 				"patcherrelativepath" : "../../../Library/SP-Tools/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.onset~.maxpat",
+				"name" : "dk.onset~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/patchers",
 				"patcherrelativepath" : "../../../Library/SP-Tools/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.spectralonset~.maxpat",
+				"name" : "dk.spectralonset~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/patchers",
 				"patcherrelativepath" : "../../../Library/SP-Tools/patchers",
 				"type" : "JSON",

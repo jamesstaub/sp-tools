@@ -1254,7 +1254,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "signal", "signal", "signal", "signal" ],
 									"patching_rect" : [ 115.0, 204.0, 107.0, 22.0 ],
-									"text" : "sp.ramp~ @loop 1"
+									"text" : "dk.ramp~ @loop 1"
 								}
 
 							}
@@ -1278,7 +1278,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "signal", "signal", "signal" ],
 									"patching_rect" : [ 387.0, 182.0, 329.0, 22.0 ],
-									"text" : "sp.envelope~ @scale 200 @decaygate 250 @attackgate 50"
+									"text" : "dk.envelope~ @scale 200 @decaygate 250 @attackgate 50"
 								}
 
 							}
@@ -2849,7 +2849,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "signal", "signal" ],
 					"patching_rect" : [ 14.0, 67.0, 190.0, 22.0 ],
-					"text" : "sp.quantizetime~ @quantize 128n"
+					"text" : "dk.quantizetime~ @quantize 128n"
 				}
 
 			}

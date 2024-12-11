@@ -301,7 +301,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 535.0, 133.0, 151.0, 33.0 ],
-					"text" : "sp.quantizetime object will sync when transport is on"
+					"text" : "dk.quantizetime object will sync when transport is on"
 				}
 
 			}

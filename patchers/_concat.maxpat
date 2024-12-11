@@ -495,7 +495,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "sp.plotter.maxpat",
+					"name" : "dk.plotter.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
@@ -513,7 +513,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 247.0, 1197.22082232568664, 174.0, 22.0 ],
-					"text" : "sp.corpusconvolver~ @gain 90"
+					"text" : "dk.corpusconvolver~ @gain 90"
 				}
 
 			}
@@ -699,7 +699,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "sp.classifierdisplay.maxpat",
+					"name" : "dk.classifierdisplay.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
@@ -729,7 +729,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "signal", "signal", "" ],
 					"patching_rect" : [ 30.0, 82.0, 398.0, 22.0 ],
-					"text" : "sp.classkitchensink~ @classifier knn @input 4 @floor -99 @sensitivity 90"
+					"text" : "dk.classkitchensink~ @classifier knn @input 4 @floor -99 @sensitivity 90"
 				}
 
 			}
@@ -871,7 +871,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "" ],
 					"patching_rect" : [ 1187.0, 176.355611647025967, 261.0, 22.0 ],
-					"text" : "sp.concatcreate"
+					"text" : "dk.concatcreate"
 				}
 
 			}
@@ -1441,7 +1441,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 266.0, 521.39727916800075, 116.0, 22.0 ],
-					"text" : "sp.concatsynth~"
+					"text" : "dk.concatsynth~"
 				}
 
 			}
@@ -1466,7 +1466,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 1267.000000000000227, 652.726556455141235, 205.0, 49.0 ],
-					"text" : "sp.karplus~ @pickup 100 @position 60 @noise 8 @input 150 @impulse 25 @damping 60 @a1 -31"
+					"text" : "dk.karplus~ @pickup 100 @position 60 @noise 8 @input 150 @impulse 25 @damping 60 @a1 -31"
 				}
 
 			}
@@ -1536,7 +1536,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 37.0, 165.514365563186772, 222.0, 22.0 ],
-									"text" : "sp.quantizepitch @scale dorian @key D"
+									"text" : "dk.quantizepitch @scale dorian @key D"
 								}
 
 							}
@@ -2566,175 +2566,175 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.classifierdisplay.maxpat",
+				"name" : "dk.classifierdisplay.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/sp-tools_v09test2/patchers",
 				"patcherrelativepath" : "../../../Library/sp-tools_v09test2/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.classkitchensink~.maxpat",
+				"name" : "dk.classkitchensink~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/sp-tools_v09test2/patchers",
 				"patcherrelativepath" : "../../../Library/sp-tools_v09test2/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.classmatch.maxpat",
+				"name" : "dk.classmatch.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/sp-tools_v09test2/patchers",
 				"patcherrelativepath" : "../../../Library/sp-tools_v09test2/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.concatanalysis~.maxpat",
+				"name" : "dk.concatanalysis~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/sp-tools_v09test2/patchers",
 				"patcherrelativepath" : "../../../Library/sp-tools_v09test2/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.concatcreate.maxpat",
+				"name" : "dk.concatcreate.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/sp-tools_v09test2/patchers",
 				"patcherrelativepath" : "../../../Library/sp-tools_v09test2/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.concatmatch.maxpat",
+				"name" : "dk.concatmatch.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/sp-tools_v09test2/patchers",
 				"patcherrelativepath" : "../../../Library/sp-tools_v09test2/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.concatplayer~.maxpat",
+				"name" : "dk.concatplayer~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/sp-tools_v09test2/patchers",
 				"patcherrelativepath" : "../../../Library/sp-tools_v09test2/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.concatsynth~.maxpat",
+				"name" : "dk.concatsynth~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/sp-tools_v09test2/patchers",
 				"patcherrelativepath" : "../../../Library/sp-tools_v09test2/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.convolver~.maxpat",
+				"name" : "dk.convolver~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/sp-tools_v09test2/patchers",
 				"patcherrelativepath" : "../../../Library/sp-tools_v09test2/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.corpusconvolver~.maxpat",
+				"name" : "dk.corpusconvolver~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/sp-tools_v09test2/patchers",
 				"patcherrelativepath" : "../../../Library/sp-tools_v09test2/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.datatranspose.maxpat",
+				"name" : "dk.datatranspose.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/sp-tools_v09test2/patchers",
 				"patcherrelativepath" : "../../../Library/sp-tools_v09test2/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.descriptorframe.maxpat",
+				"name" : "dk.descriptorframe.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/sp-tools_v09test2/patchers",
 				"patcherrelativepath" : "../../../Library/sp-tools_v09test2/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.descriptorsrt~.maxpat",
+				"name" : "dk.descriptorsrt~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/sp-tools_v09test2/patchers",
 				"patcherrelativepath" : "../../../Library/sp-tools_v09test2/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.karplus~.maxpat",
+				"name" : "dk.karplus~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/sp-tools_v09test2/patchers",
 				"patcherrelativepath" : "../../../Library/sp-tools_v09test2/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.melbandframe.maxpat",
+				"name" : "dk.melbandframe.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/sp-tools_v09test2/patchers",
 				"patcherrelativepath" : "../../../Library/sp-tools_v09test2/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.mfccframe.maxpat",
+				"name" : "dk.mfccframe.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/sp-tools_v09test2/patchers",
 				"patcherrelativepath" : "../../../Library/sp-tools_v09test2/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.onsetframe~.maxpat",
+				"name" : "dk.onsetframe~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/sp-tools_v09test2/patchers",
 				"patcherrelativepath" : "../../../Library/sp-tools_v09test2/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.onset~.maxpat",
+				"name" : "dk.onset~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/sp-tools_v09test2/patchers",
 				"patcherrelativepath" : "../../../Library/sp-tools_v09test2/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.plotter.js",
+				"name" : "dk.plotter.js",
 				"bootpath" : "~/Documents/Max 8/Library/sp-tools_v09test2/jsui",
 				"patcherrelativepath" : "../../../Library/sp-tools_v09test2/jsui",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.plotter.maxpat",
+				"name" : "dk.plotter.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/sp-tools_v09test2/patchers",
 				"patcherrelativepath" : "../../../Library/sp-tools_v09test2/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.quantizepitch.maxpat",
+				"name" : "dk.quantizepitch.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/sp-tools_v09test2/patchers",
 				"patcherrelativepath" : "../../../Library/sp-tools_v09test2/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.realtimeframe~.maxpat",
+				"name" : "dk.realtimeframe~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/sp-tools_v09test2/patchers",
 				"patcherrelativepath" : "../../../Library/sp-tools_v09test2/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.scatter~.maxpat",
+				"name" : "dk.scatter~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/sp-tools_v09test2/patchers",
 				"patcherrelativepath" : "../../../Library/sp-tools_v09test2/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.spectralonset~.maxpat",
+				"name" : "dk.spectralonset~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/sp-tools_v09test2/patchers",
 				"patcherrelativepath" : "../../../Library/sp-tools_v09test2/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.triggeralign~.maxpat",
+				"name" : "dk.triggeralign~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/sp-tools_v09test2/patchers",
 				"patcherrelativepath" : "../../../Library/sp-tools_v09test2/patchers",
 				"type" : "JSON",

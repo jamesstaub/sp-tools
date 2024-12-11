@@ -1257,7 +1257,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 62.0, 551.076950092162861, 506.0, 94.0 ],
-					"text" : "sp.novelty~ is not intended to detect individual onsets but rather shifts in *types* of material over time. It finds \"macro\" changes (via computing novelty) on the selected feature/algorithm.\n\nFor more information check out:\nhttps://learn.flucoma.org/reference/noveltyslice/",
+					"text" : "dk.novelty~ is not intended to detect individual onsets but rather shifts in *types* of material over time. It finds \"macro\" changes (via computing novelty) on the selected feature/algorithm.\n\nFor more information check out:\nhttps://learn.flucoma.org/reference/noveltyslice/",
 					"textcolor" : [ 0.426676, 0.426663, 0.42667, 1.0 ]
 				}
 
@@ -1357,7 +1357,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "signal", "signal" ],
 					"patching_rect" : [ 126.0, 342.487945556640625, 231.0, 22.0 ],
-					"text" : "sp.novelty~"
+					"text" : "dk.novelty~"
 				}
 
 			}
@@ -1669,7 +1669,7 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "sp.novelty~.maxpat",
+				"name" : "dk.novelty~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/patchers",
 				"patcherrelativepath" : "../../../Library/SP-Tools/patchers",
 				"type" : "JSON",

@@ -560,7 +560,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "float", "float", "float", "" ],
 					"patching_rect" : [ 35.16666666666697, 343.5, 305.5, 22.0 ],
-					"text" : "sp.ramp"
+					"text" : "dk.ramp"
 				}
 
 			}
@@ -822,7 +822,7 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "sp.ramp.maxpat",
+				"name" : "dk.ramp.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/patchers",
 				"patcherrelativepath" : "../../../Library/SP-Tools/patchers",
 				"type" : "JSON",

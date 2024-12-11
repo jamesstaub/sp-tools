@@ -2052,7 +2052,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "signal", "signal" ],
 					"patching_rect" : [ 42.0, 448.0, 118.0, 22.0 ],
-					"text" : "sp.waveguidemesh~"
+					"text" : "dk.waveguidemesh~"
 				}
 
 			}

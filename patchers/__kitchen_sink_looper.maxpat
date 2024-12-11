@@ -779,7 +779,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 485.5, 509.305315925956393, 101.0, 22.0 ],
-					"text" : "sp.datatranspose"
+					"text" : "dk.datatranspose"
 				}
 
 			}
@@ -791,7 +791,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 382.5, 509.305315925956393, 101.0, 22.0 ],
-					"text" : "sp.datatranspose"
+					"text" : "dk.datatranspose"
 				}
 
 			}
@@ -803,7 +803,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 277.5, 509.305315925956393, 101.0, 22.0 ],
-					"text" : "sp.datatranspose"
+					"text" : "dk.datatranspose"
 				}
 
 			}
@@ -852,7 +852,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "signal" ],
 					"patching_rect" : [ 485.5, 470.047175780715179, 88.0, 22.0 ],
-					"text" : "sp.datalooper~"
+					"text" : "dk.datalooper~"
 				}
 
 			}
@@ -864,7 +864,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "signal" ],
 					"patching_rect" : [ 375.5, 470.047175780715179, 88.0, 22.0 ],
-					"text" : "sp.datalooper~"
+					"text" : "dk.datalooper~"
 				}
 
 			}
@@ -876,7 +876,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "signal" ],
 					"patching_rect" : [ 277.5, 470.047175780715179, 88.0, 22.0 ],
-					"text" : "sp.datalooper~"
+					"text" : "dk.datalooper~"
 				}
 
 			}
@@ -912,7 +912,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "signal", "signal" ],
 					"patching_rect" : [ 84.0, 553.688590477415801, 100.0, 22.0 ],
-					"text" : "sp.quantizetime~"
+					"text" : "dk.quantizetime~"
 				}
 
 			}

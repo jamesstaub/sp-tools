@@ -93,7 +93,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 72.0, 97.0, 189.0, 22.0 ],
-									"text" : "sp.datatranspose @transpose -33"
+									"text" : "dk.datatranspose @transpose -33"
 								}
 
 							}
@@ -201,7 +201,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 131.0, 134.0, 183.0, 22.0 ],
-									"text" : "sp.controllers"
+									"text" : "dk.controllers"
 								}
 
 							}
@@ -261,7 +261,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 73.0, 331.0, 372.0, 22.0 ],
-									"text" : "sp.datadelay @delay 100 @feedback 80 @rolloff 80 @threshold -80"
+									"text" : "dk.datadelay @delay 100 @feedback 80 @rolloff 80 @threshold -80"
 								}
 
 							}
@@ -273,7 +273,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 94.0, 364.0, 372.0, 22.0 ],
-									"text" : "sp.datadelay @delay 100 @feedback 80 @rolloff 80 @threshold -80"
+									"text" : "dk.datadelay @delay 100 @feedback 80 @rolloff 80 @threshold -80"
 								}
 
 							}
@@ -815,7 +815,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "signal", "signal" ],
 					"patching_rect" : [ 109.0, 196.0, 100.0, 22.0 ],
-					"text" : "sp.quantizetime~"
+					"text" : "dk.quantizetime~"
 				}
 
 			}
@@ -863,7 +863,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1526.0, 415.5, 195.0, 234.0 ],
-					"text" : "use the _dynamic_pattr_matrix patch to create variable patchbays for\n\ninputs \n  sp.speed\n  sp.controllers\n  envelope-ramps\n\noutputs\n  waveguide \n  concat synth\n  corpus filters\n\n\n\n."
+					"text" : "use the _dynamic_pattr_matrix patch to create variable patchbays for\n\ninputs \n  dk.speed\n  dk.controllers\n  envelope-ramps\n\noutputs\n  waveguide \n  concat synth\n  corpus filters\n\n\n\n."
 				}
 
 			}
@@ -1788,7 +1788,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "sp.plotter.maxpat",
+					"name" : "dk.plotter.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
@@ -2385,7 +2385,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 16.0, 445.0, 385.0, 22.0 ],
-					"text" : "sp.corpusplayer~ @loudness 100 @spectral 100 @steal 0 @voices 16"
+					"text" : "dk.corpusplayer~ @loudness 100 @spectral 100 @steal 0 @voices 16"
 				}
 
 			}
@@ -2397,7 +2397,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 16.0, 407.5, 176.0, 22.0 ],
-					"text" : "sp.corpusmatch @roundrobin 3"
+					"text" : "dk.corpusmatch @roundrobin 3"
 				}
 
 			}
@@ -3106,63 +3106,63 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.controllers.maxpat",
+				"name" : "dk.controllers.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/patchers",
 				"patcherrelativepath" : "../../../Library/SP-Tools/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.corpusmatch.maxpat",
+				"name" : "dk.corpusmatch.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/patchers",
 				"patcherrelativepath" : "../../../Library/SP-Tools/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.corpusplayer~.maxpat",
+				"name" : "dk.corpusplayer~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/patchers",
 				"patcherrelativepath" : "../../../Library/SP-Tools/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.datadelay.maxpat",
+				"name" : "dk.datadelay.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/patchers",
 				"patcherrelativepath" : "../../../Library/SP-Tools/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.datatranspose.maxpat",
+				"name" : "dk.datatranspose.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/patchers",
 				"patcherrelativepath" : "../../../Library/SP-Tools/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.plotter.js",
+				"name" : "dk.plotter.js",
 				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/jsui",
 				"patcherrelativepath" : "../../../Library/SP-Tools/jsui",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.plotter.maxpat",
+				"name" : "dk.plotter.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/patchers",
 				"patcherrelativepath" : "../../../Library/SP-Tools/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.quantizetime~.maxpat",
+				"name" : "dk.quantizetime~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/patchers",
 				"patcherrelativepath" : "../../../Library/SP-Tools/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.ramp.maxpat",
+				"name" : "dk.ramp.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/patchers",
 				"patcherrelativepath" : "../../../Library/SP-Tools/patchers",
 				"type" : "JSON",

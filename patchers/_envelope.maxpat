@@ -738,7 +738,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "signal", "signal" ],
 					"patching_rect" : [ 446.5, 336.511010999999939, 232.0, 22.0 ],
-					"text" : "sp.envelope~"
+					"text" : "dk.envelope~"
 				}
 
 			}
@@ -999,7 +999,7 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "sp.envelope~.maxpat",
+				"name" : "dk.envelope~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/patchers",
 				"patcherrelativepath" : "../../../Library/SP-Tools/patchers",
 				"type" : "JSON",

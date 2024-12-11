@@ -5356,119 +5356,119 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.controllers.maxpat",
+				"name" : "dk.controllers.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/SP-tools-0.8/patchers",
 				"patcherrelativepath" : "../../../Packages/SP-tools-0.8/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.corpusmatch.maxpat",
+				"name" : "dk.corpusmatch.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/SP-tools-0.8/patchers",
 				"patcherrelativepath" : "../../../Packages/SP-tools-0.8/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.corpusplayer~.maxpat",
+				"name" : "dk.corpusplayer~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/SP-tools-0.8/patchers",
 				"patcherrelativepath" : "../../../Packages/SP-tools-0.8/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.crossbank~.maxpat",
+				"name" : "dk.crossbank~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/SP-tools-0.8/patchers",
 				"patcherrelativepath" : "../../../Packages/SP-tools-0.8/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.datagranular.maxpat",
+				"name" : "dk.datagranular.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/SP-tools-0.8/patchers",
 				"patcherrelativepath" : "../../../Packages/SP-tools-0.8/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.descriptorframe.maxpat",
+				"name" : "dk.descriptorframe.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/SP-tools-0.8/patchers",
 				"patcherrelativepath" : "../../../Packages/SP-tools-0.8/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.filter.maxpat",
+				"name" : "dk.filter.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/SP-tools-0.8/patchers",
 				"patcherrelativepath" : "../../../Packages/SP-tools-0.8/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.melbandframe.maxpat",
+				"name" : "dk.melbandframe.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/SP-tools-0.8/patchers",
 				"patcherrelativepath" : "../../../Packages/SP-tools-0.8/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.mfccframe.maxpat",
+				"name" : "dk.mfccframe.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/SP-tools-0.8/patchers",
 				"patcherrelativepath" : "../../../Packages/SP-tools-0.8/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.onsetframe~.maxpat",
+				"name" : "dk.onsetframe~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/SP-tools-0.8/patchers",
 				"patcherrelativepath" : "../../../Packages/SP-tools-0.8/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.onset~.maxpat",
+				"name" : "dk.onset~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/SP-tools-0.8/patchers",
 				"patcherrelativepath" : "../../../Packages/SP-tools-0.8/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.playbackcore~.maxpat",
+				"name" : "dk.playbackcore~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/SP-tools-0.8/patchers",
 				"patcherrelativepath" : "../../../Packages/SP-tools-0.8/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.plotter.maxpat",
+				"name" : "dk.plotter.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/SP-tools-0.8/patchers",
 				"patcherrelativepath" : "../../../Packages/SP-tools-0.8/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.ramp.maxpat",
+				"name" : "dk.ramp.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/SP-tools-0.8/patchers",
 				"patcherrelativepath" : "../../../Packages/SP-tools-0.8/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.setupanalysis.maxpat",
+				"name" : "dk.setupanalysis.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/SP-tools-0.8/patchers",
 				"patcherrelativepath" : "../../../Packages/SP-tools-0.8/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.setuptrain~.maxpat",
+				"name" : "dk.setuptrain~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/SP-tools-0.8/patchers",
 				"patcherrelativepath" : "../../../Packages/SP-tools-0.8/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.speed.maxpat",
+				"name" : "dk.speed.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/SP-tools-0.8/patchers",
 				"patcherrelativepath" : "../../../Packages/SP-tools-0.8/patchers",
 				"type" : "JSON",

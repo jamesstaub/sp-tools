@@ -2,51 +2,26 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 5,
+			"major" : 9,
+			"minor" : 0,
 			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 115.0, 1052.0, 901.0 ],
-		"bglocked" : 0,
+		"rect" : [ 34.0, 115.0, 1052.0, 901.0 ],
 		"openinpresentation" : 1,
-		"default_fontsize" : 12.0,
-		"default_fontface" : 0,
-		"default_fontname" : "Arial",
-		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
-		"objectsnaponopen" : 1,
-		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
-		"lefttoolbarpinned" : 0,
-		"toptoolbarpinned" : 0,
-		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
-		"tallnewobj" : 0,
-		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
-		"style" : "",
-		"subpatcher_template" : "",
-		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"comment" : "ch2",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 90.555205581421887, 242.963836669921875, 30.0, 30.0 ]
+					"patching_rect" : [ 91.0, 281.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -54,24 +29,24 @@
 				"box" : 				{
 					"comment" : "ch1",
 					"id" : "obj-1",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 28.555205581421887, 242.963836669921875, 30.0, 30.0 ]
+					"patching_rect" : [ 29.0, 281.0, 30.0, 30.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.929411764705882, 0.941176470588235, 0.956862745098039, 1.0 ],
+					"bgcolor" : [ 0.929411764705882, 0.941176470588235, 0.956862745098039, 0.0 ],
 					"fontname" : "Ableton Sans Bold",
 					"fontsize" : 16.0,
 					"id" : "obj-45",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 105.0, 129.0, 54.0, 26.0 ],
+					"patching_rect" : [ 105.0, 167.0, 54.0, 26.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 70.215108872289704, 3.0, 62.720048354566075, 26.0 ],
 					"text" : "PIEZO",
@@ -94,9 +69,11 @@
 					"presentation_rect" : [ 237.666667103767395, 71.0, 389.0, 36.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.gain~[2]",
+							"parameter_longname" : "live.gain~[4]",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
+							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
@@ -144,6 +121,37 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 237.666667103767395, 3.0, 389.0, 66.0 ],
 					"quality" : "basic",
+					"saved_attribute_attributes" : 					{
+						"candicane2" : 						{
+							"expression" : ""
+						}
+,
+						"candicane3" : 						{
+							"expression" : ""
+						}
+,
+						"candicane4" : 						{
+							"expression" : ""
+						}
+,
+						"candicane5" : 						{
+							"expression" : ""
+						}
+,
+						"candicane6" : 						{
+							"expression" : ""
+						}
+,
+						"candicane7" : 						{
+							"expression" : ""
+						}
+,
+						"candicane8" : 						{
+							"expression" : ""
+						}
+
+					}
+,
 					"timestretch" : [ 0 ]
 				}
 
@@ -155,7 +163,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 275.955205581421865, 154.0, 47.444794418578226, 22.0 ],
+					"patching_rect" : [ 282.0, 154.0, 47.444794418578226, 22.0 ],
 					"text" : "gate~"
 				}
 
@@ -186,8 +194,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[6]",
+							"parameter_longname" : "live.text[26]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -214,14 +224,14 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.929411764705882, 0.941176470588235, 0.956862745098039, 1.0 ],
+					"bgcolor" : [ 0.929411764705882, 0.941176470588235, 0.956862745098039, 0.0 ],
 					"fontname" : "Ableton Sans Bold",
 					"fontsize" : 16.0,
 					"id" : "obj-7",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 37.555205581421887, 129.0, 38.0, 26.0 ],
+					"patching_rect" : [ 38.0, 167.0, 38.0, 26.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 7.0, 3.0, 57.399999999999977, 26.0 ],
 					"text" : "MIC",
@@ -248,7 +258,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 90.555205581421887, 102.0, 47.444794418578226, 22.0 ],
+					"patching_rect" : [ 91.0, 140.0, 47.444794418578226, 22.0 ],
 					"text" : "gate~"
 				}
 
@@ -268,8 +278,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[20]",
+							"parameter_longname" : "live.text[27]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -297,8 +309,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[21]",
+							"parameter_longname" : "live.text[28]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -318,7 +332,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 28.555205581421887, 102.0, 47.444794418578226, 22.0 ],
+					"patching_rect" : [ 29.0, 140.0, 47.444794418578226, 22.0 ],
 					"text" : "gate~"
 				}
 
@@ -471,32 +485,8 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-19" : [ "live.gain~[2]", "live.gain~", 0 ],
-			"obj-20" : [ "live.text[21]", "live.text", 0 ],
-			"obj-21" : [ "live.text[20]", "live.text", 0 ],
-			"obj-41" : [ "live.text[6]", "live.text", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "cello-schertler-dpa-timbres.wav",
-				"bootpath" : "~/Dropbox/audio",
-				"patcherrelativepath" : "../../../../../Dropbox/audio",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+		"originid" : "pat-4844",
+		"oscreceiveudpport" : 0
 	}
 
 }

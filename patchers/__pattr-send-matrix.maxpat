@@ -6641,7 +6641,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 51.0, 409.0, 357.0, 22.0 ],
-									"text" : "sp.quantizepitch @amount 100 @key C @scale major-pentatonic"
+									"text" : "dk.quantizepitch @amount 100 @key C @scale major-pentatonic"
 								}
 
 							}
@@ -9398,7 +9398,7 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "sp.quantizepitch.maxpat",
+				"name" : "dk.quantizepitch.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/patchers",
 				"patcherrelativepath" : "../../../Library/SP-Tools/patchers",
 				"type" : "JSON",

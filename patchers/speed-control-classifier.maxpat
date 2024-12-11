@@ -1613,7 +1613,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 1138.5, 33.74545454545455, 389.0, 154.0 ],
-									"text" : "Create and train a classifier based on incoming analysis points.\n\nAlso writes the dataset, labelset,  knnclassifer fit, and mlpclassifier fit (if trained) to a dictionary for later usage (with sp.classmatch).\n\nThe classes trained can be arbitrary (numbers/symbols) but works well with the Sensory Percussion class names (center, edge, etc...)\n\n@classifier = what type of classifier to use. can be 'knn' (K-nearest neighbor using a k-d tree) or 'mlp' (multi-layer perceptron neural network)"
+									"text" : "Create and train a classifier based on incoming analysis points.\n\nAlso writes the dataset, labelset,  knnclassifer fit, and mlpclassifier fit (if trained) to a dictionary for later usage (with dk.classmatch).\n\nThe classes trained can be arbitrary (numbers/symbols) but works well with the Sensory Percussion class names (center, edge, etc...)\n\n@classifier = what type of classifier to use. can be 'knn' (K-nearest neighbor using a k-d tree) or 'mlp' (multi-layer perceptron neural network)"
 								}
 
 							}
@@ -6581,7 +6581,7 @@
 						"tags" : ""
 					}
 ,
-					"text" : "patcher sp.classcreate-for-speed"
+					"text" : "patcher dk.classcreate-for-speed"
 				}
 
 			}
@@ -6687,7 +6687,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 269.0, 378.0, 141.0, 22.0 ],
-					"text" : "sp.controllers @history 8"
+					"text" : "dk.controllers @history 8"
 				}
 
 			}
@@ -6699,7 +6699,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 131.25, 378.354035750380149, 118.0, 22.0 ],
-					"text" : "sp.speed @history 8"
+					"text" : "dk.speed @history 8"
 				}
 
 			}
@@ -6733,7 +6733,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "signal", "signal" ],
 					"patching_rect" : [ 350.0, 146.0, 363.0, 22.0 ],
-					"text" : "sp.kitchensink~ @sensitivity 70 @floor -70 @lockout 100 @input 1"
+					"text" : "dk.kitchensink~ @sensitivity 70 @floor -70 @lockout 100 @input 1"
 				}
 
 			}
@@ -6823,7 +6823,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 261.9375, 348.354035750380149, 141.0, 22.0 ],
-					"text" : "sp.controllers @history 4"
+					"text" : "dk.controllers @history 4"
 				}
 
 			}
@@ -6835,7 +6835,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 124.75, 348.354035750380149, 118.0, 22.0 ],
-					"text" : "sp.speed @history 4"
+					"text" : "dk.speed @history 4"
 				}
 
 			}
@@ -7531,77 +7531,77 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "sp.controllers.maxpat",
+				"name" : "dk.controllers.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/patchers",
 				"patcherrelativepath" : "../../../Library/SP-Tools/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.convolver~.maxpat",
+				"name" : "dk.convolver~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/patchers",
 				"patcherrelativepath" : "../../../Library/SP-Tools/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.descriptorframe.maxpat",
+				"name" : "dk.descriptorframe.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/patchers",
 				"patcherrelativepath" : "../../../Library/SP-Tools/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.kitchensink~.maxpat",
+				"name" : "dk.kitchensink~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/patchers",
 				"patcherrelativepath" : "../../../Library/SP-Tools/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.melbandframe.maxpat",
+				"name" : "dk.melbandframe.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/patchers",
 				"patcherrelativepath" : "../../../Library/SP-Tools/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.mfccframe.maxpat",
+				"name" : "dk.mfccframe.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/patchers",
 				"patcherrelativepath" : "../../../Library/SP-Tools/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.onsetframe~.maxpat",
+				"name" : "dk.onsetframe~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/patchers",
 				"patcherrelativepath" : "../../../Library/SP-Tools/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.onset~.maxpat",
+				"name" : "dk.onset~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/patchers",
 				"patcherrelativepath" : "../../../Library/SP-Tools/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.spectralonset~.maxpat",
+				"name" : "dk.spectralonset~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/patchers",
 				"patcherrelativepath" : "../../../Library/SP-Tools/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.speed.maxpat",
+				"name" : "dk.speed.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/patchers",
 				"patcherrelativepath" : "../../../Library/SP-Tools/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sp.triggeralign~.maxpat",
+				"name" : "dk.triggeralign~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/patchers",
 				"patcherrelativepath" : "../../../Library/SP-Tools/patchers",
 				"type" : "JSON",
