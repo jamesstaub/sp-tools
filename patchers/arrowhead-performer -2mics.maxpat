@@ -10,9 +10,20 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1612.0, 929.0 ],
+		"rect" : [ 34.0, 87.0, 1852.0, 959.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-35",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 406.144444492128002, 396.0, 99.0, 22.0 ],
+					"text" : "s #0_rt_classifier"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"annotation" : "",
 					"id" : "obj-28",
@@ -28,7 +39,7 @@
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "live.dial",
+							"parameter_longname" : "live.dial[63]",
 							"parameter_mmax" : 30.0,
 							"parameter_mmin" : -70.0,
 							"parameter_modmode" : 0,
@@ -71,7 +82,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1603.0, 22.630677223205566, 99.0, 18.738645553588867 ],
+					"patching_rect" : [ 1548.0, 33.630677223205566, 99.0, 18.738645553588867 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1709.0, 18.0, 99.0, 18.738645553588867 ],
 					"prototypename" : "onoff",
@@ -127,19 +138,6 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 594.0, 345.0, 39.0, 22.0 ],
 					"text" : "gate~"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-35",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 777.0, 821.0, 50.0, 22.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 777.0, 821.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -328,7 +326,7 @@
 
 							}
  ],
-						"originid" : "pat-10"
+						"originid" : "pat-33376"
 					}
 ,
 					"patching_rect" : [ 773.5, 266.0, 70.0, 22.0 ],
@@ -554,7 +552,7 @@
 
 							}
  ],
-						"originid" : "pat-12"
+						"originid" : "pat-33378"
 					}
 ,
 					"patching_rect" : [ 608.5, 225.5, 93.0, 22.0 ],
@@ -604,7 +602,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1514.0, 1496.0, 97.0, 22.0 ],
+					"patching_rect" : [ 1547.0, 1438.0, 97.0, 22.0 ],
 					"text" : "sprintf bindto %s"
 				}
 
@@ -1513,7 +1511,7 @@
 
 							}
  ],
-						"originid" : "pat-1092"
+						"originid" : "pat-34350"
 					}
 ,
 					"patching_rect" : [ 1650.543483018875122, 145.0, 59.0, 22.0 ],
@@ -1635,54 +1633,6 @@
 					"text" : "onset",
 					"texton" : "onset",
 					"varname" : "onset-ping-noteout"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-143",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "int", "int", "int" ],
-					"patching_rect" : [ 945.0, 1006.0, 40.0, 22.0 ],
-					"text" : "ctlin"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-90",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1076.0, 1038.0, 50.0, 22.0 ],
-					"text" : "2"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-86",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1006.0, 1038.0, 50.0, 22.0 ],
-					"text" : "46"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-71",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 945.0, 1038.0, 50.0, 22.0 ],
-					"text" : "127"
 				}
 
 			}
@@ -2005,7 +1955,7 @@
 
 							}
  ],
-						"originid" : "pat-1094"
+						"originid" : "pat-34352"
 					}
 ,
 					"patching_rect" : [ 28.0, 1976.0, 204.0, 22.0 ],
@@ -2306,7 +2256,7 @@
 
 							}
  ],
-						"originid" : "pat-1096"
+						"originid" : "pat-34354"
 					}
 ,
 					"patching_rect" : [ 447.5, 1846.0, 204.0, 22.0 ],
@@ -2326,7 +2276,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 1471.0, 1530.0, 136.0, 22.0 ],
+					"patching_rect" : [ 1547.0, 1488.0, 136.0, 22.0 ],
 					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
@@ -2366,11 +2316,11 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-104",
-					"linecount" : 23,
+					"linecount" : 18,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 807.84783411026001, 1127.0, 153.0, 315.0 ],
+					"patching_rect" : [ 836.0, 1111.0, 229.0, 248.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 19,
 					"presentation_rect" : [ 1365.0, 34.0, 202.0, 261.0 ],
@@ -2754,7 +2704,7 @@
 
 							}
  ],
-						"originid" : "pat-1272"
+						"originid" : "pat-34530"
 					}
 ,
 					"patching_rect" : [ 258.108693599700928, 936.0, 126.5, 22.0 ],
@@ -2788,7 +2738,7 @@
 					"orientation" : 1,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 656.5, 987.0, 171.0, 27.0 ],
+					"patching_rect" : [ 687.0, 1088.5, 171.0, 27.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 391.0, 681.0, 144.0, 27.0 ],
 					"saved_attribute_attributes" : 					{
@@ -2827,7 +2777,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 378.0, 740.0, 44.0, 15.0 ],
+					"patching_rect" : [ 386.0, 678.5, 44.0, 15.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 281.0, 688.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
@@ -2860,7 +2810,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 381.0, 716.0, 44.0, 15.0 ],
+					"patching_rect" : [ 386.0, 656.0, 44.0, 15.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 281.0, 654.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
@@ -2896,7 +2846,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 687.0, 1227.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 178.0, 580.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 178.0, 597.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : "themecolor.theme_selectioncolor"
@@ -2930,7 +2880,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 634.0, 1227.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 178.0, 518.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 178.0, 556.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : "themecolor.theme_selectioncolor"
@@ -2964,7 +2914,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 585.0, 1227.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 178.0, 467.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 178.0, 514.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : "themecolor.theme_selectioncolor"
@@ -3010,7 +2960,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 538.0, 1227.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 178.0, 410.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 178.0, 476.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : "themecolor.theme_selectioncolor"
@@ -3044,7 +2994,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 687.0, 1159.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 178.0, 563.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 178.0, 580.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : "themecolor.theme_color"
@@ -3078,7 +3028,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 634.0, 1159.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 178.0, 501.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 178.0, 539.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : "themecolor.theme_color"
@@ -3112,7 +3062,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 585.0, 1159.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 178.0, 451.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 178.0, 498.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : "themecolor.theme_color"
@@ -3158,7 +3108,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 538.0, 1159.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 178.0, 394.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 178.0, 460.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : "themecolor.theme_color"
@@ -3259,7 +3209,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 496.0, 711.0, 70.0, 22.0 ],
+					"patching_rect" : [ 501.0, 651.0, 70.0, 22.0 ],
 					"text" : "loadmess 8"
 				}
 
@@ -3271,7 +3221,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 496.0, 735.0, 77.0, 22.0 ],
+					"patching_rect" : [ 504.0, 673.5, 77.0, 22.0 ],
 					"text" : "loadmess 32"
 				}
 
@@ -3635,7 +3585,7 @@
 
 							}
  ],
-						"originid" : "pat-1292"
+						"originid" : "pat-34550"
 					}
 ,
 					"patching_rect" : [ 549.0, 1091.0, 126.5, 22.0 ],
@@ -4030,7 +3980,7 @@
 
 							}
  ],
-						"originid" : "pat-1294"
+						"originid" : "pat-34552"
 					}
 ,
 					"patching_rect" : [ 133.178588999999988, 1471.5, 105.0, 22.0 ],
@@ -4049,7 +3999,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 328.0, 806.0, 47.0, 22.0 ],
+					"patching_rect" : [ 328.0, 777.0, 47.0, 22.0 ],
 					"text" : "zl nth 1"
 				}
 
@@ -4061,7 +4011,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 328.0, 779.0, 163.0, 22.0 ],
+					"patching_rect" : [ 328.0, 748.0, 163.0, 22.0 ],
 					"text" : "r #0_kitchen_descriptors_out"
 				}
 
@@ -4262,7 +4212,7 @@
 
 							}
  ],
-						"originid" : "pat-1296"
+						"originid" : "pat-34554"
 					}
 ,
 					"patching_rect" : [ 11.0, 1476.723322000000053, 110.0, 22.0 ],
@@ -4281,7 +4231,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 691.0, 797.0, 106.0, 22.0 ],
+					"patching_rect" : [ 563.0, 748.0, 106.0, 22.0 ],
 					"text" : "r #0_class_names"
 				}
 
@@ -4304,7 +4254,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 7.033333381016917, 479.170105576515198, 296.0, 274.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 621.0, 256.587788581848145, 346.424246549606323 ],
+					"presentation_rect" : [ 2.0, 717.0, 256.587788581848145, 346.424246549606323 ],
 					"varname" : "_envelope",
 					"viewvisibility" : 1
 				}
@@ -4317,7 +4267,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 589.0, 766.0, 80.0, 22.0 ],
+					"patching_rect" : [ 687.0, 1012.0, 80.0, 22.0 ],
 					"text" : "loadmess 0.5"
 				}
 
@@ -4329,7 +4279,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 563.0, 1063.0, 106.0, 22.0 ],
+					"patching_rect" : [ 602.75, 1060.0, 106.0, 22.0 ],
 					"text" : "r #0_class_names"
 				}
 
@@ -4413,7 +4363,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 1289.608697414398193, 1476.723321999999825, 136.0, 22.0 ],
+					"patching_rect" : [ 1289.608697414398193, 1471.5, 136.0, 22.0 ],
 					"restore" : [ 128.000000000000028 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
@@ -4579,7 +4529,7 @@
 
 							}
  ],
-						"originid" : "pat-1740"
+						"originid" : "pat-34998"
 					}
 ,
 					"patching_rect" : [ 2157.0, 90.0, 25.0, 22.0 ],
@@ -4726,7 +4676,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1091.0, 1338.0, 181.0, 47.0 ],
+					"patching_rect" : [ 1091.5, 1351.0, 181.0, 47.0 ],
 					"text" : "TODO: sequencers that can be patched to/from by classes and synth params"
 				}
 
@@ -4809,7 +4759,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 320.0, 391.0, 75.0, 22.0 ],
+					"patching_rect" : [ 285.144444492128002, 374.0, 75.0, 22.0 ],
 					"text" : "route names"
 				}
 
@@ -4820,7 +4770,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 320.0, 416.0, 108.0, 22.0 ],
+					"patching_rect" : [ 285.144444492128002, 399.0, 108.0, 22.0 ],
 					"text" : "s #0_class_names"
 				}
 
@@ -4831,7 +4781,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 408.170105576515198, 165.0, 22.0 ],
+					"patching_rect" : [ 7.033333381016917, 403.0, 165.0, 22.0 ],
 					"text" : "s #0_kitchen_descriptors_out"
 				}
 
@@ -5906,7 +5856,7 @@
 
 							}
  ],
-						"originid" : "pat-1978"
+						"originid" : "pat-35236"
 					}
 ,
 					"patching_rect" : [ 936.0, 384.0, 154.0, 22.0 ],
@@ -6323,7 +6273,7 @@
 
 							}
  ],
-						"originid" : "pat-1980"
+						"originid" : "pat-35238"
 					}
 ,
 					"patching_rect" : [ 1013.84783411026001, 1650.245052899810844, 87.0, 22.0 ],
@@ -6645,7 +6595,7 @@
 
 							}
  ],
-						"originid" : "pat-1982",
+						"originid" : "pat-35240",
 						"styles" : [ 							{
 								"name" : "AudioStatus_Menu",
 								"default" : 								{
@@ -7002,9 +6952,9 @@
 						"live.numbox[7]" : [ 0.0 ],
 						"live.tab[2]" : [ 15.0 ],
 						"live.tab[3]" : [ 0.0 ],
-						"long-env-gate-history" : [ 12.0 ],
+						"long-env-gate-history" : [ 32.0 ],
 						"megacorp-gain" : [ -6.37093134058879 ],
-						"megacrp-fillter-preset" : [ 7 ],
+						"megacrp-fillter-preset" : [ 6 ],
 						"metro-ping-noteout" : [ 0.0 ],
 						"midi-thru" : [ 0.0 ],
 						"onset-ping-noteout" : [ 1.0 ],
@@ -7094,7 +7044,7 @@
 
 							}
  ],
-						"originid" : "pat-1984"
+						"originid" : "pat-35242"
 					}
 ,
 					"patching_rect" : [ 1173.0, 574.0, 72.0, 22.0 ],
@@ -7340,7 +7290,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 589.0, 797.0, 61.0, 22.0 ],
+					"patching_rect" : [ 589.0, 798.0, 61.0, 22.0 ],
 					"text" : "history $1"
 				}
 
@@ -7352,7 +7302,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 383.0, 806.0, 61.0, 22.0 ],
+					"patching_rect" : [ 383.0, 798.0, 61.0, 22.0 ],
 					"text" : "history $1"
 				}
 
@@ -7376,7 +7326,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 592.0, 830.0, 205.0, 22.0 ],
+					"patching_rect" : [ 589.0, 835.0, 205.0, 22.0 ],
 					"text" : "__count_recent_classes @history 32"
 				}
 
@@ -7459,7 +7409,7 @@
 					"maxclass" : "live.comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 427.0, 737.0, 58.0, 18.0 ],
+					"patching_rect" : [ 435.0, 675.5, 58.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 324.0, 685.0, 66.0, 18.0 ],
 					"text" : "long history",
@@ -7473,7 +7423,7 @@
 					"maxclass" : "live.comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 427.0, 713.0, 65.0, 18.0 ],
+					"patching_rect" : [ 432.0, 653.0, 65.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 324.0, 654.0, 65.0, 18.0 ],
 					"text" : "short history ",
@@ -7603,12 +7553,12 @@
 					"maxclass" : "bpatcher",
 					"name" : "_shertler-kitchensink.maxpat",
 					"numinlets" : 1,
-					"numoutlets" : 6,
+					"numoutlets" : 10,
 					"offset" : [ -5.0, 0.0 ],
-					"outlettype" : [ "", "signal", "signal", "", "signal", "signal" ],
+					"outlettype" : [ "", "signal", "signal", "", "signal", "signal", "signal", "signal", "", "" ],
 					"patching_rect" : [ 7.033333381016917, 8.170105576515198, 468.0, 356.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 3.0, 279.0, 617.0 ],
+					"presentation_rect" : [ 2.0, 3.0, 174.0, 674.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -8015,27 +7965,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-172", 0 ],
 					"source" : [ "obj-142", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-71", 1 ],
-					"source" : [ "obj-143", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-86", 1 ],
-					"source" : [ "obj-143", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-90", 1 ],
-					"source" : [ "obj-143", 2 ]
 				}
 
 			}
@@ -9032,6 +8961,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-35", 0 ],
+					"source" : [ "obj-6", 8 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-48", 0 ],
 					"order" : 1,
 					"source" : [ "obj-6", 0 ]
@@ -9346,7 +9282,7 @@
 
 			}
  ],
-		"originid" : "pat-8",
+		"originid" : "pat-33374",
 		"parameters" : 		{
 			"obj-102" : [ "live.text[49]", "live.text", 0 ],
 			"obj-103::obj-110" : [ "live.text[52]", "live.text", 0 ],
@@ -9426,7 +9362,7 @@
 			"obj-208::obj-30" : [ "live.text[38]", "live.text", 0 ],
 			"obj-208::obj-8" : [ "live.dial[47]", "speed", 0 ],
 			"obj-26" : [ "live.text[51]", "live.text", 0 ],
-			"obj-28" : [ "live.dial", "Gain", 0 ],
+			"obj-28" : [ "live.dial[63]", "Gain", 0 ],
 			"obj-306::obj-27" : [ "live.text[37]", "live.text", 0 ],
 			"obj-306::obj-28" : [ "live.text[35]", "live.text", 0 ],
 			"obj-306::obj-299" : [ "live.tab[12]", "live.tab", 0 ],
@@ -9443,7 +9379,6 @@
 			"obj-316::obj-30" : [ "live.text[33]", "live.text", 0 ],
 			"obj-316::obj-8" : [ "live.dial[57]", "speed", 0 ],
 			"obj-38::obj-1" : [ "live.menu[5]", "live.menu[1]", 0 ],
-			"obj-38::obj-102::obj-77::obj-255" : [ "number[5]", "number[1]", 0 ],
 			"obj-38::obj-109" : [ "live.button[25]", "live.button", 0 ],
 			"obj-38::obj-176" : [ "rslider[2]", "rslider", 0 ],
 			"obj-38::obj-17::obj-109" : [ "live.button[22]", "live.button", 0 ],
@@ -9501,7 +9436,6 @@
 			"obj-38::obj-94" : [ "bending-rotation", "Amount", 0 ],
 			"obj-38::obj-95" : [ "bending-scramble", "Amount", 0 ],
 			"obj-38::obj-96" : [ "bending-dropouts[1]", "Amount", 0 ],
-			"obj-39::obj-102::obj-77::obj-255" : [ "number[6]", "number[1]", 0 ],
 			"obj-39::obj-14" : [ "live.menu[12]", "live.menu", 0 ],
 			"obj-39::obj-169::obj-109" : [ "live.button[28]", "live.button", 0 ],
 			"obj-39::obj-169::obj-158" : [ "live.text[56]", "live.text", 0 ],
@@ -9522,7 +9456,6 @@
 			"obj-39::obj-46" : [ "live.button[29]", "live.button", 0 ],
 			"obj-39::obj-8" : [ "live.toggle[3]", "live.toggle", 0 ],
 			"obj-3::obj-1" : [ "live.menu[6]", "live.menu[1]", 0 ],
-			"obj-3::obj-102::obj-77::obj-255" : [ "number[4]", "number[1]", 0 ],
 			"obj-3::obj-109" : [ "live.button[11]", "live.button", 0 ],
 			"obj-3::obj-176" : [ "rslider[1]", "rslider", 0 ],
 			"obj-3::obj-17::obj-109" : [ "live.button[10]", "live.button", 0 ],
@@ -9589,12 +9522,14 @@
 			"obj-6::obj-21" : [ "live.dial[32]", "lockout", 0 ],
 			"obj-6::obj-23" : [ "live.dial[30]", "floor", 0 ],
 			"obj-6::obj-25" : [ "live.dial[33]", "sensitivity", 0 ],
-			"obj-6::obj-28::obj-19" : [ "live.gain~[4]", "live.gain~", 0 ],
-			"obj-6::obj-28::obj-20" : [ "live.text[28]", "live.text", 0 ],
-			"obj-6::obj-28::obj-21" : [ "live.text[27]", "live.text", 0 ],
+			"obj-6::obj-28::obj-13::obj-19" : [ "live.gain~[5]", "live.gain~", 0 ],
 			"obj-6::obj-28::obj-41" : [ "live.text[26]", "live.text", 0 ],
+			"obj-6::obj-28::obj-5" : [ "live.tab", "live.tab", 0 ],
 			"obj-6::obj-31" : [ "live.text[29]", "live.text", 0 ],
+			"obj-6::obj-46" : [ "history[1]", "history", 0 ],
+			"obj-6::obj-47" : [ "live.dial", "threshold", 0 ],
 			"obj-6::obj-53::obj-3" : [ "live.tab[5]", "live.tab", 0 ],
+			"obj-6::obj-66::obj-6" : [ "live.tab[2]", "live.tab", 0 ],
 			"obj-72" : [ "live.toggle[15]", "live.toggle", 0 ],
 			"obj-8" : [ "gain[4]", "player 1", 0 ],
 			"obj-84::obj-18" : [ "live.dial[62]", "speed", 0 ],
@@ -10299,20 +10234,12 @@
 					"parameter_longname" : "live.dial[33]"
 				}
 ,
-				"obj-6::obj-28::obj-19" : 				{
-					"parameter_longname" : "live.gain~[4]"
-				}
-,
-				"obj-6::obj-28::obj-20" : 				{
-					"parameter_longname" : "live.text[28]"
-				}
-,
-				"obj-6::obj-28::obj-21" : 				{
-					"parameter_longname" : "live.text[27]"
-				}
-,
 				"obj-6::obj-28::obj-41" : 				{
 					"parameter_longname" : "live.text[26]"
+				}
+,
+				"obj-6::obj-28::obj-5" : 				{
+					"parameter_longname" : "live.tab"
 				}
 ,
 				"obj-6::obj-31" : 				{
@@ -10505,6 +10432,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "cello-clusterable-corpus.wav",
+				"bootpath" : "~/Dropbox/audio",
+				"patcherrelativepath" : "../../../../../Dropbox/audio",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "cello-schertler-dpa-timbres.wav",
 				"bootpath" : "~/Dropbox/audio",
 				"patcherrelativepath" : "../../../../../Dropbox/audio",
@@ -10519,156 +10453,177 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "desc-mfcc-time-analysis.maxpat",
+				"bootpath" : "~/Documents/Max 9/Projects/sp-tools/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "dk.ArrowOff.svg",
-				"bootpath" : "~/Documents/Max 9/Library/DK - alpha B/Data Knot - alpha B/media/Icons",
-				"patcherrelativepath" : "../../../Library/DK - alpha B/Data Knot - alpha B/media/Icons",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/media/Icons",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/media/Icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dk.ArrowOn.svg",
-				"bootpath" : "~/Documents/Max 9/Library/DK - alpha B/Data Knot - alpha B/media/Icons",
-				"patcherrelativepath" : "../../../Library/DK - alpha B/Data Knot - alpha B/media/Icons",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/media/Icons",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/media/Icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "dk.adstatussr.maxpat",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/misc/Misc",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/misc/Misc",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "dk.classifierdisplay.maxpat",
-				"bootpath" : "~/Documents/Max 9/Library/DK - alpha B/Data Knot - alpha B/patchers",
-				"patcherrelativepath" : "../../../Library/DK - alpha B/Data Knot - alpha B/patchers",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/patchers",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dk.classkitchensink~.maxpat",
-				"bootpath" : "~/Documents/Max 9/Library/DK - alpha B/Data Knot - alpha B/patchers",
-				"patcherrelativepath" : "../../../Library/DK - alpha B/Data Knot - alpha B/patchers",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/patchers",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dk.classmatch.maxpat",
-				"bootpath" : "~/Documents/Max 9/Library/DK - alpha B/Data Knot - alpha B/patchers",
-				"patcherrelativepath" : "../../../Library/DK - alpha B/Data Knot - alpha B/patchers",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/patchers",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dk.controllers.maxpat",
-				"bootpath" : "~/Documents/Max 9/Library/DK - alpha B/Data Knot - alpha B/patchers",
-				"patcherrelativepath" : "../../../Library/DK - alpha B/Data Knot - alpha B/patchers",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/patchers",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dk.convolver~.maxpat",
-				"bootpath" : "~/Documents/Max 9/Library/DK - alpha B/Data Knot - alpha B/patchers",
-				"patcherrelativepath" : "../../../Library/DK - alpha B/Data Knot - alpha B/patchers",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/patchers",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dk.corpusmatch.maxpat",
-				"bootpath" : "~/Documents/Max 9/Library/DK - alpha B/Data Knot - alpha B/patchers",
-				"patcherrelativepath" : "../../../Library/DK - alpha B/Data Knot - alpha B/patchers",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/patchers",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dk.corpusplayer~.maxpat",
-				"bootpath" : "~/Documents/Max 9/Library/DK - alpha B/Data Knot - alpha B/patchers",
-				"patcherrelativepath" : "../../../Library/DK - alpha B/Data Knot - alpha B/patchers",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/patchers",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dk.crossbank~.maxpat",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/misc/Misc",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/misc/Misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dk.databending.maxpat",
-				"bootpath" : "~/Documents/Max 9/Library/DK - alpha B/Data Knot - alpha B/patchers",
-				"patcherrelativepath" : "../../../Library/DK - alpha B/Data Knot - alpha B/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "dk.datadelay.maxpat",
-				"bootpath" : "~/Documents/Max 9/Library/DK - alpha B/Data Knot - alpha B/patchers",
-				"patcherrelativepath" : "../../../Library/DK - alpha B/Data Knot - alpha B/patchers",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/patchers",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dk.datagranular.maxpat",
-				"bootpath" : "~/Documents/Max 9/Library/DK - alpha B/Data Knot - alpha B/patchers",
-				"patcherrelativepath" : "../../../Library/DK - alpha B/Data Knot - alpha B/patchers",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/patchers",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dk.datalooper~.maxpat",
-				"bootpath" : "~/Documents/Max 9/Library/DK - alpha B/Data Knot - alpha B/patchers",
-				"patcherrelativepath" : "../../../Library/DK - alpha B/Data Knot - alpha B/patchers",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/patchers",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dk.datatranspose.maxpat",
-				"bootpath" : "~/Documents/Max 9/Library/DK - alpha B/Data Knot - alpha B/patchers",
-				"patcherrelativepath" : "../../../Library/DK - alpha B/Data Knot - alpha B/patchers",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/patchers",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dk.descriptordisplay.maxpat",
-				"bootpath" : "~/Documents/Max 9/Library/DK - alpha B/Data Knot - alpha B/patchers",
-				"patcherrelativepath" : "../../../Library/DK - alpha B/Data Knot - alpha B/patchers",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/patchers",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dk.descriptorframe.maxpat",
-				"bootpath" : "~/Documents/Max 9/Library/DK - alpha B/Data Knot - alpha B/patchers",
-				"patcherrelativepath" : "../../../Library/DK - alpha B/Data Knot - alpha B/patchers",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/patchers",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dk.envelope~.maxpat",
-				"bootpath" : "~/Documents/Max 9/Library/DK - alpha B/Data Knot - alpha B/patchers",
-				"patcherrelativepath" : "../../../Library/DK - alpha B/Data Knot - alpha B/patchers",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/patchers",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dk.filter.maxpat",
-				"bootpath" : "~/Documents/Max 9/Library/DK - alpha B/Data Knot - alpha B/patchers",
-				"patcherrelativepath" : "../../../Library/DK - alpha B/Data Knot - alpha B/patchers",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/patchers",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dk.impulsegeneratorcomplex~.maxpat",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/misc/Misc",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/misc/Misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dk.loopIconImageOff.svg",
-				"bootpath" : "~/Documents/Max 9/Library/DK - alpha B/Data Knot - alpha B/media/Icons",
-				"patcherrelativepath" : "../../../Library/DK - alpha B/Data Knot - alpha B/media/Icons",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/media/Icons",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/media/Icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dk.loopIconImageOn.svg",
-				"bootpath" : "~/Documents/Max 9/Library/DK - alpha B/Data Knot - alpha B/media/Icons",
-				"patcherrelativepath" : "../../../Library/DK - alpha B/Data Knot - alpha B/media/Icons",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/media/Icons",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/media/Icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dk.melbandframe.maxpat",
-				"bootpath" : "~/Documents/Max 9/Library/DK - alpha B/Data Knot - alpha B/patchers",
-				"patcherrelativepath" : "../../../Library/DK - alpha B/Data Knot - alpha B/patchers",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/patchers",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dk.mfccframe.maxpat",
-				"bootpath" : "~/Documents/Max 9/Library/DK - alpha B/Data Knot - alpha B/patchers",
-				"patcherrelativepath" : "../../../Library/DK - alpha B/Data Knot - alpha B/patchers",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/patchers",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -10677,149 +10632,121 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "dk.onsetfeaturecore~.maxpat",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/misc/Misc",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/misc/Misc",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "dk.onsetframe~.maxpat",
-				"bootpath" : "~/Documents/Max 9/Library/DK - alpha B/Data Knot - alpha B/patchers",
-				"patcherrelativepath" : "../../../Library/DK - alpha B/Data Knot - alpha B/patchers",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/patchers",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dk.onset~.maxpat",
-				"bootpath" : "~/Documents/Max 9/Library/DK - alpha B/Data Knot - alpha B/patchers",
-				"patcherrelativepath" : "../../../Library/DK - alpha B/Data Knot - alpha B/patchers",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/patchers",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dk.plotter.js",
-				"bootpath" : "~/Documents/Max 9/Library/DK - alpha B/Data Knot - alpha B/jsui",
-				"patcherrelativepath" : "../../../Library/DK - alpha B/Data Knot - alpha B/jsui",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "dk.plotter.maxpat",
-				"bootpath" : "~/Documents/Max 9/Library/DK - alpha B/Data Knot - alpha B/patchers",
-				"patcherrelativepath" : "../../../Library/DK - alpha B/Data Knot - alpha B/patchers",
+				"name" : "dk.playbackcore~.maxpat",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/misc/Misc",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/misc/Misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dk.quantizepitch.maxpat",
-				"bootpath" : "~/Documents/Max 9/Library/DK - alpha B/Data Knot - alpha B/patchers",
-				"patcherrelativepath" : "../../../Library/DK - alpha B/Data Knot - alpha B/patchers",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/patchers",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dk.quantizetime~.maxpat",
-				"bootpath" : "~/Documents/Max 9/Library/DK - alpha B/Data Knot - alpha B/patchers",
-				"patcherrelativepath" : "../../../Library/DK - alpha B/Data Knot - alpha B/patchers",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/patchers",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dk.ramp.maxpat",
-				"bootpath" : "~/Documents/Max 9/Library/DK - alpha B/Data Knot - alpha B/patchers",
-				"patcherrelativepath" : "../../../Library/DK - alpha B/Data Knot - alpha B/patchers",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/patchers",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dk.ramp~.maxpat",
-				"bootpath" : "~/Documents/Max 9/Library/DK - alpha B/Data Knot - alpha B/patchers",
-				"patcherrelativepath" : "../../../Library/DK - alpha B/Data Knot - alpha B/patchers",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/patchers",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dk.randomsynthpreset.maxpat",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/misc/Misc",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/misc/Misc",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dk.realtimeframe~.maxpat",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/patchers",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dk.sampler~.maxpat",
-				"bootpath" : "~/Documents/Max 9/Library/DK - alpha B/Data Knot - alpha B/patchers",
-				"patcherrelativepath" : "../../../Library/DK - alpha B/Data Knot - alpha B/patchers",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/patchers",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dk.sliceloop.maxpat",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/misc/Misc",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/misc/Misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dk.spectralonset~.maxpat",
-				"bootpath" : "~/Documents/Max 9/Library/DK - alpha B/Data Knot - alpha B/patchers",
-				"patcherrelativepath" : "../../../Library/DK - alpha B/Data Knot - alpha B/patchers",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/patchers",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dk.speed.maxpat",
-				"bootpath" : "~/Documents/Max 9/Library/DK - alpha B/Data Knot - alpha B/patchers",
-				"patcherrelativepath" : "../../../Library/DK - alpha B/Data Knot - alpha B/patchers",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/patchers",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dk.triggeralign~.maxpat",
-				"bootpath" : "~/Documents/Max 9/Library/DK - alpha B/Data Knot - alpha B/patchers",
-				"patcherrelativepath" : "../../../Library/DK - alpha B/Data Knot - alpha B/patchers",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/patchers",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dk.waveformdisplay.maxpat",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/misc/Misc",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/misc/Misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dk.waveguidemesh~.maxpat",
-				"bootpath" : "~/Documents/Max 9/Library/DK - alpha B/Data Knot - alpha B/patchers",
-				"patcherrelativepath" : "../../../Library/DK - alpha B/Data Knot - alpha B/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "dk.widgetadstatussr.maxpat",
-				"bootpath" : "~/Documents/Max 9/Library/DK - alpha B/Data Knot - alpha B/misc/Misc",
-				"patcherrelativepath" : "../../../Library/DK - alpha B/Data Knot - alpha B/misc/Misc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "dk.widgetcrossbank~.maxpat",
-				"bootpath" : "~/Documents/Max 9/Library/DK - alpha B/Data Knot - alpha B/misc/Misc",
-				"patcherrelativepath" : "../../../Library/DK - alpha B/Data Knot - alpha B/misc/Misc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "dk.widgetimpulsegeneratorcomplex~.maxpat",
-				"bootpath" : "~/Documents/Max 9/Library/DK - alpha B/Data Knot - alpha B/misc/Misc",
-				"patcherrelativepath" : "../../../Library/DK - alpha B/Data Knot - alpha B/misc/Misc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "dk.widgetonsetfeaturecore~.maxpat",
-				"bootpath" : "~/Documents/Max 9/Library/DK - alpha B/Data Knot - alpha B/misc/Misc",
-				"patcherrelativepath" : "../../../Library/DK - alpha B/Data Knot - alpha B/misc/Misc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "dk.widgetplaybackcore~.maxpat",
-				"bootpath" : "~/Documents/Max 9/Library/DK - alpha B/Data Knot - alpha B/misc/Misc",
-				"patcherrelativepath" : "../../../Library/DK - alpha B/Data Knot - alpha B/misc/Misc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "dk.widgetrandomsynthpreset.maxpat",
-				"bootpath" : "~/Documents/Max 9/Library/DK - alpha B/Data Knot - alpha B/misc/Misc",
-				"patcherrelativepath" : "../../../Library/DK - alpha B/Data Knot - alpha B/misc/Misc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "dk.widgetsliceloop.maxpat",
-				"bootpath" : "~/Documents/Max 9/Library/DK - alpha B/Data Knot - alpha B/misc/Misc",
-				"patcherrelativepath" : "../../../Library/DK - alpha B/Data Knot - alpha B/misc/Misc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "dk.widgetwaveformdisplay.maxpat",
-				"bootpath" : "~/Documents/Max 9/Library/DK - alpha B/Data Knot - alpha B/misc/Misc",
-				"patcherrelativepath" : "../../../Library/DK - alpha B/Data Knot - alpha B/misc/Misc",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/patchers",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -10927,10 +10854,6 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "fluid.pca~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "fluid.robustscale~.mxo",
 				"type" : "iLaX"
 			}
@@ -10939,7 +10862,7 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "fluid.umap~.mxo",
+				"name" : "fluid.stats.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -10965,22 +10888,29 @@
 			}
 , 			{
 				"name" : "recenterBpatcherWindow.js",
-				"bootpath" : "~/Documents/Max 9/Library/DK - alpha B/Data Knot - alpha B/javascript",
-				"patcherrelativepath" : "../../../Library/DK - alpha B/Data Knot - alpha B/javascript",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/javascript",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "resizeBpatcherWindow.js",
-				"bootpath" : "~/Documents/Max 9/Library/DK - alpha B/Data Knot - alpha B/javascript",
-				"patcherrelativepath" : "../../../Library/DK - alpha B/Data Knot - alpha B/javascript",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/javascript",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "rt-class-selector.maxpat",
+				"bootpath" : "~/Documents/Max 9/Projects/sp-tools/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "samplerRampFadeDisplay.js",
-				"bootpath" : "~/Documents/Max 9/Library/DK - alpha B/Data Knot - alpha B/jsui",
-				"patcherrelativepath" : "../../../Library/DK - alpha B/Data Knot - alpha B/jsui",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/jsui",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/jsui",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

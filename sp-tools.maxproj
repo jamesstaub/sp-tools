@@ -2,8 +2,8 @@
 	"name" : "sp-tools",
 	"version" : 1,
 	"creationdate" : 3752608503,
-	"modificationdate" : 3815001492,
-	"viewrect" : [ 0.0, 115.0, 1680.0, 901.0 ],
+	"modificationdate" : 3818199163,
+	"viewrect" : [ 1078.0, 87.0, 840.0, 929.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 0,
@@ -115,22 +115,12 @@
 				"local" : 1
 			}
 ,
-			"_analysis_frames.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
 			"_bounce-sinusoid.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
 			"_concat.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"_sp_classify_timbre.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -200,7 +190,27 @@
 				"local" : 1
 			}
 ,
-			"pca-classifier.maxpat" : 			{
+			"25-performer.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"classifier-training.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/Max 9/Projects/sp-tools/patchers",
+					"projectrelativepath" : "./patchers"
+				}
+
+			}
+,
+			"rt-class-selector.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"desc-mfcc-time-analysis.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
