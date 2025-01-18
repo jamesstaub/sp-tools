@@ -2,8 +2,8 @@
 	"name" : "sp-tools",
 	"version" : 1,
 	"creationdate" : 3752608503,
-	"modificationdate" : 3818199163,
-	"viewrect" : [ 1078.0, 87.0, 840.0, 929.0 ],
+	"modificationdate" : 3819670812,
+	"viewrect" : [ 0.0, 115.0, 1920.0, 931.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 0,
@@ -106,8 +106,7 @@
 ,
 			"arrowhead-performer -2mics.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1,
-				"toplevel" : 1
+				"local" : 1
 			}
 ,
 			"_adc.maxpat" : 			{
@@ -192,7 +191,8 @@
 ,
 			"25-performer.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1
+				"local" : 1,
+				"toplevel" : 1
 			}
 ,
 			"classifier-training.maxpat" : 			{
@@ -207,10 +207,45 @@
 ,
 			"rt-class-selector.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/Max 9/Projects/sp-tools/patchers",
+					"projectrelativepath" : "./patchers"
+				}
+
 			}
 ,
 			"desc-mfcc-time-analysis.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/Max 9/Projects/sp-tools/patchers",
+					"projectrelativepath" : "./patchers"
+				}
+
+			}
+,
+			"descriptors-to-octatrack.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/Max 9/Projects/sp-tools/patchers",
+					"projectrelativepath" : "./patchers"
+				}
+
+			}
+,
+			"desc-mfcc-analysis.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/Max 9/Projects/sp-tools/patchers",
+					"projectrelativepath" : "./patchers"
+				}
+
+			}
+,
+			"class-to-octa-scene.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}

@@ -78,7 +78,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_enum" : [ "bow", "bow-hi", "pluck", "chord", "col_legno", "malletdrag", "knock", "tremolo", "arpeggio" ],
+							"parameter_enum" : [ "bow", "bow_hi", "pluck", "chord", "col_legno", "malletdrag", "knock", "tremolo", "arpeggio" ],
 							"parameter_longname" : "live.tab[2]",
 							"parameter_mmax" : 8,
 							"parameter_modmode" : 0,
@@ -114,7 +114,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "list" ],
-					"patching_rect" : [ 339.0, 49.0, 56.0, 22.0 ],
+					"patching_rect" : [ 330.0, 49.0, 56.0, 22.0 ],
 					"text" : "listfunnel"
 				}
 
@@ -126,8 +126,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 339.0, 20.0, 376.0, 22.0 ],
-					"text" : "bow bow-hi pluck chord col_legno malletdrag knock tremolo arpeggio"
+					"patching_rect" : [ 330.0, 20.0, 379.0, 22.0 ],
+					"text" : "bow bow_hi pluck chord col_legno malletdrag knock tremolo arpeggio"
 				}
 
 			}
@@ -190,7 +190,7 @@
 							}
 , 							{
 								"key" : 1,
-								"value" : [ "bow-hi" ]
+								"value" : [ "bow_hi" ]
 							}
 , 							{
 								"key" : 2,
@@ -407,7 +407,7 @@
 
 			}
  ],
-		"originid" : "pat-31072",
+		"originid" : "pat-7938",
 		"parameters" : 		{
 			"obj-6" : [ "live.tab[2]", "live.tab", 0 ],
 			"parameterbanks" : 			{

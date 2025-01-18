@@ -4,26 +4,15 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 41.0, 115.0, 1360.0, 931.0 ],
+		"rect" : [ 34.0, 115.0, 1852.0, 931.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
-				"box" : 				{
-					"id" : "obj-20",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 392.0, 774.0, 32.0, 22.0 ],
-					"text" : "print"
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"id" : "obj-6",
 					"maxclass" : "newobj",
@@ -39,7 +28,7 @@
 				"box" : 				{
 					"comment" : "bang dumpout",
 					"id" : "obj-4",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -59,7 +48,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -216,7 +205,7 @@
 
 							}
  ],
-						"originid" : "pat-21810"
+						"originid" : "pat-4478"
 					}
 ,
 					"patching_rect" : [ 379.0, 353.0, 45.0, 22.0 ],
@@ -232,7 +221,7 @@
 				"box" : 				{
 					"comment" : "list all classnames",
 					"id" : "obj-1",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -321,12 +310,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-96",
-					"linecount" : 15,
+					"linecount" : 14,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 650.0, 104.0, 298.0, 221.0 ],
-					"text" : "takes in class names and outputs a list with the relative number of occurences over the course of the history\n\nso if the input is \n\nbow, bow, pluck, pluck\n\nthe output will be bow 0.5 pluck 0.5 knock 0 col_legno 0\n\n\nalways output 0s for classes that were not received in the history window so this has the effect of switching on/off the parameters that are hooked up to it\n"
+					"patching_rect" : [ 650.0, 104.0, 298.0, 208.0 ],
+					"text" : "takes in class names and outputs a list with the relative number of occurences over the course of the history\n\nso if the input is \n\nbow, bow, pluck, pluck\n\nthe output will be bow 0.5 pluck 0.5 bow 0 col_legno 0\n\n\nalways output 0s for classes that were not received in the history window so this has the effect of switching on/off the parameters that are hooked up to it\n"
 				}
 
 			}
@@ -345,7 +334,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-92",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -639,7 +628,7 @@
 				"box" : 				{
 					"comment" : "classname or clear",
 					"id" : "obj-3",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -908,16 +897,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-20", 0 ],
-					"order" : 0,
-					"source" : [ "obj-84", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-92", 0 ],
-					"order" : 1,
 					"source" : [ "obj-84", 0 ]
 				}
 
@@ -993,9 +973,7 @@
 
 			}
  ],
-		"originid" : "pat-21808",
-		"dependency_cache" : [  ],
-		"autosave" : 0
+		"originid" : "pat-4476"
 	}
 
 }

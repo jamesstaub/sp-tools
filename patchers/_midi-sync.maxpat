@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 640.0, 187.0 ],
+		"rect" : [ 34.0, 87.0, 1612.0, 929.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
@@ -32,10 +32,10 @@
 					"id" : "obj-49",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ -107.0, 52.0, 32.0, 22.0 ],
-					"text" : "t b b"
+					"numoutlets" : 3,
+					"outlettype" : [ "bang", "bang", "bang" ],
+					"patching_rect" : [ -105.5, 24.0, 42.0, 22.0 ],
+					"text" : "t b b b"
 				}
 
 			}
@@ -122,7 +122,7 @@
 					"outlettype" : [ "bang" ],
 					"outlinecolor" : [ 0.420503, 0.417835, 0.388946, 1.0 ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ -27.0, 22.0, 24.0, 24.0 ],
+					"patching_rect" : [ 110.0, -6.0, 24.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 43.0, 6.0, 24.0, 24.0 ]
 				}
@@ -140,7 +140,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ -94.0, 187.0, 246.0, 20.0 ],
+					"patching_rect" : [ -94.0, 212.0, 246.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.0, 60.0, 197.0, 20.0 ]
 				}
@@ -172,7 +172,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ -94.0, 154.0, 246.0, 20.0 ],
+					"patching_rect" : [ -94.0, 178.0, 246.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.0, 35.0, 197.0, 20.0 ]
 				}
@@ -240,7 +240,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ -107.0, 23.0, 58.0, 22.0 ],
+					"patching_rect" : [ -105.5, -5.0, 58.0, 22.0 ],
 					"text" : "loadbang"
 				}
 
@@ -273,7 +273,7 @@
 				"box" : 				{
 					"comment" : "raw ticks",
 					"id" : "obj-4",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -484,7 +484,7 @@
 
 							}
  ],
-						"originid" : "pat-13788"
+						"originid" : "pat-14149"
 					}
 ,
 					"patching_rect" : [ 343.0, 472.0, 114.0, 22.0 ],
@@ -512,7 +512,7 @@
 				"box" : 				{
 					"comment" : "sync out",
 					"id" : "obj-102",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -800,7 +800,7 @@
 
 							}
  ],
-						"originid" : "pat-13790"
+						"originid" : "pat-14151"
 					}
 ,
 					"patching_rect" : [ 156.0, 420.0, 61.0, 22.0 ],
@@ -1082,15 +1082,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
-					"order" : 1,
-					"source" : [ "obj-26", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-46", 1 ],
-					"order" : 0,
 					"source" : [ "obj-26", 1 ]
 				}
 
@@ -1162,7 +1153,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
 					"order" : 1,
-					"source" : [ "obj-49", 1 ]
+					"source" : [ "obj-49", 2 ]
 				}
 
 			}
@@ -1170,13 +1161,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-24", 0 ],
 					"order" : 0,
-					"source" : [ "obj-49", 1 ]
+					"source" : [ "obj-49", 2 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-46", 0 ],
+					"destination" : [ "obj-26", 0 ],
 					"order" : 0,
 					"source" : [ "obj-49", 0 ]
 				}
@@ -1184,9 +1175,25 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-48", 0 ],
+					"destination" : [ "obj-29", 0 ],
 					"order" : 1,
 					"source" : [ "obj-49", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-46", 0 ],
+					"order" : 0,
+					"source" : [ "obj-49", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-48", 0 ],
+					"order" : 1,
+					"source" : [ "obj-49", 1 ]
 				}
 
 			}
@@ -1315,23 +1322,7 @@
 
 			}
  ],
-		"originid" : "pat-13786",
-		"parameters" : 		{
-			"obj-27" : [ "live.text[48]", "live.text", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [  ],
-		"autosave" : 0
+		"originid" : "pat-14147"
 	}
 
 }

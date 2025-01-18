@@ -1,0 +1,2421 @@
+{
+	"pattrstorage" : 	{
+		"name" : "25-performer",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"calibrate" : [ 0.0 ],
+					"gate-send-scenes[1]" : [ 1.0 ],
+					"live.dial[3]" : [  ],
+					"live.gain~" : [ 0.0 ],
+					"live.numbox" : [ 24.0 ],
+					"live.tab[5]" : [ 1.0 ],
+					"_timbre-to_midi::duration" : [ 500.0 ],
+					"_timbre-to_midi::gate-receive-scenes" : [ 1.0 ],
+					"_timbre-to_midi::gate-send-scenes" : [ 1.0 ],
+					"_timbre-to_midi::live.numbox[2]" : [ 45.292697906494141 ],
+					"_timbre-to_midi::live.tab" : [ 0.0 ],
+					"_timbre-to_midi::live.tab[1]" : [ 0.0 ],
+					"_timbre-to_midi::live.tab[2]" : [ 7.0 ],
+					"_timbre-to_midi::live.tab[3]" : [ 1.0 ],
+					"_timbre-to_midi::live.text" : [ 0.0 ],
+					"_timbre-to_midi::note-midi-channel" : [ 12.0 ],
+					"_timbre-to_midi::quantize" : [ 1 ],
+					"_timbre-to_midi::quantize-scale" : [ 9 ],
+					"_timbre-to_midi::toggle-flex-pitch" : [ 1.0 ],
+					"_timbre-to_midi::toggle-midi-note" : [ 0.0 ],
+					"_timbre-to_midi::toggle-midi-note[1]" : [ 0.0 ],
+					"_timbre-to_midi::toggle-midi-note[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::corpus-menu" : [ 5 ],
+					"_filter-to-corpus-1::bending-dropouts" : [ 0.0 ],
+					"_filter-to-corpus-1::bending-rotation" : [ 0.0 ],
+					"_filter-to-corpus-1::bending-scramble" : [ 0.0 ],
+					"_filter-to-corpus-1::bending-variation" : [ 0.0 ],
+					"_filter-to-corpus-1::comp-loudness" : [ 50.0 ],
+					"_filter-to-corpus-1::comp-spectral" : [ 50.0 ],
+					"_filter-to-corpus-1::granular-rate" : [ 75.75 ],
+					"_filter-to-corpus-1::granular-rate-relative" : [ 0.17754119792056 ],
+					"_filter-to-corpus-1::granular-variation" : [ 1.5748031496063 ],
+					"_filter-to-corpus-1::live.button[1]" : [ 0.0 ],
+					"_filter-to-corpus-1::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::live.menu[1]" : [ 2.0 ],
+					"_filter-to-corpus-1::live.text" : [ 0.0 ],
+					"_filter-to-corpus-1::live.text[1]" : [ 0.0 ],
+					"_filter-to-corpus-1::setup-range" : [ 5.850091407678245, 100.0 ],
+					"_filter-to-corpus-1::toggle-enabled" : [ 0.0 ],
+					"_filter-to-corpus-1::toggle-granular" : [ 0.0 ],
+					"_filter-to-corpus-1::toggle-granular-random" : [ 0.0 ],
+					"_filter-to-corpus-1::toggle-use-setup" : [ 1.0 ],
+					"_filter-to-corpus-1::centroid-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::centroid-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::centroid-corpus-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-1::pitch-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::pitch-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::pitch-corpus-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-1::confidence-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::confidence-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::confidence-corpus-filter-slider::slider" : [ 1.0 ],
+					"_filter-to-corpus-1::loudness-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::loudness-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::loudness-corpus-filter-slider::slider" : [ 75.0 ],
+					"_filter-to-corpus-1::centroid-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::centroid-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::centroid-input-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-1::pitch-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::pitch-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::pitch-input-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-1::confidence-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::confidence-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::confidence-input-filter-slider::slider" : [ 1.0 ],
+					"_filter-to-corpus-1::loudness-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::loudness-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::loudness-input-filter-slider::slider" : [ 100.0 ],
+					"_filter-to-corpus-1::sp-sampler::absoluteview" : [ 0.0 ],
+					"_filter-to-corpus-1::sp-sampler::algorithm" : [ 0.0 ],
+					"_filter-to-corpus-1::sp-sampler::gain" : [ 100.0 ],
+					"_filter-to-corpus-1::sp-sampler::in" : [ 0.0 ],
+					"_filter-to-corpus-1::sp-sampler::incurve" : [ 0.0 ],
+					"_filter-to-corpus-1::sp-sampler::length" : [ 100.0 ],
+					"_filter-to-corpus-1::sp-sampler::lengthabsolute" : [ 120000.0 ],
+					"_filter-to-corpus-1::sp-sampler::live.drop[4]" : [ "" ],
+					"_filter-to-corpus-1::sp-sampler::loop" : [ 0.0 ],
+					"_filter-to-corpus-1::sp-sampler::out" : [ 0.0 ],
+					"_filter-to-corpus-1::sp-sampler::outcurve" : [ 0.0 ],
+					"_filter-to-corpus-1::sp-sampler::pitch" : [ 0.0 ],
+					"_filter-to-corpus-1::sp-sampler::speed" : [ 100.0 ],
+					"_filter-to-corpus-1::sp-sampler::start" : [ 0.0 ],
+					"_filter-to-corpus-1::sp-sampler::startabsolute" : [ 0.0 ],
+					"_filter-to-corpus-1::sp-sampler::steal" : [ 0.0 ],
+					"_filter-to-corpus-1::sp-sampler::tabopen" : [ 0.0 ],
+					"_filter-to-corpus-1::sp-sampler::timestretch" : [ 0.0 ],
+					"_filter-to-corpus-1::sp-sampler::voices" : [ 16.0 ],
+					"_filter-to-corpus-1::duration-corpus-filter-slider::comparator" : [ 0.0 ],
+					"_filter-to-corpus-1::duration-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::duration-corpus-filter-slider::slider" : [ 0 ],
+					"descriptors-to-octatrack-2::class-gate-threshold" : [ 80.0 ],
+					"descriptors-to-octatrack-2::gate-history" : [ 4.0 ],
+					"descriptors-to-octatrack-2::live.numbox" : [ 1.0 ],
+					"descriptors-to-octatrack-2::live.text" : [ 0.0 ],
+					"descriptors-to-octatrack-2::onset-trig-enabled" : [ 0.0 ],
+					"descriptors-to-octatrack-2::onset-trig-enabled[1]" : [ 0.0 ],
+					"descriptors-to-octatrack-2::select-class" : [ 0 ],
+					"descriptors-to-octatrack-2::toggle-trig-type" : [ 1.0 ],
+					"descriptors-to-octatrack-2::xpat-view-selector" : [ 2.0 ],
+					"descriptors-to-octatrack-2::xpat-speed::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 5,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-2::xpat-speed::umenu" : [ 1 ],
+					"descriptors-to-octatrack-2::xpat-descriptors::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 8,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-2::xpat-descriptors::umenu" : [ 0 ],
+					"descriptors-to-octatrack-2::xpat-controllers::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 10,
+								"numouts" : 32,
+								"connections" : [ 									{
+										"in" : 1,
+										"out" : 9,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 6,
+										"out" : 19,
+										"gain" : 1.0
+									}
+ ]
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-2::xpat-controllers::umenu" : [ 2 ],
+					"descriptors-to-octatrack-1::class-gate-threshold" : [ 80.0 ],
+					"descriptors-to-octatrack-1::gate-history" : [ 4.0 ],
+					"descriptors-to-octatrack-1::live.numbox" : [ 2.0 ],
+					"descriptors-to-octatrack-1::live.text" : [ 0.0 ],
+					"descriptors-to-octatrack-1::onset-trig-enabled" : [ 0.0 ],
+					"descriptors-to-octatrack-1::onset-trig-enabled[1]" : [ 0.0 ],
+					"descriptors-to-octatrack-1::select-class" : [ 1 ],
+					"descriptors-to-octatrack-1::toggle-trig-type" : [ 1.0 ],
+					"descriptors-to-octatrack-1::xpat-view-selector" : [ 1.0 ],
+					"descriptors-to-octatrack-1::xpat-speed::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 5,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-1::xpat-speed::umenu" : [ 1 ],
+					"descriptors-to-octatrack-1::xpat-descriptors::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 8,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-1::xpat-descriptors::umenu" : [ 0 ],
+					"descriptors-to-octatrack-1::xpat-controllers::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 10,
+								"numouts" : 32,
+								"connections" : [ 									{
+										"in" : 1,
+										"out" : 9,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 6,
+										"out" : 19,
+										"gain" : 1.0
+									}
+ ]
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-1::xpat-controllers::umenu" : [ 2 ],
+					"descriptors-to-octatrack-4::class-gate-threshold" : [ 67.401574803149614 ],
+					"descriptors-to-octatrack-4::gate-history" : [ 4.0 ],
+					"descriptors-to-octatrack-4::live.numbox" : [ 4.0 ],
+					"descriptors-to-octatrack-4::live.text" : [ 0.0 ],
+					"descriptors-to-octatrack-4::onset-trig-enabled" : [ 0.0 ],
+					"descriptors-to-octatrack-4::onset-trig-enabled[1]" : [ 0.0 ],
+					"descriptors-to-octatrack-4::select-class" : [ 5 ],
+					"descriptors-to-octatrack-4::toggle-trig-type" : [ 1.0 ],
+					"descriptors-to-octatrack-4::xpat-view-selector" : [ 2.0 ],
+					"descriptors-to-octatrack-4::xpat-speed::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 5,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-4::xpat-speed::umenu" : [ 1 ],
+					"descriptors-to-octatrack-4::xpat-descriptors::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 8,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-4::xpat-descriptors::umenu" : [ 0 ],
+					"descriptors-to-octatrack-4::xpat-controllers::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 10,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-4::xpat-controllers::umenu" : [ 2 ],
+					"descriptors-to-octatrack-3::class-gate-threshold" : [ 80.0 ],
+					"descriptors-to-octatrack-3::gate-history" : [ 4.0 ],
+					"descriptors-to-octatrack-3::live.numbox" : [ 3.0 ],
+					"descriptors-to-octatrack-3::live.text" : [ 0.0 ],
+					"descriptors-to-octatrack-3::onset-trig-enabled" : [ 0.0 ],
+					"descriptors-to-octatrack-3::onset-trig-enabled[1]" : [ 0.0 ],
+					"descriptors-to-octatrack-3::select-class" : [ 0 ],
+					"descriptors-to-octatrack-3::toggle-trig-type" : [ 1.0 ],
+					"descriptors-to-octatrack-3::xpat-view-selector" : [ 2.0 ],
+					"descriptors-to-octatrack-3::xpat-speed::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 5,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-3::xpat-speed::umenu" : [ 1 ],
+					"descriptors-to-octatrack-3::xpat-descriptors::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 8,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-3::xpat-descriptors::umenu" : [ 0 ],
+					"descriptors-to-octatrack-3::xpat-controllers::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 10,
+								"numouts" : 32,
+								"connections" : [ 									{
+										"in" : 1,
+										"out" : 9,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 6,
+										"out" : 19,
+										"gain" : 1.0
+									}
+ ]
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-3::xpat-controllers::umenu" : [ 2 ],
+					"_filter-to-corpus-1[1]::bending-dropouts" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::bending-rotation" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::bending-scramble" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::bending-variation" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::comp-loudness" : [ 50.0 ],
+					"_filter-to-corpus-1[1]::comp-spectral" : [ 50.0 ],
+					"_filter-to-corpus-1[1]::corpus-menu" : [ 0 ],
+					"_filter-to-corpus-1[1]::granular-rate" : [ 75.75 ],
+					"_filter-to-corpus-1[1]::granular-rate-relative" : [ 0.17754119792056 ],
+					"_filter-to-corpus-1[1]::granular-variation" : [ 1.5748031496063 ],
+					"_filter-to-corpus-1[1]::live.button[1]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::live.menu[1]" : [ 2.0 ],
+					"_filter-to-corpus-1[1]::live.text" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::live.text[1]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::setup-range" : [ 5.850091407678245, 100.0 ],
+					"_filter-to-corpus-1[1]::toggle-enabled" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::toggle-granular" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::toggle-granular-random" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::toggle-use-setup" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::centroid-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::centroid-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::centroid-corpus-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-1[1]::pitch-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::pitch-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::pitch-corpus-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-1[1]::confidence-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::confidence-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::confidence-corpus-filter-slider::slider" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::loudness-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::loudness-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::loudness-corpus-filter-slider::slider" : [ 75.0 ],
+					"_filter-to-corpus-1[1]::centroid-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::centroid-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::centroid-input-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-1[1]::pitch-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::pitch-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::pitch-input-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-1[1]::confidence-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::confidence-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::confidence-input-filter-slider::slider" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::loudness-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::loudness-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::loudness-input-filter-slider::slider" : [ 100.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::absoluteview" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::algorithm" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::gain" : [ 100.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::in" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::incurve" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::length" : [ 100.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::lengthabsolute" : [ 120000.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::live.drop[4]" : [ "" ],
+					"_filter-to-corpus-1[1]::sp-sampler::loop" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::out" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::outcurve" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::pitch" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::speed" : [ 100.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::start" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::startabsolute" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::steal" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::tabopen" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::timestretch" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::voices" : [ 16.0 ],
+					"_filter-to-corpus-1[1]::duration-corpus-filter-slider::comparator" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::duration-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::duration-corpus-filter-slider::slider" : [ 0 ],
+					"descriptors-to-octatrack-4[1]::class-gate-threshold" : [ 100.0 ],
+					"descriptors-to-octatrack-4[1]::gate-history" : [ 16.0 ],
+					"descriptors-to-octatrack-4[1]::live.numbox" : [ 7.0 ],
+					"descriptors-to-octatrack-4[1]::live.text" : [ 0.0 ],
+					"descriptors-to-octatrack-4[1]::onset-trig-enabled" : [ 0.0 ],
+					"descriptors-to-octatrack-4[1]::onset-trig-enabled[1]" : [ 0.0 ],
+					"descriptors-to-octatrack-4[1]::select-class" : [ 2 ],
+					"descriptors-to-octatrack-4[1]::toggle-trig-type" : [ 1.0 ],
+					"descriptors-to-octatrack-4[1]::xpat-view-selector" : [ 2.0 ],
+					"descriptors-to-octatrack-4[1]::xpat-speed::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 5,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-4[1]::xpat-speed::umenu" : [ 1 ],
+					"descriptors-to-octatrack-4[1]::xpat-descriptors::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 8,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-4[1]::xpat-descriptors::umenu" : [ 0 ],
+					"descriptors-to-octatrack-4[1]::xpat-controllers::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 10,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-4[1]::xpat-controllers::umenu" : [ 2 ],
+					"class-to-octa-scene::gate-history" : [ 16.0 ],
+					"class-to-octa-scene::live.dial" : [ 73.228346456692918 ],
+					"class-to-octa-scene::live.tab[2]" : [ 0.0 ],
+					"class-to-octa-scene::live.tab[3]" : [ 0.0 ],
+					"class-to-octa-scene::live.text" : [ 1.0 ],
+					"class-to-octa-scene::live.text[1]" : [ 0.0 ],
+					"class-to-octa-scene::live.text[2]" : [ 1.0 ],
+					"class-to-octa-scene::scene-xpat" : [ 						{
+							"data" : 							{
+								"numins" : 6,
+								"numouts" : 16,
+								"connections" : [ 									{
+										"in" : 1,
+										"out" : 0,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 0,
+										"out" : 0,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 2,
+										"out" : 7,
+										"gain" : 1.0
+									}
+ ]
+							}
+
+						}
+ ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"calibrate" : [ 0.0 ],
+					"gate-send-scenes[1]" : [ 1.0 ],
+					"live.dial[3]" : [ 6.0 ],
+					"live.gain~" : [ 0.0 ],
+					"live.numbox" : [ 24.0 ],
+					"live.tab[5]" : [ 1.0 ],
+					"_timbre-to_midi::duration" : [ 375.0 ],
+					"_timbre-to_midi::gate-receive-scenes" : [ 1.0 ],
+					"_timbre-to_midi::gate-send-scenes" : [ 1.0 ],
+					"_timbre-to_midi::live.numbox[2]" : [ 50.705394744873047 ],
+					"_timbre-to_midi::live.tab" : [ 0.0 ],
+					"_timbre-to_midi::live.tab[1]" : [ 1.0 ],
+					"_timbre-to_midi::live.tab[2]" : [ 7.0 ],
+					"_timbre-to_midi::live.tab[3]" : [ 3.0 ],
+					"_timbre-to_midi::live.text" : [ 0.0 ],
+					"_timbre-to_midi::note-midi-channel" : [ 12.0 ],
+					"_timbre-to_midi::quantize" : [ 1 ],
+					"_timbre-to_midi::quantize-scale" : [ 9 ],
+					"_timbre-to_midi::toggle-flex-pitch" : [ 1.0 ],
+					"_timbre-to_midi::toggle-midi-note" : [ 0.0 ],
+					"_timbre-to_midi::toggle-midi-note[1]" : [ 0.0 ],
+					"_timbre-to_midi::toggle-midi-note[2]" : [ 1.0 ],
+					"_filter-to-corpus-1::corpus-menu" : [ 5 ],
+					"_filter-to-corpus-1::bending-dropouts" : [ 0.0 ],
+					"_filter-to-corpus-1::bending-rotation" : [ 0.0 ],
+					"_filter-to-corpus-1::bending-scramble" : [ 0.0 ],
+					"_filter-to-corpus-1::bending-variation" : [ 0.0 ],
+					"_filter-to-corpus-1::comp-loudness" : [ 50.0 ],
+					"_filter-to-corpus-1::comp-spectral" : [ 50.0 ],
+					"_filter-to-corpus-1::granular-rate" : [ 75.000000000000028 ],
+					"_filter-to-corpus-1::granular-rate-relative" : [ 0.17754119792056 ],
+					"_filter-to-corpus-1::granular-variation" : [ 1.5748031496063 ],
+					"_filter-to-corpus-1::live.button[1]" : [ 0.0 ],
+					"_filter-to-corpus-1::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::live.menu[1]" : [ 2.0 ],
+					"_filter-to-corpus-1::live.text" : [ 0.0 ],
+					"_filter-to-corpus-1::live.text[1]" : [ 0.0 ],
+					"_filter-to-corpus-1::setup-range" : [ 5.850091407678245, 100.0 ],
+					"_filter-to-corpus-1::toggle-enabled" : [ 0.0 ],
+					"_filter-to-corpus-1::toggle-granular" : [ 0.0 ],
+					"_filter-to-corpus-1::toggle-granular-random" : [ 0.0 ],
+					"_filter-to-corpus-1::toggle-use-setup" : [ 1.0 ],
+					"_filter-to-corpus-1::centroid-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::centroid-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::centroid-corpus-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-1::pitch-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::pitch-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::pitch-corpus-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-1::confidence-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::confidence-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::confidence-corpus-filter-slider::slider" : [ 1.0 ],
+					"_filter-to-corpus-1::loudness-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::loudness-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::loudness-corpus-filter-slider::slider" : [ 75.0 ],
+					"_filter-to-corpus-1::centroid-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::centroid-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::centroid-input-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-1::pitch-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::pitch-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::pitch-input-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-1::confidence-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::confidence-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::confidence-input-filter-slider::slider" : [ 1.0 ],
+					"_filter-to-corpus-1::loudness-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::loudness-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::loudness-input-filter-slider::slider" : [ 100.0 ],
+					"_filter-to-corpus-1::sp-sampler::absoluteview" : [ 0.0 ],
+					"_filter-to-corpus-1::sp-sampler::algorithm" : [ 0.0 ],
+					"_filter-to-corpus-1::sp-sampler::gain" : [ 100.0 ],
+					"_filter-to-corpus-1::sp-sampler::in" : [ 0.0 ],
+					"_filter-to-corpus-1::sp-sampler::incurve" : [ 0.0 ],
+					"_filter-to-corpus-1::sp-sampler::length" : [ 100.0 ],
+					"_filter-to-corpus-1::sp-sampler::lengthabsolute" : [ 120000.0 ],
+					"_filter-to-corpus-1::sp-sampler::live.drop[4]" : [ "" ],
+					"_filter-to-corpus-1::sp-sampler::loop" : [ 0.0 ],
+					"_filter-to-corpus-1::sp-sampler::out" : [ 0.0 ],
+					"_filter-to-corpus-1::sp-sampler::outcurve" : [ 0.0 ],
+					"_filter-to-corpus-1::sp-sampler::pitch" : [ 0.0 ],
+					"_filter-to-corpus-1::sp-sampler::speed" : [ 100.0 ],
+					"_filter-to-corpus-1::sp-sampler::start" : [ 0.0 ],
+					"_filter-to-corpus-1::sp-sampler::startabsolute" : [ 0.0 ],
+					"_filter-to-corpus-1::sp-sampler::steal" : [ 0.0 ],
+					"_filter-to-corpus-1::sp-sampler::tabopen" : [ 0.0 ],
+					"_filter-to-corpus-1::sp-sampler::timestretch" : [ 0.0 ],
+					"_filter-to-corpus-1::sp-sampler::voices" : [ 16.0 ],
+					"_filter-to-corpus-1::duration-corpus-filter-slider::comparator" : [ 0.0 ],
+					"_filter-to-corpus-1::duration-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::duration-corpus-filter-slider::slider" : [ 0 ],
+					"descriptors-to-octatrack-2::class-gate-threshold" : [ 80.0 ],
+					"descriptors-to-octatrack-2::gate-history" : [ 8.0 ],
+					"descriptors-to-octatrack-2::live.numbox" : [ 1.0 ],
+					"descriptors-to-octatrack-2::live.text" : [ 0.0 ],
+					"descriptors-to-octatrack-2::onset-trig-enabled" : [ 1.0 ],
+					"descriptors-to-octatrack-2::onset-trig-enabled[1]" : [ 0.0 ],
+					"descriptors-to-octatrack-2::select-class" : [ 0 ],
+					"descriptors-to-octatrack-2::toggle-trig-type" : [ 0.0 ],
+					"descriptors-to-octatrack-2::xpat-view-selector" : [ 2.0 ],
+					"descriptors-to-octatrack-2::xpat-speed::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 5,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-2::xpat-speed::umenu" : [ 1 ],
+					"descriptors-to-octatrack-2::xpat-descriptors::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 8,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-2::xpat-descriptors::umenu" : [ 0 ],
+					"descriptors-to-octatrack-2::xpat-controllers::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 10,
+								"numouts" : 32,
+								"connections" : [ 									{
+										"in" : 1,
+										"out" : 9,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 6,
+										"out" : 19,
+										"gain" : 1.0
+									}
+ ]
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-2::xpat-controllers::umenu" : [ 2 ],
+					"descriptors-to-octatrack-1::class-gate-threshold" : [ 60.0 ],
+					"descriptors-to-octatrack-1::gate-history" : [ 8.0 ],
+					"descriptors-to-octatrack-1::live.numbox" : [ 2.0 ],
+					"descriptors-to-octatrack-1::live.text" : [ 0.0 ],
+					"descriptors-to-octatrack-1::onset-trig-enabled" : [ 1.0 ],
+					"descriptors-to-octatrack-1::onset-trig-enabled[1]" : [ 0.0 ],
+					"descriptors-to-octatrack-1::select-class" : [ 2 ],
+					"descriptors-to-octatrack-1::toggle-trig-type" : [ 0.0 ],
+					"descriptors-to-octatrack-1::xpat-view-selector" : [ 1.0 ],
+					"descriptors-to-octatrack-1::xpat-speed::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 5,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-1::xpat-speed::umenu" : [ 1 ],
+					"descriptors-to-octatrack-1::xpat-descriptors::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 8,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-1::xpat-descriptors::umenu" : [ 0 ],
+					"descriptors-to-octatrack-1::xpat-controllers::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 10,
+								"numouts" : 32,
+								"connections" : [ 									{
+										"in" : 1,
+										"out" : 9,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 6,
+										"out" : 19,
+										"gain" : 1.0
+									}
+ ]
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-1::xpat-controllers::umenu" : [ 2 ],
+					"descriptors-to-octatrack-4::class-gate-threshold" : [ 60.0 ],
+					"descriptors-to-octatrack-4::gate-history" : [ 8.0 ],
+					"descriptors-to-octatrack-4::live.numbox" : [ 4.0 ],
+					"descriptors-to-octatrack-4::live.text" : [ 0.0 ],
+					"descriptors-to-octatrack-4::onset-trig-enabled" : [ 1.0 ],
+					"descriptors-to-octatrack-4::onset-trig-enabled[1]" : [ 0.0 ],
+					"descriptors-to-octatrack-4::select-class" : [ 1 ],
+					"descriptors-to-octatrack-4::toggle-trig-type" : [ 0.0 ],
+					"descriptors-to-octatrack-4::xpat-view-selector" : [ 2.0 ],
+					"descriptors-to-octatrack-4::xpat-speed::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 5,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-4::xpat-speed::umenu" : [ 1 ],
+					"descriptors-to-octatrack-4::xpat-descriptors::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 8,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-4::xpat-descriptors::umenu" : [ 0 ],
+					"descriptors-to-octatrack-4::xpat-controllers::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 10,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-4::xpat-controllers::umenu" : [ 2 ],
+					"descriptors-to-octatrack-3::class-gate-threshold" : [ 60.0 ],
+					"descriptors-to-octatrack-3::gate-history" : [ 8.0 ],
+					"descriptors-to-octatrack-3::live.numbox" : [ 3.0 ],
+					"descriptors-to-octatrack-3::live.text" : [ 0.0 ],
+					"descriptors-to-octatrack-3::onset-trig-enabled" : [ 1.0 ],
+					"descriptors-to-octatrack-3::onset-trig-enabled[1]" : [ 0.0 ],
+					"descriptors-to-octatrack-3::select-class" : [ 0 ],
+					"descriptors-to-octatrack-3::toggle-trig-type" : [ 0.0 ],
+					"descriptors-to-octatrack-3::xpat-view-selector" : [ 2.0 ],
+					"descriptors-to-octatrack-3::xpat-speed::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 5,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-3::xpat-speed::umenu" : [ 1 ],
+					"descriptors-to-octatrack-3::xpat-descriptors::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 8,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-3::xpat-descriptors::umenu" : [ 0 ],
+					"descriptors-to-octatrack-3::xpat-controllers::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 10,
+								"numouts" : 32,
+								"connections" : [ 									{
+										"in" : 1,
+										"out" : 9,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 6,
+										"out" : 19,
+										"gain" : 1.0
+									}
+ ]
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-3::xpat-controllers::umenu" : [ 2 ],
+					"_filter-to-corpus-1[1]::bending-dropouts" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::bending-rotation" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::bending-scramble" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::bending-variation" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::comp-loudness" : [ 50.0 ],
+					"_filter-to-corpus-1[1]::comp-spectral" : [ 50.0 ],
+					"_filter-to-corpus-1[1]::corpus-menu" : [ 0 ],
+					"_filter-to-corpus-1[1]::granular-rate" : [ 75.000000000000028 ],
+					"_filter-to-corpus-1[1]::granular-rate-relative" : [ 0.17754119792056 ],
+					"_filter-to-corpus-1[1]::granular-variation" : [ 1.5748031496063 ],
+					"_filter-to-corpus-1[1]::live.button[1]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::live.menu[1]" : [ 2.0 ],
+					"_filter-to-corpus-1[1]::live.text" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::live.text[1]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::setup-range" : [ 5.850091407678245, 100.0 ],
+					"_filter-to-corpus-1[1]::toggle-enabled" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::toggle-granular" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::toggle-granular-random" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::toggle-use-setup" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::centroid-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::centroid-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::centroid-corpus-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-1[1]::pitch-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::pitch-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::pitch-corpus-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-1[1]::confidence-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::confidence-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::confidence-corpus-filter-slider::slider" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::loudness-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::loudness-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::loudness-corpus-filter-slider::slider" : [ 75.0 ],
+					"_filter-to-corpus-1[1]::centroid-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::centroid-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::centroid-input-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-1[1]::pitch-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::pitch-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::pitch-input-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-1[1]::confidence-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::confidence-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::confidence-input-filter-slider::slider" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::loudness-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::loudness-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::loudness-input-filter-slider::slider" : [ 100.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::absoluteview" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::algorithm" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::gain" : [ 100.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::in" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::incurve" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::length" : [ 100.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::lengthabsolute" : [ 120000.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::live.drop[4]" : [ "" ],
+					"_filter-to-corpus-1[1]::sp-sampler::loop" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::out" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::outcurve" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::pitch" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::speed" : [ 100.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::start" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::startabsolute" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::steal" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::tabopen" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::timestretch" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::voices" : [ 16.0 ],
+					"_filter-to-corpus-1[1]::duration-corpus-filter-slider::comparator" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::duration-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::duration-corpus-filter-slider::slider" : [ 0 ],
+					"descriptors-to-octatrack-4[1]::class-gate-threshold" : [ 100.0 ],
+					"descriptors-to-octatrack-4[1]::gate-history" : [ 4.0 ],
+					"descriptors-to-octatrack-4[1]::live.numbox" : [ 7.0 ],
+					"descriptors-to-octatrack-4[1]::live.text" : [ 0.0 ],
+					"descriptors-to-octatrack-4[1]::onset-trig-enabled" : [ 0.0 ],
+					"descriptors-to-octatrack-4[1]::onset-trig-enabled[1]" : [ 0.0 ],
+					"descriptors-to-octatrack-4[1]::select-class" : [ 2 ],
+					"descriptors-to-octatrack-4[1]::toggle-trig-type" : [ 1.0 ],
+					"descriptors-to-octatrack-4[1]::xpat-view-selector" : [ 2.0 ],
+					"descriptors-to-octatrack-4[1]::xpat-speed::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 5,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-4[1]::xpat-speed::umenu" : [ 1 ],
+					"descriptors-to-octatrack-4[1]::xpat-descriptors::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 8,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-4[1]::xpat-descriptors::umenu" : [ 0 ],
+					"descriptors-to-octatrack-4[1]::xpat-controllers::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 10,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-4[1]::xpat-controllers::umenu" : [ 2 ],
+					"class-to-octa-scene::gate-history" : [ 16.0 ],
+					"class-to-octa-scene::live.dial" : [ 100.0 ],
+					"class-to-octa-scene::live.tab[2]" : [ 0.0 ],
+					"class-to-octa-scene::live.tab[3]" : [ 8.0 ],
+					"class-to-octa-scene::live.text" : [ 1.0 ],
+					"class-to-octa-scene::live.text[1]" : [ 0.0 ],
+					"class-to-octa-scene::live.text[2]" : [ 1.0 ],
+					"class-to-octa-scene::scene-xpat" : [ 						{
+							"data" : 							{
+								"numins" : 6,
+								"numouts" : 16,
+								"connections" : [ 									{
+										"in" : 2,
+										"out" : 0,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 0,
+										"out" : 0,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 4,
+										"out" : 7,
+										"gain" : 1.0
+									}
+ ]
+							}
+
+						}
+ ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"calibrate" : [ 0.0 ],
+					"gate-send-scenes[1]" : [ 1.0 ],
+					"live.dial[3]" : [ 6.0 ],
+					"live.gain~" : [ 0.0 ],
+					"live.numbox" : [ 24.0 ],
+					"live.tab[5]" : [ 2.0 ],
+					"_timbre-to_midi::duration" : [ 500.0 ],
+					"_timbre-to_midi::gate-receive-scenes" : [ 1.0 ],
+					"_timbre-to_midi::gate-send-scenes" : [ 1.0 ],
+					"_timbre-to_midi::live.numbox[2]" : [ 57.230506896972656 ],
+					"_timbre-to_midi::live.tab" : [ 0.0 ],
+					"_timbre-to_midi::live.tab[1]" : [ 2.0 ],
+					"_timbre-to_midi::live.tab[2]" : [ 8.0 ],
+					"_timbre-to_midi::live.tab[3]" : [ 7.0 ],
+					"_timbre-to_midi::live.text" : [ 0.0 ],
+					"_timbre-to_midi::note-midi-channel" : [ 12.0 ],
+					"_timbre-to_midi::quantize" : [ 1 ],
+					"_timbre-to_midi::quantize-scale" : [ 9 ],
+					"_timbre-to_midi::toggle-flex-pitch" : [ 1.0 ],
+					"_timbre-to_midi::toggle-midi-note" : [ 0.0 ],
+					"_timbre-to_midi::toggle-midi-note[1]" : [ 0.0 ],
+					"_timbre-to_midi::toggle-midi-note[2]" : [ 1.0 ],
+					"_filter-to-corpus-1::corpus-menu" : [ 5 ],
+					"_filter-to-corpus-1::bending-dropouts" : [ 0.0 ],
+					"_filter-to-corpus-1::bending-rotation" : [ 0.0 ],
+					"_filter-to-corpus-1::bending-scramble" : [ 0.0 ],
+					"_filter-to-corpus-1::bending-variation" : [ 0.0 ],
+					"_filter-to-corpus-1::comp-loudness" : [ 50.0 ],
+					"_filter-to-corpus-1::comp-spectral" : [ 50.0 ],
+					"_filter-to-corpus-1::granular-rate" : [ 75.75 ],
+					"_filter-to-corpus-1::granular-rate-relative" : [ 0.17754119792056 ],
+					"_filter-to-corpus-1::granular-variation" : [ 1.5748031496063 ],
+					"_filter-to-corpus-1::live.button[1]" : [ 0.0 ],
+					"_filter-to-corpus-1::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::live.menu[1]" : [ 0.0 ],
+					"_filter-to-corpus-1::live.text" : [ 0.0 ],
+					"_filter-to-corpus-1::live.text[1]" : [ 0.0 ],
+					"_filter-to-corpus-1::setup-range" : [ 5.850091407678245, 100.0 ],
+					"_filter-to-corpus-1::toggle-enabled" : [ 1.0 ],
+					"_filter-to-corpus-1::toggle-granular" : [ 0.0 ],
+					"_filter-to-corpus-1::toggle-granular-random" : [ 0.0 ],
+					"_filter-to-corpus-1::toggle-use-setup" : [ 1.0 ],
+					"_filter-to-corpus-1::centroid-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::centroid-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::centroid-corpus-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-1::pitch-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::pitch-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::pitch-corpus-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-1::confidence-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::confidence-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::confidence-corpus-filter-slider::slider" : [ 1.0 ],
+					"_filter-to-corpus-1::loudness-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::loudness-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::loudness-corpus-filter-slider::slider" : [ 75.0 ],
+					"_filter-to-corpus-1::centroid-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::centroid-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::centroid-input-filter-slider::slider" : [ 58.208334642276164 ],
+					"_filter-to-corpus-1::pitch-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::pitch-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::pitch-input-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-1::confidence-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::confidence-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::confidence-input-filter-slider::slider" : [ 1.0 ],
+					"_filter-to-corpus-1::loudness-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::loudness-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::loudness-input-filter-slider::slider" : [ 100.0 ],
+					"_filter-to-corpus-1::sp-sampler::absoluteview" : [ 0.0 ],
+					"_filter-to-corpus-1::sp-sampler::algorithm" : [ 0.0 ],
+					"_filter-to-corpus-1::sp-sampler::gain" : [ 100.0 ],
+					"_filter-to-corpus-1::sp-sampler::in" : [ 0.0 ],
+					"_filter-to-corpus-1::sp-sampler::incurve" : [ 0.0 ],
+					"_filter-to-corpus-1::sp-sampler::length" : [ 100.0 ],
+					"_filter-to-corpus-1::sp-sampler::lengthabsolute" : [ 120000.0 ],
+					"_filter-to-corpus-1::sp-sampler::live.drop[4]" : [ "" ],
+					"_filter-to-corpus-1::sp-sampler::loop" : [ 0.0 ],
+					"_filter-to-corpus-1::sp-sampler::out" : [ 0.0 ],
+					"_filter-to-corpus-1::sp-sampler::outcurve" : [ 0.0 ],
+					"_filter-to-corpus-1::sp-sampler::pitch" : [ 0.0 ],
+					"_filter-to-corpus-1::sp-sampler::speed" : [ 100.0 ],
+					"_filter-to-corpus-1::sp-sampler::start" : [ 0.0 ],
+					"_filter-to-corpus-1::sp-sampler::startabsolute" : [ 0.0 ],
+					"_filter-to-corpus-1::sp-sampler::steal" : [ 0.0 ],
+					"_filter-to-corpus-1::sp-sampler::tabopen" : [ 0.0 ],
+					"_filter-to-corpus-1::sp-sampler::timestretch" : [ 1.0 ],
+					"_filter-to-corpus-1::sp-sampler::voices" : [ 16.0 ],
+					"_filter-to-corpus-1::duration-corpus-filter-slider::comparator" : [ 0.0 ],
+					"_filter-to-corpus-1::duration-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::duration-corpus-filter-slider::slider" : [ 0 ],
+					"descriptors-to-octatrack-2::class-gate-threshold" : [ 80.0 ],
+					"descriptors-to-octatrack-2::gate-history" : [ 8.0 ],
+					"descriptors-to-octatrack-2::live.numbox" : [ 1.0 ],
+					"descriptors-to-octatrack-2::live.text" : [ 0.0 ],
+					"descriptors-to-octatrack-2::onset-trig-enabled" : [ 0.0 ],
+					"descriptors-to-octatrack-2::onset-trig-enabled[1]" : [ 0.0 ],
+					"descriptors-to-octatrack-2::select-class" : [ 0 ],
+					"descriptors-to-octatrack-2::toggle-trig-type" : [ 1.0 ],
+					"descriptors-to-octatrack-2::xpat-view-selector" : [ 2.0 ],
+					"descriptors-to-octatrack-2::xpat-speed::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 5,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-2::xpat-speed::umenu" : [ 1 ],
+					"descriptors-to-octatrack-2::xpat-descriptors::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 8,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-2::xpat-descriptors::umenu" : [ 0 ],
+					"descriptors-to-octatrack-2::xpat-controllers::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 10,
+								"numouts" : 32,
+								"connections" : [ 									{
+										"in" : 1,
+										"out" : 9,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 6,
+										"out" : 19,
+										"gain" : 1.0
+									}
+ ]
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-2::xpat-controllers::umenu" : [ 2 ],
+					"descriptors-to-octatrack-1::class-gate-threshold" : [ 80.0 ],
+					"descriptors-to-octatrack-1::gate-history" : [ 8.0 ],
+					"descriptors-to-octatrack-1::live.numbox" : [ 2.0 ],
+					"descriptors-to-octatrack-1::live.text" : [ 0.0 ],
+					"descriptors-to-octatrack-1::onset-trig-enabled" : [ 0.0 ],
+					"descriptors-to-octatrack-1::onset-trig-enabled[1]" : [ 0.0 ],
+					"descriptors-to-octatrack-1::select-class" : [ 1 ],
+					"descriptors-to-octatrack-1::toggle-trig-type" : [ 1.0 ],
+					"descriptors-to-octatrack-1::xpat-view-selector" : [ 1.0 ],
+					"descriptors-to-octatrack-1::xpat-speed::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 5,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-1::xpat-speed::umenu" : [ 1 ],
+					"descriptors-to-octatrack-1::xpat-descriptors::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 8,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-1::xpat-descriptors::umenu" : [ 0 ],
+					"descriptors-to-octatrack-1::xpat-controllers::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 10,
+								"numouts" : 32,
+								"connections" : [ 									{
+										"in" : 1,
+										"out" : 9,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 6,
+										"out" : 19,
+										"gain" : 1.0
+									}
+ ]
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-1::xpat-controllers::umenu" : [ 2 ],
+					"descriptors-to-octatrack-4::class-gate-threshold" : [ 67.401574803149614 ],
+					"descriptors-to-octatrack-4::gate-history" : [ 8.0 ],
+					"descriptors-to-octatrack-4::live.numbox" : [ 4.0 ],
+					"descriptors-to-octatrack-4::live.text" : [ 0.0 ],
+					"descriptors-to-octatrack-4::onset-trig-enabled" : [ 0.0 ],
+					"descriptors-to-octatrack-4::onset-trig-enabled[1]" : [ 0.0 ],
+					"descriptors-to-octatrack-4::select-class" : [ 1 ],
+					"descriptors-to-octatrack-4::toggle-trig-type" : [ 1.0 ],
+					"descriptors-to-octatrack-4::xpat-view-selector" : [ 2.0 ],
+					"descriptors-to-octatrack-4::xpat-speed::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 5,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-4::xpat-speed::umenu" : [ 1 ],
+					"descriptors-to-octatrack-4::xpat-descriptors::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 8,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-4::xpat-descriptors::umenu" : [ 0 ],
+					"descriptors-to-octatrack-4::xpat-controllers::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 10,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-4::xpat-controllers::umenu" : [ 2 ],
+					"descriptors-to-octatrack-3::class-gate-threshold" : [ 80.0 ],
+					"descriptors-to-octatrack-3::gate-history" : [ 8.0 ],
+					"descriptors-to-octatrack-3::live.numbox" : [ 3.0 ],
+					"descriptors-to-octatrack-3::live.text" : [ 0.0 ],
+					"descriptors-to-octatrack-3::onset-trig-enabled" : [ 0.0 ],
+					"descriptors-to-octatrack-3::onset-trig-enabled[1]" : [ 0.0 ],
+					"descriptors-to-octatrack-3::select-class" : [ 0 ],
+					"descriptors-to-octatrack-3::toggle-trig-type" : [ 1.0 ],
+					"descriptors-to-octatrack-3::xpat-view-selector" : [ 2.0 ],
+					"descriptors-to-octatrack-3::xpat-speed::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 5,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-3::xpat-speed::umenu" : [ 1 ],
+					"descriptors-to-octatrack-3::xpat-descriptors::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 8,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-3::xpat-descriptors::umenu" : [ 0 ],
+					"descriptors-to-octatrack-3::xpat-controllers::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 10,
+								"numouts" : 32,
+								"connections" : [ 									{
+										"in" : 1,
+										"out" : 9,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 6,
+										"out" : 19,
+										"gain" : 1.0
+									}
+ ]
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-3::xpat-controllers::umenu" : [ 2 ],
+					"_filter-to-corpus-1[1]::bending-dropouts" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::bending-rotation" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::bending-scramble" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::bending-variation" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::comp-loudness" : [ 50.0 ],
+					"_filter-to-corpus-1[1]::comp-spectral" : [ 50.0 ],
+					"_filter-to-corpus-1[1]::corpus-menu" : [ 0 ],
+					"_filter-to-corpus-1[1]::granular-rate" : [ 75.75 ],
+					"_filter-to-corpus-1[1]::granular-rate-relative" : [ 0.17754119792056 ],
+					"_filter-to-corpus-1[1]::granular-variation" : [ 1.5748031496063 ],
+					"_filter-to-corpus-1[1]::live.button[1]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::live.menu[1]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::live.text" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::live.text[1]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::setup-range" : [ 5.850091407678245, 100.0 ],
+					"_filter-to-corpus-1[1]::toggle-enabled" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::toggle-granular" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::toggle-granular-random" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::toggle-use-setup" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::centroid-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::centroid-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::centroid-corpus-filter-slider::slider" : [ 94.720834642276159 ],
+					"_filter-to-corpus-1[1]::pitch-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::pitch-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::pitch-corpus-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-1[1]::confidence-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::confidence-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::confidence-corpus-filter-slider::slider" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::loudness-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::loudness-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::loudness-corpus-filter-slider::slider" : [ 75.0 ],
+					"_filter-to-corpus-1[1]::centroid-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::centroid-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::centroid-input-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-1[1]::pitch-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::pitch-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::pitch-input-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-1[1]::confidence-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::confidence-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::confidence-input-filter-slider::slider" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::loudness-input-filter-slider::comparator" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::loudness-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::loudness-input-filter-slider::slider" : [ 53.958334363996983 ],
+					"_filter-to-corpus-1[1]::sp-sampler::absoluteview" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::algorithm" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::gain" : [ 100.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::in" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::incurve" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::length" : [ 100.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::lengthabsolute" : [ 120000.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::live.drop[4]" : [ "" ],
+					"_filter-to-corpus-1[1]::sp-sampler::loop" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::out" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::outcurve" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::pitch" : [ -12.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::speed" : [ 100.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::start" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::startabsolute" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::steal" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::tabopen" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::timestretch" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::voices" : [ 16.0 ],
+					"_filter-to-corpus-1[1]::duration-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::duration-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::duration-corpus-filter-slider::slider" : [ 200 ],
+					"descriptors-to-octatrack-4[1]::class-gate-threshold" : [ 90.0 ],
+					"descriptors-to-octatrack-4[1]::gate-history" : [ 6.0 ],
+					"descriptors-to-octatrack-4[1]::live.numbox" : [ 7.0 ],
+					"descriptors-to-octatrack-4[1]::live.text" : [ 0.0 ],
+					"descriptors-to-octatrack-4[1]::onset-trig-enabled" : [ 1.0 ],
+					"descriptors-to-octatrack-4[1]::onset-trig-enabled[1]" : [ 0.0 ],
+					"descriptors-to-octatrack-4[1]::select-class" : [ 4 ],
+					"descriptors-to-octatrack-4[1]::toggle-trig-type" : [ 1.0 ],
+					"descriptors-to-octatrack-4[1]::xpat-view-selector" : [ 2.0 ],
+					"descriptors-to-octatrack-4[1]::xpat-speed::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 5,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-4[1]::xpat-speed::umenu" : [ 1 ],
+					"descriptors-to-octatrack-4[1]::xpat-descriptors::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 8,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-4[1]::xpat-descriptors::umenu" : [ 0 ],
+					"descriptors-to-octatrack-4[1]::xpat-controllers::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 10,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-4[1]::xpat-controllers::umenu" : [ 2 ],
+					"class-to-octa-scene::gate-history" : [ 4.0 ],
+					"class-to-octa-scene::live.dial" : [ 73.228346456692918 ],
+					"class-to-octa-scene::live.tab[2]" : [ 8.0 ],
+					"class-to-octa-scene::live.tab[3]" : [ 8.0 ],
+					"class-to-octa-scene::live.text" : [ 1.0 ],
+					"class-to-octa-scene::live.text[1]" : [ 0.0 ],
+					"class-to-octa-scene::live.text[2]" : [ 1.0 ],
+					"class-to-octa-scene::scene-xpat" : [ 						{
+							"data" : 							{
+								"numins" : 6,
+								"numouts" : 16,
+								"connections" : [ 									{
+										"in" : 0,
+										"out" : 0,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 2,
+										"out" : 8,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 1,
+										"out" : 3,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 4,
+										"out" : 7,
+										"gain" : 1.0
+									}
+ ]
+							}
+
+						}
+ ]
+				}
+
+			}
+,
+			"4" : 			{
+				"id" : 4,
+				"data" : 				{
+					"calibrate" : [ 0.0 ],
+					"gate-send-scenes[1]" : [ 1.0 ],
+					"live.dial[3]" : [ 6.0 ],
+					"live.gain~" : [ 0.0 ],
+					"live.numbox" : [ 24.0 ],
+					"live.tab[5]" : [ 2.0 ],
+					"_timbre-to_midi::duration" : [ 500.0 ],
+					"_timbre-to_midi::gate-receive-scenes" : [ 1.0 ],
+					"_timbre-to_midi::gate-send-scenes" : [ 1.0 ],
+					"_timbre-to_midi::live.numbox[2]" : [ 76.077461242675781 ],
+					"_timbre-to_midi::live.tab" : [ 0.0 ],
+					"_timbre-to_midi::live.tab[1]" : [ 2.0 ],
+					"_timbre-to_midi::live.tab[2]" : [ 8.0 ],
+					"_timbre-to_midi::live.tab[3]" : [ 7.0 ],
+					"_timbre-to_midi::live.text" : [ 0.0 ],
+					"_timbre-to_midi::note-midi-channel" : [ 12.0 ],
+					"_timbre-to_midi::quantize" : [ 1 ],
+					"_timbre-to_midi::quantize-scale" : [ 9 ],
+					"_timbre-to_midi::toggle-flex-pitch" : [ 1.0 ],
+					"_timbre-to_midi::toggle-midi-note" : [ 0.0 ],
+					"_timbre-to_midi::toggle-midi-note[1]" : [ 0.0 ],
+					"_timbre-to_midi::toggle-midi-note[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::corpus-menu" : [ 5 ],
+					"_filter-to-corpus-1::bending-dropouts" : [ 0.0 ],
+					"_filter-to-corpus-1::bending-rotation" : [ 0.0 ],
+					"_filter-to-corpus-1::bending-scramble" : [ 0.0 ],
+					"_filter-to-corpus-1::bending-variation" : [ 0.0 ],
+					"_filter-to-corpus-1::comp-loudness" : [ 70.0 ],
+					"_filter-to-corpus-1::comp-spectral" : [ 70.0 ],
+					"_filter-to-corpus-1::granular-rate" : [ 75.000000000000028 ],
+					"_filter-to-corpus-1::granular-rate-relative" : [ 0.17754119792056 ],
+					"_filter-to-corpus-1::granular-variation" : [ 1.5748031496063 ],
+					"_filter-to-corpus-1::live.button[1]" : [ 0.0 ],
+					"_filter-to-corpus-1::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::live.menu[1]" : [ 1.0 ],
+					"_filter-to-corpus-1::live.text" : [ 1.0 ],
+					"_filter-to-corpus-1::live.text[1]" : [ 0.0 ],
+					"_filter-to-corpus-1::setup-range" : [ 10.968921389396709, 86.28884826325411 ],
+					"_filter-to-corpus-1::toggle-enabled" : [ 1.0 ],
+					"_filter-to-corpus-1::toggle-granular" : [ 0.0 ],
+					"_filter-to-corpus-1::toggle-granular-random" : [ 0.0 ],
+					"_filter-to-corpus-1::toggle-use-setup" : [ 1.0 ],
+					"_filter-to-corpus-1::centroid-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::centroid-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::centroid-corpus-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-1::pitch-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::pitch-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::pitch-corpus-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-1::confidence-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::confidence-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::confidence-corpus-filter-slider::slider" : [ 1.0 ],
+					"_filter-to-corpus-1::loudness-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::loudness-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::loudness-corpus-filter-slider::slider" : [ 75.0 ],
+					"_filter-to-corpus-1::centroid-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::centroid-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::centroid-input-filter-slider::slider" : [ 64.558334642276165 ],
+					"_filter-to-corpus-1::pitch-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::pitch-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::pitch-input-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-1::confidence-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::confidence-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::confidence-input-filter-slider::slider" : [ 1.0 ],
+					"_filter-to-corpus-1::loudness-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::loudness-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::loudness-input-filter-slider::slider" : [ 83.333334363996983 ],
+					"_filter-to-corpus-1::sp-sampler::absoluteview" : [ 0.0 ],
+					"_filter-to-corpus-1::sp-sampler::algorithm" : [ 4.0 ],
+					"_filter-to-corpus-1::sp-sampler::gain" : [ 100.0 ],
+					"_filter-to-corpus-1::sp-sampler::in" : [ 0.0 ],
+					"_filter-to-corpus-1::sp-sampler::incurve" : [ 0.0 ],
+					"_filter-to-corpus-1::sp-sampler::length" : [ 100.0 ],
+					"_filter-to-corpus-1::sp-sampler::lengthabsolute" : [ 120000.0 ],
+					"_filter-to-corpus-1::sp-sampler::live.drop[4]" : [ "" ],
+					"_filter-to-corpus-1::sp-sampler::loop" : [ 0.0 ],
+					"_filter-to-corpus-1::sp-sampler::out" : [ 0.0 ],
+					"_filter-to-corpus-1::sp-sampler::outcurve" : [ 0.0 ],
+					"_filter-to-corpus-1::sp-sampler::pitch" : [ 0.0 ],
+					"_filter-to-corpus-1::sp-sampler::speed" : [ 33.0 ],
+					"_filter-to-corpus-1::sp-sampler::start" : [ 0.0 ],
+					"_filter-to-corpus-1::sp-sampler::startabsolute" : [ 0.0 ],
+					"_filter-to-corpus-1::sp-sampler::steal" : [ 1.0 ],
+					"_filter-to-corpus-1::sp-sampler::tabopen" : [ 0.0 ],
+					"_filter-to-corpus-1::sp-sampler::timestretch" : [ 1.0 ],
+					"_filter-to-corpus-1::sp-sampler::voices" : [ 16.0 ],
+					"_filter-to-corpus-1::duration-corpus-filter-slider::comparator" : [ 0.0 ],
+					"_filter-to-corpus-1::duration-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::duration-corpus-filter-slider::slider" : [ 200 ],
+					"descriptors-to-octatrack-2::class-gate-threshold" : [ 80.0 ],
+					"descriptors-to-octatrack-2::gate-history" : [ 8.0 ],
+					"descriptors-to-octatrack-2::live.numbox" : [ 1.0 ],
+					"descriptors-to-octatrack-2::live.text" : [ 0.0 ],
+					"descriptors-to-octatrack-2::onset-trig-enabled" : [ 0.0 ],
+					"descriptors-to-octatrack-2::onset-trig-enabled[1]" : [ 0.0 ],
+					"descriptors-to-octatrack-2::select-class" : [ 0 ],
+					"descriptors-to-octatrack-2::toggle-trig-type" : [ 1.0 ],
+					"descriptors-to-octatrack-2::xpat-view-selector" : [ 2.0 ],
+					"descriptors-to-octatrack-2::xpat-speed::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 5,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-2::xpat-speed::umenu" : [ 1 ],
+					"descriptors-to-octatrack-2::xpat-descriptors::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 8,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-2::xpat-descriptors::umenu" : [ 0 ],
+					"descriptors-to-octatrack-2::xpat-controllers::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 10,
+								"numouts" : 32,
+								"connections" : [ 									{
+										"in" : 1,
+										"out" : 9,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 6,
+										"out" : 19,
+										"gain" : 1.0
+									}
+ ]
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-2::xpat-controllers::umenu" : [ 2 ],
+					"descriptors-to-octatrack-1::class-gate-threshold" : [ 80.0 ],
+					"descriptors-to-octatrack-1::gate-history" : [ 8.0 ],
+					"descriptors-to-octatrack-1::live.numbox" : [ 2.0 ],
+					"descriptors-to-octatrack-1::live.text" : [ 0.0 ],
+					"descriptors-to-octatrack-1::onset-trig-enabled" : [ 0.0 ],
+					"descriptors-to-octatrack-1::onset-trig-enabled[1]" : [ 0.0 ],
+					"descriptors-to-octatrack-1::select-class" : [ 1 ],
+					"descriptors-to-octatrack-1::toggle-trig-type" : [ 1.0 ],
+					"descriptors-to-octatrack-1::xpat-view-selector" : [ 1.0 ],
+					"descriptors-to-octatrack-1::xpat-speed::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 5,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-1::xpat-speed::umenu" : [ 1 ],
+					"descriptors-to-octatrack-1::xpat-descriptors::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 8,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-1::xpat-descriptors::umenu" : [ 0 ],
+					"descriptors-to-octatrack-1::xpat-controllers::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 10,
+								"numouts" : 32,
+								"connections" : [ 									{
+										"in" : 1,
+										"out" : 9,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 6,
+										"out" : 19,
+										"gain" : 1.0
+									}
+ ]
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-1::xpat-controllers::umenu" : [ 2 ],
+					"descriptors-to-octatrack-4::class-gate-threshold" : [ 67.401574803149614 ],
+					"descriptors-to-octatrack-4::gate-history" : [ 8.0 ],
+					"descriptors-to-octatrack-4::live.numbox" : [ 4.0 ],
+					"descriptors-to-octatrack-4::live.text" : [ 0.0 ],
+					"descriptors-to-octatrack-4::onset-trig-enabled" : [ 0.0 ],
+					"descriptors-to-octatrack-4::onset-trig-enabled[1]" : [ 0.0 ],
+					"descriptors-to-octatrack-4::select-class" : [ 1 ],
+					"descriptors-to-octatrack-4::toggle-trig-type" : [ 1.0 ],
+					"descriptors-to-octatrack-4::xpat-view-selector" : [ 2.0 ],
+					"descriptors-to-octatrack-4::xpat-speed::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 5,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-4::xpat-speed::umenu" : [ 1 ],
+					"descriptors-to-octatrack-4::xpat-descriptors::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 8,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-4::xpat-descriptors::umenu" : [ 0 ],
+					"descriptors-to-octatrack-4::xpat-controllers::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 10,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-4::xpat-controllers::umenu" : [ 2 ],
+					"descriptors-to-octatrack-3::class-gate-threshold" : [ 80.0 ],
+					"descriptors-to-octatrack-3::gate-history" : [ 8.0 ],
+					"descriptors-to-octatrack-3::live.numbox" : [ 3.0 ],
+					"descriptors-to-octatrack-3::live.text" : [ 0.0 ],
+					"descriptors-to-octatrack-3::onset-trig-enabled" : [ 0.0 ],
+					"descriptors-to-octatrack-3::onset-trig-enabled[1]" : [ 0.0 ],
+					"descriptors-to-octatrack-3::select-class" : [ 0 ],
+					"descriptors-to-octatrack-3::toggle-trig-type" : [ 1.0 ],
+					"descriptors-to-octatrack-3::xpat-view-selector" : [ 2.0 ],
+					"descriptors-to-octatrack-3::xpat-speed::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 5,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-3::xpat-speed::umenu" : [ 1 ],
+					"descriptors-to-octatrack-3::xpat-descriptors::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 8,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-3::xpat-descriptors::umenu" : [ 0 ],
+					"descriptors-to-octatrack-3::xpat-controllers::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 10,
+								"numouts" : 32,
+								"connections" : [ 									{
+										"in" : 1,
+										"out" : 9,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 6,
+										"out" : 19,
+										"gain" : 1.0
+									}
+ ]
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-3::xpat-controllers::umenu" : [ 2 ],
+					"_filter-to-corpus-1[1]::bending-dropouts" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::bending-rotation" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::bending-scramble" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::bending-variation" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::comp-loudness" : [ 100.0 ],
+					"_filter-to-corpus-1[1]::comp-spectral" : [ 50.0 ],
+					"_filter-to-corpus-1[1]::corpus-menu" : [ 0 ],
+					"_filter-to-corpus-1[1]::granular-rate" : [ 75.000000000000028 ],
+					"_filter-to-corpus-1[1]::granular-rate-relative" : [ 0.17754119792056 ],
+					"_filter-to-corpus-1[1]::granular-variation" : [ 1.5748031496063 ],
+					"_filter-to-corpus-1[1]::live.button[1]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::live.menu[1]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::live.text" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::live.text[1]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::setup-range" : [ 15.356489945155394, 87.751371115173669 ],
+					"_filter-to-corpus-1[1]::toggle-enabled" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::toggle-granular" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::toggle-granular-random" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::toggle-use-setup" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::centroid-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::centroid-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::centroid-corpus-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-1[1]::pitch-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::pitch-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::pitch-corpus-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-1[1]::confidence-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::confidence-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::confidence-corpus-filter-slider::slider" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::loudness-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::loudness-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::loudness-corpus-filter-slider::slider" : [ 75.0 ],
+					"_filter-to-corpus-1[1]::centroid-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::centroid-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::centroid-input-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-1[1]::pitch-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::pitch-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::pitch-input-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-1[1]::confidence-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::confidence-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::confidence-input-filter-slider::slider" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::loudness-input-filter-slider::comparator" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::loudness-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::loudness-input-filter-slider::slider" : [ 49.583334363996983 ],
+					"_filter-to-corpus-1[1]::sp-sampler::absoluteview" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::algorithm" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::gain" : [ 90.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::in" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::incurve" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::length" : [ 100.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::lengthabsolute" : [ 120000.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::live.drop[4]" : [ "" ],
+					"_filter-to-corpus-1[1]::sp-sampler::loop" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::out" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::outcurve" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::pitch" : [ -12.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::speed" : [ 100.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::start" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::startabsolute" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::steal" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::tabopen" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::timestretch" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::voices" : [ 16.0 ],
+					"_filter-to-corpus-1[1]::duration-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::duration-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::duration-corpus-filter-slider::slider" : [ 50 ],
+					"descriptors-to-octatrack-4[1]::class-gate-threshold" : [ 50.0 ],
+					"descriptors-to-octatrack-4[1]::gate-history" : [ 6.0 ],
+					"descriptors-to-octatrack-4[1]::live.numbox" : [ 7.0 ],
+					"descriptors-to-octatrack-4[1]::live.text" : [ 0.0 ],
+					"descriptors-to-octatrack-4[1]::onset-trig-enabled" : [ 1.0 ],
+					"descriptors-to-octatrack-4[1]::onset-trig-enabled[1]" : [ 0.0 ],
+					"descriptors-to-octatrack-4[1]::select-class" : [ 4 ],
+					"descriptors-to-octatrack-4[1]::toggle-trig-type" : [ 1.0 ],
+					"descriptors-to-octatrack-4[1]::xpat-view-selector" : [ 2.0 ],
+					"descriptors-to-octatrack-4[1]::xpat-speed::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 5,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-4[1]::xpat-speed::umenu" : [ 1 ],
+					"descriptors-to-octatrack-4[1]::xpat-descriptors::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 8,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-4[1]::xpat-descriptors::umenu" : [ 0 ],
+					"descriptors-to-octatrack-4[1]::xpat-controllers::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 10,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-4[1]::xpat-controllers::umenu" : [ 2 ],
+					"class-to-octa-scene::gate-history" : [ 4.0 ],
+					"class-to-octa-scene::live.dial" : [ 73.228346456692918 ],
+					"class-to-octa-scene::live.tab[2]" : [ 8.0 ],
+					"class-to-octa-scene::live.tab[3]" : [ 8.0 ],
+					"class-to-octa-scene::live.text" : [ 1.0 ],
+					"class-to-octa-scene::live.text[1]" : [ 0.0 ],
+					"class-to-octa-scene::live.text[2]" : [ 1.0 ],
+					"class-to-octa-scene::scene-xpat" : [ 						{
+							"data" : 							{
+								"numins" : 6,
+								"numouts" : 16,
+								"connections" : [ 									{
+										"in" : 2,
+										"out" : 8,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 0,
+										"out" : 8,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 1,
+										"out" : 0,
+										"gain" : 1.0
+									}
+ ]
+							}
+
+						}
+ ]
+				}
+
+			}
+,
+			"5" : 			{
+				"id" : 5,
+				"data" : 				{
+					"calibrate" : [ 0.0 ],
+					"gate-send-scenes[1]" : [ 1.0 ],
+					"live.dial[3]" : [ 6.0 ],
+					"live.gain~" : [ 0.0 ],
+					"live.numbox" : [ 24.0 ],
+					"live.tab[5]" : [ 2.0 ],
+					"_timbre-to_midi::duration" : [ 500.0 ],
+					"_timbre-to_midi::gate-receive-scenes" : [ 1.0 ],
+					"_timbre-to_midi::gate-send-scenes" : [ 1.0 ],
+					"_timbre-to_midi::live.numbox[2]" : [ 78.146217346191406 ],
+					"_timbre-to_midi::live.tab" : [ 0.0 ],
+					"_timbre-to_midi::live.tab[1]" : [ 2.0 ],
+					"_timbre-to_midi::live.tab[2]" : [ 8.0 ],
+					"_timbre-to_midi::live.tab[3]" : [ 7.0 ],
+					"_timbre-to_midi::live.text" : [ 0.0 ],
+					"_timbre-to_midi::note-midi-channel" : [ 12.0 ],
+					"_timbre-to_midi::quantize" : [ 1 ],
+					"_timbre-to_midi::quantize-scale" : [ 9 ],
+					"_timbre-to_midi::toggle-flex-pitch" : [ 1.0 ],
+					"_timbre-to_midi::toggle-midi-note" : [ 1.0 ],
+					"_timbre-to_midi::toggle-midi-note[1]" : [ 0.0 ],
+					"_timbre-to_midi::toggle-midi-note[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::corpus-menu" : [ 9 ],
+					"_filter-to-corpus-1::bending-dropouts" : [ 0.0 ],
+					"_filter-to-corpus-1::bending-rotation" : [ 0.0 ],
+					"_filter-to-corpus-1::bending-scramble" : [ 0.0 ],
+					"_filter-to-corpus-1::bending-variation" : [ 0.0 ],
+					"_filter-to-corpus-1::comp-loudness" : [ 70.0 ],
+					"_filter-to-corpus-1::comp-spectral" : [ -100.0 ],
+					"_filter-to-corpus-1::granular-rate" : [ 75.000000000000028 ],
+					"_filter-to-corpus-1::granular-rate-relative" : [ 0.17754119792056 ],
+					"_filter-to-corpus-1::granular-variation" : [ 1.5748031496063 ],
+					"_filter-to-corpus-1::live.button[1]" : [ 0.0 ],
+					"_filter-to-corpus-1::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::live.menu[1]" : [ 0.0 ],
+					"_filter-to-corpus-1::live.text" : [ 1.0 ],
+					"_filter-to-corpus-1::live.text[1]" : [ 0.0 ],
+					"_filter-to-corpus-1::setup-range" : [ 35.100548446069467, 71.297989031078615 ],
+					"_filter-to-corpus-1::toggle-enabled" : [ 1.0 ],
+					"_filter-to-corpus-1::toggle-granular" : [ 1.0 ],
+					"_filter-to-corpus-1::toggle-granular-random" : [ 0.0 ],
+					"_filter-to-corpus-1::toggle-use-setup" : [ 1.0 ],
+					"_filter-to-corpus-1::centroid-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::centroid-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::centroid-corpus-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-1::pitch-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::pitch-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::pitch-corpus-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-1::confidence-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::confidence-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::confidence-corpus-filter-slider::slider" : [ 1.0 ],
+					"_filter-to-corpus-1::loudness-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::loudness-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::loudness-corpus-filter-slider::slider" : [ 75.0 ],
+					"_filter-to-corpus-1::centroid-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::centroid-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::centroid-input-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-1::pitch-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::pitch-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::pitch-input-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-1::confidence-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::confidence-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::confidence-input-filter-slider::slider" : [ 1.0 ],
+					"_filter-to-corpus-1::loudness-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::loudness-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::loudness-input-filter-slider::slider" : [ 100.0 ],
+					"_filter-to-corpus-1::sp-sampler::absoluteview" : [ 0.0 ],
+					"_filter-to-corpus-1::sp-sampler::algorithm" : [ 4.0 ],
+					"_filter-to-corpus-1::sp-sampler::gain" : [ 100.0 ],
+					"_filter-to-corpus-1::sp-sampler::in" : [ 0.0 ],
+					"_filter-to-corpus-1::sp-sampler::incurve" : [ 0.0 ],
+					"_filter-to-corpus-1::sp-sampler::length" : [ 100.0 ],
+					"_filter-to-corpus-1::sp-sampler::lengthabsolute" : [ 120000.0 ],
+					"_filter-to-corpus-1::sp-sampler::live.drop[4]" : [ "" ],
+					"_filter-to-corpus-1::sp-sampler::loop" : [ 0.0 ],
+					"_filter-to-corpus-1::sp-sampler::out" : [ 0.0 ],
+					"_filter-to-corpus-1::sp-sampler::outcurve" : [ 0.0 ],
+					"_filter-to-corpus-1::sp-sampler::pitch" : [ 0.0 ],
+					"_filter-to-corpus-1::sp-sampler::speed" : [ 111.0 ],
+					"_filter-to-corpus-1::sp-sampler::start" : [ 0.0 ],
+					"_filter-to-corpus-1::sp-sampler::startabsolute" : [ 0.0 ],
+					"_filter-to-corpus-1::sp-sampler::steal" : [ 0.0 ],
+					"_filter-to-corpus-1::sp-sampler::tabopen" : [ 0.0 ],
+					"_filter-to-corpus-1::sp-sampler::timestretch" : [ 1.0 ],
+					"_filter-to-corpus-1::sp-sampler::voices" : [ 4.0 ],
+					"_filter-to-corpus-1::duration-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::duration-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::duration-corpus-filter-slider::slider" : [ 200 ],
+					"descriptors-to-octatrack-2::class-gate-threshold" : [ 80.0 ],
+					"descriptors-to-octatrack-2::gate-history" : [ 8.0 ],
+					"descriptors-to-octatrack-2::live.numbox" : [ 1.0 ],
+					"descriptors-to-octatrack-2::live.text" : [ 0.0 ],
+					"descriptors-to-octatrack-2::onset-trig-enabled" : [ 0.0 ],
+					"descriptors-to-octatrack-2::onset-trig-enabled[1]" : [ 0.0 ],
+					"descriptors-to-octatrack-2::select-class" : [ 0 ],
+					"descriptors-to-octatrack-2::toggle-trig-type" : [ 1.0 ],
+					"descriptors-to-octatrack-2::xpat-view-selector" : [ 2.0 ],
+					"descriptors-to-octatrack-2::xpat-speed::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 5,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-2::xpat-speed::umenu" : [ 1 ],
+					"descriptors-to-octatrack-2::xpat-descriptors::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 8,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-2::xpat-descriptors::umenu" : [ 0 ],
+					"descriptors-to-octatrack-2::xpat-controllers::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 10,
+								"numouts" : 32,
+								"connections" : [ 									{
+										"in" : 1,
+										"out" : 9,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 6,
+										"out" : 19,
+										"gain" : 1.0
+									}
+ ]
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-2::xpat-controllers::umenu" : [ 2 ],
+					"descriptors-to-octatrack-1::class-gate-threshold" : [ 80.0 ],
+					"descriptors-to-octatrack-1::gate-history" : [ 8.0 ],
+					"descriptors-to-octatrack-1::live.numbox" : [ 2.0 ],
+					"descriptors-to-octatrack-1::live.text" : [ 0.0 ],
+					"descriptors-to-octatrack-1::onset-trig-enabled" : [ 0.0 ],
+					"descriptors-to-octatrack-1::onset-trig-enabled[1]" : [ 0.0 ],
+					"descriptors-to-octatrack-1::select-class" : [ 1 ],
+					"descriptors-to-octatrack-1::toggle-trig-type" : [ 1.0 ],
+					"descriptors-to-octatrack-1::xpat-view-selector" : [ 1.0 ],
+					"descriptors-to-octatrack-1::xpat-speed::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 5,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-1::xpat-speed::umenu" : [ 1 ],
+					"descriptors-to-octatrack-1::xpat-descriptors::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 8,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-1::xpat-descriptors::umenu" : [ 0 ],
+					"descriptors-to-octatrack-1::xpat-controllers::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 10,
+								"numouts" : 32,
+								"connections" : [ 									{
+										"in" : 1,
+										"out" : 9,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 6,
+										"out" : 19,
+										"gain" : 1.0
+									}
+ ]
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-1::xpat-controllers::umenu" : [ 2 ],
+					"descriptors-to-octatrack-4::class-gate-threshold" : [ 67.401574803149614 ],
+					"descriptors-to-octatrack-4::gate-history" : [ 8.0 ],
+					"descriptors-to-octatrack-4::live.numbox" : [ 4.0 ],
+					"descriptors-to-octatrack-4::live.text" : [ 0.0 ],
+					"descriptors-to-octatrack-4::onset-trig-enabled" : [ 0.0 ],
+					"descriptors-to-octatrack-4::onset-trig-enabled[1]" : [ 0.0 ],
+					"descriptors-to-octatrack-4::select-class" : [ 1 ],
+					"descriptors-to-octatrack-4::toggle-trig-type" : [ 1.0 ],
+					"descriptors-to-octatrack-4::xpat-view-selector" : [ 2.0 ],
+					"descriptors-to-octatrack-4::xpat-speed::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 5,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-4::xpat-speed::umenu" : [ 1 ],
+					"descriptors-to-octatrack-4::xpat-descriptors::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 8,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-4::xpat-descriptors::umenu" : [ 0 ],
+					"descriptors-to-octatrack-4::xpat-controllers::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 10,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-4::xpat-controllers::umenu" : [ 2 ],
+					"descriptors-to-octatrack-3::class-gate-threshold" : [ 80.0 ],
+					"descriptors-to-octatrack-3::gate-history" : [ 8.0 ],
+					"descriptors-to-octatrack-3::live.numbox" : [ 3.0 ],
+					"descriptors-to-octatrack-3::live.text" : [ 0.0 ],
+					"descriptors-to-octatrack-3::onset-trig-enabled" : [ 0.0 ],
+					"descriptors-to-octatrack-3::onset-trig-enabled[1]" : [ 0.0 ],
+					"descriptors-to-octatrack-3::select-class" : [ 0 ],
+					"descriptors-to-octatrack-3::toggle-trig-type" : [ 1.0 ],
+					"descriptors-to-octatrack-3::xpat-view-selector" : [ 2.0 ],
+					"descriptors-to-octatrack-3::xpat-speed::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 5,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-3::xpat-speed::umenu" : [ 1 ],
+					"descriptors-to-octatrack-3::xpat-descriptors::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 8,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-3::xpat-descriptors::umenu" : [ 0 ],
+					"descriptors-to-octatrack-3::xpat-controllers::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 10,
+								"numouts" : 32,
+								"connections" : [ 									{
+										"in" : 1,
+										"out" : 9,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 6,
+										"out" : 19,
+										"gain" : 1.0
+									}
+ ]
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-3::xpat-controllers::umenu" : [ 2 ],
+					"_filter-to-corpus-1[1]::bending-dropouts" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::bending-rotation" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::bending-scramble" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::bending-variation" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::comp-loudness" : [ 100.0 ],
+					"_filter-to-corpus-1[1]::comp-spectral" : [ 100.0 ],
+					"_filter-to-corpus-1[1]::corpus-menu" : [ 0 ],
+					"_filter-to-corpus-1[1]::granular-rate" : [ 75.000000000000028 ],
+					"_filter-to-corpus-1[1]::granular-rate-relative" : [ 0.17754119792056 ],
+					"_filter-to-corpus-1[1]::granular-variation" : [ 1.5748031496063 ],
+					"_filter-to-corpus-1[1]::live.button[1]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::live.menu[1]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::live.text" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::live.text[1]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::setup-range" : [ 15.356489945155394, 87.751371115173669 ],
+					"_filter-to-corpus-1[1]::toggle-enabled" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::toggle-granular" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::toggle-granular-random" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::toggle-use-setup" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::centroid-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::centroid-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::centroid-corpus-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-1[1]::pitch-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::pitch-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::pitch-corpus-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-1[1]::confidence-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::confidence-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::confidence-corpus-filter-slider::slider" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::loudness-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::loudness-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::loudness-corpus-filter-slider::slider" : [ 75.0 ],
+					"_filter-to-corpus-1[1]::centroid-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::centroid-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::centroid-input-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-1[1]::pitch-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::pitch-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::pitch-input-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-1[1]::confidence-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::confidence-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::confidence-input-filter-slider::slider" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::loudness-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::loudness-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::loudness-input-filter-slider::slider" : [ 100.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::absoluteview" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::algorithm" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::gain" : [ 90.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::in" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::incurve" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::length" : [ 100.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::lengthabsolute" : [ 120000.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::live.drop[4]" : [ "" ],
+					"_filter-to-corpus-1[1]::sp-sampler::loop" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::out" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::outcurve" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::pitch" : [ -12.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::speed" : [ 100.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::start" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::startabsolute" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::steal" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::tabopen" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::timestretch" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::voices" : [ 16.0 ],
+					"_filter-to-corpus-1[1]::duration-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::duration-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::duration-corpus-filter-slider::slider" : [ 50 ],
+					"descriptors-to-octatrack-4[1]::class-gate-threshold" : [ 50.0 ],
+					"descriptors-to-octatrack-4[1]::gate-history" : [ 6.0 ],
+					"descriptors-to-octatrack-4[1]::live.numbox" : [ 7.0 ],
+					"descriptors-to-octatrack-4[1]::live.text" : [ 0.0 ],
+					"descriptors-to-octatrack-4[1]::onset-trig-enabled" : [ 1.0 ],
+					"descriptors-to-octatrack-4[1]::onset-trig-enabled[1]" : [ 0.0 ],
+					"descriptors-to-octatrack-4[1]::select-class" : [ 4 ],
+					"descriptors-to-octatrack-4[1]::toggle-trig-type" : [ 1.0 ],
+					"descriptors-to-octatrack-4[1]::xpat-view-selector" : [ 2.0 ],
+					"descriptors-to-octatrack-4[1]::xpat-speed::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 5,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-4[1]::xpat-speed::umenu" : [ 1 ],
+					"descriptors-to-octatrack-4[1]::xpat-descriptors::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 8,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-4[1]::xpat-descriptors::umenu" : [ 0 ],
+					"descriptors-to-octatrack-4[1]::xpat-controllers::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 10,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-4[1]::xpat-controllers::umenu" : [ 2 ],
+					"class-to-octa-scene::gate-history" : [ 4.0 ],
+					"class-to-octa-scene::live.dial" : [ 73.228346456692918 ],
+					"class-to-octa-scene::live.tab[2]" : [ 8.0 ],
+					"class-to-octa-scene::live.tab[3]" : [ 8.0 ],
+					"class-to-octa-scene::live.text" : [ 1.0 ],
+					"class-to-octa-scene::live.text[1]" : [ 0.0 ],
+					"class-to-octa-scene::live.text[2]" : [ 1.0 ],
+					"class-to-octa-scene::scene-xpat" : [ 						{
+							"data" : 							{
+								"numins" : 6,
+								"numouts" : 16,
+								"connections" : [ 									{
+										"in" : 2,
+										"out" : 8,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 0,
+										"out" : 8,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 1,
+										"out" : 0,
+										"gain" : 1.0
+									}
+ ]
+							}
+
+						}
+ ]
+				}
+
+			}
+,
+			"17" : 			{
+				"id" : 17,
+				"data" : 				{
+					"calibrate" : [ 0.0 ],
+					"gate-send-scenes[1]" : [ 1.0 ],
+					"live.dial[3]" : [  ],
+					"live.gain~" : [ 0.0 ],
+					"live.numbox" : [ 24.0 ],
+					"live.tab[5]" : [ 2.0 ],
+					"_timbre-to_midi::duration" : [ 500.0 ],
+					"_timbre-to_midi::gate-receive-scenes" : [ 1.0 ],
+					"_timbre-to_midi::gate-send-scenes" : [ 1.0 ],
+					"_timbre-to_midi::live.numbox[2]" : [ 71.512985229492188 ],
+					"_timbre-to_midi::live.tab" : [ 1.0 ],
+					"_timbre-to_midi::live.tab[1]" : [ 0.0 ],
+					"_timbre-to_midi::live.tab[2]" : [ 1.0 ],
+					"_timbre-to_midi::live.tab[3]" : [ 0.0 ],
+					"_timbre-to_midi::live.text" : [  ],
+					"_timbre-to_midi::note-midi-channel" : [ 12.0 ],
+					"_timbre-to_midi::quantize" : [ 1 ],
+					"_timbre-to_midi::quantize-scale" : [ 9 ],
+					"_timbre-to_midi::toggle-flex-pitch" : [ 1.0 ],
+					"_timbre-to_midi::toggle-midi-note" : [ 1.0 ],
+					"_timbre-to_midi::toggle-midi-note[1]" : [ 0.0 ],
+					"_timbre-to_midi::toggle-midi-note[2]" : [  ],
+					"_filter-to-corpus-1::corpus-menu" : [ 14 ],
+					"_filter-to-corpus-1::bending-dropouts" : [ 0.0 ],
+					"_filter-to-corpus-1::bending-rotation" : [ 0.0 ],
+					"_filter-to-corpus-1::bending-scramble" : [ 0.0 ],
+					"_filter-to-corpus-1::bending-variation" : [ 0.0 ],
+					"_filter-to-corpus-1::comp-loudness" : [ 50.0 ],
+					"_filter-to-corpus-1::comp-spectral" : [ 50.0 ],
+					"_filter-to-corpus-1::granular-rate" : [ 62.500000000000007 ],
+					"_filter-to-corpus-1::granular-rate-relative" : [ 0.17754119792056 ],
+					"_filter-to-corpus-1::granular-variation" : [ 1.5748031496063 ],
+					"_filter-to-corpus-1::live.button[1]" : [ 0.0 ],
+					"_filter-to-corpus-1::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::live.menu[1]" : [ 2.0 ],
+					"_filter-to-corpus-1::live.text" : [ 0.0 ],
+					"_filter-to-corpus-1::live.text[1]" : [ 0.0 ],
+					"_filter-to-corpus-1::setup-range" : [ 5.850091407678245, 100.0 ],
+					"_filter-to-corpus-1::toggle-enabled" : [ 0.0 ],
+					"_filter-to-corpus-1::toggle-granular" : [ 0.0 ],
+					"_filter-to-corpus-1::toggle-granular-random" : [ 0.0 ],
+					"_filter-to-corpus-1::toggle-use-setup" : [ 1.0 ],
+					"_filter-to-corpus-1::centroid-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::centroid-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::centroid-corpus-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-1::pitch-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::pitch-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::pitch-corpus-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-1::confidence-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::confidence-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::confidence-corpus-filter-slider::slider" : [ 1.0 ],
+					"_filter-to-corpus-1::loudness-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::loudness-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::loudness-corpus-filter-slider::slider" : [ 75.0 ],
+					"_filter-to-corpus-1::centroid-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::centroid-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::centroid-input-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-1::pitch-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::pitch-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::pitch-input-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-1::confidence-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::confidence-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::confidence-input-filter-slider::slider" : [ 1.0 ],
+					"_filter-to-corpus-1::loudness-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1::loudness-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::loudness-input-filter-slider::slider" : [ 100.0 ],
+					"_filter-to-corpus-1::sp-sampler::absoluteview" : [ 0.0 ],
+					"_filter-to-corpus-1::sp-sampler::algorithm" : [ 0.0 ],
+					"_filter-to-corpus-1::sp-sampler::gain" : [ 100.0 ],
+					"_filter-to-corpus-1::sp-sampler::in" : [ 0.0 ],
+					"_filter-to-corpus-1::sp-sampler::incurve" : [ 0.0 ],
+					"_filter-to-corpus-1::sp-sampler::length" : [ 100.0 ],
+					"_filter-to-corpus-1::sp-sampler::lengthabsolute" : [ 120000.0 ],
+					"_filter-to-corpus-1::sp-sampler::live.drop[4]" : [ "" ],
+					"_filter-to-corpus-1::sp-sampler::loop" : [ 0.0 ],
+					"_filter-to-corpus-1::sp-sampler::out" : [ 0.0 ],
+					"_filter-to-corpus-1::sp-sampler::outcurve" : [ 0.0 ],
+					"_filter-to-corpus-1::sp-sampler::pitch" : [ 0.0 ],
+					"_filter-to-corpus-1::sp-sampler::speed" : [ 100.0 ],
+					"_filter-to-corpus-1::sp-sampler::start" : [ 0.0 ],
+					"_filter-to-corpus-1::sp-sampler::startabsolute" : [ 0.0 ],
+					"_filter-to-corpus-1::sp-sampler::steal" : [ 0.0 ],
+					"_filter-to-corpus-1::sp-sampler::tabopen" : [ 0.0 ],
+					"_filter-to-corpus-1::sp-sampler::timestretch" : [ 0.0 ],
+					"_filter-to-corpus-1::sp-sampler::voices" : [ 16.0 ],
+					"_filter-to-corpus-1::duration-corpus-filter-slider::comparator" : [ 0.0 ],
+					"_filter-to-corpus-1::duration-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1::duration-corpus-filter-slider::slider" : [ 0 ],
+					"descriptors-to-octatrack-2::class-gate-threshold" : [ 80.0 ],
+					"descriptors-to-octatrack-2::gate-history" : [ 4.0 ],
+					"descriptors-to-octatrack-2::live.numbox" : [ 1.0 ],
+					"descriptors-to-octatrack-2::live.text" : [ 0.0 ],
+					"descriptors-to-octatrack-2::onset-trig-enabled" : [ 0.0 ],
+					"descriptors-to-octatrack-2::onset-trig-enabled[1]" : [ 0.0 ],
+					"descriptors-to-octatrack-2::select-class" : [ 0 ],
+					"descriptors-to-octatrack-2::toggle-trig-type" : [ 1.0 ],
+					"descriptors-to-octatrack-2::xpat-view-selector" : [ 2.0 ],
+					"descriptors-to-octatrack-2::xpat-speed::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 5,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-2::xpat-speed::umenu" : [ 1 ],
+					"descriptors-to-octatrack-2::xpat-descriptors::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 8,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-2::xpat-descriptors::umenu" : [ 0 ],
+					"descriptors-to-octatrack-2::xpat-controllers::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 10,
+								"numouts" : 32,
+								"connections" : [ 									{
+										"in" : 1,
+										"out" : 9,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 6,
+										"out" : 19,
+										"gain" : 1.0
+									}
+ ]
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-2::xpat-controllers::umenu" : [ 2 ],
+					"descriptors-to-octatrack-1::class-gate-threshold" : [ 80.0 ],
+					"descriptors-to-octatrack-1::gate-history" : [ 4.0 ],
+					"descriptors-to-octatrack-1::live.numbox" : [ 2.0 ],
+					"descriptors-to-octatrack-1::live.text" : [ 0.0 ],
+					"descriptors-to-octatrack-1::onset-trig-enabled" : [ 0.0 ],
+					"descriptors-to-octatrack-1::onset-trig-enabled[1]" : [ 0.0 ],
+					"descriptors-to-octatrack-1::select-class" : [ 1 ],
+					"descriptors-to-octatrack-1::toggle-trig-type" : [ 1.0 ],
+					"descriptors-to-octatrack-1::xpat-view-selector" : [ 1.0 ],
+					"descriptors-to-octatrack-1::xpat-speed::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 5,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-1::xpat-speed::umenu" : [ 1 ],
+					"descriptors-to-octatrack-1::xpat-descriptors::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 8,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-1::xpat-descriptors::umenu" : [ 0 ],
+					"descriptors-to-octatrack-1::xpat-controllers::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 10,
+								"numouts" : 32,
+								"connections" : [ 									{
+										"in" : 1,
+										"out" : 9,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 6,
+										"out" : 19,
+										"gain" : 1.0
+									}
+ ]
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-1::xpat-controllers::umenu" : [ 2 ],
+					"descriptors-to-octatrack-4::class-gate-threshold" : [ 67.401574803149614 ],
+					"descriptors-to-octatrack-4::gate-history" : [ 4.0 ],
+					"descriptors-to-octatrack-4::live.numbox" : [ 4.0 ],
+					"descriptors-to-octatrack-4::live.text" : [ 0.0 ],
+					"descriptors-to-octatrack-4::onset-trig-enabled" : [ 0.0 ],
+					"descriptors-to-octatrack-4::onset-trig-enabled[1]" : [ 0.0 ],
+					"descriptors-to-octatrack-4::select-class" : [ 5 ],
+					"descriptors-to-octatrack-4::toggle-trig-type" : [ 1.0 ],
+					"descriptors-to-octatrack-4::xpat-view-selector" : [ 2.0 ],
+					"descriptors-to-octatrack-4::xpat-speed::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 5,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-4::xpat-speed::umenu" : [ 1 ],
+					"descriptors-to-octatrack-4::xpat-descriptors::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 8,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-4::xpat-descriptors::umenu" : [ 0 ],
+					"descriptors-to-octatrack-4::xpat-controllers::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 10,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-4::xpat-controllers::umenu" : [ 2 ],
+					"descriptors-to-octatrack-3::class-gate-threshold" : [ 80.0 ],
+					"descriptors-to-octatrack-3::gate-history" : [ 4.0 ],
+					"descriptors-to-octatrack-3::live.numbox" : [ 3.0 ],
+					"descriptors-to-octatrack-3::live.text" : [ 0.0 ],
+					"descriptors-to-octatrack-3::onset-trig-enabled" : [ 0.0 ],
+					"descriptors-to-octatrack-3::onset-trig-enabled[1]" : [ 0.0 ],
+					"descriptors-to-octatrack-3::select-class" : [ 0 ],
+					"descriptors-to-octatrack-3::toggle-trig-type" : [ 1.0 ],
+					"descriptors-to-octatrack-3::xpat-view-selector" : [ 2.0 ],
+					"descriptors-to-octatrack-3::xpat-speed::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 5,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-3::xpat-speed::umenu" : [ 1 ],
+					"descriptors-to-octatrack-3::xpat-descriptors::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 8,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-3::xpat-descriptors::umenu" : [ 0 ],
+					"descriptors-to-octatrack-3::xpat-controllers::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 10,
+								"numouts" : 32,
+								"connections" : [ 									{
+										"in" : 1,
+										"out" : 9,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 6,
+										"out" : 19,
+										"gain" : 1.0
+									}
+ ]
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-3::xpat-controllers::umenu" : [ 2 ],
+					"_filter-to-corpus-1[1]::bending-dropouts" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::bending-rotation" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::bending-scramble" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::bending-variation" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::comp-loudness" : [ 50.0 ],
+					"_filter-to-corpus-1[1]::comp-spectral" : [ 50.0 ],
+					"_filter-to-corpus-1[1]::corpus-menu" : [ 14 ],
+					"_filter-to-corpus-1[1]::granular-rate" : [ 62.500000000000007 ],
+					"_filter-to-corpus-1[1]::granular-rate-relative" : [ 0.17754119792056 ],
+					"_filter-to-corpus-1[1]::granular-variation" : [ 1.5748031496063 ],
+					"_filter-to-corpus-1[1]::live.button[1]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::live.menu[1]" : [ 2.0 ],
+					"_filter-to-corpus-1[1]::live.text" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::live.text[1]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::setup-range" : [ 5.850091407678245, 100.0 ],
+					"_filter-to-corpus-1[1]::toggle-enabled" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::toggle-granular" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::toggle-granular-random" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::toggle-use-setup" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::centroid-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::centroid-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::centroid-corpus-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-1[1]::pitch-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::pitch-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::pitch-corpus-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-1[1]::confidence-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::confidence-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::confidence-corpus-filter-slider::slider" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::loudness-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::loudness-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::loudness-corpus-filter-slider::slider" : [ 75.0 ],
+					"_filter-to-corpus-1[1]::centroid-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::centroid-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::centroid-input-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-1[1]::pitch-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::pitch-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::pitch-input-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-1[1]::confidence-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::confidence-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::confidence-input-filter-slider::slider" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::loudness-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-1[1]::loudness-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::loudness-input-filter-slider::slider" : [ 100.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::absoluteview" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::algorithm" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::gain" : [ 100.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::in" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::incurve" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::length" : [ 100.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::lengthabsolute" : [ 120000.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::live.drop[4]" : [ "" ],
+					"_filter-to-corpus-1[1]::sp-sampler::loop" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::out" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::outcurve" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::pitch" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::speed" : [ 100.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::start" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::startabsolute" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::steal" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::tabopen" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::timestretch" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::sp-sampler::voices" : [ 16.0 ],
+					"_filter-to-corpus-1[1]::duration-corpus-filter-slider::comparator" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::duration-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-1[1]::duration-corpus-filter-slider::slider" : [ 0 ],
+					"descriptors-to-octatrack-4[1]::class-gate-threshold" : [ 82.362204724409466 ],
+					"descriptors-to-octatrack-4[1]::gate-history" : [ 16.0 ],
+					"descriptors-to-octatrack-4[1]::live.numbox" : [ 7.0 ],
+					"descriptors-to-octatrack-4[1]::live.text" : [ 0.0 ],
+					"descriptors-to-octatrack-4[1]::onset-trig-enabled" : [ 1.0 ],
+					"descriptors-to-octatrack-4[1]::onset-trig-enabled[1]" : [ 0.0 ],
+					"descriptors-to-octatrack-4[1]::select-class" : [ 2 ],
+					"descriptors-to-octatrack-4[1]::toggle-trig-type" : [ 1.0 ],
+					"descriptors-to-octatrack-4[1]::xpat-view-selector" : [ 2.0 ],
+					"descriptors-to-octatrack-4[1]::xpat-speed::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 5,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-4[1]::xpat-speed::umenu" : [ 1 ],
+					"descriptors-to-octatrack-4[1]::xpat-descriptors::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 8,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-4[1]::xpat-descriptors::umenu" : [ 0 ],
+					"descriptors-to-octatrack-4[1]::xpat-controllers::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 10,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-4[1]::xpat-controllers::umenu" : [ 2 ],
+					"class-to-octa-scene::gate-history" : [ 16.0 ],
+					"class-to-octa-scene::live.dial" : [ 0.0 ],
+					"class-to-octa-scene::live.tab[2]" : [ 0.0 ],
+					"class-to-octa-scene::live.tab[3]" : [ 0.0 ],
+					"class-to-octa-scene::live.text" : [ 0.0 ],
+					"class-to-octa-scene::live.text[1]" : [ 0.0 ],
+					"class-to-octa-scene::live.text[2]" : [ 0.0 ],
+					"class-to-octa-scene::scene-xpat" : [  ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
