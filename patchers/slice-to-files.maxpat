@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1612.0, 929.0 ],
+		"rect" : [ 34.0, 115.0, 1458.0, 903.0 ],
 		"gridonopen" : 2,
 		"gridsize" : [ 10.0, 10.0 ],
 		"gridsnaponopen" : 2,
@@ -79,7 +79,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "int", "" ],
+					"outlettype" : [ "int", "set" ],
 					"patching_rect" : [ 1545.5, 758.0, 261.0, 22.0 ],
 					"text" : "dk.concatcreate",
 					"varname" : "dk.concatcreate"
@@ -267,7 +267,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
-					"outlettype" : [ "", "clear", "" ],
+					"outlettype" : [ "clear", "clear", "set" ],
 					"patching_rect" : [ 1560.0, 224.0, 274.0, 22.0 ],
 					"text" : "dk.corpuscreate"
 				}
@@ -392,7 +392,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1815.0, 267.0, 72.0, 20.0 ],
-					"text" : "01:16.305"
+					"text" : "00:42.355"
 				}
 
 			}
@@ -550,7 +550,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1047.0, 487.0, 50.0, 22.0 ],
-					"text" : "1730"
+					"text" : "58"
 				}
 
 			}
@@ -632,7 +632,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1009,7 +1009,7 @@
 
 							}
  ],
-						"originid" : "pat-24239"
+						"originid" : "pat-5860"
 					}
 ,
 					"patching_rect" : [ 67.0, 900.0, 58.0, 22.0 ],
@@ -1056,13 +1056,13 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 115.0, 1612.0, 875.0 ],
+						"rect" : [ 34.0, 115.0, 1852.0, 903.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
 						"boxes" : [ 							{
 								"box" : 								{
@@ -1082,12 +1082,12 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
-									"patching_rect" : [ 91.0, 723.0, 81.0, 22.0 ],
+									"patching_rect" : [ 91.0, 723.0, 78.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 0
 									}
 ,
-									"text" : "polybuffer~ m"
+									"text" : "polybuffer~ b"
 								}
 
 							}
@@ -1236,7 +1236,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 0,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1392,7 +1392,7 @@
 
 											}
  ],
-										"originid" : "pat-24245"
+										"originid" : "pat-5866"
 									}
 ,
 									"patching_rect" : [ 91.0, 228.0, 127.0, 22.0 ],
@@ -1846,7 +1846,7 @@
 
 							}
  ],
-						"originid" : "pat-24241"
+						"originid" : "pat-5862"
 					}
 ,
 					"patching_rect" : [ 430.0, 621.0, 104.0, 22.0 ],
@@ -1870,7 +1870,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2013,7 +2013,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 0,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2331,7 +2331,7 @@
 
 											}
  ],
-										"originid" : "pat-24249"
+										"originid" : "pat-5870"
 									}
 ,
 									"patching_rect" : [ 266.0, 632.0, 220.0, 22.0 ],
@@ -2780,7 +2780,7 @@
 
 							}
  ],
-						"originid" : "pat-24247"
+						"originid" : "pat-5868"
 					}
 ,
 					"patching_rect" : [ 457.983165979385376, 1060.0, 113.0, 22.0 ],
@@ -2816,7 +2816,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2974,7 +2974,7 @@
 
 							}
  ],
-						"originid" : "pat-24251"
+						"originid" : "pat-5872"
 					}
 ,
 					"patching_rect" : [ 460.0, 1370.0, 107.0, 22.0 ],
@@ -3169,7 +3169,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3307,7 +3307,7 @@
 
 							}
  ],
-						"originid" : "pat-24253"
+						"originid" : "pat-5874"
 					}
 ,
 					"patching_rect" : [ 746.5, 490.0, 201.0, 22.0 ],
@@ -3344,7 +3344,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3483,7 +3483,7 @@
 
 							}
  ],
-						"originid" : "pat-24255"
+						"originid" : "pat-5876"
 					}
 ,
 					"patching_rect" : [ 23.0, 235.5, 51.0, 22.0 ],
@@ -3507,7 +3507,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3659,7 +3659,7 @@
 
 							}
  ],
-						"originid" : "pat-24257"
+						"originid" : "pat-5878"
 					}
 ,
 					"patching_rect" : [ 1075.0, 853.0, 81.0, 22.0 ],
@@ -3719,7 +3719,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3894,7 +3894,7 @@
 
 							}
  ],
-						"originid" : "pat-24259"
+						"originid" : "pat-5880"
 					}
 ,
 					"patching_rect" : [ 400.0, 475.0, 29.5, 22.0 ],
@@ -3951,7 +3951,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4019,7 +4019,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 0,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -4110,7 +4110,7 @@
 														"appversion" : 														{
 															"major" : 9,
 															"minor" : 0,
-															"revision" : 0,
+															"revision" : 3,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -4322,7 +4322,7 @@
 																		"appversion" : 																		{
 																			"major" : 9,
 																			"minor" : 0,
-																			"revision" : 0,
+																			"revision" : 3,
 																			"architecture" : "x64",
 																			"modernui" : 1
 																		}
@@ -4604,7 +4604,7 @@
 
 																			}
  ],
-																		"originid" : "pat-24267"
+																		"originid" : "pat-5888"
 																	}
 ,
 																	"patching_rect" : [ 20.0, 79.433421187153783, 128.0, 22.0 ],
@@ -4791,7 +4791,7 @@
 
 															}
  ],
-														"originid" : "pat-24265"
+														"originid" : "pat-5886"
 													}
 ,
 													"patching_rect" : [ 279.0, 35.000004497395793, 105.0, 22.0 ],
@@ -5248,7 +5248,7 @@
 
 											}
  ],
-										"originid" : "pat-24263"
+										"originid" : "pat-5884"
 									}
 ,
 									"patching_rect" : [ 630.0, 134.0, 273.0, 22.0 ],
@@ -5628,7 +5628,7 @@
 
 							}
  ],
-						"originid" : "pat-24261"
+						"originid" : "pat-5882"
 					}
 ,
 					"patching_rect" : [ 960.25, 407.0, 71.5, 22.0 ],
@@ -5710,7 +5710,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5963,7 +5963,7 @@
 
 							}
  ],
-						"originid" : "pat-24269"
+						"originid" : "pat-5890"
 					}
 ,
 					"patching_rect" : [ 1105.0, 627.0, 97.0, 22.0 ],
@@ -6081,7 +6081,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -7262,7 +7262,7 @@
 
 							}
  ],
-						"originid" : "pat-24271"
+						"originid" : "pat-5892"
 					}
 ,
 					"patching_rect" : [ 1200.0, 812.0, 77.0, 22.0 ],
@@ -7298,7 +7298,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -7416,7 +7416,7 @@
 
 							}
  ],
-						"originid" : "pat-24273"
+						"originid" : "pat-5894"
 					}
 ,
 					"patching_rect" : [ 638.950000000000045, 23.5, 29.5, 22.0 ],
@@ -7493,7 +7493,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -7539,13 +7539,14 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 0,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
 										"classnamespace" : "box",
 										"rect" : [ 175.0, 158.0, 298.0, 526.0 ],
+										"default_fontsize" : 10.0,
 										"gridsize" : [ 15.0, 15.0 ],
 										"boxes" : [ 											{
 												"box" : 												{
@@ -7659,7 +7660,6 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-22",
-													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -7674,7 +7674,7 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-21",
-													"linecount" : 3,
+													"linecount" : 2,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
@@ -8007,7 +8007,7 @@
 
 											}
  ],
-										"originid" : "pat-24278"
+										"originid" : "pat-5899"
 									}
 ,
 									"patching_rect" : [ 15.0, 127.5, 54.0, 21.0 ],
@@ -8056,7 +8056,7 @@
 
 							}
  ],
-						"originid" : "pat-24276"
+						"originid" : "pat-5897"
 					}
 ,
 					"patching_rect" : [ 408.0, 890.0, 21.0, 79.0 ],
@@ -8092,7 +8092,7 @@
 			}
 , 			{
 				"box" : 				{
-					"buffername" : "m.40",
+					"buffername" : "b.23",
 					"id" : "obj-80",
 					"maxclass" : "waveform~",
 					"numinlets" : 5,
@@ -8285,7 +8285,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 545.5, 621.0, 29.5, 22.0 ],
-					"text" : "m"
+					"text" : "b"
 				}
 
 			}
@@ -8352,7 +8352,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -8781,7 +8781,7 @@
 
 							}
  ],
-						"originid" : "pat-24280"
+						"originid" : "pat-5901"
 					}
 ,
 					"patching_rect" : [ 641.700000000000045, 146.0, 125.599999999999909, 22.0 ],
@@ -8814,7 +8814,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -8860,13 +8860,14 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 0,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
 										"classnamespace" : "box",
 										"rect" : [ 175.0, 158.0, 298.0, 526.0 ],
+										"default_fontsize" : 10.0,
 										"gridsize" : [ 15.0, 15.0 ],
 										"boxes" : [ 											{
 												"box" : 												{
@@ -8980,7 +8981,6 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-22",
-													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -8995,7 +8995,7 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-21",
-													"linecount" : 3,
+													"linecount" : 2,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
@@ -9328,7 +9328,7 @@
 
 											}
  ],
-										"originid" : "pat-24285"
+										"originid" : "pat-5906"
 									}
 ,
 									"patching_rect" : [ 15.0, 127.5, 54.0, 21.0 ],
@@ -9377,7 +9377,7 @@
 
 							}
  ],
-						"originid" : "pat-24283"
+						"originid" : "pat-5904"
 					}
 ,
 					"patching_rect" : [ 405.5, 63.5, 21.0, 79.0 ],
@@ -9441,7 +9441,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -9541,7 +9541,7 @@
 
 							}
  ],
-						"originid" : "pat-24287"
+						"originid" : "pat-5908"
 					}
 ,
 					"patching_rect" : [ 23.0, 152.0, 113.0, 22.0 ],
@@ -10786,7 +10786,7 @@
 
 			}
  ],
-		"originid" : "pat-23565",
+		"originid" : "pat-5116",
 		"parameters" : 		{
 			"obj-100" : [ "live.tab[1]", "live.tab", 0 ],
 			"obj-13" : [ "live.dial[13]", "sensitivity", 0 ],
@@ -10836,86 +10836,86 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "dk.adstatussr.maxpat",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/misc/Misc",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/misc/Misc",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "dk.concatcreate.maxpat",
-				"bootpath" : "~/Documents/Max 9/Library/DK - alpha B/Data Knot - alpha B/patchers",
-				"patcherrelativepath" : "../../../Library/DK - alpha B/Data Knot - alpha B/patchers",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/patchers",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dk.corpusanalysis.maxpat",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/misc/Misc",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/misc/Misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dk.corpuscreate.maxpat",
-				"bootpath" : "~/Documents/Max 9/Library/DK - alpha B/Data Knot - alpha B/patchers",
-				"patcherrelativepath" : "../../../Library/DK - alpha B/Data Knot - alpha B/patchers",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/patchers",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dk.descriptorframe.maxpat",
-				"bootpath" : "~/Documents/Max 9/Library/DK - alpha B/Data Knot - alpha B/patchers",
-				"patcherrelativepath" : "../../../Library/DK - alpha B/Data Knot - alpha B/patchers",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/patchers",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dk.folderloop.maxpat",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/misc/Misc",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/misc/Misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dk.melbandframe.maxpat",
-				"bootpath" : "~/Documents/Max 9/Library/DK - alpha B/Data Knot - alpha B/patchers",
-				"patcherrelativepath" : "../../../Library/DK - alpha B/Data Knot - alpha B/patchers",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/patchers",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dk.mfccframe.maxpat",
-				"bootpath" : "~/Documents/Max 9/Library/DK - alpha B/Data Knot - alpha B/patchers",
-				"patcherrelativepath" : "../../../Library/DK - alpha B/Data Knot - alpha B/patchers",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/patchers",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dk.plotter.js",
-				"bootpath" : "~/Documents/Max 9/Library/DK - alpha B/Data Knot - alpha B/jsui",
-				"patcherrelativepath" : "../../../Library/DK - alpha B/Data Knot - alpha B/jsui",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/jsui",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/jsui",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dk.plotter.maxpat",
-				"bootpath" : "~/Documents/Max 9/Library/DK - alpha B/Data Knot - alpha B/patchers",
-				"patcherrelativepath" : "../../../Library/DK - alpha B/Data Knot - alpha B/patchers",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/patchers",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dk.sineframe.maxpat",
-				"bootpath" : "~/Documents/Max 9/Library/DK - alpha B/Data Knot - alpha B/patchers",
-				"patcherrelativepath" : "../../../Library/DK - alpha B/Data Knot - alpha B/patchers",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/patchers",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dk.widgetadstatussr.maxpat",
-				"bootpath" : "~/Documents/Max 9/Library/DK - alpha B/Data Knot - alpha B/misc/Misc",
-				"patcherrelativepath" : "../../../Library/DK - alpha B/Data Knot - alpha B/misc/Misc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "dk.widgetcorpusanalysis.maxpat",
-				"bootpath" : "~/Documents/Max 9/Library/DK - alpha B/Data Knot - alpha B/misc/Misc",
-				"patcherrelativepath" : "../../../Library/DK - alpha B/Data Knot - alpha B/misc/Misc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "dk.widgetfolderloop.maxpat",
-				"bootpath" : "~/Documents/Max 9/Library/DK - alpha B/Data Knot - alpha B/misc/Misc",
-				"patcherrelativepath" : "../../../Library/DK - alpha B/Data Knot - alpha B/misc/Misc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "dk.widgetsliceloop.maxpat",
-				"bootpath" : "~/Documents/Max 9/Library/DK - alpha B/Data Knot - alpha B/misc/Misc",
-				"patcherrelativepath" : "../../../Library/DK - alpha B/Data Knot - alpha B/misc/Misc",
+				"name" : "dk.sliceloop.maxpat",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/misc/Misc",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/misc/Misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -11060,15 +11060,15 @@
 			}
 , 			{
 				"name" : "recenterBpatcherWindow.js",
-				"bootpath" : "~/Documents/Max 9/Library/DK - alpha B/Data Knot - alpha B/javascript",
-				"patcherrelativepath" : "../../../Library/DK - alpha B/Data Knot - alpha B/javascript",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/javascript",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "resizeBpatcherWindow.js",
-				"bootpath" : "~/Documents/Max 9/Library/DK - alpha B/Data Knot - alpha B/javascript",
-				"patcherrelativepath" : "../../../Library/DK - alpha B/Data Knot - alpha B/javascript",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/javascript",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

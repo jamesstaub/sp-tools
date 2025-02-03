@@ -7,12 +7,13 @@
 				"data" : 				{
 					"calibrate" : [ 0.0 ],
 					"gate-send-scenes[1]" : [ 1.0 ],
-					"live.dial[3]" : [ -3.0 ],
-					"live.gain~" : [ 0.0 ],
+					"live.dial[3]" : [ 3.0 ],
+					"live.dial[4]" : [ -3.0 ],
 					"live.numbox" : [ 24.0 ],
 					"live.tab[5]" : [ 2.0 ],
-					"u954003948[1]" : [ 89.620000000000005 ],
-					"u954003948[2]" : [ 0.911 ],
+					"mc.live.gain~" : [ 0.0 ],
+					"u954003948[1]" : [ 100.0 ],
+					"u954003948[2]" : [ 0.664666666666667 ],
 					"__pattr-send-matrix[2]::crosspatch" : [ 						{
 							"data" : 							{
 								"numins" : 22,
@@ -43,18 +44,19 @@
 					"_timbre-to_midi::duration" : [ 500.0 ],
 					"_timbre-to_midi::gate-receive-scenes" : [ 1.0 ],
 					"_timbre-to_midi::gate-send-scenes" : [ 1.0 ],
-					"_timbre-to_midi::live.numbox[2]" : [ 50.125453948974609 ],
-					"_timbre-to_midi::live.tab" : [ 0.0 ],
+					"_timbre-to_midi::inf-hold" : [ 0.0 ],
+					"_timbre-to_midi::live.numbox[2]" : [ 74.135276794433594 ],
+					"_timbre-to_midi::live.tab" : [ 2.0 ],
 					"_timbre-to_midi::live.tab[1]" : [ 2.0 ],
-					"_timbre-to_midi::live.tab[2]" : [ 7.0 ],
+					"_timbre-to_midi::live.tab[2]" : [ 8.0 ],
 					"_timbre-to_midi::live.tab[3]" : [ 0.0 ],
 					"_timbre-to_midi::live.text" : [ 0.0 ],
 					"_timbre-to_midi::live.text[2]" : [ 1.0 ],
 					"_timbre-to_midi::note-midi-channel" : [ 12.0 ],
-					"_timbre-to_midi::quantize" : [ 1 ],
-					"_timbre-to_midi::quantize-scale" : [ 10 ],
+					"_timbre-to_midi::quantize" : [ 12 ],
+					"_timbre-to_midi::quantize-scale" : [ 5 ],
 					"_timbre-to_midi::toggle-flex-pitch" : [ 1.0 ],
-					"_timbre-to_midi::toggle-midi-note" : [ 0.0 ],
+					"_timbre-to_midi::toggle-midi-note" : [ 1.0 ],
 					"_timbre-to_midi::toggle-midi-note[1]" : [ 0.0 ],
 					"_timbre-to_midi::toggle-midi-note[2]" : [ 1.0 ],
 					"_timbre-to_midi::toggle-midi-note[3]" : [ 0.0 ],
@@ -67,7 +69,7 @@
 					"_filter-to-corpus-a::comp-spectral" : [ 50.0 ],
 					"_filter-to-corpus-a::corpus-menu" : [ 14 ],
 					"_filter-to-corpus-a::gate-history" : [ 4.0 ],
-					"_filter-to-corpus-a::granular-rate" : [ 73.500000000000014 ],
+					"_filter-to-corpus-a::granular-rate" : [ 74.249999999999972 ],
 					"_filter-to-corpus-a::granular-rate-relative" : [ 0.17754119792056 ],
 					"_filter-to-corpus-a::granular-variation" : [ 1.5748031496063 ],
 					"_filter-to-corpus-a::live.button[1]" : [ 0.0 ],
@@ -75,9 +77,9 @@
 					"_filter-to-corpus-a::live.menu[1]" : [ 2.0 ],
 					"_filter-to-corpus-a::live.text" : [ 1.0 ],
 					"_filter-to-corpus-a::live.text[1]" : [ 0.0 ],
-					"_filter-to-corpus-a::select-class" : [ 2 ],
+					"_filter-to-corpus-a::select-class" : [ 0 ],
 					"_filter-to-corpus-a::setup-range" : [ 5.850091407678245, 100.0 ],
-					"_filter-to-corpus-a::toggle-enabled" : [ 0.0 ],
+					"_filter-to-corpus-a::toggle-enabled" : [ 1.0 ],
 					"_filter-to-corpus-a::toggle-granular" : [ 0.0 ],
 					"_filter-to-corpus-a::toggle-granular-random" : [ 0.0 ],
 					"_filter-to-corpus-a::toggle-use-setup" : [ 1.0 ],
@@ -101,26 +103,26 @@
 					"_filter-to-corpus-a::pitch-input-filter-slider::slider" : [ 127.0 ],
 					"_filter-to-corpus-a::confidence-input-filter-slider::comparator" : [ 0.0 ],
 					"_filter-to-corpus-a::confidence-input-filter-slider::live.button[2]" : [ 0.0 ],
-					"_filter-to-corpus-a::confidence-input-filter-slider::slider" : [ 0.072289156626506 ],
+					"_filter-to-corpus-a::confidence-input-filter-slider::slider" : [ 0.11458334363997 ],
 					"_filter-to-corpus-a::loudness-input-filter-slider::comparator" : [ 0.0 ],
 					"_filter-to-corpus-a::loudness-input-filter-slider::live.button[2]" : [ 0.0 ],
 					"_filter-to-corpus-a::loudness-input-filter-slider::slider" : [ 18.333334363996983 ],
 					"_filter-to-corpus-a::sp-sampler::absoluteview" : [ 0.0 ],
-					"_filter-to-corpus-a::sp-sampler::algorithm" : [ 0.0 ],
+					"_filter-to-corpus-a::sp-sampler::algorithm" : [ 4.0 ],
 					"_filter-to-corpus-a::sp-sampler::gain" : [ 100.0 ],
-					"_filter-to-corpus-a::sp-sampler::in" : [ 0.0 ],
-					"_filter-to-corpus-a::sp-sampler::incurve" : [ 0.0 ],
+					"_filter-to-corpus-a::sp-sampler::in" : [ 22.0 ],
+					"_filter-to-corpus-a::sp-sampler::incurve" : [ 5.0 ],
 					"_filter-to-corpus-a::sp-sampler::length" : [ 100.0 ],
 					"_filter-to-corpus-a::sp-sampler::lengthabsolute" : [ 120000.0 ],
 					"_filter-to-corpus-a::sp-sampler::live.drop[4]" : [ "" ],
 					"_filter-to-corpus-a::sp-sampler::loop" : [ 0.0 ],
 					"_filter-to-corpus-a::sp-sampler::out" : [ 0.0 ],
 					"_filter-to-corpus-a::sp-sampler::outcurve" : [ 0.0 ],
-					"_filter-to-corpus-a::sp-sampler::pitch" : [ -4.0 ],
-					"_filter-to-corpus-a::sp-sampler::speed" : [ 50.0 ],
+					"_filter-to-corpus-a::sp-sampler::pitch" : [ 0.0 ],
+					"_filter-to-corpus-a::sp-sampler::speed" : [ 90.0 ],
 					"_filter-to-corpus-a::sp-sampler::start" : [ 0.0 ],
 					"_filter-to-corpus-a::sp-sampler::startabsolute" : [ 0.0 ],
-					"_filter-to-corpus-a::sp-sampler::steal" : [ 1.0 ],
+					"_filter-to-corpus-a::sp-sampler::steal" : [ 0.0 ],
 					"_filter-to-corpus-a::sp-sampler::tabopen" : [ 0.0 ],
 					"_filter-to-corpus-a::sp-sampler::timestretch" : [ 1.0 ],
 					"_filter-to-corpus-a::sp-sampler::voices" : [ 4.0 ],
@@ -307,14 +309,14 @@
 					"_filter-to-corpus-b::bending-dropouts" : [ 0.0 ],
 					"_filter-to-corpus-b::bending-rotation" : [ 0.0 ],
 					"_filter-to-corpus-b::bending-scramble" : [ 0.0 ],
-					"_filter-to-corpus-b::bending-variation" : [ 50.90149704593221 ],
+					"_filter-to-corpus-b::bending-variation" : [ 100.0 ],
 					"_filter-to-corpus-b::class-gate-threshold" : [ 80.0 ],
 					"_filter-to-corpus-b::comp-loudness" : [ 100.0 ],
 					"_filter-to-corpus-b::comp-spectral" : [ 100.0 ],
 					"_filter-to-corpus-b::corpus-menu" : [ 0 ],
 					"_filter-to-corpus-b::gate-history" : [ 16.0 ],
-					"_filter-to-corpus-b::granular-rate" : [ 1500.0 ],
-					"_filter-to-corpus-b::granular-rate-relative" : [ 0.911 ],
+					"_filter-to-corpus-b::granular-rate" : [ 588.0 ],
+					"_filter-to-corpus-b::granular-rate-relative" : [ 0.664666666666667 ],
 					"_filter-to-corpus-b::granular-variation" : [ 22.499639118169426 ],
 					"_filter-to-corpus-b::live.button[1]" : [ 0.0 ],
 					"_filter-to-corpus-b::live.button[2]" : [ 0.0 ],
@@ -352,8 +354,8 @@
 					"_filter-to-corpus-b::loudness-input-filter-slider::live.button[2]" : [ 0.0 ],
 					"_filter-to-corpus-b::loudness-input-filter-slider::slider" : [ 53.958334363996983 ],
 					"_filter-to-corpus-b::sp-sampler::absoluteview" : [ 0.0 ],
-					"_filter-to-corpus-b::sp-sampler::algorithm" : [ 1.0 ],
-					"_filter-to-corpus-b::sp-sampler::gain" : [ 8.0 ],
+					"_filter-to-corpus-b::sp-sampler::algorithm" : [ 4.0 ],
+					"_filter-to-corpus-b::sp-sampler::gain" : [ 100.0 ],
 					"_filter-to-corpus-b::sp-sampler::in" : [ 0.0 ],
 					"_filter-to-corpus-b::sp-sampler::incurve" : [ 0.0 ],
 					"_filter-to-corpus-b::sp-sampler::length" : [ 100.0 ],
@@ -369,7 +371,7 @@
 					"_filter-to-corpus-b::sp-sampler::steal" : [ 0.0 ],
 					"_filter-to-corpus-b::sp-sampler::tabopen" : [ 0.0 ],
 					"_filter-to-corpus-b::sp-sampler::timestretch" : [ 1.0 ],
-					"_filter-to-corpus-b::sp-sampler::voices" : [ 16.0 ],
+					"_filter-to-corpus-b::sp-sampler::voices" : [ 4.0 ],
 					"_filter-to-corpus-b::duration-corpus-filter-slider::comparator" : [ 1.0 ],
 					"_filter-to-corpus-b::duration-corpus-filter-slider::live.button[2]" : [ 0.0 ],
 					"_filter-to-corpus-b::duration-corpus-filter-slider::slider" : [ 200 ],
@@ -411,8 +413,8 @@
 					"descriptors-to-octatrack-4[1]::xpat-controllers::umenu" : [ 2 ],
 					"class-to-octa-scene::gate-history" : [ 16.0 ],
 					"class-to-octa-scene::live.dial" : [ 73.228346456692918 ],
-					"class-to-octa-scene::live.tab[2]" : [ 8.0 ],
-					"class-to-octa-scene::live.tab[3]" : [ 0.0 ],
+					"class-to-octa-scene::live.tab[2]" : [ 1.0 ],
+					"class-to-octa-scene::live.tab[3]" : [ 1.0 ],
 					"class-to-octa-scene::live.text" : [ 1.0 ],
 					"class-to-octa-scene::live.text[1]" : [ 0.0 ],
 					"class-to-octa-scene::live.text[2]" : [ 1.0 ],
@@ -450,9 +452,10 @@
 					"calibrate" : [ 0.0 ],
 					"gate-send-scenes[1]" : [ 1.0 ],
 					"live.dial[3]" : [ 6.0 ],
-					"live.gain~" : [ 0.0 ],
+					"live.dial[4]" : [  ],
 					"live.numbox" : [ 24.0 ],
 					"live.tab[5]" : [ 2.0 ],
+					"mc.live.gain~" : [  ],
 					"u954003948[1]" : [ 0.0 ],
 					"u954003948[2]" : [ 0.936333333333333 ],
 					"__pattr-send-matrix[2]::crosspatch" : [ 						{
@@ -485,6 +488,7 @@
 					"_timbre-to_midi::duration" : [ 500.0 ],
 					"_timbre-to_midi::gate-receive-scenes" : [ 1.0 ],
 					"_timbre-to_midi::gate-send-scenes" : [ 1.0 ],
+					"_timbre-to_midi::inf-hold" : [  ],
 					"_timbre-to_midi::live.numbox[2]" : [ 54.082054138183594 ],
 					"_timbre-to_midi::live.tab" : [ 0.0 ],
 					"_timbre-to_midi::live.tab[1]" : [ 1.0 ],
@@ -897,9 +901,10 @@
 					"calibrate" : [ 0.0 ],
 					"gate-send-scenes[1]" : [ 1.0 ],
 					"live.dial[3]" : [ 6.0 ],
-					"live.gain~" : [ 0.0 ],
+					"live.dial[4]" : [  ],
 					"live.numbox" : [ 24.0 ],
 					"live.tab[5]" : [ 2.0 ],
+					"mc.live.gain~" : [  ],
 					"u954003948[1]" : [ 36.218514842675987 ],
 					"u954003948[2]" : [ 80.0 ],
 					"__pattr-send-matrix[2]::crosspatch" : [ 						{
@@ -948,6 +953,7 @@
 					"_timbre-to_midi::duration" : [ 500.0 ],
 					"_timbre-to_midi::gate-receive-scenes" : [ 1.0 ],
 					"_timbre-to_midi::gate-send-scenes" : [ 1.0 ],
+					"_timbre-to_midi::inf-hold" : [  ],
 					"_timbre-to_midi::live.numbox[2]" : [ 65.241386413574219 ],
 					"_timbre-to_midi::live.tab" : [ 0.0 ],
 					"_timbre-to_midi::live.tab[1]" : [ 2.0 ],
@@ -1360,11 +1366,12 @@
 					"calibrate" : [ 0.0 ],
 					"gate-send-scenes[1]" : [ 1.0 ],
 					"live.dial[3]" : [ 4.0 ],
-					"live.gain~" : [ 0.0 ],
+					"live.dial[4]" : [ -0.3 ],
 					"live.numbox" : [ 24.0 ],
 					"live.tab[5]" : [ 2.0 ],
-					"u954003948[1]" : [ 97.810000000000002 ],
-					"u954003948[2]" : [ 0.453104046253122 ],
+					"mc.live.gain~" : [ 0.0 ],
+					"u954003948[1]" : [ 83.289999999999992 ],
+					"u954003948[2]" : [ -18.0 ],
 					"__pattr-send-matrix[2]::crosspatch" : [ 						{
 							"data" : 							{
 								"numins" : 22,
@@ -1418,13 +1425,14 @@
 
 						}
  ],
-					"_timbre-to_midi::duration" : [ 375.0 ],
+					"_timbre-to_midi::duration" : [ 500.0 ],
 					"_timbre-to_midi::gate-receive-scenes" : [ 1.0 ],
 					"_timbre-to_midi::gate-send-scenes" : [ 1.0 ],
-					"_timbre-to_midi::live.numbox[2]" : [ 43.977691650390625 ],
+					"_timbre-to_midi::inf-hold" : [ 0.0 ],
+					"_timbre-to_midi::live.numbox[2]" : [ 69.048683166503906 ],
 					"_timbre-to_midi::live.tab" : [ 0.0 ],
 					"_timbre-to_midi::live.tab[1]" : [ 1.0 ],
-					"_timbre-to_midi::live.tab[2]" : [ 6.0 ],
+					"_timbre-to_midi::live.tab[2]" : [ 8.0 ],
 					"_timbre-to_midi::live.tab[3]" : [ 6.0 ],
 					"_timbre-to_midi::live.text" : [ 0.0 ],
 					"_timbre-to_midi::live.text[2]" : [ 0.0 ],
@@ -1445,8 +1453,8 @@
 					"_filter-to-corpus-a::comp-spectral" : [ 50.0 ],
 					"_filter-to-corpus-a::corpus-menu" : [ 5 ],
 					"_filter-to-corpus-a::gate-history" : [ 4.0 ],
-					"_filter-to-corpus-a::granular-rate" : [ 1500.0 ],
-					"_filter-to-corpus-a::granular-rate-relative" : [ 0.975666666666667 ],
+					"_filter-to-corpus-a::granular-rate" : [ 1188.0 ],
+					"_filter-to-corpus-a::granular-rate-relative" : [ 0.814333333333333 ],
 					"_filter-to-corpus-a::granular-variation" : [ 1.5748031496063 ],
 					"_filter-to-corpus-a::live.button[1]" : [ 0.0 ],
 					"_filter-to-corpus-a::live.button[2]" : [ 0.0 ],
@@ -1495,7 +1503,7 @@
 					"_filter-to-corpus-a::sp-sampler::out" : [ 0.0 ],
 					"_filter-to-corpus-a::sp-sampler::outcurve" : [ 0.0 ],
 					"_filter-to-corpus-a::sp-sampler::pitch" : [ 0.0 ],
-					"_filter-to-corpus-a::sp-sampler::speed" : [ 97.810000000000002 ],
+					"_filter-to-corpus-a::sp-sampler::speed" : [ 83.289999999999992 ],
 					"_filter-to-corpus-a::sp-sampler::start" : [ 0.0 ],
 					"_filter-to-corpus-a::sp-sampler::startabsolute" : [ 0.0 ],
 					"_filter-to-corpus-a::sp-sampler::steal" : [ 1.0 ],
@@ -1685,14 +1693,14 @@
 					"_filter-to-corpus-b::bending-dropouts" : [ 0.0 ],
 					"_filter-to-corpus-b::bending-rotation" : [ 0.0 ],
 					"_filter-to-corpus-b::bending-scramble" : [ 0.0 ],
-					"_filter-to-corpus-b::bending-variation" : [ 48.615181186697754 ],
+					"_filter-to-corpus-b::bending-variation" : [ 77.817707465330471 ],
 					"_filter-to-corpus-b::class-gate-threshold" : [ 80.0 ],
 					"_filter-to-corpus-b::comp-loudness" : [ 50.0 ],
 					"_filter-to-corpus-b::comp-spectral" : [ 50.0 ],
 					"_filter-to-corpus-b::corpus-menu" : [ 0 ],
 					"_filter-to-corpus-b::gate-history" : [ 10.0 ],
-					"_filter-to-corpus-b::granular-rate" : [ 294.000000000000057 ],
-					"_filter-to-corpus-b::granular-rate-relative" : [ 0.453104046253122 ],
+					"_filter-to-corpus-b::granular-rate" : [ 36.750000000000014 ],
+					"_filter-to-corpus-b::granular-rate-relative" : [ 0.019897541527993 ],
 					"_filter-to-corpus-b::granular-variation" : [ 1.5748031496063 ],
 					"_filter-to-corpus-b::live.button[1]" : [ 0.0 ],
 					"_filter-to-corpus-b::live.button[2]" : [ 0.0 ],
@@ -1702,7 +1710,7 @@
 					"_filter-to-corpus-b::select-class" : [ 0 ],
 					"_filter-to-corpus-b::setup-range" : [ 5.850091407678245, 100.0 ],
 					"_filter-to-corpus-b::toggle-enabled" : [ 1.0 ],
-					"_filter-to-corpus-b::toggle-granular" : [ 1.0 ],
+					"_filter-to-corpus-b::toggle-granular" : [ 0.0 ],
 					"_filter-to-corpus-b::toggle-granular-random" : [ 0.0 ],
 					"_filter-to-corpus-b::toggle-use-setup" : [ 1.0 ],
 					"_filter-to-corpus-b::centroid-corpus-filter-slider::comparator" : [ 1.0 ],
@@ -1740,7 +1748,7 @@
 					"_filter-to-corpus-b::sp-sampler::loop" : [ 0.0 ],
 					"_filter-to-corpus-b::sp-sampler::out" : [ 0.0 ],
 					"_filter-to-corpus-b::sp-sampler::outcurve" : [ 0.0 ],
-					"_filter-to-corpus-b::sp-sampler::pitch" : [ 0.0 ],
+					"_filter-to-corpus-b::sp-sampler::pitch" : [ -18.0 ],
 					"_filter-to-corpus-b::sp-sampler::speed" : [ 33.0 ],
 					"_filter-to-corpus-b::sp-sampler::start" : [ 0.0 ],
 					"_filter-to-corpus-b::sp-sampler::startabsolute" : [ 0.0 ],
@@ -1789,8 +1797,8 @@
 					"descriptors-to-octatrack-4[1]::xpat-controllers::umenu" : [ 2 ],
 					"class-to-octa-scene::gate-history" : [ 4.0 ],
 					"class-to-octa-scene::live.dial" : [ 73.228346456692918 ],
-					"class-to-octa-scene::live.tab[2]" : [ 0.0 ],
-					"class-to-octa-scene::live.tab[3]" : [ 0.0 ],
+					"class-to-octa-scene::live.tab[2]" : [ 6.0 ],
+					"class-to-octa-scene::live.tab[3]" : [ 6.0 ],
 					"class-to-octa-scene::live.text" : [ 1.0 ],
 					"class-to-octa-scene::live.text[1]" : [ 0.0 ],
 					"class-to-octa-scene::live.text[2]" : [ 1.0 ],
@@ -1837,12 +1845,13 @@
 				"data" : 				{
 					"calibrate" : [ 0.0 ],
 					"gate-send-scenes[1]" : [ 1.0 ],
-					"live.dial[3]" : [ 6.0 ],
-					"live.gain~" : [ 0.0 ],
+					"live.dial[3]" : [ 4.0 ],
+					"live.dial[4]" : [ -0.3 ],
 					"live.numbox" : [ 24.0 ],
 					"live.tab[5]" : [ 2.0 ],
-					"u954003948[1]" : [ 0.0 ],
-					"u954003948[2]" : [ 0.891666666666667 ],
+					"mc.live.gain~" : [ 0.0 ],
+					"u954003948[1]" : [ -17.0 ],
+					"u954003948[2]" : [ 0.76 ],
 					"__pattr-send-matrix[2]::crosspatch" : [ 						{
 							"data" : 							{
 								"numins" : 22,
@@ -1914,15 +1923,16 @@
 					"_timbre-to_midi::duration" : [ 500.0 ],
 					"_timbre-to_midi::gate-receive-scenes" : [ 1.0 ],
 					"_timbre-to_midi::gate-send-scenes" : [ 1.0 ],
-					"_timbre-to_midi::live.numbox[2]" : [ 57.136009216308594 ],
-					"_timbre-to_midi::live.tab" : [ 2.0 ],
+					"_timbre-to_midi::inf-hold" : [ 0.0 ],
+					"_timbre-to_midi::live.numbox[2]" : [ 72.109375 ],
+					"_timbre-to_midi::live.tab" : [ 0.0 ],
 					"_timbre-to_midi::live.tab[1]" : [ 0.0 ],
-					"_timbre-to_midi::live.tab[2]" : [ 8.0 ],
-					"_timbre-to_midi::live.tab[3]" : [ 7.0 ],
+					"_timbre-to_midi::live.tab[2]" : [ 5.0 ],
+					"_timbre-to_midi::live.tab[3]" : [ 5.0 ],
 					"_timbre-to_midi::live.text" : [ 0.0 ],
 					"_timbre-to_midi::live.text[2]" : [ 0.0 ],
 					"_timbre-to_midi::note-midi-channel" : [ 12.0 ],
-					"_timbre-to_midi::quantize" : [ 12 ],
+					"_timbre-to_midi::quantize" : [ 1 ],
 					"_timbre-to_midi::quantize-scale" : [ 9 ],
 					"_timbre-to_midi::toggle-flex-pitch" : [ 1.0 ],
 					"_timbre-to_midi::toggle-midi-note" : [ 0.0 ],
@@ -1932,7 +1942,7 @@
 					"_filter-to-corpus-a::bending-dropouts" : [ 0.0 ],
 					"_filter-to-corpus-a::bending-rotation" : [ 0.0 ],
 					"_filter-to-corpus-a::bending-scramble" : [ 0.0 ],
-					"_filter-to-corpus-a::bending-variation" : [ 42.197814599474768 ],
+					"_filter-to-corpus-a::bending-variation" : [ 38.993036490806148 ],
 					"_filter-to-corpus-a::class-gate-threshold" : [ 80.0 ],
 					"_filter-to-corpus-a::comp-loudness" : [ 50.0 ],
 					"_filter-to-corpus-a::comp-spectral" : [ 50.0 ],
@@ -1948,7 +1958,7 @@
 					"_filter-to-corpus-a::live.text[1]" : [ 0.0 ],
 					"_filter-to-corpus-a::select-class" : [ 0 ],
 					"_filter-to-corpus-a::setup-range" : [ 11.3345521023766, 83.729433272394886 ],
-					"_filter-to-corpus-a::toggle-enabled" : [ 1.0 ],
+					"_filter-to-corpus-a::toggle-enabled" : [ 0.0 ],
 					"_filter-to-corpus-a::toggle-granular" : [ 0.0 ],
 					"_filter-to-corpus-a::toggle-granular-random" : [ 0.0 ],
 					"_filter-to-corpus-a::toggle-use-setup" : [ 1.0 ],
@@ -1972,13 +1982,13 @@
 					"_filter-to-corpus-a::pitch-input-filter-slider::slider" : [ 127.0 ],
 					"_filter-to-corpus-a::confidence-input-filter-slider::comparator" : [ 1.0 ],
 					"_filter-to-corpus-a::confidence-input-filter-slider::live.button[2]" : [ 0.0 ],
-					"_filter-to-corpus-a::confidence-input-filter-slider::slider" : [ 0.55833334363997 ],
+					"_filter-to-corpus-a::confidence-input-filter-slider::slider" : [ 1.0 ],
 					"_filter-to-corpus-a::loudness-input-filter-slider::comparator" : [ 0.0 ],
 					"_filter-to-corpus-a::loudness-input-filter-slider::live.button[2]" : [ 0.0 ],
-					"_filter-to-corpus-a::loudness-input-filter-slider::slider" : [ 53.958334363996983 ],
+					"_filter-to-corpus-a::loudness-input-filter-slider::slider" : [ 37.083334363996983 ],
 					"_filter-to-corpus-a::sp-sampler::absoluteview" : [ 0.0 ],
 					"_filter-to-corpus-a::sp-sampler::algorithm" : [ 4.0 ],
-					"_filter-to-corpus-a::sp-sampler::gain" : [ 5.0 ],
+					"_filter-to-corpus-a::sp-sampler::gain" : [ 10.0 ],
 					"_filter-to-corpus-a::sp-sampler::in" : [ 0.0 ],
 					"_filter-to-corpus-a::sp-sampler::incurve" : [ 0.0 ],
 					"_filter-to-corpus-a::sp-sampler::length" : [ 100.0 ],
@@ -1987,17 +1997,17 @@
 					"_filter-to-corpus-a::sp-sampler::loop" : [ 0.0 ],
 					"_filter-to-corpus-a::sp-sampler::out" : [ 0.0 ],
 					"_filter-to-corpus-a::sp-sampler::outcurve" : [ 0.0 ],
-					"_filter-to-corpus-a::sp-sampler::pitch" : [ 0.0 ],
-					"_filter-to-corpus-a::sp-sampler::speed" : [ 21.579999999999998 ],
+					"_filter-to-corpus-a::sp-sampler::pitch" : [ -17.0 ],
+					"_filter-to-corpus-a::sp-sampler::speed" : [ 99.0 ],
 					"_filter-to-corpus-a::sp-sampler::start" : [ 0.0 ],
 					"_filter-to-corpus-a::sp-sampler::startabsolute" : [ 0.0 ],
 					"_filter-to-corpus-a::sp-sampler::steal" : [ 1.0 ],
 					"_filter-to-corpus-a::sp-sampler::tabopen" : [ 0.0 ],
 					"_filter-to-corpus-a::sp-sampler::timestretch" : [ 1.0 ],
 					"_filter-to-corpus-a::sp-sampler::voices" : [ 6.0 ],
-					"_filter-to-corpus-a::duration-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-a::duration-corpus-filter-slider::comparator" : [ 0.0 ],
 					"_filter-to-corpus-a::duration-corpus-filter-slider::live.button[2]" : [ 0.0 ],
-					"_filter-to-corpus-a::duration-corpus-filter-slider::slider" : [ 100 ],
+					"_filter-to-corpus-a::duration-corpus-filter-slider::slider" : [ 55 ],
 					"descriptors-to-octatrack-2::class-gate-threshold" : [ 80.0 ],
 					"descriptors-to-octatrack-2::gate-history" : [ 8.0 ],
 					"descriptors-to-octatrack-2::live.numbox" : [ 1.0 ],
@@ -2184,8 +2194,8 @@
 					"_filter-to-corpus-b::comp-spectral" : [ 100.0 ],
 					"_filter-to-corpus-b::corpus-menu" : [ 11 ],
 					"_filter-to-corpus-b::gate-history" : [ 10.0 ],
-					"_filter-to-corpus-b::granular-rate" : [ 1500.0 ],
-					"_filter-to-corpus-b::granular-rate-relative" : [ 0.891666666666667 ],
+					"_filter-to-corpus-b::granular-rate" : [ 882.000000000000227 ],
+					"_filter-to-corpus-b::granular-rate-relative" : [ 0.76 ],
 					"_filter-to-corpus-b::granular-variation" : [ 1.5748031496063 ],
 					"_filter-to-corpus-b::live.button[1]" : [ 0.0 ],
 					"_filter-to-corpus-b::live.button[2]" : [ 0.0 ],
@@ -2193,7 +2203,7 @@
 					"_filter-to-corpus-b::live.text" : [ 1.0 ],
 					"_filter-to-corpus-b::live.text[1]" : [ 0.0 ],
 					"_filter-to-corpus-b::select-class" : [ 0 ],
-					"_filter-to-corpus-b::setup-range" : [ 21.0, 78.0 ],
+					"_filter-to-corpus-b::setup-range" : [ 25.0, 74.0 ],
 					"_filter-to-corpus-b::toggle-enabled" : [ 0.0 ],
 					"_filter-to-corpus-b::toggle-granular" : [ 1.0 ],
 					"_filter-to-corpus-b::toggle-granular-random" : [ 0.0 ],
@@ -2282,8 +2292,8 @@
 					"descriptors-to-octatrack-4[1]::xpat-controllers::umenu" : [ 2 ],
 					"class-to-octa-scene::gate-history" : [ 4.0 ],
 					"class-to-octa-scene::live.dial" : [ 73.228346456692918 ],
-					"class-to-octa-scene::live.tab[2]" : [ 0.0 ],
-					"class-to-octa-scene::live.tab[3]" : [ 0.0 ],
+					"class-to-octa-scene::live.tab[2]" : [ 5.0 ],
+					"class-to-octa-scene::live.tab[3]" : [ 5.0 ],
 					"class-to-octa-scene::live.text" : [ 1.0 ],
 					"class-to-octa-scene::live.text[1]" : [ 0.0 ],
 					"class-to-octa-scene::live.text[2]" : [ 1.0 ],
@@ -2306,6 +2316,11 @@
 										"out" : 0,
 										"gain" : 1.0
 									}
+, 									{
+										"in" : 4,
+										"out" : 5,
+										"gain" : 1.0
+									}
  ]
 							}
 
@@ -2320,12 +2335,13 @@
 				"data" : 				{
 					"calibrate" : [ 0.0 ],
 					"gate-send-scenes[1]" : [ 1.0 ],
-					"live.dial[3]" : [ 6.0 ],
-					"live.gain~" : [ 0.0 ],
+					"live.dial[3]" : [ 3.0 ],
+					"live.dial[4]" : [ -0.3 ],
 					"live.numbox" : [ 24.0 ],
 					"live.tab[5]" : [ 2.0 ],
-					"u954003948[1]" : [ 89.166937881367176 ],
-					"u954003948[2]" : [ 89.166937881367176 ],
+					"mc.live.gain~" : [ 0.0 ],
+					"u954003948[1]" : [ 82.338884468962249 ],
+					"u954003948[2]" : [ 82.338884468962249 ],
 					"__pattr-send-matrix[2]::crosspatch" : [ 						{
 							"data" : 							{
 								"numins" : 22,
@@ -2364,10 +2380,11 @@
 
 						}
  ],
-					"_timbre-to_midi::duration" : [ 250.0 ],
+					"_timbre-to_midi::duration" : [ 500.0 ],
 					"_timbre-to_midi::gate-receive-scenes" : [ 1.0 ],
 					"_timbre-to_midi::gate-send-scenes" : [ 1.0 ],
-					"_timbre-to_midi::live.numbox[2]" : [ 50.371669769287109 ],
+					"_timbre-to_midi::inf-hold" : [ 0.0 ],
+					"_timbre-to_midi::live.numbox[2]" : [ 57.207473754882812 ],
 					"_timbre-to_midi::live.tab" : [ 0.0 ],
 					"_timbre-to_midi::live.tab[1]" : [ 0.0 ],
 					"_timbre-to_midi::live.tab[2]" : [ 8.0 ],
@@ -2387,8 +2404,8 @@
 					"_filter-to-corpus-a::bending-scramble" : [ 0.0 ],
 					"_filter-to-corpus-a::bending-variation" : [ 17.305510513582377 ],
 					"_filter-to-corpus-a::class-gate-threshold" : [ 80.0 ],
-					"_filter-to-corpus-a::comp-loudness" : [ 89.166937881367176 ],
-					"_filter-to-corpus-a::comp-spectral" : [ 4.361265287184153 ],
+					"_filter-to-corpus-a::comp-loudness" : [ 82.338884468962249 ],
+					"_filter-to-corpus-a::comp-spectral" : [ 42.84669034468979 ],
 					"_filter-to-corpus-a::corpus-menu" : [ 8 ],
 					"_filter-to-corpus-a::gate-history" : [ 4.0 ],
 					"_filter-to-corpus-a::granular-rate" : [ 73.500000000000014 ],
@@ -2431,7 +2448,7 @@
 					"_filter-to-corpus-a::loudness-input-filter-slider::slider" : [ 100.0 ],
 					"_filter-to-corpus-a::sp-sampler::absoluteview" : [ 0.0 ],
 					"_filter-to-corpus-a::sp-sampler::algorithm" : [ 4.0 ],
-					"_filter-to-corpus-a::sp-sampler::gain" : [ 5.0 ],
+					"_filter-to-corpus-a::sp-sampler::gain" : [ 100.0 ],
 					"_filter-to-corpus-a::sp-sampler::in" : [ 0.0 ],
 					"_filter-to-corpus-a::sp-sampler::incurve" : [ 0.0 ],
 					"_filter-to-corpus-a::sp-sampler::length" : [ 100.0 ],
@@ -2633,8 +2650,8 @@
 					"_filter-to-corpus-b::bending-scramble" : [ 0.0 ],
 					"_filter-to-corpus-b::bending-variation" : [ 0.0 ],
 					"_filter-to-corpus-b::class-gate-threshold" : [ 80.0 ],
-					"_filter-to-corpus-b::comp-loudness" : [ 89.166937881367176 ],
-					"_filter-to-corpus-b::comp-spectral" : [ 4.361265287184153 ],
+					"_filter-to-corpus-b::comp-loudness" : [ 82.338884468962249 ],
+					"_filter-to-corpus-b::comp-spectral" : [ 42.84669034468979 ],
 					"_filter-to-corpus-b::corpus-menu" : [ 1 ],
 					"_filter-to-corpus-b::gate-history" : [ 10.0 ],
 					"_filter-to-corpus-b::granular-rate" : [ 1500.0 ],
@@ -2677,7 +2694,7 @@
 					"_filter-to-corpus-b::loudness-input-filter-slider::slider" : [ 100.0 ],
 					"_filter-to-corpus-b::sp-sampler::absoluteview" : [ 0.0 ],
 					"_filter-to-corpus-b::sp-sampler::algorithm" : [ 4.0 ],
-					"_filter-to-corpus-b::sp-sampler::gain" : [ 80.0 ],
+					"_filter-to-corpus-b::sp-sampler::gain" : [ 100.0 ],
 					"_filter-to-corpus-b::sp-sampler::in" : [ 0.0 ],
 					"_filter-to-corpus-b::sp-sampler::incurve" : [ 0.0 ],
 					"_filter-to-corpus-b::sp-sampler::length" : [ 100.0 ],
@@ -2733,10 +2750,10 @@
 						}
  ],
 					"descriptors-to-octatrack-4[1]::xpat-controllers::umenu" : [ 2 ],
-					"class-to-octa-scene::gate-history" : [ 4.0 ],
+					"class-to-octa-scene::gate-history" : [ 32.0 ],
 					"class-to-octa-scene::live.dial" : [ 100.0 ],
-					"class-to-octa-scene::live.tab[2]" : [ 8.0 ],
-					"class-to-octa-scene::live.tab[3]" : [ 8.0 ],
+					"class-to-octa-scene::live.tab[2]" : [ 5.0 ],
+					"class-to-octa-scene::live.tab[3]" : [ 5.0 ],
 					"class-to-octa-scene::live.text" : [ 1.0 ],
 					"class-to-octa-scene::live.text[1]" : [ 0.0 ],
 					"class-to-octa-scene::live.text[2]" : [ 1.0 ],
@@ -2759,6 +2776,11 @@
 										"out" : 2,
 										"gain" : 1.0
 									}
+, 									{
+										"in" : 4,
+										"out" : 5,
+										"gain" : 1.0
+									}
  ]
 							}
 
@@ -2774,9 +2796,10 @@
 					"calibrate" : [ 0.0 ],
 					"gate-send-scenes[1]" : [ 1.0 ],
 					"live.dial[3]" : [ 6.0 ],
-					"live.gain~" : [ 0.0 ],
+					"live.dial[4]" : [  ],
 					"live.numbox" : [ 24.0 ],
 					"live.tab[5]" : [ 2.0 ],
+					"mc.live.gain~" : [  ],
 					"u954003948[1]" : [ 99.335971754932217 ],
 					"u954003948[2]" : [ 0.0 ],
 					"__pattr-send-matrix[2]::crosspatch" : [ 						{
@@ -2855,6 +2878,7 @@
 					"_timbre-to_midi::duration" : [ 500.0 ],
 					"_timbre-to_midi::gate-receive-scenes" : [ 1.0 ],
 					"_timbre-to_midi::gate-send-scenes" : [ 1.0 ],
+					"_timbre-to_midi::inf-hold" : [  ],
 					"_timbre-to_midi::live.numbox[2]" : [ 62.805244445800781 ],
 					"_timbre-to_midi::live.tab" : [ 0.0 ],
 					"_timbre-to_midi::live.tab[1]" : [ 0.0 ],
@@ -3266,15 +3290,491 @@
 
 			}
 ,
+			"8" : 			{
+				"id" : 8,
+				"data" : 				{
+					"calibrate" : [ 0.0 ],
+					"gate-send-scenes[1]" : [ 1.0 ],
+					"live.dial[3]" : [ 2.0 ],
+					"live.dial[4]" : [ -0.3 ],
+					"live.numbox" : [ 24.0 ],
+					"live.tab[5]" : [ 2.0 ],
+					"mc.live.gain~" : [ 0.0 ],
+					"u954003948[1]" : [ 73.299999999999997 ],
+					"u954003948[2]" : [ 32.0, 67.0 ],
+					"__pattr-send-matrix[2]::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 22,
+								"numouts" : 25,
+								"connections" : [ 									{
+										"in" : 9,
+										"out" : 16,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 0,
+										"out" : 18,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 0,
+										"out" : 15,
+										"gain" : 1.0
+									}
+ ]
+							}
+
+						}
+ ],
+					"__pattr-send-matrix[1]::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 22,
+								"numouts" : 25,
+								"connections" : [ 									{
+										"in" : 17,
+										"out" : 12,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 0,
+										"out" : 15,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 15,
+										"out" : 8,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 13,
+										"out" : 1,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 4,
+										"out" : 2,
+										"gain" : 1.0
+									}
+ ]
+							}
+
+						}
+ ],
+					"_timbre-to_midi::duration" : [ 500.0 ],
+					"_timbre-to_midi::gate-receive-scenes" : [ 1.0 ],
+					"_timbre-to_midi::gate-send-scenes" : [ 1.0 ],
+					"_timbre-to_midi::inf-hold" : [ 0.0 ],
+					"_timbre-to_midi::live.numbox[2]" : [ 43.782947540283203 ],
+					"_timbre-to_midi::live.tab" : [ 0.0 ],
+					"_timbre-to_midi::live.tab[1]" : [ 0.0 ],
+					"_timbre-to_midi::live.tab[2]" : [ 8.0 ],
+					"_timbre-to_midi::live.tab[3]" : [ 1.0 ],
+					"_timbre-to_midi::live.text" : [ 0.0 ],
+					"_timbre-to_midi::live.text[2]" : [ 0.0 ],
+					"_timbre-to_midi::note-midi-channel" : [ 12.0 ],
+					"_timbre-to_midi::quantize" : [ 1 ],
+					"_timbre-to_midi::quantize-scale" : [ 10 ],
+					"_timbre-to_midi::toggle-flex-pitch" : [ 0.0 ],
+					"_timbre-to_midi::toggle-midi-note" : [ 1.0 ],
+					"_timbre-to_midi::toggle-midi-note[1]" : [ 1.0 ],
+					"_timbre-to_midi::toggle-midi-note[2]" : [ 1.0 ],
+					"_timbre-to_midi::toggle-midi-note[3]" : [ 1.0 ],
+					"_filter-to-corpus-a::bending-dropouts" : [ 0.0 ],
+					"_filter-to-corpus-a::bending-rotation" : [ 0.0 ],
+					"_filter-to-corpus-a::bending-scramble" : [ 0.0 ],
+					"_filter-to-corpus-a::bending-variation" : [ 35.239066797240838 ],
+					"_filter-to-corpus-a::class-gate-threshold" : [ 80.0 ],
+					"_filter-to-corpus-a::comp-loudness" : [ 100.0 ],
+					"_filter-to-corpus-a::comp-spectral" : [ 100.0 ],
+					"_filter-to-corpus-a::corpus-menu" : [ 6 ],
+					"_filter-to-corpus-a::gate-history" : [ 20.0 ],
+					"_filter-to-corpus-a::granular-rate" : [ 73.500000000000014 ],
+					"_filter-to-corpus-a::granular-rate-relative" : [ 0.17754119792056 ],
+					"_filter-to-corpus-a::granular-variation" : [ 0.0 ],
+					"_filter-to-corpus-a::live.button[1]" : [ 0.0 ],
+					"_filter-to-corpus-a::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-a::live.menu[1]" : [ 1.0 ],
+					"_filter-to-corpus-a::live.text" : [ 0.0 ],
+					"_filter-to-corpus-a::live.text[1]" : [ 0.0 ],
+					"_filter-to-corpus-a::select-class" : [ 0 ],
+					"_filter-to-corpus-a::setup-range" : [ 32.0, 67.0 ],
+					"_filter-to-corpus-a::toggle-enabled" : [ 1.0 ],
+					"_filter-to-corpus-a::toggle-granular" : [ 0.0 ],
+					"_filter-to-corpus-a::toggle-granular-random" : [ 0.0 ],
+					"_filter-to-corpus-a::toggle-use-setup" : [ 1.0 ],
+					"_filter-to-corpus-a::centroid-corpus-filter-slider::comparator" : [ 0.0 ],
+					"_filter-to-corpus-a::centroid-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-a::centroid-corpus-filter-slider::slider" : [ 10.583334642276169 ],
+					"_filter-to-corpus-a::pitch-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-a::pitch-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-a::pitch-corpus-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-a::confidence-corpus-filter-slider::comparator" : [ 0.0 ],
+					"_filter-to-corpus-a::confidence-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-a::confidence-corpus-filter-slider::slider" : [ 0.024096385542169 ],
+					"_filter-to-corpus-a::loudness-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-a::loudness-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-a::loudness-corpus-filter-slider::slider" : [ 75.0 ],
+					"_filter-to-corpus-a::centroid-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-a::centroid-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-a::centroid-input-filter-slider::slider" : [ 95.514584642276176 ],
+					"_filter-to-corpus-a::pitch-input-filter-slider::comparator" : [ 0.0 ],
+					"_filter-to-corpus-a::pitch-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-a::pitch-input-filter-slider::slider" : [ 28.839584642276169 ],
+					"_filter-to-corpus-a::confidence-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-a::confidence-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-a::confidence-input-filter-slider::slider" : [ 1.0 ],
+					"_filter-to-corpus-a::loudness-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-a::loudness-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-a::loudness-input-filter-slider::slider" : [ 100.0 ],
+					"_filter-to-corpus-a::sp-sampler::absoluteview" : [ 0.0 ],
+					"_filter-to-corpus-a::sp-sampler::algorithm" : [ 4.0 ],
+					"_filter-to-corpus-a::sp-sampler::gain" : [ 100.0 ],
+					"_filter-to-corpus-a::sp-sampler::in" : [ 0.0 ],
+					"_filter-to-corpus-a::sp-sampler::incurve" : [ 0.0 ],
+					"_filter-to-corpus-a::sp-sampler::length" : [ 73.299999999999997 ],
+					"_filter-to-corpus-a::sp-sampler::lengthabsolute" : [ 120000.0 ],
+					"_filter-to-corpus-a::sp-sampler::live.drop[4]" : [ "" ],
+					"_filter-to-corpus-a::sp-sampler::loop" : [ 0.0 ],
+					"_filter-to-corpus-a::sp-sampler::out" : [ 0.0 ],
+					"_filter-to-corpus-a::sp-sampler::outcurve" : [ 0.0 ],
+					"_filter-to-corpus-a::sp-sampler::pitch" : [ -12.0 ],
+					"_filter-to-corpus-a::sp-sampler::speed" : [ 31.480462714712772 ],
+					"_filter-to-corpus-a::sp-sampler::start" : [ 0.0 ],
+					"_filter-to-corpus-a::sp-sampler::startabsolute" : [ 0.0 ],
+					"_filter-to-corpus-a::sp-sampler::steal" : [ 1.0 ],
+					"_filter-to-corpus-a::sp-sampler::tabopen" : [ 0.0 ],
+					"_filter-to-corpus-a::sp-sampler::timestretch" : [ 1.0 ],
+					"_filter-to-corpus-a::sp-sampler::voices" : [ 6.0 ],
+					"_filter-to-corpus-a::duration-corpus-filter-slider::comparator" : [ 0.0 ],
+					"_filter-to-corpus-a::duration-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-a::duration-corpus-filter-slider::slider" : [ 90 ],
+					"descriptors-to-octatrack-2::class-gate-threshold" : [ 80.0 ],
+					"descriptors-to-octatrack-2::gate-history" : [ 8.0 ],
+					"descriptors-to-octatrack-2::live.numbox" : [ 1.0 ],
+					"descriptors-to-octatrack-2::live.text" : [ 0.0 ],
+					"descriptors-to-octatrack-2::onset-trig-enabled" : [ 0.0 ],
+					"descriptors-to-octatrack-2::onset-trig-enabled[1]" : [ 0.0 ],
+					"descriptors-to-octatrack-2::select-class" : [ 0 ],
+					"descriptors-to-octatrack-2::toggle-trig-type" : [ 1.0 ],
+					"descriptors-to-octatrack-2::xpat-view-selector" : [ 2.0 ],
+					"descriptors-to-octatrack-2::xpat-speed::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 5,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-2::xpat-speed::umenu" : [ 1 ],
+					"descriptors-to-octatrack-2::xpat-descriptors::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 8,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-2::xpat-descriptors::umenu" : [ 0 ],
+					"descriptors-to-octatrack-2::xpat-controllers::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 10,
+								"numouts" : 32,
+								"connections" : [ 									{
+										"in" : 1,
+										"out" : 9,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 6,
+										"out" : 19,
+										"gain" : 1.0
+									}
+ ]
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-2::xpat-controllers::umenu" : [ 2 ],
+					"descriptors-to-octatrack-1::class-gate-threshold" : [ 80.0 ],
+					"descriptors-to-octatrack-1::gate-history" : [ 8.0 ],
+					"descriptors-to-octatrack-1::live.numbox" : [ 2.0 ],
+					"descriptors-to-octatrack-1::live.text" : [ 0.0 ],
+					"descriptors-to-octatrack-1::onset-trig-enabled" : [ 0.0 ],
+					"descriptors-to-octatrack-1::onset-trig-enabled[1]" : [ 0.0 ],
+					"descriptors-to-octatrack-1::select-class" : [ 1 ],
+					"descriptors-to-octatrack-1::toggle-trig-type" : [ 1.0 ],
+					"descriptors-to-octatrack-1::xpat-view-selector" : [ 1.0 ],
+					"descriptors-to-octatrack-1::xpat-speed::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 5,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-1::xpat-speed::umenu" : [ 1 ],
+					"descriptors-to-octatrack-1::xpat-descriptors::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 8,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-1::xpat-descriptors::umenu" : [ 0 ],
+					"descriptors-to-octatrack-1::xpat-controllers::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 10,
+								"numouts" : 32,
+								"connections" : [ 									{
+										"in" : 1,
+										"out" : 9,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 6,
+										"out" : 19,
+										"gain" : 1.0
+									}
+ ]
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-1::xpat-controllers::umenu" : [ 2 ],
+					"descriptors-to-octatrack-4::class-gate-threshold" : [ 67.401574803149614 ],
+					"descriptors-to-octatrack-4::gate-history" : [ 12.0 ],
+					"descriptors-to-octatrack-4::live.numbox" : [ 3.0 ],
+					"descriptors-to-octatrack-4::live.text" : [ 0.0 ],
+					"descriptors-to-octatrack-4::onset-trig-enabled" : [ 1.0 ],
+					"descriptors-to-octatrack-4::onset-trig-enabled[1]" : [ 0.0 ],
+					"descriptors-to-octatrack-4::select-class" : [ 2 ],
+					"descriptors-to-octatrack-4::toggle-trig-type" : [ 1.0 ],
+					"descriptors-to-octatrack-4::xpat-view-selector" : [ 2.0 ],
+					"descriptors-to-octatrack-4::xpat-speed::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 5,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-4::xpat-speed::umenu" : [ 1 ],
+					"descriptors-to-octatrack-4::xpat-descriptors::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 8,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-4::xpat-descriptors::umenu" : [ 0 ],
+					"descriptors-to-octatrack-4::xpat-controllers::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 10,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-4::xpat-controllers::umenu" : [ 2 ],
+					"descriptors-to-octatrack-3::class-gate-threshold" : [ 80.0 ],
+					"descriptors-to-octatrack-3::gate-history" : [ 12.0 ],
+					"descriptors-to-octatrack-3::live.numbox" : [ 3.0 ],
+					"descriptors-to-octatrack-3::live.text" : [ 0.0 ],
+					"descriptors-to-octatrack-3::onset-trig-enabled" : [ 1.0 ],
+					"descriptors-to-octatrack-3::onset-trig-enabled[1]" : [ 0.0 ],
+					"descriptors-to-octatrack-3::select-class" : [ 0 ],
+					"descriptors-to-octatrack-3::toggle-trig-type" : [ 1.0 ],
+					"descriptors-to-octatrack-3::xpat-view-selector" : [ 2.0 ],
+					"descriptors-to-octatrack-3::xpat-speed::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 5,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-3::xpat-speed::umenu" : [ 1 ],
+					"descriptors-to-octatrack-3::xpat-descriptors::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 8,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-3::xpat-descriptors::umenu" : [ 0 ],
+					"descriptors-to-octatrack-3::xpat-controllers::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 10,
+								"numouts" : 32,
+								"connections" : [ 									{
+										"in" : 1,
+										"out" : 9,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 6,
+										"out" : 19,
+										"gain" : 1.0
+									}
+ ]
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-3::xpat-controllers::umenu" : [ 2 ],
+					"_filter-to-corpus-b::bending-dropouts" : [ 80.0 ],
+					"_filter-to-corpus-b::bending-rotation" : [ 0.0 ],
+					"_filter-to-corpus-b::bending-scramble" : [ 0.0 ],
+					"_filter-to-corpus-b::bending-variation" : [ 0.0 ],
+					"_filter-to-corpus-b::class-gate-threshold" : [ 50.0 ],
+					"_filter-to-corpus-b::comp-loudness" : [ 100.0 ],
+					"_filter-to-corpus-b::comp-spectral" : [ -100.0 ],
+					"_filter-to-corpus-b::corpus-menu" : [ 6 ],
+					"_filter-to-corpus-b::gate-history" : [ 20.0 ],
+					"_filter-to-corpus-b::granular-rate" : [ 1500.0 ],
+					"_filter-to-corpus-b::granular-rate-relative" : [ 0.932909544901982 ],
+					"_filter-to-corpus-b::granular-variation" : [ 30.708661417322837 ],
+					"_filter-to-corpus-b::live.button[1]" : [ 0.0 ],
+					"_filter-to-corpus-b::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-b::live.menu[1]" : [ 1.0 ],
+					"_filter-to-corpus-b::live.text" : [ 0.0 ],
+					"_filter-to-corpus-b::live.text[1]" : [ 0.0 ],
+					"_filter-to-corpus-b::select-class" : [ 3 ],
+					"_filter-to-corpus-b::setup-range" : [ 32.0, 67.0 ],
+					"_filter-to-corpus-b::toggle-enabled" : [ 1.0 ],
+					"_filter-to-corpus-b::toggle-granular" : [ 1.0 ],
+					"_filter-to-corpus-b::toggle-granular-random" : [ 1.0 ],
+					"_filter-to-corpus-b::toggle-use-setup" : [ 1.0 ],
+					"_filter-to-corpus-b::centroid-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-b::centroid-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-b::centroid-corpus-filter-slider::slider" : [ 93.133334642276168 ],
+					"_filter-to-corpus-b::pitch-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-b::pitch-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-b::pitch-corpus-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-b::confidence-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-b::confidence-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-b::confidence-corpus-filter-slider::slider" : [ 1.0 ],
+					"_filter-to-corpus-b::loudness-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-b::loudness-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-b::loudness-corpus-filter-slider::slider" : [ 75.0 ],
+					"_filter-to-corpus-b::centroid-input-filter-slider::comparator" : [ 0.0 ],
+					"_filter-to-corpus-b::centroid-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-b::centroid-input-filter-slider::slider" : [ 29.633334642276168 ],
+					"_filter-to-corpus-b::pitch-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-b::pitch-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-b::pitch-input-filter-slider::slider" : [ 127.0 ],
+					"_filter-to-corpus-b::confidence-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-b::confidence-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-b::confidence-input-filter-slider::slider" : [ 1.0 ],
+					"_filter-to-corpus-b::loudness-input-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-b::loudness-input-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-b::loudness-input-filter-slider::slider" : [ 100.0 ],
+					"_filter-to-corpus-b::sp-sampler::absoluteview" : [ 0.0 ],
+					"_filter-to-corpus-b::sp-sampler::algorithm" : [ 4.0 ],
+					"_filter-to-corpus-b::sp-sampler::gain" : [ 100.0 ],
+					"_filter-to-corpus-b::sp-sampler::in" : [ 0.0 ],
+					"_filter-to-corpus-b::sp-sampler::incurve" : [ 0.0 ],
+					"_filter-to-corpus-b::sp-sampler::length" : [ 100.0 ],
+					"_filter-to-corpus-b::sp-sampler::lengthabsolute" : [ 120000.0 ],
+					"_filter-to-corpus-b::sp-sampler::live.drop[4]" : [ "" ],
+					"_filter-to-corpus-b::sp-sampler::loop" : [ 0.0 ],
+					"_filter-to-corpus-b::sp-sampler::out" : [ 0.0 ],
+					"_filter-to-corpus-b::sp-sampler::outcurve" : [ 0.0 ],
+					"_filter-to-corpus-b::sp-sampler::pitch" : [ 0.0 ],
+					"_filter-to-corpus-b::sp-sampler::speed" : [ 100.0 ],
+					"_filter-to-corpus-b::sp-sampler::start" : [ 0.0 ],
+					"_filter-to-corpus-b::sp-sampler::startabsolute" : [ 0.0 ],
+					"_filter-to-corpus-b::sp-sampler::steal" : [ 1.0 ],
+					"_filter-to-corpus-b::sp-sampler::tabopen" : [ 0.0 ],
+					"_filter-to-corpus-b::sp-sampler::timestretch" : [ 1.0 ],
+					"_filter-to-corpus-b::sp-sampler::voices" : [ 8.0 ],
+					"_filter-to-corpus-b::duration-corpus-filter-slider::comparator" : [ 1.0 ],
+					"_filter-to-corpus-b::duration-corpus-filter-slider::live.button[2]" : [ 0.0 ],
+					"_filter-to-corpus-b::duration-corpus-filter-slider::slider" : [ 100 ],
+					"descriptors-to-octatrack-4[1]::class-gate-threshold" : [ 50.0 ],
+					"descriptors-to-octatrack-4[1]::gate-history" : [ 6.0 ],
+					"descriptors-to-octatrack-4[1]::live.numbox" : [ 7.0 ],
+					"descriptors-to-octatrack-4[1]::live.text" : [ 0.0 ],
+					"descriptors-to-octatrack-4[1]::onset-trig-enabled" : [ 1.0 ],
+					"descriptors-to-octatrack-4[1]::onset-trig-enabled[1]" : [ 0.0 ],
+					"descriptors-to-octatrack-4[1]::select-class" : [ 4 ],
+					"descriptors-to-octatrack-4[1]::toggle-trig-type" : [ 1.0 ],
+					"descriptors-to-octatrack-4[1]::xpat-view-selector" : [ 2.0 ],
+					"descriptors-to-octatrack-4[1]::xpat-speed::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 5,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-4[1]::xpat-speed::umenu" : [ 1 ],
+					"descriptors-to-octatrack-4[1]::xpat-descriptors::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 8,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-4[1]::xpat-descriptors::umenu" : [ 0 ],
+					"descriptors-to-octatrack-4[1]::xpat-controllers::crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 10,
+								"numouts" : 32
+							}
+
+						}
+ ],
+					"descriptors-to-octatrack-4[1]::xpat-controllers::umenu" : [ 2 ],
+					"class-to-octa-scene::gate-history" : [ 4.0 ],
+					"class-to-octa-scene::live.dial" : [ 73.228346456692918 ],
+					"class-to-octa-scene::live.tab[2]" : [ 8.0 ],
+					"class-to-octa-scene::live.tab[3]" : [ 8.0 ],
+					"class-to-octa-scene::live.text" : [ 1.0 ],
+					"class-to-octa-scene::live.text[1]" : [ 0.0 ],
+					"class-to-octa-scene::live.text[2]" : [ 1.0 ],
+					"class-to-octa-scene::scene-xpat" : [ 						{
+							"data" : 							{
+								"numins" : 6,
+								"numouts" : 16,
+								"connections" : [ 									{
+										"in" : 0,
+										"out" : 0,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 2,
+										"out" : 8,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 1,
+										"out" : 1,
+										"gain" : 1.0
+									}
+ ]
+							}
+
+						}
+ ]
+				}
+
+			}
+,
 			"17" : 			{
 				"id" : 17,
 				"data" : 				{
 					"calibrate" : [ 0.0 ],
 					"gate-send-scenes[1]" : [ 1.0 ],
 					"live.dial[3]" : [  ],
-					"live.gain~" : [ 0.0 ],
+					"live.dial[4]" : [  ],
 					"live.numbox" : [ 24.0 ],
 					"live.tab[5]" : [ 2.0 ],
+					"mc.live.gain~" : [  ],
 					"u954003948[1]" : [  ],
 					"u954003948[2]" : [  ],
 					"__pattr-send-matrix[2]::crosspatch" : [  ],
@@ -3282,6 +3782,7 @@
 					"_timbre-to_midi::duration" : [ 500.0 ],
 					"_timbre-to_midi::gate-receive-scenes" : [ 1.0 ],
 					"_timbre-to_midi::gate-send-scenes" : [ 1.0 ],
+					"_timbre-to_midi::inf-hold" : [  ],
 					"_timbre-to_midi::live.numbox[2]" : [ 71.512985229492188 ],
 					"_timbre-to_midi::live.tab" : [ 1.0 ],
 					"_timbre-to_midi::live.tab[1]" : [ 0.0 ],

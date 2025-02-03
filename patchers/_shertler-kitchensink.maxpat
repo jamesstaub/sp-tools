@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 115.0, 1612.0, 901.0 ],
+		"rect" : [ 34.0, 115.0, 1852.0, 903.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
@@ -43,16 +43,64 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 115.0, 1612.0, 901.0 ],
+						"rect" : [ 34.0, 115.0, 1852.0, 903.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-9",
+									"linecount" : 6,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 199.0, 518.0, 150.0, 87.0 ],
+									"text" : "mimic the \"stream\" of realtime descriptors so the consumers of this classifier can measure the relative proportion of recent classes"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-7",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 153.0, 595.0, 48.0, 22.0 ],
+									"text" : "pipe 75"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-5",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 137.0, 533.0, 48.0, 22.0 ],
+									"text" : "pipe 50"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-1",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 112.0, 485.0, 48.0, 22.0 ],
+									"text" : "pipe 25"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-6",
 									"linecount" : 4,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 320.0, 305.0, 150.0, 60.0 ],
+									"patching_rect" : [ 349.0, 246.0, 150.0, 60.0 ],
 									"text" : "cutoff the realtime descriptor for a moment when percussive onsets are detected here"
 								}
 
@@ -64,7 +112,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 246.0, 298.0, 55.0, 22.0 ],
+									"patching_rect" : [ 294.0, 288.0, 55.0, 22.0 ],
 									"text" : "pipe 100"
 								}
 
@@ -76,7 +124,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "int" ],
-									"patching_rect" : [ 246.0, 265.0, 32.0, 22.0 ],
+									"patching_rect" : [ 294.0, 252.0, 53.0, 22.0 ],
 									"text" : "t 1 0"
 								}
 
@@ -89,7 +137,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 246.0, 348.0, 30.0, 30.0 ]
+									"patching_rect" : [ 294.0, 335.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -150,12 +198,19 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 44.0, 310.0, 30.0, 30.0 ]
+									"patching_rect" : [ 46.0, 665.0, 30.0, 30.0 ]
 								}
 
 							}
  ],
 						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-78", 0 ],
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
 								"patchline" : 								{
 									"destination" : [ "obj-2", 0 ],
 									"source" : [ "obj-3", 1 ]
@@ -178,8 +233,38 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-78", 0 ],
+									"source" : [ "obj-5", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-78", 0 ],
+									"source" : [ "obj-7", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-71", 0 ],
 									"source" : [ "obj-70", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"order" : 3,
+									"source" : [ "obj-71", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"order" : 3,
+									"source" : [ "obj-71", 0 ]
 								}
 
 							}
@@ -201,7 +286,23 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-78", 0 ],
+									"destination" : [ "obj-5", 0 ],
+									"order" : 2,
+									"source" : [ "obj-71", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 0 ],
+									"order" : 2,
+									"source" : [ "obj-71", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-7", 0 ],
 									"order" : 1,
 									"source" : [ "obj-71", 1 ]
 								}
@@ -209,8 +310,24 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-78", 0 ],
+									"destination" : [ "obj-7", 0 ],
 									"order" : 1,
+									"source" : [ "obj-71", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-78", 0 ],
+									"order" : 4,
+									"source" : [ "obj-71", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-78", 0 ],
+									"order" : 4,
 									"source" : [ "obj-71", 0 ]
 								}
 
@@ -223,7 +340,7 @@
 
 							}
  ],
-						"originid" : "pat-2348"
+						"originid" : "pat-27580"
 					}
 ,
 					"patching_rect" : [ 838.5, 643.5, 109.0, 22.0 ],
@@ -430,7 +547,7 @@
 					"comment" : "rt-analysis-out (to training)",
 					"id" : "obj-26",
 					"ignoreclick" : 1,
-					"index" : 10,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -485,7 +602,7 @@
 					"comment" : "rt-classifier-out",
 					"id" : "obj-189",
 					"ignoreclick" : 1,
-					"index" : 9,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -510,7 +627,7 @@
 					"comment" : "envelope out",
 					"id" : "obj-187",
 					"ignoreclick" : 1,
-					"index" : 7,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -523,7 +640,7 @@
 					"comment" : "envelope-gate out",
 					"id" : "obj-186",
 					"ignoreclick" : 1,
-					"index" : 8,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -888,7 +1005,7 @@
 
 							}
  ],
-						"originid" : "pat-2440"
+						"originid" : "pat-27672"
 					}
 ,
 					"patching_rect" : [ 931.0, 74.5, 36.0, 22.0 ],
@@ -1093,7 +1210,7 @@
 
 							}
  ],
-						"originid" : "pat-2442"
+						"originid" : "pat-27674"
 					}
 ,
 					"patching_rect" : [ 956.0, 570.5, 65.0, 22.0 ],
@@ -1425,7 +1542,7 @@
 				"box" : 				{
 					"comment" : "kitchen dumpout",
 					"id" : "obj-3",
-					"index" : 4,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1438,7 +1555,7 @@
 					"comment" : "secondary (ch 2 air mic)",
 					"id" : "obj-81",
 					"ignoreclick" : 1,
-					"index" : 6,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1451,7 +1568,7 @@
 					"comment" : "primary (ch 1 pickup)",
 					"id" : "obj-80",
 					"ignoreclick" : 1,
-					"index" : 5,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1702,7 +1819,7 @@
 				"box" : 				{
 					"comment" : "thispatcher",
 					"id" : "obj-43",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1753,7 +1870,7 @@
 				"box" : 				{
 					"comment" : "{class, descriptors, melbands, MFCCs}",
 					"id" : "obj-6",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1765,7 +1882,7 @@
 				"box" : 				{
 					"comment" : "trigger",
 					"id" : "obj-7",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2092,7 +2209,7 @@
 
 											}
  ],
-										"originid" : "pat-2654"
+										"originid" : "pat-27886"
 									}
 ,
 									"patching_rect" : [ 370.0, 95.913147000000009, 79.0, 22.0 ],
@@ -2531,7 +2648,7 @@
 
 											}
  ],
-										"originid" : "pat-2656"
+										"originid" : "pat-27888"
 									}
 ,
 									"patching_rect" : [ 45.0, 238.739441000000028, 340.0, 22.0 ],
@@ -2849,7 +2966,7 @@
 
 							}
  ],
-						"originid" : "pat-2652"
+						"originid" : "pat-27884"
 					}
 ,
 					"patching_rect" : [ 277.0, 624.0, 181.0, 22.0 ],
@@ -2918,7 +3035,7 @@
 					"comment" : "onsett gate",
 					"id" : "obj-39",
 					"ignoreclick" : 1,
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -3122,7 +3239,7 @@
 
 							}
  ],
-						"originid" : "pat-2662"
+						"originid" : "pat-27894"
 					}
 ,
 					"patching_rect" : [ 1467.0, 162.0, 86.0, 22.0 ],
@@ -3331,7 +3448,7 @@
 
 							}
  ],
-						"originid" : "pat-2664"
+						"originid" : "pat-27896"
 					}
 ,
 					"patching_rect" : [ 1297.0, 162.0, 86.0, 22.0 ],
@@ -3368,7 +3485,7 @@
 					"fontsize" : 10.0,
 					"hint" : "",
 					"id" : "obj-156",
-					"items" : [ "None", ",", "PreSonus AudioBox iTwo", ",", "BlackHole 16ch", ",", "MacBook Pro Speakers", ",", "ZoomAudioDevice", ",", "PS AGG" ],
+					"items" : [ "None", ",", "ASUS VS228", ",", "BlackHole 16ch", ",", "External Headphones", ",", "MacBook Pro Speakers", ",", "ZoomAudioDevice" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -3408,7 +3525,7 @@
 					"fontsize" : 10.0,
 					"hint" : "",
 					"id" : "obj-158",
-					"items" : [ "None", ",", "PreSonus AudioBox iTwo", ",", "BlackHole 16ch", ",", "MacBook Pro Microphone", ",", "ZoomAudioDevice", ",", "PS AGG" ],
+					"items" : [ "None", ",", "BlackHole 16ch", ",", "MacBook Pro Microphone", ",", "ZoomAudioDevice" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -3574,7 +3691,7 @@
 
 							}
  ],
-						"originid" : "pat-2666"
+						"originid" : "pat-27898"
 					}
 ,
 					"patching_rect" : [ 1169.0, 162.0, 86.0, 22.0 ],
@@ -3737,7 +3854,7 @@
 
 							}
  ],
-						"originid" : "pat-2668"
+						"originid" : "pat-27900"
 					}
 ,
 					"patching_rect" : [ 1075.0, 162.0, 86.0, 22.0 ],
@@ -4763,7 +4880,287 @@
 
 			}
  ],
-		"originid" : "pat-2346"
+		"originid" : "pat-27578",
+		"parameters" : 		{
+			"obj-21" : [ "live.dial[32]", "lockout", 0 ],
+			"obj-23" : [ "live.dial[30]", "floor", 0 ],
+			"obj-25" : [ "live.dial[33]", "sensitivity", 0 ],
+			"obj-28::obj-13::obj-19" : [ "live.gain~[5]", "live.gain~", 0 ],
+			"obj-28::obj-41" : [ "live.text[1]", "live.text", 0 ],
+			"obj-28::obj-5" : [ "live.tab[4]", "live.tab", 0 ],
+			"obj-31" : [ "live.text[29]", "live.text", 0 ],
+			"obj-46" : [ "history[1]", "history", 0 ],
+			"obj-47" : [ "live.dial", "threshold", 0 ],
+			"obj-53::obj-3" : [ "live.tab[1]", "live.tab", 0 ],
+			"obj-64" : [ "live.dial[1]", "class smooth", 0 ],
+			"obj-66::obj-6" : [ "live.tab[2]", "live.tab", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-53::obj-3" : 				{
+					"parameter_invisible" : 0,
+					"parameter_modmode" : 0,
+					"parameter_range" : [ "pluck", "col_legno", "knock", "bow" ],
+					"parameter_type" : 2,
+					"parameter_unitstyle" : 9
+				}
+,
+				"obj-66::obj-6" : 				{
+					"parameter_invisible" : 0,
+					"parameter_modmode" : 0,
+					"parameter_range" : [ "bow", "bow_hi", "pluck", "col_legno", "knock", "tremolo" ],
+					"parameter_type" : 2,
+					"parameter_unitstyle" : 9
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "_adc.maxpat",
+				"bootpath" : "~/Documents/Max 9/Projects/sp-tools/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cello-clusterable-corpus.wav",
+				"bootpath" : "~/Dropbox/audio",
+				"patcherrelativepath" : "../../../../../Dropbox/audio",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cello-schertler-dpa-timbres.wav",
+				"bootpath" : "~/Dropbox/audio",
+				"patcherrelativepath" : "../../../../../Dropbox/audio",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "desc-mfcc-analysis.maxpat",
+				"bootpath" : "~/Documents/Max 9/Projects/sp-tools/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dk.adstatussr.maxpat",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/misc/Misc",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/misc/Misc",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dk.classifierdisplay.maxpat",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/patchers",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dk.classkitchensink~.maxpat",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/patchers",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dk.classmatch.maxpat",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/patchers",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dk.convolver~.maxpat",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/patchers",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dk.descriptorframe.maxpat",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/patchers",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dk.envelope~.maxpat",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/patchers",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dk.filter.maxpat",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/patchers",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dk.melbandframe.maxpat",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/patchers",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dk.mfccframe.maxpat",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/patchers",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dk.multiconvolve~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "dk.onsetfeaturecore~.maxpat",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/misc/Misc",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/misc/Misc",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dk.onsetframe~.maxpat",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/patchers",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dk.onset~.maxpat",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/patchers",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dk.realtimeframe~.maxpat",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/patchers",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dk.spectralonset~.maxpat",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/patchers",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dk.triggeralign~.maxpat",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/patchers",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fluid.ampfeature~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.buf2list.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.bufflatten~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.bufloudness~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.bufmelbands~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.bufmfcc~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.bufpitch~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.bufscale~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.bufselectevery~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.bufspectralshape~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.bufstats~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.datasetquery~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.dataset~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.knnclassifier~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.labelset~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.list2buf.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.mlpclassifier~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.onsetfeature~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.stats.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "resizeBpatcherWindow.js",
+				"bootpath" : "~/Documents/Max 9/Library/DK - alpha C/javascript",
+				"patcherrelativepath" : "../../../Library/DK - alpha C/javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "rt-class-selector.maxpat",
+				"bootpath" : "~/Documents/Max 9/Projects/sp-tools/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
