@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 889.0, 929.0 ],
+		"rect" : [ -1886.0, 87.0, 1852.0, 959.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
@@ -49,18 +49,88 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 964.0, 87.0, 682.0, 370.0 ],
+						"rect" : [ -1920.0, 53.0, 1920.0, 1027.0 ],
 						"openinpresentation" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
 						"toolbarvisible" : 0,
 						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"basictuning" : 440,
+									"clipheight" : 83.0,
+									"data" : 									{
+										"clips" : [ 											{
+												"absolutepath" : "Macintosh HD:/Users/jamesstaub/Downloads/cello-schertler-dpa-timbres.wav",
+												"filename" : "cello-schertler-dpa-timbres.wav",
+												"filekind" : "audiofile",
+												"id" : "u906014118",
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+ ]
+									}
+,
+									"followglobaltempo" : 0,
+									"formantcorrection" : 0,
+									"id" : "obj-7",
+									"maxclass" : "playlist~",
+									"mode" : "basic",
+									"numinlets" : 1,
+									"numoutlets" : 5,
+									"originallength" : [ 0.0, "ticks" ],
+									"originaltempo" : 120.0,
+									"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 816.0, 88.0, 643.0, 84.0 ],
+									"pitchcorrection" : 0,
+									"presentation" : 1,
+									"presentation_rect" : [ 3.0, 149.0, 675.0, 84.0 ],
+									"quality" : "basic",
+									"saved_attribute_attributes" : 									{
+										"candicane2" : 										{
+											"expression" : ""
+										}
+,
+										"candicane3" : 										{
+											"expression" : ""
+										}
+,
+										"candicane4" : 										{
+											"expression" : ""
+										}
+,
+										"candicane5" : 										{
+											"expression" : ""
+										}
+,
+										"candicane6" : 										{
+											"expression" : ""
+										}
+,
+										"candicane7" : 										{
+											"expression" : ""
+										}
+,
+										"candicane8" : 										{
+											"expression" : ""
+										}
+
+									}
+,
+									"timestretch" : [ 0 ]
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-6",
 									"maxclass" : "newobj",
@@ -120,16 +190,15 @@
 									"orientation" : 1,
 									"outlettype" : [ "signal", "signal", "", "float", "list" ],
 									"parameter_enable" : 1,
-									"patching_rect" : [ 156.0, 268.0, 136.0, 36.0 ],
+									"patching_rect" : [ 593.0, 472.0, 136.0, 36.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 3.0, 154.0, 195.0, 36.0 ],
+									"presentation_rect" : [ 3.0, 246.0, 195.0, 36.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_longname" : "live.gain~[5]",
 											"parameter_mmax" : 6.0,
 											"parameter_mmin" : -70.0,
 											"parameter_modmode" : 0,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "live.gain~",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 4
@@ -148,11 +217,10 @@
 									"clipheight" : 70.5,
 									"data" : 									{
 										"clips" : [ 											{
-												"absolutepath" : "Macintosh HD:/Users/admin/Dropbox/audio/cello-schertler-dpa-timbres.wav",
-												"filename" : "cello-schertler-dpa-timbres.wav",
+												"absolutepath" : "/Users/jamesstaub/Documents/Live/cello-examples Project/phrases.aif",
+												"filename" : "phrases.aif",
 												"filekind" : "audiofile",
-												"id" : "u995009100",
-												"selection" : [ 0.201565557729941, 0.272015655577299 ],
+												"id" : "u813326545",
 												"loop" : 0,
 												"content_state" : 												{
 
@@ -160,10 +228,10 @@
 
 											}
 , 											{
-												"absolutepath" : "/Users/admin/Dropbox/audio/cello-clusterable-corpus.wav",
-												"filename" : "cello-clusterable-corpus.wav",
+												"absolutepath" : "/Users/jamesstaub/Library/CloudStorage/GoogleDrive-james.staub@gmail.com/My Drive/audio/sp-tools-corpora/staub-cello-examples.aif",
+												"filename" : "staub-cello-examples.aif",
 												"filekind" : "audiofile",
-												"id" : "u633021021",
+												"id" : "u128002608",
 												"loop" : 0,
 												"content_state" : 												{
 
@@ -184,7 +252,7 @@
 									"originaltempo" : 120.0,
 									"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 50.0, 81.0, 623.0, 143.0 ],
+									"patching_rect" : [ 50.0, 80.0, 623.0, 143.0 ],
 									"pitchcorrection" : 0,
 									"presentation" : 1,
 									"presentation_rect" : [ 3.0, 2.0, 675.0, 143.0 ],
@@ -230,7 +298,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 0,
-									"patching_rect" : [ 156.0, 316.0, 35.0, 22.0 ],
+									"patching_rect" : [ 593.0, 520.0, 35.0, 22.0 ],
 									"text" : "dac~"
 								}
 
@@ -252,11 +320,11 @@
 								"box" : 								{
 									"comment" : "",
 									"id" : "obj-9",
-									"index" : 1,
+									"index" : 2,
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 305.0, 30.0, 30.0 ]
+									"patching_rect" : [ 118.0, 349.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -264,11 +332,11 @@
 								"box" : 								{
 									"comment" : "",
 									"id" : "obj-11",
-									"index" : 2,
+									"index" : 1,
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 85.0, 305.0, 30.0, 30.0 ]
+									"patching_rect" : [ 13.0, 305.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -347,15 +415,43 @@
 								}
 
 							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-11", 0 ],
+									"order" : 1,
+									"source" : [ "obj-7", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-19", 0 ],
+									"order" : 0,
+									"source" : [ "obj-7", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-19", 1 ],
+									"order" : 0,
+									"source" : [ "obj-7", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-9", 0 ],
+									"order" : 1,
+									"source" : [ "obj-7", 0 ]
+								}
+
+							}
  ],
-						"originid" : "pat-30318"
+						"originid" : "pat-10301"
 					}
 ,
-					"patching_rect" : [ 466.0, 72.0, 447.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"globalpatchername" : ""
-					}
-,
+					"patching_rect" : [ 350.0, 89.0, 447.0, 22.0 ],
 					"text" : "p"
 				}
 
@@ -524,7 +620,6 @@
 							"parameter_longname" : "live.tab[4]",
 							"parameter_mmax" : 2,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.tab",
 							"parameter_type" : 2,
 							"parameter_unitstyle" : 9
@@ -567,7 +662,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 411.0, 195.0, 47.444794418578226, 22.0 ],
+					"patching_rect" : [ 272.0, 195.0, 47.444794418578226, 22.0 ],
 					"text" : "gate~"
 				}
 
@@ -590,7 +685,6 @@
 							"parameter_longname" : "live.text[1]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -610,7 +704,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 350.0, 195.0, 47.444794418578226, 22.0 ],
+					"patching_rect" : [ 392.0, 205.0, 47.444794418578226, 22.0 ],
 					"text" : "gate~"
 				}
 
@@ -792,7 +886,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
-					"order" : 2,
+					"order" : 3,
 					"source" : [ "obj-41", 0 ]
 				}
 
@@ -808,7 +902,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-41", 0 ]
 				}
 
@@ -816,7 +910,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-40", 0 ],
-					"order" : 3,
+					"order" : 1,
 					"source" : [ "obj-41", 0 ]
 				}
 
@@ -944,7 +1038,7 @@
 
 			}
  ],
-		"originid" : "pat-30316",
+		"originid" : "pat-10299",
 		"parameters" : 		{
 			"obj-13::obj-19" : [ "live.gain~[5]", "live.gain~", 0 ],
 			"obj-41" : [ "live.text[1]", "live.text", 0 ],
@@ -962,17 +1056,24 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "cello-clusterable-corpus.wav",
-				"bootpath" : "~/Dropbox/audio",
-				"patcherrelativepath" : "../../../../../Dropbox/audio",
+				"name" : "cello-schertler-dpa-timbres.wav",
+				"bootpath" : "~/Downloads",
+				"patcherrelativepath" : "../../../../../Downloads",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "cello-schertler-dpa-timbres.wav",
-				"bootpath" : "~/Dropbox/audio",
-				"patcherrelativepath" : "../../../../../Dropbox/audio",
-				"type" : "WAVE",
+				"name" : "phrases.aif",
+				"bootpath" : "~/Documents/Live/cello-examples Project",
+				"patcherrelativepath" : "../../../../Live/cello-examples Project",
+				"type" : "AIFF",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "staub-cello-examples.aif",
+				"bootpath" : "~/Library/CloudStorage/GoogleDrive-james.staub@gmail.com/My Drive/audio/sp-tools-corpora",
+				"patcherrelativepath" : "../../../../../Library/CloudStorage/GoogleDrive-james.staub@gmail.com/My Drive/audio/sp-tools-corpora",
+				"type" : "AIFF",
 				"implicit" : 1
 			}
  ],

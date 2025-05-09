@@ -4,29 +4,16 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 115.0, 1852.0, 931.0 ],
+		"rect" : [ 34.0, 100.0, 1402.0, 822.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
-				"box" : 				{
-					"color" : [ 1.0, 0.345098039215686, 0.298039215686275, 1.0 ],
-					"id" : "obj-75",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 50.0, 93.0, 85.0, 22.0 ],
-					"text" : "r rt-classname"
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"bgmode" : 0,
 					"border" : 0,
@@ -47,6 +34,19 @@
 					"presentation_rect" : [ 2.0, 87.0, 417.0, 710.0 ],
 					"varname" : "xpat-controllers",
 					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 1.0, 0.345098039215686, 0.298039215686275, 1.0 ],
+					"id" : "obj-75",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 50.0, 93.0, 85.0, 22.0 ],
+					"text" : "r rt-classname"
 				}
 
 			}
@@ -161,14 +161,15 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 143.0, 1612.0, 873.0 ],
+						"rect" : [ 34.0, 100.0, 1402.0, 822.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-113",
@@ -395,18 +396,6 @@
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-26",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "list", "bang" ],
-									"patching_rect" : [ 270.0, 460.0, 83.0, 22.0 ],
-									"text" : "list-interpolate"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"id" : "obj-10",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -579,22 +568,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-76", 0 ],
-									"order" : 0,
-									"source" : [ "obj-26", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-88", 1 ],
-									"order" : 1,
-									"source" : [ "obj-26", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-10", 0 ],
 									"source" : [ "obj-33", 2 ]
 								}
@@ -651,14 +624,32 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-26", 0 ],
+									"destination" : [ "obj-76", 0 ],
+									"order" : 0,
 									"source" : [ "obj-53", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-26", 0 ],
+									"destination" : [ "obj-88", 1 ],
+									"order" : 1,
+									"source" : [ "obj-53", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-76", 0 ],
+									"order" : 0,
+									"source" : [ "obj-57", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-88", 1 ],
+									"order" : 1,
 									"source" : [ "obj-57", 0 ]
 								}
 
@@ -776,14 +767,10 @@
 
 							}
  ],
-						"originid" : "pat-4454"
+						"originid" : "pat-5914"
 					}
 ,
-					"patching_rect" : [ 450.0, 851.0, 139.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"globalpatchername" : ""
-					}
-,
+					"patching_rect" : [ 450.0, 842.0, 139.0, 22.0 ],
 					"text" : "p slide-back-too-defaults"
 				}
 
@@ -824,7 +811,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1081,14 +1068,10 @@
 
 							}
  ],
-						"originid" : "pat-4456"
+						"originid" : "pat-5916"
 					}
 ,
 					"patching_rect" : [ 839.0, 125.0, 48.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"globalpatchername" : ""
-					}
-,
 					"text" : "p descr"
 				}
 
@@ -1111,7 +1094,6 @@
 							"parameter_longname" : "live.text[16]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -1144,7 +1126,6 @@
 							"parameter_longname" : "live.text[17]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -1180,7 +1161,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1378,14 +1359,10 @@
 
 							}
  ],
-						"originid" : "pat-4458"
+						"originid" : "pat-5918"
 					}
 ,
 					"patching_rect" : [ 258.5, 824.0, 77.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"globalpatchername" : ""
-					}
-,
 					"text" : "p cc-defaults"
 				}
 
@@ -1413,7 +1390,6 @@
 							"parameter_longname" : "live.text[54]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -1446,8 +1422,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 38.0, 372.0, 24.0, 24.0 ],
-					"svg" : ""
+					"patching_rect" : [ 38.0, 372.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -1550,7 +1525,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1817,14 +1792,10 @@
 
 							}
  ],
-						"originid" : "pat-4464"
+						"originid" : "pat-5924"
 					}
 ,
 					"patching_rect" : [ 110.0, 298.0, 52.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"globalpatchername" : ""
-					}
-,
 					"text" : "p thresh"
 				}
 
@@ -1841,7 +1812,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1986,14 +1957,10 @@
 
 							}
  ],
-						"originid" : "pat-4466"
+						"originid" : "pat-5926"
 					}
 ,
 					"patching_rect" : [ 52.0, 756.5, 101.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"globalpatchername" : ""
-					}
-,
 					"text" : "p midi-note-offset"
 				}
 
@@ -2010,7 +1977,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2225,14 +2192,10 @@
 
 							}
  ],
-						"originid" : "pat-4468"
+						"originid" : "pat-5928"
 					}
 ,
 					"patching_rect" : [ 251.0, 867.0, 92.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"globalpatchername" : ""
-					}
-,
 					"text" : "p parse-cc-num"
 				}
 
@@ -2315,7 +2278,6 @@
 							"parameter_longname" : "live.tab[10]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.tab[7]",
 							"parameter_type" : 2,
 							"parameter_unitstyle" : 9
@@ -2577,7 +2539,6 @@
 							"parameter_mmax" : 8.0,
 							"parameter_mmin" : 1.0,
 							"parameter_modmode" : 3,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.numbox[3]",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -2641,10 +2602,9 @@
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "class-gate-threshold",
+							"parameter_longname" : "long-env-gate-history[1]",
 							"parameter_mmax" : 100.0,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Amount",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -2794,10 +2754,9 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[31]",
+							"parameter_longname" : "live.numbox[4]",
 							"parameter_mmax" : 1024.0,
 							"parameter_modmode" : 3,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.numbox[22]",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -3024,7 +2983,6 @@
 							"parameter_longname" : "live.tab[6]",
 							"parameter_mmax" : 2,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.tab[3]",
 							"parameter_type" : 2,
 							"parameter_unitstyle" : 9
@@ -3642,48 +3600,7 @@
 
 			}
  ],
-		"originid" : "pat-4444",
-		"parameters" : 		{
-			"obj-101" : [ "live.numbox[3]", "live.numbox[3]", 0 ],
-			"obj-136" : [ "live.numbox[31]", "live.numbox[22]", 0 ],
-			"obj-17" : [ "live.tab[6]", "live.tab[3]", 0 ],
-			"obj-21" : [ "live.text[17]", "live.text", 0 ],
-			"obj-27" : [ "live.text[16]", "live.text", 0 ],
-			"obj-36" : [ "live.tab[10]", "live.tab[7]", 0 ],
-			"obj-4" : [ "live.text[54]", "live.text", 0 ],
-			"obj-96" : [ "class-gate-threshold", "Amount", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "__count_recent_classes.maxpat",
-				"bootpath" : "~/Documents/Max 9/Projects/sp-tools/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "list-interpolate.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "xpat.maxpat",
-				"bootpath" : "~/Documents/Max 9/Projects/xpat/patchers",
-				"patcherrelativepath" : "../../xpat/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+		"originid" : "pat-5904"
 	}
 
 }

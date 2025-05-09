@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1365.0, 959.0 ],
+		"rect" : [ 134.0, 100.0, 773.0, 822.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
@@ -57,7 +57,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 36.0, 295.0, 159.0, 158.5 ],
+					"patching_rect" : [ 36.0, 295.0, 159.0, 179.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.0, 6.0, 159.0, 158.5 ],
 					"saved_attribute_attributes" : 					{
@@ -78,11 +78,10 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_enum" : [ "bow", "bow_hi", "pluck", "chord", "col_legno", "malletdrag", "knock", "tremolo", "arpeggio" ],
+							"parameter_enum" : [ "bow_sustain", "bow_rhythm", "pluck", "chord", "col_legno", "malletdrag", "knock", "tremolo", "arpeggio" ],
 							"parameter_longname" : "live.tab[2]",
 							"parameter_mmax" : 8,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.tab",
 							"parameter_type" : 2,
 							"parameter_unitstyle" : 9
@@ -114,7 +113,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "list" ],
-					"patching_rect" : [ 330.0, 49.0, 56.0, 22.0 ],
+					"patching_rect" : [ 311.0, 72.0, 56.0, 22.0 ],
 					"text" : "listfunnel"
 				}
 
@@ -122,12 +121,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-24",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 330.0, 20.0, 379.0, 22.0 ],
-					"text" : "bow bow_hi pluck chord col_legno malletdrag knock tremolo arpeggio"
+					"patching_rect" : [ 330.0, 20.0, 404.0, 35.0 ],
+					"text" : "bow_sustain bow_rhythm pluck chord col_legno malletdrag knock tremolo arpeggio"
 				}
 
 			}
@@ -186,11 +186,11 @@
 						"count" : 9,
 						"data" : [ 							{
 								"key" : 0,
-								"value" : [ "bow" ]
+								"value" : [ "bow_sustain" ]
 							}
 , 							{
 								"key" : 1,
-								"value" : [ "bow_hi" ]
+								"value" : [ "bow_rhythm" ]
 							}
 , 							{
 								"key" : 2,
@@ -228,7 +228,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 311.0, 139.0, 187.0, 22.0 ],
+					"patching_rect" : [ 312.0, 139.0, 187.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 180.0, 63.0, 187.0, 22.0 ],
 					"saved_object_attributes" : 					{
@@ -300,7 +300,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 31.0, 290.0, 169.0, 168.5 ],
+					"patching_rect" : [ 31.0, 290.0, 169.0, 189.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 1.0, 169.0, 168.5 ],
 					"proportion" : 0.39,
@@ -407,7 +407,7 @@
 
 			}
  ],
-		"originid" : "pat-7938",
+		"originid" : "pat-30790",
 		"parameters" : 		{
 			"obj-6" : [ "live.tab[2]", "live.tab", 0 ],
 			"parameterbanks" : 			{

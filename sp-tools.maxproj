@@ -2,8 +2,8 @@
 	"name" : "sp-tools",
 	"version" : 1,
 	"creationdate" : 3752608503,
-	"modificationdate" : 3819670812,
-	"viewrect" : [ 0.0, 115.0, 1920.0, 931.0 ],
+	"modificationdate" : 3829658213,
+	"viewrect" : [ -972.0, 114.0, 735.0, 822.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 0,
@@ -246,6 +246,73 @@
 			}
 ,
 			"class-to-octa-scene.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/Max 9/Projects/sp-tools/patchers",
+					"projectrelativepath" : "./patchers"
+				}
+
+			}
+,
+			"supermodel.maxpat" : 			{
+				"kind" : "patcher",
+				"singleton" : 				{
+					"bootpath" : "~/Documents/Max 9/Projects/sp-tools/patchers",
+					"projectrelativepath" : "./patchers"
+				}
+
+			}
+,
+			"analyze-recently.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/Max 9/Projects/sp-tools/patchers",
+					"projectrelativepath" : "./patchers"
+				}
+
+			}
+,
+			"ICMC-25.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"kitchensink-cirbuf.maxpat" : 			{
+				"kind" : "patcher",
+				"singleton" : 				{
+					"bootpath" : "~/Documents/Max 9/Projects/sp-tools/patchers",
+					"projectrelativepath" : "./patchers"
+				}
+
+			}
+,
+			"rhythmic-variance-test.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/Max 9/Projects/sp-tools/patchers",
+					"projectrelativepath" : "./patchers"
+				}
+
+			}
+,
+			"list-autocorrelate.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/Max 9/Projects/sp-tools/patchers",
+					"projectrelativepath" : "./patchers"
+				}
+
+			}
+,
+			"_filter-to-corpus-2.maxpat" : 			{
+				"kind" : "patcher"
+			}
+,
+			"_input-filters.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
