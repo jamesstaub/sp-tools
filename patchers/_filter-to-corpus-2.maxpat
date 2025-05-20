@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 1402.0, 822.0 ],
+		"rect" : [ -1886.0, 87.0, 1852.0, 959.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
@@ -148,7 +148,7 @@
 
 							}
  ],
-						"originid" : "pat-162315"
+						"originid" : "pat-41746"
 					}
 ,
 					"patching_rect" : [ 22.0, 329.5, 84.0, 22.0 ],
@@ -206,7 +206,7 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "_filter_slider.maxpat",
-					"numinlets" : 2,
+					"numinlets" : 3,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
@@ -234,9 +234,9 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 380.0, 965.0, 169.0, 169.0 ],
+					"patching_rect" : [ 380.0, 965.0, 235.0, 235.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 369.0, 71.0, 176.0, 176.0 ],
+					"presentation_rect" : [ 368.0, 70.5, 235.0, 235.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -248,10 +248,11 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 510.0, 927.0, 61.0, 22.0 ],
+					"patching_rect" : [ 510.0, 927.0, 76.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 583.0, 71.0, 143.0, 22.0 ],
-					"text" : "size small"
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 731.0, 119.0, 57.0, 35.0 ],
+					"text" : "size medium"
 				}
 
 			}
@@ -280,7 +281,7 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "_filter_slider.maxpat",
-					"numinlets" : 2,
+					"numinlets" : 3,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
@@ -344,7 +345,7 @@
 				"box" : 				{
 					"fontname" : "Ableton Sans",
 					"id" : "obj-126",
-					"items" : [ "harp-cluster-1-corpus", ",", "harp-cluster-2-corpus", ",", "harp-cluster-3-corpus", ",", "harp-cluster-4-corpus", ",", "harp-cluster-5-corpus", ",", "megacorp-corpus", ",", "bassoon-keyslaps-corpus", ",", "cello-corpus", ",", "ceramics-corpus", ",", "elec-c", ",", "kalimba-corpus", ",", "sax-sliced-corpus" ],
+					"items" : [ "all-harp", ",", "harp-cluster-1-corpus", ",", "harp-cluster-2-corpus", ",", "harp-cluster-3-corpus", ",", "harp-cluster-4-corpus", ",", "harp-cluster-5-corpus", ",", "megacorp-corpus", ",", "bassoon-keyslaps-corpus", ",", "cello-corpus", ",", "ceramics-corpus", ",", "elec-c", ",", "kalimba-corpus", ",", "sax-sliced-corpus" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -903,7 +904,7 @@
 
 							}
  ],
-						"originid" : "pat-149765"
+						"originid" : "pat-41782"
 					}
 ,
 					"patching_rect" : [ 297.25, 377.0, 69.0, 22.0 ],
@@ -1446,7 +1447,7 @@
 
 							}
  ],
-						"originid" : "pat-149783"
+						"originid" : "pat-41800"
 					}
 ,
 					"patching_rect" : [ 268.25, 327.0, 107.0, 22.0 ],
@@ -1610,53 +1611,57 @@
 , 							{
 								"box" : 								{
 									"coll_data" : 									{
-										"count" : 12,
+										"count" : 13,
 										"data" : [ 											{
 												"key" : 0,
-												"value" : [ "/Users/jamesstaub/Library/CloudStorage/GoogleDrive-james.staub@gmail.com/My Drive/audio/sp-tools-corpora/HarpCorpus/cluster-1/harp-cluster-1-corpus.json" ]
+												"value" : [ "/Users/jamesstaub/Library/CloudStorage/GoogleDrive-james.staub@gmail.com/My Drive/audio/sp-tools-corpora/HarpCorpus/all/all-harp.json" ]
 											}
 , 											{
 												"key" : 1,
-												"value" : [ "/Users/jamesstaub/Library/CloudStorage/GoogleDrive-james.staub@gmail.com/My Drive/audio/sp-tools-corpora/HarpCorpus/cluster-2/harp-cluster-2-corpus.json" ]
+												"value" : [ "/Users/jamesstaub/Library/CloudStorage/GoogleDrive-james.staub@gmail.com/My Drive/audio/sp-tools-corpora/HarpCorpus/cluster-1/harp-cluster-1-corpus.json" ]
 											}
 , 											{
 												"key" : 2,
-												"value" : [ "/Users/jamesstaub/Library/CloudStorage/GoogleDrive-james.staub@gmail.com/My Drive/audio/sp-tools-corpora/HarpCorpus/cluster-3/harp-cluster-3-corpus.json" ]
+												"value" : [ "/Users/jamesstaub/Library/CloudStorage/GoogleDrive-james.staub@gmail.com/My Drive/audio/sp-tools-corpora/HarpCorpus/cluster-2/harp-cluster-2-corpus.json" ]
 											}
 , 											{
 												"key" : 3,
-												"value" : [ "/Users/jamesstaub/Library/CloudStorage/GoogleDrive-james.staub@gmail.com/My Drive/audio/sp-tools-corpora/HarpCorpus/cluster-4/harp-cluster-4-corpus.json" ]
+												"value" : [ "/Users/jamesstaub/Library/CloudStorage/GoogleDrive-james.staub@gmail.com/My Drive/audio/sp-tools-corpora/HarpCorpus/cluster-3/harp-cluster-3-corpus.json" ]
 											}
 , 											{
 												"key" : 4,
-												"value" : [ "/Users/jamesstaub/Library/CloudStorage/GoogleDrive-james.staub@gmail.com/My Drive/audio/sp-tools-corpora/HarpCorpus/cluster-5/harp-cluster-5-corpus.json" ]
+												"value" : [ "/Users/jamesstaub/Library/CloudStorage/GoogleDrive-james.staub@gmail.com/My Drive/audio/sp-tools-corpora/HarpCorpus/cluster-4/harp-cluster-4-corpus.json" ]
 											}
 , 											{
 												"key" : 5,
-												"value" : [ "/Users/jamesstaub/Library/CloudStorage/GoogleDrive-james.staub@gmail.com/My Drive/audio/sp-tools-corpora/MEGACORP/megacorp-corpus.json" ]
+												"value" : [ "/Users/jamesstaub/Library/CloudStorage/GoogleDrive-james.staub@gmail.com/My Drive/audio/sp-tools-corpora/HarpCorpus/cluster-5/harp-cluster-5-corpus.json" ]
 											}
 , 											{
 												"key" : 6,
-												"value" : [ "/Users/jamesstaub/Library/CloudStorage/GoogleDrive-james.staub@gmail.com/My Drive/audio/sp-tools-corpora/bassoon-keyslaps-corpus-main/bassoon-keyslaps-corpus.json" ]
+												"value" : [ "/Users/jamesstaub/Library/CloudStorage/GoogleDrive-james.staub@gmail.com/My Drive/audio/sp-tools-corpora/MEGACORP/megacorp-corpus.json" ]
 											}
 , 											{
 												"key" : 7,
-												"value" : [ "/Users/jamesstaub/Library/CloudStorage/GoogleDrive-james.staub@gmail.com/My Drive/audio/sp-tools-corpora/cello-sliced/cello-corpus.json" ]
+												"value" : [ "/Users/jamesstaub/Library/CloudStorage/GoogleDrive-james.staub@gmail.com/My Drive/audio/sp-tools-corpora/bassoon-keyslaps-corpus-main/bassoon-keyslaps-corpus.json" ]
 											}
 , 											{
 												"key" : 8,
-												"value" : [ "/Users/jamesstaub/Library/CloudStorage/GoogleDrive-james.staub@gmail.com/My Drive/audio/sp-tools-corpora/ceramics-sliced/ceramics-corpus.json" ]
+												"value" : [ "/Users/jamesstaub/Library/CloudStorage/GoogleDrive-james.staub@gmail.com/My Drive/audio/sp-tools-corpora/cello-sliced/cello-corpus.json" ]
 											}
 , 											{
 												"key" : 9,
-												"value" : [ "/Users/jamesstaub/Library/CloudStorage/GoogleDrive-james.staub@gmail.com/My Drive/audio/sp-tools-corpora/electr-c/sliced/elec-c.json" ]
+												"value" : [ "/Users/jamesstaub/Library/CloudStorage/GoogleDrive-james.staub@gmail.com/My Drive/audio/sp-tools-corpora/ceramics-sliced/ceramics-corpus.json" ]
 											}
 , 											{
 												"key" : 10,
-												"value" : [ "/Users/jamesstaub/Library/CloudStorage/GoogleDrive-james.staub@gmail.com/My Drive/audio/sp-tools-corpora/kalimba-sliced/kalimba-corpus.json" ]
+												"value" : [ "/Users/jamesstaub/Library/CloudStorage/GoogleDrive-james.staub@gmail.com/My Drive/audio/sp-tools-corpora/electr-c/sliced/elec-c.json" ]
 											}
 , 											{
 												"key" : 11,
+												"value" : [ "/Users/jamesstaub/Library/CloudStorage/GoogleDrive-james.staub@gmail.com/My Drive/audio/sp-tools-corpora/kalimba-sliced/kalimba-corpus.json" ]
+											}
+, 											{
+												"key" : 12,
 												"value" : [ "/Users/jamesstaub/Library/CloudStorage/GoogleDrive-james.staub@gmail.com/My Drive/audio/sp-tools-corpora/sax-sliced/sax-sliced-corpus.json" ]
 											}
  ]
@@ -1989,7 +1994,7 @@
 
 							}
  ],
-						"originid" : "pat-149787"
+						"originid" : "pat-41802"
 					}
 ,
 					"patching_rect" : [ 825.0, 274.0, 69.0, 22.0 ],
@@ -2141,7 +2146,7 @@
 
 							}
  ],
-						"originid" : "pat-149789"
+						"originid" : "pat-41804"
 					}
 ,
 					"patching_rect" : [ 1215.0, 247.0, 146.0, 22.0 ],
@@ -2457,7 +2462,7 @@
 
 											}
  ],
-										"originid" : "pat-150661"
+										"originid" : "pat-42674"
 									}
 ,
 									"patching_rect" : [ 137.500000000000682, 184.999999945718855, 165.0, 22.0 ],
@@ -2533,7 +2538,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 76.0, 288.0, 200.0, 22.0 ],
-									"text" : "set 104.489796 1921.451247"
+									"text" : "set 104.489796 0"
 								}
 
 							}
@@ -2753,7 +2758,7 @@
 
 							}
  ],
-						"originid" : "pat-150659"
+						"originid" : "pat-42672"
 					}
 ,
 					"patching_rect" : [ 1223.0, 508.0, 95.0, 22.0 ],
@@ -2999,7 +3004,7 @@
 						"live.menu[1]" : [ 1.0 ],
 						"live.text" : [ 1.0 ],
 						"live.text[1]" : [ 0.0 ],
-						"setup-range" : [ 28.571428571428573, 48.299319727891159 ],
+						"setup-range" : [ 3.290676416819013, 94.698354661791583 ],
 						"toggle-enabled" : [ 1.0 ],
 						"toggle-granular" : [ 0.0 ],
 						"toggle-granular-random" : [ 0.0 ],
@@ -3231,7 +3236,7 @@
 
 							}
  ],
-						"originid" : "pat-150673"
+						"originid" : "pat-42686"
 					}
 ,
 					"patching_rect" : [ 317.0, 682.0, 48.0, 22.0 ],
@@ -3768,7 +3773,7 @@
 
 							}
  ],
-						"originid" : "pat-150675"
+						"originid" : "pat-42688"
 					}
 ,
 					"patching_rect" : [ 818.0, 849.0, 120.0, 22.0 ],
@@ -3813,7 +3818,7 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "_filter_slider.maxpat",
-					"numinlets" : 2,
+					"numinlets" : 3,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
@@ -3874,7 +3879,7 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "_filter_slider.maxpat",
-					"numinlets" : 2,
+					"numinlets" : 3,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
@@ -3911,7 +3916,7 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "_filter_slider.maxpat",
-					"numinlets" : 2,
+					"numinlets" : 3,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
@@ -3948,7 +3953,7 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "_filter_slider.maxpat",
-					"numinlets" : 2,
+					"numinlets" : 3,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
@@ -4223,7 +4228,7 @@
 
 							}
  ],
-						"originid" : "pat-150711"
+						"originid" : "pat-42714"
 					}
 ,
 					"patching_rect" : [ 1295.0, 438.0, 67.0, 22.0 ],
@@ -4374,7 +4379,7 @@
 					"destination" : [ "obj-104", 0 ],
 					"source" : [ "obj-113", 1 ],
 					"watchpoint_flags" : 1,
-					"watchpoint_id" : 1
+					"watchpoint_id" : 3
 				}
 
 			}
@@ -5134,7 +5139,7 @@
 					"order" : 1,
 					"source" : [ "obj-97", 0 ],
 					"watchpoint_flags" : 1,
-					"watchpoint_id" : 2
+					"watchpoint_id" : 4
 				}
 
 			}
@@ -5203,7 +5208,7 @@
 
 			}
  ],
-		"originid" : "pat-149733",
+		"originid" : "pat-41744",
 		"parameters" : 		{
 			"obj-1" : [ "live.menu[7]", "live.menu[1]", 0 ],
 			"obj-131::obj-109" : [ "live.button[8]", "live.button", 0 ],
@@ -5516,7 +5521,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "u1131686116.js",
+				"name" : "u250026990.js",
 				"bootpath" : "~/Library/Application Support/Cycling '74/Max 9/Settings/temp64-Max",
 				"patcherrelativepath" : "../../../../../Library/Application Support/Cycling '74/Max 9/Settings/temp64-Max",
 				"type" : "TEXT",

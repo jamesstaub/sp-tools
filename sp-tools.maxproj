@@ -2,8 +2,8 @@
 	"name" : "sp-tools",
 	"version" : 1,
 	"creationdate" : 3752608503,
-	"modificationdate" : 3829658213,
-	"viewrect" : [ -972.0, 114.0, 735.0, 822.0 ],
+	"modificationdate" : 3830562340,
+	"viewrect" : [ 464.0, 100.0, 735.0, 822.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 0,
@@ -191,8 +191,7 @@
 ,
 			"25-performer.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1,
-				"toplevel" : 1
+				"local" : 1
 			}
 ,
 			"classifier-training.maxpat" : 			{
@@ -276,7 +275,8 @@
 ,
 			"ICMC-25.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1
+				"local" : 1,
+				"toplevel" : 1
 			}
 ,
 			"kitchensink-cirbuf.maxpat" : 			{
@@ -309,7 +309,12 @@
 			}
 ,
 			"_filter-to-corpus-2.maxpat" : 			{
-				"kind" : "patcher"
+				"kind" : "patcher",
+				"singleton" : 				{
+					"bootpath" : "~/Documents/Max 9/Projects/sp-tools/patchers",
+					"projectrelativepath" : "./patchers"
+				}
+
 			}
 ,
 			"_input-filters.maxpat" : 			{

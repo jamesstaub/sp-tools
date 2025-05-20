@@ -10,18 +10,131 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 1402.0, 822.0 ],
+		"rect" : [ -1886.0, 87.0, 1407.0, 959.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
-					"buffername" : "u1219510",
-					"id" : "obj-18",
-					"maxclass" : "waveform~",
-					"numinlets" : 5,
-					"numoutlets" : 6,
-					"outlettype" : [ "float", "float", "float", "float", "list", "" ],
-					"patching_rect" : [ 1233.0, 717.0, 506.0, 103.0 ]
+					"bgcolor" : [ 0.125490196078431, 0.125490196078431, 0.125490196078431, 0.0 ],
+					"id" : "obj-65",
+					"maxclass" : "multislider",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"orientation" : 0,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1730.5, 387.0, 37.0, 255.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 186.0, 387.0, 155.0, 8.0 ],
+					"setminmax" : [ 0.0, 20.0 ],
+					"setstyle" : 1,
+					"slidercolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 0.37 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-111",
+					"linecount" : 5,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1831.0, 262.0, 150.0, 74.0 ],
+					"text" : "loudness variance to be used in tandem with bow sustain vs tremolo classifier to help avoid false positives"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-107",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 0,
+					"patching_rect" : [ 364.0, 32.0, 35.0, 22.0 ],
+					"text" : "dac~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "@source", "Constanzo-PreparedSnare.wav", "@selection", 0.56, 0.76 ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-105",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "dk.demosound.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 5,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
+					"patching_rect" : [ 1675.0, -71.0, 343.0, 90.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-93",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1722.0, 82.0, 95.0, 22.0 ],
+					"text" : "source $1, bang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-77",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 1722.0, 203.0, 300.0, 22.0 ],
+					"text" : "fluid.bufstats~ @blocking 1 @numderivs 0 @select std"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-75",
+					"linecount" : 4,
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 1722.0, 117.0, 290.0, 62.0 ],
+					"text" : "fluid.bufloudness~ @numchans 1 @windowsize 256 @maxwindowsize 4096 @hopsize 64 @truepeak 0 @numframe 256 @padding 2 @select loudness @blocking 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-68",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 1722.0, 269.0, 54.0, 22.0 ],
+					"text" : "route list"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-61",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "list" ],
+					"patching_rect" : [ 1722.0, 234.0, 72.0, 22.0 ],
+					"text" : "fluid.buf2list"
 				}
 
 			}
@@ -33,7 +146,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1055.0, 733.0, 24.0, 24.0 ]
+					"patching_rect" : [ 1063.0, 649.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -44,7 +157,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 971.0, 621.0, 29.5, 22.0 ],
+					"patching_rect" : [ 980.0, 509.0, 29.5, 22.0 ],
 					"text" : "- 2"
 				}
 
@@ -56,7 +169,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 972.0, 692.0, 77.0, 22.0 ],
+					"patching_rect" : [ 980.0, 580.0, 77.0, 22.0 ],
 					"text" : "route symbol"
 				}
 
@@ -68,7 +181,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 972.0, 767.0, 79.0, 22.0 ],
+					"patching_rect" : [ 980.0, 683.0, 79.0, 22.0 ],
 					"text" : "setsymbol $1"
 				}
 
@@ -101,13 +214,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 972.0, 657.0, 125.0, 22.0 ],
+					"patching_rect" : [ 980.0, 545.0, 187.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
 						"precision" : 6
 					}
 ,
-					"text" : "coll all-rt-class-names"
+					"text" : "coll all-rt-class-names @embed 1"
 				}
 
 			}
@@ -127,7 +240,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 972.0, 794.0, 174.0, 177.0 ],
+					"patching_rect" : [ 980.0, 710.0, 174.0, 177.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 179.0, 222.0, 174.0, 177.0 ],
 					"viewvisibility" : 1
@@ -390,7 +503,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 926.0, 733.0, 30.0, 30.0 ]
+					"patching_rect" : [ 934.0, 649.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -425,7 +538,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "list", "" ],
-					"patching_rect" : [ 721.0, 313.5, 278.0, 22.0 ],
+					"patching_rect" : [ 721.0, 323.0, 278.0, 22.0 ],
 					"text" : "dk.mfccframe @startframe 0 @numframes 110250"
 				}
 
@@ -437,7 +550,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 712.5, 223.0, 47.0, 22.0 ],
+					"patching_rect" : [ 749.0, 242.0, 47.0, 22.0 ],
 					"text" : "zl nth 5"
 				}
 
@@ -681,7 +794,7 @@
 
 							}
  ],
-						"originid" : "pat-30832"
+						"originid" : "pat-7344"
 					}
 ,
 					"patching_rect" : [ 671.799999999999955, 74.5, 36.0, 22.0 ],
@@ -1528,7 +1641,7 @@
 
 											}
  ],
-										"originid" : "pat-31026"
+										"originid" : "pat-7538"
 									}
 ,
 									"patching_rect" : [ 370.0, 95.913147000000009, 79.0, 22.0 ],
@@ -1963,7 +2076,7 @@
 
 											}
  ],
-										"originid" : "pat-31028"
+										"originid" : "pat-7540"
 									}
 ,
 									"patching_rect" : [ 45.0, 238.739441000000028, 340.0, 22.0 ],
@@ -2281,7 +2394,7 @@
 
 							}
  ],
-						"originid" : "pat-31024"
+						"originid" : "pat-7536"
 					}
 ,
 					"patching_rect" : [ 255.0, 515.0, 181.0, 22.0 ],
@@ -2549,7 +2662,7 @@
 
 							}
  ],
-						"originid" : "pat-31034"
+						"originid" : "pat-7546"
 					}
 ,
 					"patching_rect" : [ 1262.0, 183.0, 86.0, 22.0 ],
@@ -2757,7 +2870,7 @@
 
 							}
  ],
-						"originid" : "pat-31036"
+						"originid" : "pat-7548"
 					}
 ,
 					"patching_rect" : [ 1092.0, 154.5, 86.0, 22.0 ],
@@ -2793,7 +2906,7 @@
 					"fontsize" : 10.0,
 					"hint" : "",
 					"id" : "obj-156",
-					"items" : [ "None", ",", "BlackHole 2ch", ",", "MacBook Air Speakers" ],
+					"items" : [ "None", ",", "ASUS VE258", ",", "BlackHole 2ch", ",", "External Headphones", ",", "MacBook Air Speakers" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2999,7 +3112,7 @@
 
 							}
  ],
-						"originid" : "pat-31038"
+						"originid" : "pat-7550"
 					}
 ,
 					"patching_rect" : [ 964.0, 154.5, 86.0, 22.0 ],
@@ -3161,7 +3274,7 @@
 
 							}
  ],
-						"originid" : "pat-31040"
+						"originid" : "pat-7552"
 					}
 ,
 					"patching_rect" : [ 870.0, 154.5, 86.0, 22.0 ],
@@ -3351,7 +3464,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 972.0, 537.0, 47.0, 22.0 ],
+					"patching_rect" : [ 980.0, 475.0, 47.0, 22.0 ],
 					"text" : "zl nth 1"
 				}
 
@@ -3363,7 +3476,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 934.0, 424.0, 71.0, 22.0 ],
+					"patching_rect" : [ 980.0, 382.0, 71.0, 22.0 ],
 					"text" : "fromsymbol"
 				}
 
@@ -3375,7 +3488,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 972.0, 507.0, 68.0, 22.0 ],
+					"patching_rect" : [ 980.0, 445.0, 68.0, 22.0 ],
 					"text" : "array.mode"
 				}
 
@@ -3387,7 +3500,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 972.0, 473.0, 67.0, 22.0 ],
+					"patching_rect" : [ 980.0, 411.0, 67.0, 22.0 ],
 					"text" : "zl stream 1"
 				}
 
@@ -3399,7 +3512,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "float", "", "" ],
-					"patching_rect" : [ 934.0, 382.0, 85.0, 22.0 ],
+					"patching_rect" : [ 980.0, 351.0, 85.0, 22.0 ],
 					"text" : "dk.classmatch"
 				}
 
@@ -3493,6 +3606,37 @@
 				"patchline" : 				{
 					"destination" : [ "obj-48", 0 ],
 					"source" : [ "obj-103", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-107", 1 ],
+					"order" : 0,
+					"source" : [ "obj-105", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-107", 0 ],
+					"order" : 1,
+					"source" : [ "obj-105", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-67", 0 ],
+					"source" : [ "obj-105", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-70", 0 ],
+					"order" : 2,
+					"source" : [ "obj-105", 1 ]
 				}
 
 			}
@@ -3675,7 +3819,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-62", 0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -3683,7 +3827,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-76", 1 ],
-					"order" : 1,
+					"order" : 2,
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-93", 0 ],
+					"order" : 0,
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -3957,8 +4109,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-18", 0 ],
-					"source" : [ "obj-62", 0 ]
+					"destination" : [ "obj-68", 0 ],
+					"source" : [ "obj-61", 0 ]
 				}
 
 			}
@@ -4018,6 +4170,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-65", 0 ],
+					"source" : [ "obj-68", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-1", 1 ],
 					"order" : 1,
 					"source" : [ "obj-70", 0 ]
@@ -4049,8 +4208,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-77", 0 ],
+					"source" : [ "obj-75", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-66", 0 ],
 					"source" : [ "obj-76", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-61", 0 ],
+					"source" : [ "obj-77", 0 ]
 				}
 
 			}
@@ -4128,6 +4301,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-75", 0 ],
+					"source" : [ "obj-93", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-101", 0 ],
 					"source" : [ "obj-97", 0 ]
 				}
@@ -4181,9 +4361,10 @@
 
 			}
  ],
-		"originid" : "pat-30812",
+		"originid" : "pat-7324",
 		"parameters" : 		{
 			"obj-102::obj-6" : [ "live.tab[2]", "live.tab", 0 ],
+			"obj-105::obj-43" : [ "live.gain~[1]", "live.gain~[1]", 0 ],
 			"obj-21" : [ "live.dial[32]", "lockout", 0 ],
 			"obj-23" : [ "live.dial[30]", "floor", 0 ],
 			"obj-25" : [ "live.dial[33]", "sensitivity", 0 ],
@@ -4224,6 +4405,13 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "Rivero-MelodicVocals.wav",
+				"bootpath" : "~/Documents/Max 9/Packages/DK - beta A/media/Musical Examples",
+				"patcherrelativepath" : "../../../Packages/DK - beta A/media/Musical Examples",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "_adc.maxpat",
 				"bootpath" : "~/Documents/Max 9/Projects/sp-tools/patchers",
 				"patcherrelativepath" : ".",
@@ -4262,6 +4450,13 @@
 				"name" : "dk.convolver~.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/DK - beta A/patchers",
 				"patcherrelativepath" : "../../../Packages/DK - beta A/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dk.demosound.maxpat",
+				"bootpath" : "~/Documents/Max 9/Packages/DK - beta A/misc/Misc",
+				"patcherrelativepath" : "../../../Packages/DK - beta A/misc/Misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
