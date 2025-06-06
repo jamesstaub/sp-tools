@@ -228,7 +228,7 @@
 
 							}
  ],
-						"originid" : "pat-36267"
+						"originid" : "pat-7900"
 					}
 ,
 					"patching_rect" : [ -79.0, 245.88958883715668, 49.0, 22.0 ],
@@ -870,7 +870,7 @@
 
 							}
  ],
-						"originid" : "pat-36269"
+						"originid" : "pat-7902"
 					}
 ,
 					"patching_rect" : [ 170.0, 261.331233162843432, 45.0, 22.0 ],
@@ -1397,7 +1397,7 @@
 
 			}
  ],
-		"originid" : "pat-36265",
+		"originid" : "pat-7898",
 		"parameters" : 		{
 			"obj-109" : [ "live.button[13]", "live.button", 0 ],
 			"obj-158" : [ "live.text[15]", "live.text", 0 ],

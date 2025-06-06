@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -1886.0, 87.0, 1852.0, 959.0 ],
+		"rect" : [ 34.0, 100.0, 1402.0, 822.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
@@ -55,12 +55,27 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ -1920.0, 53.0, 1920.0, 1027.0 ],
+						"rect" : [ 0.0, 66.0, 1470.0, 890.0 ],
 						"openinpresentation" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
 						"toolbarvisible" : 0,
 						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"attr" : "speed",
+									"id" : "obj-2",
+									"maxclass" : "attrui",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 174.0, 50.0, 150.0, 22.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 213.0, 246.0, 184.0, 22.0 ]
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"basictuning" : 440,
 									"clipheight" : 83.0,
@@ -214,13 +229,25 @@
 , 							{
 								"box" : 								{
 									"basictuning" : 440,
-									"clipheight" : 70.5,
+									"clipheight" : 46.666666666666664,
 									"data" : 									{
 										"clips" : [ 											{
 												"absolutepath" : "/Users/jamesstaub/Documents/Live/cello-examples Project/phrases.aif",
 												"filename" : "phrases.aif",
 												"filekind" : "audiofile",
 												"id" : "u813326545",
+												"selection" : [ 0.162903225806452, 0.204838709677419 ],
+												"loop" : 1,
+												"content_state" : 												{
+													"loop" : 1
+												}
+
+											}
+, 											{
+												"absolutepath" : "/Users/jamesstaub/Library/CloudStorage/GoogleDrive-james.staub@gmail.com/My Drive/audio/handpan cello jam.mp3",
+												"filename" : "handpan cello jam.mp3",
+												"filekind" : "audiofile",
+												"id" : "u488024517",
 												"loop" : 0,
 												"content_state" : 												{
 
@@ -389,6 +416,22 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-16", 0 ],
+									"order" : 1,
+									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-7", 0 ],
+									"order" : 0,
+									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-1", 0 ],
 									"source" : [ "obj-3", 0 ]
 								}
@@ -448,7 +491,7 @@
 
 							}
  ],
-						"originid" : "pat-10301"
+						"originid" : "pat-21094"
 					}
 ,
 					"patching_rect" : [ 350.0, 89.0, 447.0, 22.0 ],
@@ -1038,7 +1081,7 @@
 
 			}
  ],
-		"originid" : "pat-10299",
+		"originid" : "pat-21092",
 		"parameters" : 		{
 			"obj-13::obj-19" : [ "live.gain~[5]", "live.gain~", 0 ],
 			"obj-41" : [ "live.text[1]", "live.text", 0 ],
@@ -1063,16 +1106,16 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "phrases.aif",
-				"bootpath" : "~/Documents/Live/cello-examples Project",
-				"patcherrelativepath" : "../../../../Live/cello-examples Project",
-				"type" : "AIFF",
+				"name" : "handpan cello jam.mp3",
+				"bootpath" : "~/Library/CloudStorage/GoogleDrive-james.staub@gmail.com/My Drive/audio",
+				"patcherrelativepath" : "../../../../../Library/CloudStorage/GoogleDrive-james.staub@gmail.com/My Drive/audio",
+				"type" : "Mp3",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "staub-cello-examples.aif",
-				"bootpath" : "~/Library/CloudStorage/GoogleDrive-james.staub@gmail.com/My Drive/audio/sp-tools-corpora",
-				"patcherrelativepath" : "../../../../../Library/CloudStorage/GoogleDrive-james.staub@gmail.com/My Drive/audio/sp-tools-corpora",
+				"name" : "phrases.aif",
+				"bootpath" : "~/Documents/Live/cello-examples Project",
+				"patcherrelativepath" : "../../../../Live/cello-examples Project",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
