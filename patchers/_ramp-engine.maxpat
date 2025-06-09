@@ -2,42 +2,17 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 6,
-			"revision" : 1,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 35.0, 116.0, 1612.0, 901.0 ],
-		"bglocked" : 0,
+		"rect" : [ 34.0, 100.0, 1070.0, 822.0 ],
 		"openinpresentation" : 1,
-		"default_fontsize" : 12.0,
-		"default_fontface" : 0,
-		"default_fontname" : "Arial",
-		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
-		"objectsnaponopen" : 1,
-		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
-		"lefttoolbarpinned" : 0,
-		"toptoolbarpinned" : 0,
-		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
-		"tallnewobj" : 0,
-		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
-		"style" : "",
-		"subpatcher_template" : "",
-		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-9",
@@ -104,7 +79,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 132.523809523809973, 410.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 345.0, 56.0, 40.0, 22.0 ]
+					"presentation_rect" : [ 345.0, 56.0, 40.0, 22.0 ],
+					"varname" : "scalemin"
 				}
 
 			}
@@ -119,7 +95,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 195.880952380952863, 410.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 344.0, 92.0, 40.0, 22.0 ]
+					"presentation_rect" : [ 344.0, 92.0, 40.0, 22.0 ],
+					"varname" : "scalemax"
 				}
 
 			}
@@ -182,14 +159,16 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 395.0, 10.0, 56.0, 22.0 ],
+					"patching_rect" : [ 320.0, 44.0, 56.0, 22.0 ],
 					"restore" : 					{
 						"events" : [ 16 ],
 						"function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 0.085185185185185, 1.0, 0, 0.0, 0.172222222222222, 0.0, 0, 0.0, 0.416666666666667, 0.434782608695652, 0, 0.0, 0.542592592592593, 0.0, 0, 0.0, 0.544444444444444, 0.527950310559006, 0, 0.0, 0.642592592592593, 0.608695652173913, 0, -0.695, 0.661111111111111, 1.0, 0, 0.0, 0.694444444444444, 0.192546583850932, 0, 0.0, 0.768518518518518, 0.229813664596273, 0, 0.85, 0.894444444444444, 0.732919254658385, 0, 0.0, 1.0, 0.236024844720497, 0, 0.0, "curve" ],
 						"live.tab" : [ 1.0 ],
 						"live.toggle" : [ 1.0 ],
 						"loop" : [ 0 ],
-						"speed" : [ 100.000000000000114 ]
+						"scalemax" : [ 1.0 ],
+						"scalemin" : [ 0.0 ],
+						"speed" : [ 100.000000000000085 ]
 					}
 ,
 					"text" : "autopattr",
@@ -803,6 +782,7 @@
 
 			}
  ],
+		"originid" : "pat-15376",
 		"parameters" : 		{
 			"obj-11" : [ "toggle[4]", "toggle", 0 ],
 			"obj-3" : [ "live.tab[2]", "live.tab[2]", 0 ],
@@ -823,8 +803,8 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "dk.ramp.maxpat",
-				"bootpath" : "~/Documents/Max 8/Library/SP-Tools/patchers",
-				"patcherrelativepath" : "../../../Library/SP-Tools/patchers",
+				"bootpath" : "~/Documents/Max 9/Packages/DK - beta A/patchers",
+				"patcherrelativepath" : "../../../Packages/DK - beta A/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
