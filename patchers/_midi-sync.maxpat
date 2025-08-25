@@ -4,23 +4,132 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1612.0, 929.0 ],
+		"rect" : [ 34.0, 100.0, 1402.0, 822.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-25",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 636.0, 89.0, 150.0, 33.0 ],
+					"text" : "Loopback 13 -> 12 so octa can trigger midi via THRU"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-19",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "int", "int" ],
+					"patching_rect" : [ 813.0, 149.0, 29.5, 22.0 ],
+					"text" : "t i i"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-18",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 817.0, 219.0, 32.0, 22.0 ],
+					"text" : "gate"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-15",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 813.0, 183.0, 39.0, 22.0 ],
+					"text" : "== 13"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.968627450980392, 0.431372549019608, 0.431372549019608, 1.0 ],
+					"id" : "obj-12",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 751.0, 207.0, 53.0, 22.0 ],
+					"text" : "r portout"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.968627450980392, 0.431372549019608, 0.431372549019608, 1.0 ],
+					"id" : "obj-11",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 640.0, 135.0, 46.0, 22.0 ],
+					"text" : "r portin"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 817.0, 250.0, 29.5, 22.0 ],
+					"text" : "- 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 0,
+					"patching_rect" : [ 640.0, 233.0, 153.0, 22.0 ],
+					"text" : "noteout"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "int", "int" ],
+					"patching_rect" : [ 640.0, 173.0, 153.0, 22.0 ],
+					"text" : "notein"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontsize" : 16.0,
 					"id" : "obj-50",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 387.0, 80.0, 199.0, 24.0 ],
+					"patching_rect" : [ 374.0, 32.0, 199.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 7.0, 6.0, 38.0, 24.0 ],
 					"text" : "midi"
@@ -47,7 +156,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 235.0, 154.0, 215.0, 22.0 ],
-					"text" : "set \"PreSonus AudioBox iTwo MIDI IN\""
+					"text" : "set \"PreSonus AudioBox iTwo\""
 				}
 
 			}
@@ -58,8 +167,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 235.0, 188.0, 228.0, 22.0 ],
-					"text" : "set \"PreSonus AudioBox iTwo MIDI OUT\""
+					"patching_rect" : [ 235.0, 188.0, 171.0, 22.0 ],
+					"text" : "set \"PreSonus AudioBox iTwo\""
 				}
 
 			}
@@ -84,7 +193,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 754.0, 87.0, 199.0, 96.0 ],
+					"patching_rect" : [ 228.0, 4.0, 199.0, 96.0 ],
 					"text" : "global midi setup.\n\nset ports and sync transport to external device"
 				}
 
@@ -134,7 +243,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-26",
-					"items" : [ "to Max 1", ",", "to Max 2", ",", "PreSonus AudioBox iTwo MIDI OUT" ],
+					"items" : [ "PreSonus AudioBox iTwo", ",", "to Max 1", ",", "to Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -142,7 +251,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ -94.0, 212.0, 246.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 60.0, 197.0, 20.0 ]
+					"presentation_rect" : [ 104.0, 35.0, 99.0, 20.0 ]
 				}
 
 			}
@@ -166,7 +275,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-29",
-					"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2", ",", "PreSonus AudioBox iTwo MIDI IN" ],
+					"items" : [ "AU DLS Synth 1", ",", "PreSonus AudioBox iTwo", ",", "from Max 1", ",", "from Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -174,7 +283,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ -94.0, 178.0, 246.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 35.0, 197.0, 20.0 ]
+					"presentation_rect" : [ 3.0, 35.0, 99.0, 20.0 ]
 				}
 
 			}
@@ -187,7 +296,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ -94.0, 123.0, 55.0, 23.0 ],
+					"patching_rect" : [ -56.0, 123.0, 55.0, 23.0 ],
 					"text" : "midiinfo"
 				}
 
@@ -201,7 +310,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ -94.0, 89.0, 35.0, 23.0 ],
+					"patching_rect" : [ -21.0, 51.0, 35.0, 23.0 ],
 					"text" : "1"
 				}
 
@@ -333,7 +442,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -484,14 +593,10 @@
 
 							}
  ],
-						"originid" : "pat-14149"
+						"originid" : "pat-36"
 					}
 ,
 					"patching_rect" : [ 343.0, 472.0, 114.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"globalpatchername" : ""
-					}
-,
 					"text" : "p subdivision_ratios"
 				}
 
@@ -618,7 +723,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -800,14 +905,10 @@
 
 							}
  ],
-						"originid" : "pat-14151"
+						"originid" : "pat-38"
 					}
 ,
 					"patching_rect" : [ 156.0, 420.0, 61.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"globalpatchername" : ""
-					}
-,
 					"text" : "p deejitter"
 				}
 
@@ -827,7 +928,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 695.0, 451.5, 199.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.0, 89.0, 76.0, 24.0 ],
+					"presentation_rect" : [ 3.0, 60.0, 76.0, 24.0 ],
 					"prototypename" : "onoff",
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -835,7 +936,6 @@
 							"parameter_longname" : "live.text[48]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -918,7 +1018,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 398.0, 407.0, 142.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 156.0, 90.0, 33.0, 21.0 ],
+					"presentation_rect" : [ 156.0, 61.0, 33.0, 21.0 ],
 					"text" : "BPM"
 				}
 
@@ -946,7 +1046,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 343.0, 406.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 104.0, 90.0, 50.0, 22.0 ]
+					"presentation_rect" : [ 104.0, 61.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -1038,8 +1138,50 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-18", 0 ],
+					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-82", 0 ],
 					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"source" : [ "obj-18", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-15", 0 ],
+					"source" : [ "obj-19", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-18", 1 ],
+					"source" : [ "obj-19", 1 ]
 				}
 
 			}
@@ -1067,7 +1209,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-30", 0 ],
-					"midpoints" : [ -84.5, 89.5, -84.5, 89.5 ],
+					"midpoints" : [ -11.5, 89.5, -46.5, 89.5 ],
 					"source" : [ "obj-22", 0 ]
 				}
 
@@ -1104,6 +1246,27 @@
 				"patchline" : 				{
 					"destination" : [ "obj-44", 0 ],
 					"source" : [ "obj-29", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-19", 0 ],
+					"source" : [ "obj-3", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 1 ],
+					"source" : [ "obj-3", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}
@@ -1265,6 +1428,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-6", 2 ],
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
 					"source" : [ "obj-80", 7 ]
 				}
@@ -1322,7 +1492,7 @@
 
 			}
  ],
-		"originid" : "pat-14147"
+		"originid" : "pat-34"
 	}
 
 }

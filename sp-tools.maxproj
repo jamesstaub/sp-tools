@@ -2,7 +2,7 @@
 	"name" : "sp-tools",
 	"version" : 1,
 	"creationdate" : 3752608503,
-	"modificationdate" : 3830562340,
+	"modificationdate" : 3838918877,
 	"viewrect" : [ 464.0, 100.0, 735.0, 822.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
@@ -318,6 +318,16 @@
 			}
 ,
 			"_input-filters.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"ot-track-trig.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"rt-pitch-confidence-filtered.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
