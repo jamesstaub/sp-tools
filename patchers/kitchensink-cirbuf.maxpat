@@ -10,10 +10,22 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 1107.0, 822.0 ],
+		"rect" : [ 34.0, 100.0, 1402.0, 822.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-49",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 829.0, 237.0, 150.0, 60.0 ],
+					"text" : "if the onset is not percussive, pass the circular analysis buffer for longer mfcc analyss"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-113",
 					"maxclass" : "newobj",
@@ -213,10 +225,10 @@
 
 							}
  ],
-						"originid" : "pat-20832"
+						"originid" : "pat-3266"
 					}
 ,
-					"patching_rect" : [ 898.0, 703.0, 65.0, 22.0 ],
+					"patching_rect" : [ 894.0, 657.0, 65.0, 22.0 ],
 					"text" : "p override"
 				}
 
@@ -241,7 +253,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 673.5, 183.0, 125.0, 22.0 ],
+					"patching_rect" : [ 673.5, 157.0, 125.0, 22.0 ],
 					"text" : "route knock col_legno"
 				}
 
@@ -277,7 +289,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 898.0, 746.0, 50.0, 22.0 ],
+					"patching_rect" : [ 894.0, 700.0, 50.0, 22.0 ],
 					"text" : "pack s f"
 				}
 
@@ -438,7 +450,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 980.0, 791.0, 79.0, 22.0 ],
+					"patching_rect" : [ 976.0, 745.0, 79.0, 22.0 ],
 					"text" : "setsymbol $1"
 				}
 
@@ -497,7 +509,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 980.0, 825.0, 174.0, 177.0 ],
+					"patching_rect" : [ 976.0, 779.0, 174.0, 177.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 179.0, 222.0, 174.0, 177.0 ],
 					"viewvisibility" : 1
@@ -744,11 +756,11 @@
 				"box" : 				{
 					"comment" : "slower-classifier, loudness-variance",
 					"id" : "obj-87",
-					"index" : 0,
+					"index" : 9,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 898.0, 794.0, 30.0, 30.0 ]
+					"patching_rect" : [ 894.0, 748.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -865,7 +877,7 @@
 					"comment" : "envelope out",
 					"id" : "obj-187",
 					"ignoreclick" : 1,
-					"index" : 0,
+					"index" : 7,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -878,7 +890,7 @@
 					"comment" : "envelope-gate out",
 					"id" : "obj-186",
 					"ignoreclick" : 1,
-					"index" : 0,
+					"index" : 8,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1039,7 +1051,7 @@
 
 							}
  ],
-						"originid" : "pat-20856"
+						"originid" : "pat-3290"
 					}
 ,
 					"patching_rect" : [ 671.799999999999955, 74.5, 36.0, 22.0 ],
@@ -1222,7 +1234,7 @@
 				"box" : 				{
 					"comment" : "kitchen dumpout",
 					"id" : "obj-3",
-					"index" : 0,
+					"index" : 4,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1235,7 +1247,7 @@
 					"comment" : "secondary (ch 2 air mic)",
 					"id" : "obj-81",
 					"ignoreclick" : 1,
-					"index" : 0,
+					"index" : 6,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1248,7 +1260,7 @@
 					"comment" : "primary (ch 1 pickup)",
 					"id" : "obj-80",
 					"ignoreclick" : 1,
-					"index" : 0,
+					"index" : 5,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1496,7 +1508,7 @@
 				"box" : 				{
 					"comment" : "thispatcher",
 					"id" : "obj-43",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1538,7 +1550,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 525.0, 362.0, 72.0, 22.0 ],
+					"patching_rect" : [ 505.0, 358.0, 72.0, 22.0 ],
 					"text" : "classifier $1"
 				}
 
@@ -1547,7 +1559,7 @@
 				"box" : 				{
 					"comment" : "{class, descriptors, melbands, MFCCs}",
 					"id" : "obj-6",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1559,7 +1571,7 @@
 				"box" : 				{
 					"comment" : "trigger",
 					"id" : "obj-7",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1886,7 +1898,7 @@
 
 											}
  ],
-										"originid" : "pat-21050"
+										"originid" : "pat-3484"
 									}
 ,
 									"patching_rect" : [ 370.0, 95.913147000000009, 79.0, 22.0 ],
@@ -2321,7 +2333,7 @@
 
 											}
  ],
-										"originid" : "pat-21052"
+										"originid" : "pat-3486"
 									}
 ,
 									"patching_rect" : [ 45.0, 238.739441000000028, 340.0, 22.0 ],
@@ -2639,7 +2651,7 @@
 
 							}
  ],
-						"originid" : "pat-21048"
+						"originid" : "pat-3482"
 					}
 ,
 					"patching_rect" : [ 255.0, 515.0, 181.0, 22.0 ],
@@ -2691,7 +2703,7 @@
 					"numoutlets" : 3,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "" ],
-					"patching_rect" : [ 11.0, 7.0, 169.0, 95.0 ],
+					"patching_rect" : [ 11.0, -11.0, 169.0, 95.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 1.0, 173.0, 103.0 ],
 					"viewvisibility" : 1
@@ -2703,7 +2715,7 @@
 					"comment" : "onsett gate",
 					"id" : "obj-39",
 					"ignoreclick" : 1,
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2907,7 +2919,7 @@
 
 							}
  ],
-						"originid" : "pat-21058"
+						"originid" : "pat-3492"
 					}
 ,
 					"patching_rect" : [ 1262.0, 183.0, 86.0, 22.0 ],
@@ -3115,7 +3127,7 @@
 
 							}
  ],
-						"originid" : "pat-21060"
+						"originid" : "pat-3494"
 					}
 ,
 					"patching_rect" : [ 1092.0, 154.5, 86.0, 22.0 ],
@@ -3151,7 +3163,7 @@
 					"fontsize" : 10.0,
 					"hint" : "",
 					"id" : "obj-156",
-					"items" : [ "None", ",", "PreSonus AudioBox iTwo", ",", "BlackHole 2ch", ",", "MacBook Air Speakers" ],
+					"items" : [ "None", ",", "PreSonus AudioBox iTwo", ",", "BlackHole 16ch", ",", "BlackHole 2ch", ",", "MacBook Air Speakers", ",", "Presonus+Zoom" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -3191,7 +3203,7 @@
 					"fontsize" : 10.0,
 					"hint" : "",
 					"id" : "obj-158",
-					"items" : [ "None", ",", "PreSonus AudioBox iTwo", ",", "BlackHole 2ch", ",", "MacBook Air Microphone" ],
+					"items" : [ "None", ",", "PreSonus AudioBox iTwo", ",", "BlackHole 16ch", ",", "BlackHole 2ch", ",", "MacBook Air Microphone", ",", "Presonus+Zoom" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -3357,7 +3369,7 @@
 
 							}
  ],
-						"originid" : "pat-21062"
+						"originid" : "pat-3496"
 					}
 ,
 					"patching_rect" : [ 964.0, 154.5, 86.0, 22.0 ],
@@ -3519,7 +3531,7 @@
 
 							}
  ],
-						"originid" : "pat-21064"
+						"originid" : "pat-3498"
 					}
 ,
 					"patching_rect" : [ 870.0, 154.5, 86.0, 22.0 ],
@@ -3696,7 +3708,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 417.0, 729.0, 128.0, 128.0 ],
+					"patching_rect" : [ 440.0, 718.0, 128.0, 128.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 179.0, 0.0, 174.0, 422.0 ]
 				}
@@ -4670,277 +4682,7 @@
 
 			}
  ],
-		"originid" : "pat-20830",
-		"parameters" : 		{
-			"obj-102::obj-6" : [ "live.tab[2]", "live.tab", 0 ],
-			"obj-105::obj-43" : [ "live.gain~[1]", "live.gain~[1]", 0 ],
-			"obj-21" : [ "live.dial[32]", "lockout", 0 ],
-			"obj-23" : [ "live.dial[30]", "floor", 0 ],
-			"obj-25" : [ "live.dial[33]", "sensitivity", 0 ],
-			"obj-28::obj-13::obj-19" : [ "live.gain~[5]", "live.gain~", 0 ],
-			"obj-28::obj-41" : [ "live.text[1]", "live.text", 0 ],
-			"obj-28::obj-5" : [ "live.tab[4]", "live.tab", 0 ],
-			"obj-31" : [ "live.text[29]", "live.text", 0 ],
-			"obj-53::obj-3" : [ "live.tab[1]", "live.tab", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"parameter_overrides" : 			{
-				"obj-102::obj-6" : 				{
-					"parameter_invisible" : 0,
-					"parameter_modmode" : 0,
-					"parameter_range" : [ "bow_sustain", "bow_rhythm", "pluck", "tremolo" ],
-					"parameter_type" : 2,
-					"parameter_unitstyle" : 9
-				}
-,
-				"obj-53::obj-3" : 				{
-					"parameter_invisible" : 0,
-					"parameter_modmode" : 0,
-					"parameter_range" : [ "note", "note_hi", "col_legno", "knock" ],
-					"parameter_type" : 2,
-					"parameter_unitstyle" : 9
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "Constanzo-PreparedSnare.wav",
-				"bootpath" : "~/Documents/Max 9/Packages/DK - beta A/media/Musical Examples",
-				"patcherrelativepath" : "../../../Packages/DK - beta A/media/Musical Examples",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "_adc.maxpat",
-				"bootpath" : "~/Documents/Max 9/Projects/sp-tools/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "cello-schertler-dpa-timbres.wav",
-				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../../../../Downloads",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "dk.adstatussr.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/DK - beta A/misc/Misc",
-				"patcherrelativepath" : "../../../Packages/DK - beta A/misc/Misc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "dk.classifierdisplay.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/DK - beta A/patchers",
-				"patcherrelativepath" : "../../../Packages/DK - beta A/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "dk.classmatch.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/DK - beta A/patchers",
-				"patcherrelativepath" : "../../../Packages/DK - beta A/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "dk.convolver~.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/DK - beta A/patchers",
-				"patcherrelativepath" : "../../../Packages/DK - beta A/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "dk.demosound.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/DK - beta A/misc/Misc",
-				"patcherrelativepath" : "../../../Packages/DK - beta A/misc/Misc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "dk.descriptorframe.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/DK - beta A/patchers",
-				"patcherrelativepath" : "../../../Packages/DK - beta A/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "dk.envelope~.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/DK - beta A/patchers",
-				"patcherrelativepath" : "../../../Packages/DK - beta A/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "dk.melbandframe.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/DK - beta A/patchers",
-				"patcherrelativepath" : "../../../Packages/DK - beta A/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "dk.mfccframe.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/DK - beta A/patchers",
-				"patcherrelativepath" : "../../../Packages/DK - beta A/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "dk.multiconvolve~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "dk.onsetfeaturecore~.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/DK - beta A/misc/Misc",
-				"patcherrelativepath" : "../../../Packages/DK - beta A/misc/Misc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "dk.onsetframe~.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/DK - beta A/patchers",
-				"patcherrelativepath" : "../../../Packages/DK - beta A/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "dk.onset~.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/DK - beta A/patchers",
-				"patcherrelativepath" : "../../../Packages/DK - beta A/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "dk.spectralonset~.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/DK - beta A/patchers",
-				"patcherrelativepath" : "../../../Packages/DK - beta A/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "dk.triggeralign~.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/DK - beta A/patchers",
-				"patcherrelativepath" : "../../../Packages/DK - beta A/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fluid.ampfeature~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.buf2list.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.bufflatten~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.bufloudness~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.bufmelbands~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.bufmfcc~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.bufpitch~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.bufscale~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.bufselectevery~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.bufspectralshape~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.bufstats~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.dataset~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.knnclassifier~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.labelset~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.list2buf.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.mlpclassifier~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.onsetfeature~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "handpan cello jam.mp3",
-				"bootpath" : "~/Library/CloudStorage/GoogleDrive-james.staub@gmail.com/My Drive/audio",
-				"patcherrelativepath" : "../../../../../Library/CloudStorage/GoogleDrive-james.staub@gmail.com/My Drive/audio",
-				"type" : "Mp3",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "js.dk.classkitchensink~.maxpat",
-				"bootpath" : "~/Documents/Max 9/Library/js.dk",
-				"patcherrelativepath" : "../../../Library/js.dk",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "phrases.aif",
-				"bootpath" : "~/Documents/Live/cello-examples Project",
-				"patcherrelativepath" : "../../../../Live/cello-examples Project",
-				"type" : "AIFF",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "resizeBpatcherWindow.js",
-				"bootpath" : "~/Documents/Max 9/Packages/DK - beta A/javascript",
-				"patcherrelativepath" : "../../../Packages/DK - beta A/javascript",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "rt-class-selector.maxpat",
-				"bootpath" : "~/Documents/Max 9/Projects/sp-tools/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+		"originid" : "pat-3264"
 	}
 
 }

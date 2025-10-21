@@ -15,6 +15,30 @@
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-15",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "signal" ],
+					"patching_rect" : [ 332.0, 604.0, 83.0, 22.0 ],
+					"text" : "dk.convolver~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-14",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 218.0, 604.0, 88.0, 22.0 ],
+					"text" : "multiconvolve~"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-11",
 					"linecount" : 4,
 					"maxclass" : "comment",
@@ -32,7 +56,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 436.0, 23.0, 70.0, 22.0 ],
+					"patching_rect" : [ 133.0, -15.0, 70.0, 22.0 ],
 					"text" : "loadmess 0"
 				}
 
@@ -59,7 +83,6 @@
 						"openinpresentation" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
 						"toolbarvisible" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"attr" : "speed",
@@ -491,10 +514,10 @@
 
 							}
  ],
-						"originid" : "pat-21094"
+						"originid" : "pat-3490"
 					}
 ,
-					"patching_rect" : [ 350.0, 89.0, 447.0, 22.0 ],
+					"patching_rect" : [ 466.0, 155.0, 178.0, 22.0 ],
 					"text" : "p"
 				}
 
@@ -503,7 +526,7 @@
 				"box" : 				{
 					"comment" : "input mode",
 					"id" : "obj-32",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -678,7 +701,7 @@
 				"box" : 				{
 					"comment" : "primary input (pickup)",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -690,7 +713,7 @@
 				"box" : 				{
 					"comment" : "secondary input (air mic)",
 					"id" : "obj-1",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -783,7 +806,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 27.444794418578226, 54.0, 55.0, 22.0 ],
+					"patching_rect" : [ 26.0, -259.0, 55.0, 22.0 ],
 					"text" : "adc~ 1 2"
 				}
 
@@ -945,7 +968,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
-					"order" : 2,
+					"order" : 1,
 					"source" : [ "obj-41", 0 ]
 				}
 
@@ -953,7 +976,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-40", 0 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-41", 0 ]
 				}
 
@@ -1081,46 +1104,7 @@
 
 			}
  ],
-		"originid" : "pat-21092",
-		"parameters" : 		{
-			"obj-13::obj-19" : [ "live.gain~[5]", "live.gain~", 0 ],
-			"obj-41" : [ "live.text[1]", "live.text", 0 ],
-			"obj-5" : [ "live.tab[4]", "live.tab", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "cello-schertler-dpa-timbres.wav",
-				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../../../../Downloads",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "handpan cello jam.mp3",
-				"bootpath" : "~/Library/CloudStorage/GoogleDrive-james.staub@gmail.com/My Drive/audio",
-				"patcherrelativepath" : "../../../../../Library/CloudStorage/GoogleDrive-james.staub@gmail.com/My Drive/audio",
-				"type" : "Mp3",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "phrases.aif",
-				"bootpath" : "~/Documents/Live/cello-examples Project",
-				"patcherrelativepath" : "../../../../Live/cello-examples Project",
-				"type" : "AIFF",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
+		"originid" : "pat-3488",
 		"oscreceiveudpport" : 0
 	}
 

@@ -10,10 +10,34 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 134.0, 100.0, 895.0, 822.0 ],
+		"rect" : [ 34.0, 100.0, 1402.0, 822.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-34",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 346.0, 247.0, 46.0, 22.0 ],
+					"text" : "sel 112"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 4,
+					"outlettype" : [ "int", "int", "int", "int" ],
+					"patching_rect" : [ 230.0, 272.0, 50.5, 22.0 ],
+					"text" : "key"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-9",
 					"linecount" : 7,
@@ -567,7 +591,7 @@
 
 							}
  ],
-						"originid" : "pat-86927"
+						"originid" : "pat-12242"
 					}
 ,
 					"patching_rect" : [ 120.0, 219.0, 206.0, 22.0 ],
@@ -1583,6 +1607,8 @@
 									"saved_object_attributes" : 									{
 										"autostart" : 0,
 										"defer" : 0,
+										"node_bin_path" : "",
+										"npm_bin_path" : "",
 										"watch" : 0
 									}
 
@@ -1844,7 +1870,7 @@
 
 							}
  ],
-						"originid" : "pat-87047"
+						"originid" : "pat-12362"
 					}
 ,
 					"patching_rect" : [ 826.5, 296.0, 69.0, 22.0 ],
@@ -1996,7 +2022,7 @@
 
 							}
  ],
-						"originid" : "pat-87049"
+						"originid" : "pat-12364"
 					}
 ,
 					"patching_rect" : [ 1215.0, 247.0, 146.0, 22.0 ],
@@ -2299,7 +2325,7 @@
 
 											}
  ],
-										"originid" : "pat-87919"
+										"originid" : "pat-13234"
 									}
 ,
 									"patching_rect" : [ 137.500000000000682, 184.999999945718855, 165.0, 22.0 ],
@@ -2595,7 +2621,7 @@
 
 							}
  ],
-						"originid" : "pat-87917"
+						"originid" : "pat-13232"
 					}
 ,
 					"patching_rect" : [ 1223.0, 508.0, 95.0, 22.0 ],
@@ -2947,7 +2973,7 @@
 
 							}
  ],
-						"originid" : "pat-87921"
+						"originid" : "pat-13236"
 					}
 ,
 					"patching_rect" : [ 317.0, 682.0, 48.0, 22.0 ],
@@ -3484,7 +3510,7 @@
 
 							}
  ],
-						"originid" : "pat-87923"
+						"originid" : "pat-13238"
 					}
 ,
 					"patching_rect" : [ 818.0, 849.0, 120.0, 22.0 ],
@@ -3939,7 +3965,7 @@
 
 							}
  ],
-						"originid" : "pat-87949"
+						"originid" : "pat-13264"
 					}
 ,
 					"patching_rect" : [ 1295.0, 438.0, 67.0, 22.0 ],
@@ -4101,7 +4127,7 @@
 					"destination" : [ "obj-104", 0 ],
 					"source" : [ "obj-113", 1 ],
 					"watchpoint_flags" : 1,
-					"watchpoint_id" : 3
+					"watchpoint_id" : 5
 				}
 
 			}
@@ -4461,6 +4487,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-83", 0 ],
+					"source" : [ "obj-34", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-40", 0 ],
 					"source" : [ "obj-35", 0 ]
 				}
@@ -4590,6 +4623,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-125", 0 ],
 					"source" : [ "obj-59", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-34", 0 ],
+					"source" : [ "obj-6", 0 ]
 				}
 
 			}
@@ -4767,7 +4807,7 @@
 					"order" : 1,
 					"source" : [ "obj-97", 0 ],
 					"watchpoint_flags" : 1,
-					"watchpoint_id" : 4
+					"watchpoint_id" : 6
 				}
 
 			}
@@ -4843,7 +4883,7 @@
 
 			}
  ],
-		"originid" : "pat-86925",
+		"originid" : "pat-12240",
 		"parameters" : 		{
 			"obj-1" : [ "live.menu[7]", "live.menu[1]", 0 ],
 			"obj-107" : [ "data-transpose-pitch[1]", "Gain", 0 ],
@@ -4958,120 +4998,120 @@
 			}
 , 			{
 				"name" : "dk.ArrowOff.svg",
-				"bootpath" : "~/Documents/Max 9/Packages/DK - beta A/media/Icons",
-				"patcherrelativepath" : "../../../Packages/DK - beta A/media/Icons",
+				"bootpath" : "~/Documents/Max 9/Packages/DK - beta B/media/Icons",
+				"patcherrelativepath" : "../../../Packages/DK - beta B/media/Icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dk.ArrowOn.svg",
-				"bootpath" : "~/Documents/Max 9/Packages/DK - beta A/media/Icons",
-				"patcherrelativepath" : "../../../Packages/DK - beta A/media/Icons",
+				"bootpath" : "~/Documents/Max 9/Packages/DK - beta B/media/Icons",
+				"patcherrelativepath" : "../../../Packages/DK - beta B/media/Icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dk.adstatussr.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/DK - beta A/misc/Misc",
-				"patcherrelativepath" : "../../../Packages/DK - beta A/misc/Misc",
+				"bootpath" : "~/Documents/Max 9/Packages/DK - beta B/misc/Misc",
+				"patcherrelativepath" : "../../../Packages/DK - beta B/misc/Misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dk.corpusmatch.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/DK - beta A/patchers",
-				"patcherrelativepath" : "../../../Packages/DK - beta A/patchers",
+				"bootpath" : "~/Documents/Max 9/Packages/DK - beta B/patchers",
+				"patcherrelativepath" : "../../../Packages/DK - beta B/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dk.corpusplayer~.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/DK - beta A/patchers",
-				"patcherrelativepath" : "../../../Packages/DK - beta A/patchers",
+				"bootpath" : "~/Documents/Max 9/Packages/DK - beta B/patchers",
+				"patcherrelativepath" : "../../../Packages/DK - beta B/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dk.crossbank~.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/DK - beta A/misc/Misc",
-				"patcherrelativepath" : "../../../Packages/DK - beta A/misc/Misc",
+				"bootpath" : "~/Documents/Max 9/Packages/DK - beta B/misc/Misc",
+				"patcherrelativepath" : "../../../Packages/DK - beta B/misc/Misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dk.datatranspose.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/DK - beta A/patchers",
-				"patcherrelativepath" : "../../../Packages/DK - beta A/patchers",
+				"bootpath" : "~/Documents/Max 9/Packages/DK - beta B/patchers",
+				"patcherrelativepath" : "../../../Packages/DK - beta B/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dk.descriptorreplace.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/DK - beta A/patchers",
-				"patcherrelativepath" : "../../../Packages/DK - beta A/patchers",
+				"bootpath" : "~/Documents/Max 9/Packages/DK - beta B/patchers",
+				"patcherrelativepath" : "../../../Packages/DK - beta B/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dk.loopIconImageOff.svg",
-				"bootpath" : "~/Documents/Max 9/Packages/DK - beta A/media/Icons",
-				"patcherrelativepath" : "../../../Packages/DK - beta A/media/Icons",
+				"bootpath" : "~/Documents/Max 9/Packages/DK - beta B/media/Icons",
+				"patcherrelativepath" : "../../../Packages/DK - beta B/media/Icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dk.loopIconImageOn.svg",
-				"bootpath" : "~/Documents/Max 9/Packages/DK - beta A/media/Icons",
-				"patcherrelativepath" : "../../../Packages/DK - beta A/media/Icons",
+				"bootpath" : "~/Documents/Max 9/Packages/DK - beta B/media/Icons",
+				"patcherrelativepath" : "../../../Packages/DK - beta B/media/Icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dk.playbackcore~.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/DK - beta A/misc/Misc",
-				"patcherrelativepath" : "../../../Packages/DK - beta A/misc/Misc",
+				"bootpath" : "~/Documents/Max 9/Packages/DK - beta B/misc/Misc",
+				"patcherrelativepath" : "../../../Packages/DK - beta B/misc/Misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dk.plotter.js",
-				"bootpath" : "~/Documents/Max 9/Packages/DK - beta A/jsui",
-				"patcherrelativepath" : "../../../Packages/DK - beta A/jsui",
+				"bootpath" : "~/Documents/Max 9/Packages/DK - beta B/jsui",
+				"patcherrelativepath" : "../../../Packages/DK - beta B/jsui",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dk.plotter.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/DK - beta A/patchers",
-				"patcherrelativepath" : "../../../Packages/DK - beta A/patchers",
+				"bootpath" : "~/Documents/Max 9/Packages/DK - beta B/patchers",
+				"patcherrelativepath" : "../../../Packages/DK - beta B/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dk.quantizepitch.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/DK - beta A/patchers",
-				"patcherrelativepath" : "../../../Packages/DK - beta A/patchers",
+				"bootpath" : "~/Documents/Max 9/Packages/DK - beta B/patchers",
+				"patcherrelativepath" : "../../../Packages/DK - beta B/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dk.sequencedata~.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/DK - beta A/patchers",
-				"patcherrelativepath" : "../../../Packages/DK - beta A/patchers",
+				"bootpath" : "~/Documents/Max 9/Packages/DK - beta B/patchers",
+				"patcherrelativepath" : "../../../Packages/DK - beta B/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dk.sliceloop.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/DK - beta A/misc/Misc",
-				"patcherrelativepath" : "../../../Packages/DK - beta A/misc/Misc",
+				"bootpath" : "~/Documents/Max 9/Packages/DK - beta B/misc/Misc",
+				"patcherrelativepath" : "../../../Packages/DK - beta B/misc/Misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dk.waveformdisplay.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/DK - beta A/misc/Misc",
-				"patcherrelativepath" : "../../../Packages/DK - beta A/misc/Misc",
+				"bootpath" : "~/Documents/Max 9/Packages/DK - beta B/misc/Misc",
+				"patcherrelativepath" : "../../../Packages/DK - beta B/misc/Misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -5140,8 +5180,8 @@
 			}
 , 			{
 				"name" : "isThisAValidBuffer.js",
-				"bootpath" : "~/Documents/Max 9/Packages/DK - beta A/javascript",
-				"patcherrelativepath" : "../../../Packages/DK - beta A/javascript",
+				"bootpath" : "~/Documents/Max 9/Packages/DK - beta B/javascript",
+				"patcherrelativepath" : "../../../Packages/DK - beta B/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -5154,27 +5194,27 @@
 			}
 , 			{
 				"name" : "recenterBpatcherWindow.js",
-				"bootpath" : "~/Documents/Max 9/Packages/DK - beta A/javascript",
-				"patcherrelativepath" : "../../../Packages/DK - beta A/javascript",
+				"bootpath" : "~/Documents/Max 9/Packages/DK - beta B/javascript",
+				"patcherrelativepath" : "../../../Packages/DK - beta B/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "resizeBpatcherWindow.js",
-				"bootpath" : "~/Documents/Max 9/Packages/DK - beta A/javascript",
-				"patcherrelativepath" : "../../../Packages/DK - beta A/javascript",
+				"bootpath" : "~/Documents/Max 9/Packages/DK - beta B/javascript",
+				"patcherrelativepath" : "../../../Packages/DK - beta B/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "samplerRampFadeDisplay.js",
-				"bootpath" : "~/Documents/Max 9/Packages/DK - beta A/jsui",
-				"patcherrelativepath" : "../../../Packages/DK - beta A/jsui",
+				"bootpath" : "~/Documents/Max 9/Packages/DK - beta B/jsui",
+				"patcherrelativepath" : "../../../Packages/DK - beta B/jsui",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "u881057538.js",
+				"name" : "u821039410.js",
 				"bootpath" : "~/Library/Application Support/Cycling '74/Max 9/Settings/temp64-Max",
 				"patcherrelativepath" : "../../../../../Library/Application Support/Cycling '74/Max 9/Settings/temp64-Max",
 				"type" : "TEXT",
