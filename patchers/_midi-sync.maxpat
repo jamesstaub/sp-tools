@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 923.0, 822.0 ],
+		"rect" : [ 769.0, 100.0, 667.0, 822.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
@@ -59,7 +59,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 562.0, 97.5, 87.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 112.0, 197.0, 18.0 ],
+					"presentation_rect" : [ 173.0, 30.0, 87.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
@@ -124,8 +124,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 869.0, 120.0, 150.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 50.0, 89.0, 150.0, 21.0 ],
-					"text" : "midi loopback input ch."
+					"presentation_rect" : [ 173.0, 8.0, 76.0, 21.0 ],
+					"text" : "loopback ch."
 				}
 
 			}
@@ -151,7 +151,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 830.0, 122.5, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 92.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 251.0, 11.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.numbox[7]",
@@ -285,7 +285,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 374.0, 32.0, 199.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.0, 6.0, 38.0, 24.0 ],
+					"presentation_rect" : [ 3.0, 3.0, 38.0, 24.0 ],
 					"text" : "midi"
 				}
 
@@ -387,7 +387,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 110.0, -6.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 43.0, 6.0, 24.0, 24.0 ]
+					"presentation_rect" : [ 39.0, 3.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -397,7 +397,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-26",
-					"items" : [ "to Max 1", ",", "to Max 2", ",", "PreSonus AudioBox iTwo" ],
+					"items" : [ "to Max 1", ",", "to Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -405,7 +405,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ -94.0, 212.0, 246.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 104.0, 35.0, 99.0, 20.0 ]
+					"presentation_rect" : [ 3.0, 52.0, 74.0, 20.0 ]
 				}
 
 			}
@@ -429,7 +429,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-29",
-					"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2", ",", "PreSonus AudioBox iTwo" ],
+					"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -437,7 +437,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ -94.0, 178.0, 246.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 35.0, 99.0, 20.0 ]
+					"presentation_rect" : [ 3.0, 30.0, 74.0, 20.0 ]
 				}
 
 			}
@@ -536,7 +536,7 @@
 				"box" : 				{
 					"comment" : "raw ticks",
 					"id" : "obj-4",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -747,7 +747,7 @@
 
 							}
  ],
-						"originid" : "pat-234"
+						"originid" : "pat-40627"
 					}
 ,
 					"patching_rect" : [ 343.0, 472.0, 114.0, 22.0 ],
@@ -771,7 +771,7 @@
 				"box" : 				{
 					"comment" : "sync out",
 					"id" : "obj-102",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1059,7 +1059,7 @@
 
 							}
  ],
-						"originid" : "pat-236"
+						"originid" : "pat-40629"
 					}
 ,
 					"patching_rect" : [ 156.0, 420.0, 61.0, 22.0 ],
@@ -1082,7 +1082,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 695.0, 451.5, 199.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 60.0, 76.0, 24.0 ],
+					"presentation_rect" : [ 88.0, 3.0, 76.0, 24.0 ],
 					"prototypename" : "onoff",
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -1172,7 +1172,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 398.0, 407.0, 142.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 156.0, 61.0, 33.0, 21.0 ],
+					"presentation_rect" : [ 131.0, 30.0, 33.0, 21.0 ],
 					"text" : "BPM"
 				}
 
@@ -1191,6 +1191,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontsize" : 9.5,
 					"format" : 6,
 					"id" : "obj-9",
 					"maxclass" : "flonum",
@@ -1198,9 +1199,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 343.0, 406.0, 50.0, 22.0 ],
+					"patching_rect" : [ 343.0, 406.0, 44.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 104.0, 61.0, 50.0, 22.0 ]
+					"presentation_rect" : [ 88.0, 31.0, 44.0, 19.0 ]
 				}
 
 			}
@@ -1725,7 +1726,41 @@
 
 			}
  ],
-		"originid" : "pat-232"
+		"originid" : "pat-40607",
+		"parameters" : 		{
+			"obj-23" : [ "live.numbox[7]", "live.numbox[7]", 0 ],
+			"obj-27" : [ "live.text[48]", "live.text", 0 ],
+			"obj-51::obj-14::obj-71" : [ "notes", "notes", 1 ],
+			"obj-54" : [ "live.text[36]", "live.text[36]", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "dk.quantizepitch.maxpat",
+				"bootpath" : "~/Documents/Max 9/Packages/DK - beta B/patchers",
+				"patcherrelativepath" : "../../../Packages/DK - beta B/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fluid.buf2list.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.list2buf.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
