@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 100.0, 1402.0, 822.0 ],
+        "rect": [ -1886.0, 87.0, 1852.0, 959.0 ],
         "boxes": [
             {
                 "box": {
@@ -422,7 +422,7 @@
                             }
                         ]
                     },
-                    "patching_rect": [ 1005.0, 914.0, 212.0, 22.0 ],
+                    "patching_rect": [ 1001.0, 763.0, 212.0, 22.0 ],
                     "text": "p lpg"
                 }
             },
@@ -727,7 +727,7 @@
                             }
                         ]
                     },
-                    "patching_rect": [ 375.0, 906.5, 212.0, 22.0 ],
+                    "patching_rect": [ 371.0, 756.0, 212.0, 22.0 ],
                     "text": "p lpg"
                 }
             },
@@ -738,7 +738,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 708.0, 120.0, 152.0, 74.0 ],
+                    "patching_rect": [ 1634.0, 120.0, 152.0, 74.0 ],
                     "presentation": 1,
                     "presentation_linecount": 5,
                     "presentation_rect": [ 1307.0, 95.5, 191.0, 74.0 ],
@@ -2558,7 +2558,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Off", "On" ],
-                            "parameter_longname": "live.text[31]",
+                            "parameter_longname": "live.text[38]",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "live.text",
@@ -4370,29 +4370,29 @@
                                     "outlettype": [ "", "", "", "" ],
                                     "patching_rect": [ 1154.0, 722.0, 56.0, 22.0 ],
                                     "restore": {
-                                        "a1[3]": [ 55.168064520694315 ],
-                                        "a2[3]": [ 43.25888156890869 ],
-                                        "brightness": [ 26.869327784515917 ],
-                                        "brightness[3]": [ 5.849229637533426 ],
-                                        "damping[3]": [ 81.88018584623933 ],
-                                        "decay[3]": [ 178.1234763931886 ],
-                                        "impout": [ 88.4796142578125 ],
-                                        "impout[3]": [ 5.75103759765625 ],
-                                        "impulse": [ 39.5619040587917 ],
-                                        "impulse[3]": [ 31.383656803518534 ],
-                                        "input": [ 64.03045654296875 ],
-                                        "input[3]": [ 80.6243896484375 ],
-                                        "live.dial[1]": [ 0.83465576171875 ],
-                                        "live.dial[21]": [ 0.7679443359375 ],
+                                        "a1[3]": [ 6.298157596029341 ],
+                                        "a2[3]": [ 97.33549433294684 ],
+                                        "brightness": [ 94.6267973864451 ],
+                                        "brightness[3]": [ 25.717663229443133 ],
+                                        "damping[3]": [ 30.723825935274363 ],
+                                        "decay[3]": [ 2.876225957997442 ],
+                                        "impout": [ 43.95599365234375 ],
+                                        "impout[3]": [ 91.3665771484375 ],
+                                        "impulse": [ 20.062022749334574 ],
+                                        "impulse[3]": [ 7.91015625 ],
+                                        "input": [ 16.96624755859375 ],
+                                        "input[3]": [ 65.63262939453125 ],
+                                        "live.dial[1]": [ -0.71282958984375 ],
+                                        "live.dial[21]": [ -0.184661865234375 ],
                                         "live.menu": [ 2.0 ],
-                                        "position": [ 0.10150820016860962 ],
-                                        "position[3]": [ 37.52347605768591 ],
-                                        "reflect[3]": [ 92.96643453554505 ],
+                                        "position": [ 18.64453786984086 ],
+                                        "position[3]": [ 24.265425489284098 ],
+                                        "reflect[3]": [ 90.33414948036219 ],
                                         "reflectmode[3]": [ 3.0 ],
-                                        "resonance": [ 30.450404062867165 ],
-                                        "resonance[3]": [ 45.470261573791504 ],
-                                        "sharpness": [ 19.55000984016806 ],
-                                        "sharpness[3]": [ 20.079796412028372 ]
+                                        "resonance": [ 12.61303259525448 ],
+                                        "resonance[3]": [ 1.5174348140135407 ],
+                                        "sharpness": [ 25.951885525137186 ],
+                                        "sharpness[3]": [ 2.2819731384515762 ]
                                     },
                                     "text": "autopattr",
                                     "varname": "u050017555"
@@ -12598,13 +12598,13 @@
                     "lockedsize": 0,
                     "maxclass": "bpatcher",
                     "name": "_filter-to-corpus-2.maxpat",
-                    "numinlets": 3,
+                    "numinlets": 4,
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "signal", "signal" ],
                     "patching_rect": [ 996.0, 330.0, 618.0, 373.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 401.0, 530.0, 941.0, 308.0 ],
+                    "presentation_rect": [ 401.0, 530.0, 1097.0, 308.0 ],
                     "varname": "_filter-to-corpus-2",
                     "viewvisibility": 1
                 }
@@ -12711,7 +12711,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "detect tonality", "detect tonality" ],
-                            "parameter_longname": "live.text[56]",
+                            "parameter_longname": "live.text[37]",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "live.text",
@@ -13132,11 +13132,11 @@
                         "gate-send-scenes[1]": [ 1.0 ],
                         "live.gain~": [ 0.0 ],
                         "live.gain~[1]": [ -14.943820224719097 ],
-                        "live.gain~[2]": [ -3.57480314960635 ],
-                        "live.gain~[3]": [ -6.104043174378481 ],
+                        "live.gain~[2]": [ -5.318057152968288 ],
+                        "live.gain~[3]": [ -4.719101123595506 ],
                         "live.gain~[4]": [ -6.0 ],
                         "live.text": [ 1.0 ],
-                        "live.text[1]": [ 0.0 ],
+                        "live.text[1]": [ 1.0 ],
                         "live.text[2]": [ 0.0 ],
                         "live.text[3]": [ 1.0 ],
                         "live.text[4]": [ 1.0 ],
@@ -13949,13 +13949,13 @@
                     "lockedsize": 0,
                     "maxclass": "bpatcher",
                     "name": "_filter-to-corpus-2.maxpat",
-                    "numinlets": 3,
+                    "numinlets": 4,
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "signal", "signal" ],
                     "patching_rect": [ 369.0, 345.0, 618.0, 373.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 401.0, 206.0, 941.0, 326.0 ],
+                    "presentation_rect": [ 401.0, 206.0, 1097.0, 326.0 ],
                     "varname": "_filter-to-corpus-1",
                     "viewvisibility": 1
                 }
@@ -15630,7 +15630,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-46", 1 ],
-                    "midpoints": [ 1207.5, 892.0, 1322.515625, 892.0, 1322.515625, 112.25390625, 1267.5, 112.25390625 ],
+                    "midpoints": [ 1203.5, 806.81640625, 1322.515625, 806.81640625, 1322.515625, 112.25390625, 1267.5, 112.25390625 ],
                     "source": [ "obj-109", 1 ]
                 }
             },
@@ -16337,7 +16337,7 @@
             "obj-101": [ "live.text[27]", "live.text", 0 ],
             "obj-11": [ "live.dial", "loopzoop-probability", 0 ],
             "obj-112": [ "live.text[22]", "live.text", 0 ],
-            "obj-125": [ "live.text[56]", "live.text", 0 ],
+            "obj-125": [ "live.text[37]", "live.text", 0 ],
             "obj-13": [ "live.text[4]", "live.text[4]", 0 ],
             "obj-134": [ "live.text[57]", "live.text", 0 ],
             "obj-135": [ "live.gain~[2]", "WGM", 0 ],
@@ -16357,6 +16357,7 @@
             "obj-138::obj-197::obj-158": [ "live.text[25]", "live.text", 0 ],
             "obj-138::obj-221::obj-109": [ "live.button[8]", "live.button", 0 ],
             "obj-138::obj-221::obj-158": [ "live.text[26]", "live.text", 0 ],
+            "obj-138::obj-26": [ "live.text[30]", "live.text[6]", 0 ],
             "obj-138::obj-27": [ "live.dial[35]", "spectral", 0 ],
             "obj-138::obj-3": [ "live.text[55]", "live.text", 0 ],
             "obj-138::obj-31": [ "live.dial[34]", "loudness", 0 ],
@@ -16487,7 +16488,7 @@
             "obj-72": [ "live.toggle[15]", "live.toggle", 0 ],
             "obj-73::obj-1": [ "live.gain~[9]", "live.gain~[9]", 0 ],
             "obj-73::obj-2": [ "live.gain~[10]", "live.gain~[9]", 0 ],
-            "obj-88": [ "live.text[31]", "live.text", 0 ],
+            "obj-88": [ "live.text[38]", "live.text", 0 ],
             "obj-90::obj-1": [ "live.menu[1]", "live.menu[1]", 0 ],
             "obj-90::obj-107": [ "data-transpose-pitch[3]", "Gain", 0 ],
             "obj-90::obj-131::obj-109": [ "live.button[20]", "live.button", 0 ],
@@ -16504,6 +16505,7 @@
             "obj-90::obj-197::obj-158": [ "live.text[13]", "live.text", 0 ],
             "obj-90::obj-221::obj-109": [ "live.button[26]", "live.button", 0 ],
             "obj-90::obj-221::obj-158": [ "live.text[16]", "live.text", 0 ],
+            "obj-90::obj-26": [ "live.text[56]", "live.text[6]", 0 ],
             "obj-90::obj-27": [ "live.dial[46]", "spectral", 0 ],
             "obj-90::obj-3": [ "live.text[20]", "live.text", 0 ],
             "obj-90::obj-31": [ "live.dial[45]", "loudness", 0 ],
@@ -16513,7 +16515,7 @@
             "obj-90::obj-4::obj-109": [ "live.button[28]", "live.button", 0 ],
             "obj-90::obj-4::obj-158": [ "live.text[18]", "live.text", 0 ],
             "obj-90::obj-55::obj-109": [ "live.button[27]", "live.button", 0 ],
-            "obj-90::obj-55::obj-158": [ "live.text[30]", "live.text", 0 ],
+            "obj-90::obj-55::obj-158": [ "live.text[31]", "live.text", 0 ],
             "obj-90::obj-66": [ "live.toggle[5]", "live.toggle", 0 ],
             "obj-90::obj-81": [ "live.tab[5]", "live.tab", 0 ],
             "obj-90::obj-83": [ "live.toggle[4]", "live.toggle", 0 ],
@@ -16538,6 +16540,14 @@
             "obj-90::obj-87::obj-67": [ "outcurve[1]", "outcurve", 0 ],
             "obj-90::obj-99::obj-2::obj-14::obj-71": [ "notes[3]", "notes", 1 ],
             "obj-92": [ "live.text[58]", "live.text", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "parameter_overrides": {
                 "obj-138::obj-107": {
                     "parameter_longname": "data-transpose-pitch[1]"
@@ -16760,6 +16770,9 @@
                 "obj-90::obj-221::obj-158": {
                     "parameter_longname": "live.text[16]"
                 },
+                "obj-90::obj-26": {
+                    "parameter_longname": "live.text[56]"
+                },
                 "obj-90::obj-27": {
                     "parameter_longname": "live.dial[46]"
                 },
@@ -16788,7 +16801,7 @@
                     "parameter_longname": "live.button[27]"
                 },
                 "obj-90::obj-55::obj-158": {
-                    "parameter_longname": "live.text[30]"
+                    "parameter_longname": "live.text[31]"
                 },
                 "obj-90::obj-66": {
                     "parameter_longname": "live.toggle[5]"

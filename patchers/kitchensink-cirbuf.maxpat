@@ -9,9 +9,20 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 99.0, 100.0, 1402.0, 822.0 ],
+        "rect": [ 34.0, 100.0, 1402.0, 822.0 ],
         "openinpresentation": 1,
         "boxes": [
+            {
+                "box": {
+                    "color": [ 1.0, 0.345098039215686, 0.298039215686275, 1.0 ],
+                    "id": "obj-69",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 208.0, 137.0, 78.0, 22.0 ],
+                    "text": "s input-mode"
+                }
+            },
             {
                 "box": {
                     "id": "obj-74",
@@ -2930,7 +2941,7 @@
                     "fontsize": 10.0,
                     "hint": "",
                     "id": "obj-156",
-                    "items": [ "None", ",", "System Device: MacBook Air Speakers", ",", "Preference: PreSonus AudioBox iTwo, Current: MacBook Air Speakers", ",", "BlackHole 16ch", ",", "BlackHole 2ch", ",", "MacBook Air Speakers", ",", "Presonus+Zoom" ],
+                    "items": [ "None", ",", "System Device: MacBook Air Speakers", ",", "Preference: PreSonus AudioBox iTwo, Current: MacBook Air Speakers", ",", "ASUS VE258", ",", "BlackHole 16ch", ",", "BlackHole 2ch", ",", "MacBook Air Speakers", ",", "Presonus+Zoom" ],
                     "maxclass": "umenu",
                     "numinlets": 1,
                     "numoutlets": 3,
@@ -3852,6 +3863,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-1", 0 ],
+                    "order": 1,
                     "source": [ "obj-28", 2 ]
                 }
             },
@@ -3859,6 +3871,13 @@
                 "patchline": {
                     "destination": [ "obj-67", 0 ],
                     "source": [ "obj-28", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-69", 0 ],
+                    "order": 0,
+                    "source": [ "obj-28", 2 ]
                 }
             },
             {
