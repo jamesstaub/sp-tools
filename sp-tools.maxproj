@@ -2,8 +2,8 @@
     "name": "sp-tools",
     "version": 1,
     "creationdate": 3752597703,
-    "modificationdate": 3852329341,
-    "viewrect": [ 735.0, 100.0, 735.0, 822.0 ],
+    "modificationdate": 3856641493,
+    "viewrect": [ -1640.0, 134.0, 735.0, 822.0 ],
     "autoorganize": 0,
     "hideprojectwindow": 0,
     "showdependencies": 0,
@@ -222,8 +222,7 @@
             },
             "ICMC-25.maxpat": {
                 "kind": "patcher",
-                "local": 1,
-                "toplevel": 1
+                "local": 1
             },
             "kitchensink-cirbuf.maxpat": {
                 "kind": "patcher",
@@ -277,13 +276,18 @@
             },
             "MULTIMODE-26.maxpat": {
                 "kind": "patcher",
-                "local": 1
+                "local": 1,
+                "toplevel": 1
             },
             "multi-resonators.maxpat": {
                 "kind": "patcher",
                 "local": 1
             },
             "sync-duration-lockout-gate.maxpat": {
+                "kind": "patcher",
+                "local": 1
+            },
+            "auto-umenu.maxpat": {
                 "kind": "patcher",
                 "local": 1
             }

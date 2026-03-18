@@ -1,0 +1,1323 @@
+{
+    "pattrstorage": {
+        "name": "26-performer",
+        "slots": {
+            "1": {
+                "id": 1,
+                "data": {
+                    "gain-freeze": [ -70.0 ],
+                    "gain-master": [ -3.803990602493286 ],
+                    "gain-perc": [ 0.0 ],
+                    "gain-pitch": [ 0.0 ],
+                    "gate-send-scenes[1]": [ 1.0 ],
+                    "live.dial": [ 1375.0 ],
+                    "live.gain~[1]": [ 0.0 ],
+                    "live.text[1]": [ 0.0 ],
+                    "live.text[2]": [ 1.0 ],
+                    "live.text[3]": [ 1.0 ],
+                    "live.text[4]": [ 1.0 ],
+                    "live.text[5]": [ 0.0 ],
+                    "qkey": [ 0 ],
+                    "qscale": [ 5 ],
+                    "xpat-hhmm-voice": [
+                        {
+                            "data": {
+                                "numins": 6,
+                                "numouts": 8,
+                                "connections": [
+                                    {
+                                        "in": 0,
+                                        "out": 0,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 1,
+                                        "out": 0,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 3,
+                                        "out": 0,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 4,
+                                        "out": 0,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 2,
+                                        "out": 1,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 0,
+                                        "out": 3,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 1,
+                                        "out": 3,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 4,
+                                        "out": 1,
+                                        "gain": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "multi-model-classifier::umenu": [ 0 ],
+                    "corpus-voice-pitch::live.menu": [ 0.0 ],
+                    "corpus-voice-pitch::live.menu[1]": [ 2.0 ],
+                    "corpus-voice-pitch::live.numbox": [ 0.0 ],
+                    "corpus-voice-pitch::scale-max": [ 100.0 ],
+                    "corpus-voice-pitch::scale-max[1]": [ 100.0 ],
+                    "corpus-voice-pitch::scale-max[2]": [ 12.0 ],
+                    "corpus-voice-pitch::scale-max[3]": [ 3.0 ],
+                    "corpus-voice-pitch::scale-max[4]": [ 0.30000000000000004 ],
+                    "corpus-voice-pitch::scale-max[5]": [ 1.0 ],
+                    "corpus-voice-pitch::scale-min": [ 0.0 ],
+                    "corpus-voice-pitch::scale-min[1]": [ 0.0 ],
+                    "corpus-voice-pitch::scale-min[2]": [ 0.0 ],
+                    "corpus-voice-pitch::scale-min[3]": [ -3.0 ],
+                    "corpus-voice-pitch::scale-min[4]": [ 0.0 ],
+                    "corpus-voice-pitch::scale-min[5]": [ 0.0 ],
+                    "corpus-voice-pitch::xpat-hhmm-voice": [
+                        {
+                            "data": {
+                                "numins": 14,
+                                "numouts": 8,
+                                "connections": [
+                                    {
+                                        "in": 6,
+                                        "out": 2,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 11,
+                                        "out": 3,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 12,
+                                        "out": 5,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 2,
+                                        "out": 4,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 0,
+                                        "out": 0,
+                                        "gain": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "corpus-voice-pitch::xpatch-onset-corpus-style": [
+                        {
+                            "data": {
+                                "numins": 6,
+                                "numouts": 8,
+                                "connections": [
+                                    {
+                                        "in": 0,
+                                        "out": 0,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 1,
+                                        "out": 0,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 2,
+                                        "out": 0,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 0,
+                                        "out": 1,
+                                        "gain": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "corpus-voice-pitch::u902011358": [ 0.0 ],
+                    "corpus-voice-pitch::u560011771": [ -1 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::corpus-menu": [ 17 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::comp-loudness": [ 47.79902 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::comp-spectral": [ 53.393364 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::data-transpose-loudness": [ 0.335492 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::data-transpose-pitch": [ 24.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::live.button[1]": [ 0.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::live.dial[2]": [ 100.00000000000004 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::live.text": [ 1.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::mod-loop-length": [ 0.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::mod-loop-speed": [ 0.23 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::pitch-tonality-quantize-tab": [ 2.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::reset-bang-speed-len": [ 1 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::setup-matching-length": [ 0.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::setup-range": [ 9.848482995165195, 86.84123368131313 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::toggle-enabled": [ 0.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::toggle-use-setup": [ 0.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::weight-centroid": [ 100.00000000000004 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::weight-loudness": [ 100.00000000000004 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::weight-pitch": [ 100.00000000000004 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::centroid-corpus-filter-slider::comparator": [ 1.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::centroid-corpus-filter-slider::filter-name-menu": [ 0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::centroid-corpus-filter-slider::live.button[2]": [ 0.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::centroid-corpus-filter-slider::slider": [ 127.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::pitch-corpus-filter-slider::comparator": [ 1.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::pitch-corpus-filter-slider::filter-name-menu": [ 0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::pitch-corpus-filter-slider::live.button[2]": [ 0.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::pitch-corpus-filter-slider::slider": [ 127.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::confidence-corpus-filter-slider::comparator": [ 1.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::confidence-corpus-filter-slider::filter-name-menu": [ 0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::confidence-corpus-filter-slider::live.button[2]": [ 0.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::confidence-corpus-filter-slider::slider": [ 1.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::loudness-corpus-filter-slider::comparator": [ 0.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::loudness-corpus-filter-slider::filter-name-menu": [ 2 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::loudness-corpus-filter-slider::live.button[2]": [ 0.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::loudness-corpus-filter-slider::slider": [ 4.375000772997737 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::sp-sampler::absoluteview": [ 0.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::sp-sampler::algorithm": [ 2.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::sp-sampler::gain": [ 100.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::sp-sampler::in": [ 0.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::sp-sampler::incurve": [ 0.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::sp-sampler::length": [ 100.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::sp-sampler::lengthabsolute": [ 4999.999999999998 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::sp-sampler::live.drop[4]": [ "" ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::sp-sampler::loop": [ 0.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::sp-sampler::out": [ 0.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::sp-sampler::outcurve": [ 0.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::sp-sampler::pitch": [ 0.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::sp-sampler::speed": [ 100.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::sp-sampler::start": [ 0.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::sp-sampler::startabsolute": [ 0.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::sp-sampler::steal": [ 1.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::sp-sampler::tabopen": [ 0.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::sp-sampler::timestretch": [ 1.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::sp-sampler::voices": [ 6.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::time-centroid-corpus-filter-slider::comparator": [ 0.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::time-centroid-corpus-filter-slider::live.button[2]": [ 0.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::time-centroid-corpus-filter-slider::slider": [ 0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::duration-corpus-filter-slider::comparator": [ 1.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::duration-corpus-filter-slider::filter-name-menu": [ 0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::duration-corpus-filter-slider::live.button[2]": [ 0.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::duration-corpus-filter-slider::slider": [ 1123.5213664765818 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::flatness-corpus-filter-slider::comparator": [ 1.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::flatness-corpus-filter-slider::filter-name-menu": [ 0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::flatness-corpus-filter-slider::live.button[2]": [ 0.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::flatness-corpus-filter-slider::slider": [ 80.0 ],
+                    "corpus-voice-pitch::classifier-crosspatch::live.numbox": [ 16.0 ],
+                    "corpus-voice-pitch::classifier-crosspatch::live.tab": [ 1.0 ],
+                    "octatrack-scenes::classifier-crosspatch::live.numbox": [ 16.0 ],
+                    "octatrack-scenes::classifier-crosspatch::live.tab": [ 0.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[10]::dk_sustainverb": [ -1 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[10]::eviSustainverb::early": [ 0.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[10]::eviSustainverb::feedback": [ 0.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[10]::eviSustainverb::damp": [ 0.9 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[10]::eviSustainverb::crossover": [ 3000.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[10]::eviSustainverb::highPass": [ 0.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[10]::eviSustainverb::fdnGain": [ 1.5836249209524964 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[10]::eviSustainverb::dryWet": [ 1.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[10]::eviSustainverb::smoothTime": [ 20.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[9]::dk_sustainverb": [ -1 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[9]::eviSustainverb::early": [ 0.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[9]::eviSustainverb::feedback": [ 0.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[9]::eviSustainverb::damp": [ 0.9 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[9]::eviSustainverb::crossover": [ 3000.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[9]::eviSustainverb::highPass": [ 0.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[9]::eviSustainverb::fdnGain": [ 1.5836249209524964 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[9]::eviSustainverb::dryWet": [ 1.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[9]::eviSustainverb::smoothTime": [ 20.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[8]::dk_sustainverb": [ -1 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[8]::eviSustainverb::early": [ 0.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[8]::eviSustainverb::feedback": [ 0.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[8]::eviSustainverb::damp": [ 0.9 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[8]::eviSustainverb::crossover": [ 3000.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[8]::eviSustainverb::highPass": [ 0.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[8]::eviSustainverb::fdnGain": [ 1.5836249209524964 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[8]::eviSustainverb::dryWet": [ 1.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[8]::eviSustainverb::smoothTime": [ 20.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[7]::dk_sustainverb": [ -1 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[7]::eviSustainverb::early": [ 0.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[7]::eviSustainverb::feedback": [ 0.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[7]::eviSustainverb::damp": [ 0.9 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[7]::eviSustainverb::crossover": [ 3000.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[7]::eviSustainverb::highPass": [ 0.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[7]::eviSustainverb::fdnGain": [ 1.5836249209524964 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[7]::eviSustainverb::dryWet": [ 1.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[7]::eviSustainverb::smoothTime": [ 20.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[4]::dk_sustainverb": [ -1 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[4]::eviSustainverb::early": [ 0.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[4]::eviSustainverb::feedback": [ 0.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[4]::eviSustainverb::damp": [ 0.9 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[4]::eviSustainverb::crossover": [ 3000.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[4]::eviSustainverb::highPass": [ 0.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[4]::eviSustainverb::fdnGain": [ 1.5836249209524964 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[4]::eviSustainverb::dryWet": [ 1.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[4]::eviSustainverb::smoothTime": [ 20.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[3]::dk_sustainverb": [ -1 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[3]::eviSustainverb::early": [ 0.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[3]::eviSustainverb::feedback": [ 1.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[3]::eviSustainverb::damp": [ 0.9 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[3]::eviSustainverb::crossover": [ 3000.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[3]::eviSustainverb::highPass": [ 0.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[3]::eviSustainverb::fdnGain": [ 1.5836249209524964 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[3]::eviSustainverb::dryWet": [ 1.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[3]::eviSustainverb::smoothTime": [ 20.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[2]::dk_sustainverb": [ -1 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[2]::eviSustainverb::early": [ 0.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[2]::eviSustainverb::feedback": [ 1.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[2]::eviSustainverb::damp": [ 0.9 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[2]::eviSustainverb::crossover": [ 3000.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[2]::eviSustainverb::highPass": [ 0.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[2]::eviSustainverb::fdnGain": [ 1.5836249209524964 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[2]::eviSustainverb::dryWet": [ 1.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[2]::eviSustainverb::smoothTime": [ 20.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[1]::dk_sustainverb": [ -1 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[1]::eviSustainverb::early": [ 0.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[1]::eviSustainverb::feedback": [ 0.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[1]::eviSustainverb::damp": [ 0.9 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[1]::eviSustainverb::crossover": [ 3000.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[1]::eviSustainverb::highPass": [ 0.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[1]::eviSustainverb::fdnGain": [ 1.5836249209524964 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[1]::eviSustainverb::dryWet": [ 1.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[1]::eviSustainverb::smoothTime": [ 20.0 ],
+                    "waveguide-patcher::a1[3]": [ 15.212332853116095 ],
+                    "waveguide-patcher::a2[3]": [ 26.57590026501566 ],
+                    "waveguide-patcher::brightness[3]": [ 41.71926761046052 ],
+                    "waveguide-patcher::damping[3]": [ 0.6794371642172337 ],
+                    "waveguide-patcher::decay[3]": [ 263.4015790704483 ],
+                    "waveguide-patcher::impout[3]": [ 90.45562744140625 ],
+                    "waveguide-patcher::impulse[3]": [ 2.5669578462839127 ],
+                    "waveguide-patcher::input[3]": [ 5.96466064453125 ],
+                    "waveguide-patcher::live.menu": [ 0.0 ],
+                    "waveguide-patcher::position[3]": [ 16.432077530771494 ],
+                    "waveguide-patcher::reflect[3]": [ 84.5916278483345 ],
+                    "waveguide-patcher::reflectmode[3]": [ 3.0 ],
+                    "waveguide-patcher::resonance[3]": [ 26.962740812450647 ],
+                    "waveguide-patcher::sharpness[3]": [ 18.36361028254032 ],
+                    "waveguide-patcher::u576011214": [ -1 ],
+                    "corpus-voice-pitch[1]::live.menu": [ 11.0 ],
+                    "corpus-voice-pitch[1]::live.menu[1]": [ 12.0 ],
+                    "corpus-voice-pitch[1]::live.numbox": [ 0.0 ],
+                    "corpus-voice-pitch[1]::scale-max": [ 100.0 ],
+                    "corpus-voice-pitch[1]::scale-max[1]": [ 100.0 ],
+                    "corpus-voice-pitch[1]::scale-max[2]": [ 12.0 ],
+                    "corpus-voice-pitch[1]::scale-max[3]": [ 3.0 ],
+                    "corpus-voice-pitch[1]::scale-max[4]": [ 1.0 ],
+                    "corpus-voice-pitch[1]::scale-max[5]": [ 1.0 ],
+                    "corpus-voice-pitch[1]::scale-min": [ 0.0 ],
+                    "corpus-voice-pitch[1]::scale-min[1]": [ 0.0 ],
+                    "corpus-voice-pitch[1]::scale-min[2]": [ 0.0 ],
+                    "corpus-voice-pitch[1]::scale-min[3]": [ -3.0 ],
+                    "corpus-voice-pitch[1]::scale-min[4]": [ 0.0 ],
+                    "corpus-voice-pitch[1]::scale-min[5]": [ 0.5748031496062993 ],
+                    "corpus-voice-pitch[1]::xpat-hhmm-voice": [
+                        {
+                            "data": {
+                                "numins": 14,
+                                "numouts": 8,
+                                "connections": [
+                                    {
+                                        "in": 12,
+                                        "out": 5,
+                                        "gain": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "corpus-voice-pitch[1]::xpatch-onset-corpus-style": [
+                        {
+                            "data": {
+                                "numins": 6,
+                                "numouts": 8,
+                                "connections": [
+                                    {
+                                        "in": 0,
+                                        "out": 0,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 1,
+                                        "out": 0,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 2,
+                                        "out": 0,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 3,
+                                        "out": 0,
+                                        "gain": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "corpus-voice-pitch[1]::u902011358": [ 1.0 ],
+                    "corpus-voice-pitch[1]::u560011771": [ -1 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::comp-loudness": [ 47.3765 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::comp-spectral": [ 53.13927 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::corpus-menu": [ 6 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::data-transpose-loudness": [ 0.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::data-transpose-pitch": [ 24.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::live.button[1]": [ 0.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::live.dial[2]": [ 0.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::live.text": [ 1.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::mod-loop-length": [ 0.591965 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::mod-loop-speed": [ 0.726258 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::pitch-tonality-quantize-tab": [ 0.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::reset-bang-speed-len": [ 1 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::setup-matching-length": [ 0.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::setup-range": [ 3.5573122529644268, 95.25691699604744 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::toggle-enabled": [ 1.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::toggle-use-setup": [ 1.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::weight-centroid": [ 100.00000000000004 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::weight-loudness": [ 100.00000000000004 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::weight-pitch": [ 0.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::centroid-corpus-filter-slider::comparator": [ 1.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::centroid-corpus-filter-slider::filter-name-menu": [ 2 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::centroid-corpus-filter-slider::live.button[2]": [ 0.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::centroid-corpus-filter-slider::slider": [ 127.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::pitch-corpus-filter-slider::comparator": [ 1.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::pitch-corpus-filter-slider::filter-name-menu": [ 0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::pitch-corpus-filter-slider::live.button[2]": [ 0.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::pitch-corpus-filter-slider::slider": [ 127.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::confidence-corpus-filter-slider::comparator": [ 1.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::confidence-corpus-filter-slider::filter-name-menu": [ 0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::confidence-corpus-filter-slider::live.button[2]": [ 0.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::confidence-corpus-filter-slider::slider": [ 1.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::loudness-corpus-filter-slider::comparator": [ 1.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::loudness-corpus-filter-slider::filter-name-menu": [ 0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::loudness-corpus-filter-slider::live.button[2]": [ 0.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::loudness-corpus-filter-slider::slider": [ 75.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::sp-sampler::absoluteview": [ 0.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::sp-sampler::algorithm": [ 2.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::sp-sampler::gain": [ 100.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::sp-sampler::in": [ 0.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::sp-sampler::incurve": [ 0.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::sp-sampler::length": [ 100.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::sp-sampler::lengthabsolute": [ 4999.999999999998 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::sp-sampler::live.drop[4]": [ "" ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::sp-sampler::loop": [ 0.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::sp-sampler::out": [ 0.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::sp-sampler::outcurve": [ 0.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::sp-sampler::pitch": [ 0.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::sp-sampler::speed": [ 100.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::sp-sampler::start": [ 0.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::sp-sampler::startabsolute": [ 0.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::sp-sampler::steal": [ 0.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::sp-sampler::tabopen": [ 0.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::sp-sampler::timestretch": [ 0.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::sp-sampler::voices": [ 16.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::time-centroid-corpus-filter-slider::comparator": [ 0.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::time-centroid-corpus-filter-slider::live.button[2]": [ 0.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::time-centroid-corpus-filter-slider::slider": [ 150 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::duration-corpus-filter-slider::comparator": [ 1.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::duration-corpus-filter-slider::filter-name-menu": [ 0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::duration-corpus-filter-slider::live.button[2]": [ 0.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::duration-corpus-filter-slider::slider": [ 410.796875 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::flatness-corpus-filter-slider::comparator": [ 1.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::flatness-corpus-filter-slider::filter-name-menu": [ 2 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::flatness-corpus-filter-slider::live.button[2]": [ 0.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::flatness-corpus-filter-slider::slider": [ 80.0 ],
+                    "corpus-voice-pitch[1]::classifier-crosspatch::live.numbox": [ 16.0 ],
+                    "corpus-voice-pitch[1]::classifier-crosspatch::live.tab": [ 0.0 ]
+                }
+            },
+            "2": {
+                "id": 2,
+                "data": {
+                    "gain-freeze": [ -70.0 ],
+                    "gain-master": [ -3.803990602493286 ],
+                    "gain-perc": [ 0.0 ],
+                    "gain-pitch": [ -2.444767219631527 ],
+                    "gate-send-scenes[1]": [ 1.0 ],
+                    "live.dial": [ 1375.0 ],
+                    "live.gain~[1]": [ 2.4539408302117676 ],
+                    "live.text[1]": [ 1.0 ],
+                    "live.text[2]": [ 1.0 ],
+                    "live.text[3]": [ 1.0 ],
+                    "live.text[4]": [ 1.0 ],
+                    "live.text[5]": [ 0.0 ],
+                    "qkey": [ 2 ],
+                    "qscale": [ 0 ],
+                    "xpat-hhmm-voice": [
+                        {
+                            "data": {
+                                "numins": 6,
+                                "numouts": 8,
+                                "connections": [
+                                    {
+                                        "in": 0,
+                                        "out": 0,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 1,
+                                        "out": 0,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 3,
+                                        "out": 0,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 4,
+                                        "out": 0,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 2,
+                                        "out": 1,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 3,
+                                        "out": 1,
+                                        "gain": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "multi-model-classifier::umenu": [ 0 ],
+                    "corpus-voice-pitch::live.menu": [ 11.0 ],
+                    "corpus-voice-pitch::live.menu[1]": [ 11.0 ],
+                    "corpus-voice-pitch::live.numbox": [ 0.0 ],
+                    "corpus-voice-pitch::scale-max": [ 100.0 ],
+                    "corpus-voice-pitch::scale-max[1]": [ 100.0 ],
+                    "corpus-voice-pitch::scale-max[2]": [ 3.0 ],
+                    "corpus-voice-pitch::scale-max[3]": [ 3.0 ],
+                    "corpus-voice-pitch::scale-max[4]": [ 0.30000000000000004 ],
+                    "corpus-voice-pitch::scale-max[5]": [ 1.0 ],
+                    "corpus-voice-pitch::scale-min": [ 0.0 ],
+                    "corpus-voice-pitch::scale-min[1]": [ 0.0 ],
+                    "corpus-voice-pitch::scale-min[2]": [ -3.0 ],
+                    "corpus-voice-pitch::scale-min[3]": [ -3.0 ],
+                    "corpus-voice-pitch::scale-min[4]": [ 0.0 ],
+                    "corpus-voice-pitch::scale-min[5]": [ 0.0 ],
+                    "corpus-voice-pitch::xpat-hhmm-voice": [
+                        {
+                            "data": {
+                                "numins": 14,
+                                "numouts": 8,
+                                "connections": [
+                                    {
+                                        "in": 6,
+                                        "out": 2,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 11,
+                                        "out": 3,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 2,
+                                        "out": 4,
+                                        "gain": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "corpus-voice-pitch::xpatch-onset-corpus-style": [
+                        {
+                            "data": {
+                                "numins": 6,
+                                "numouts": 8,
+                                "connections": [
+                                    {
+                                        "in": 0,
+                                        "out": 0,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 1,
+                                        "out": 0,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 2,
+                                        "out": 0,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 0,
+                                        "out": 1,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 2,
+                                        "out": 2,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 3,
+                                        "out": 1,
+                                        "gain": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "corpus-voice-pitch::u902011358": [ 1.0 ],
+                    "corpus-voice-pitch::u560011771": [ -1 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::corpus-menu": [ 16 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::comp-loudness": [ 18.821528 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::comp-spectral": [ 47.342764 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::data-transpose-loudness": [ -0.12348199999999998 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::data-transpose-pitch": [ 0.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::live.button[1]": [ 0.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::live.dial[2]": [ 100.00000000000004 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::live.text": [ 1.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::mod-loop-length": [ 0.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::mod-loop-speed": [ 0.23 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::pitch-tonality-quantize-tab": [ 2.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::reset-bang-speed-len": [ 1 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::setup-matching-length": [ 0.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::setup-range": [ 9.848482995165195, 86.84123368131313 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::toggle-enabled": [ 1.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::toggle-use-setup": [ 1.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::weight-centroid": [ 100.00000000000004 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::weight-loudness": [ 100.00000000000004 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::weight-pitch": [ 100.00000000000004 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::centroid-corpus-filter-slider::comparator": [ 1.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::centroid-corpus-filter-slider::filter-name-menu": [ 0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::centroid-corpus-filter-slider::live.button[2]": [ 0.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::centroid-corpus-filter-slider::slider": [ 127.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::pitch-corpus-filter-slider::comparator": [ 1.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::pitch-corpus-filter-slider::filter-name-menu": [ 0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::pitch-corpus-filter-slider::live.button[2]": [ 0.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::pitch-corpus-filter-slider::slider": [ 127.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::confidence-corpus-filter-slider::comparator": [ 1.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::confidence-corpus-filter-slider::filter-name-menu": [ 0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::confidence-corpus-filter-slider::live.button[2]": [ 0.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::confidence-corpus-filter-slider::slider": [ 1.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::loudness-corpus-filter-slider::comparator": [ 1.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::loudness-corpus-filter-slider::filter-name-menu": [ 0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::loudness-corpus-filter-slider::live.button[2]": [ 0.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::loudness-corpus-filter-slider::slider": [ 75.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::sp-sampler::absoluteview": [ 0.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::sp-sampler::algorithm": [ 2.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::sp-sampler::gain": [ 100.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::sp-sampler::in": [ 0.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::sp-sampler::incurve": [ 0.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::sp-sampler::length": [ 100.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::sp-sampler::lengthabsolute": [ 4999.999999999998 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::sp-sampler::live.drop[4]": [ "" ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::sp-sampler::loop": [ 0.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::sp-sampler::out": [ 0.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::sp-sampler::outcurve": [ 0.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::sp-sampler::pitch": [ 0.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::sp-sampler::speed": [ 100.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::sp-sampler::start": [ 0.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::sp-sampler::startabsolute": [ 0.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::sp-sampler::steal": [ 1.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::sp-sampler::tabopen": [ 0.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::sp-sampler::timestretch": [ 0.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::sp-sampler::voices": [ 16.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::time-centroid-corpus-filter-slider::comparator": [ 1.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::time-centroid-corpus-filter-slider::live.button[2]": [ 0.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::time-centroid-corpus-filter-slider::slider": [ 0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::duration-corpus-filter-slider::comparator": [ 1.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::duration-corpus-filter-slider::filter-name-menu": [ 0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::duration-corpus-filter-slider::live.button[2]": [ 0.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::duration-corpus-filter-slider::slider": [ 1553.265306122449 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::flatness-corpus-filter-slider::comparator": [ 1.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::flatness-corpus-filter-slider::filter-name-menu": [ 0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::flatness-corpus-filter-slider::live.button[2]": [ 0.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::flatness-corpus-filter-slider::slider": [ 80.0 ],
+                    "corpus-voice-pitch::classifier-crosspatch::live.numbox": [ 16.0 ],
+                    "corpus-voice-pitch::classifier-crosspatch::live.tab": [ 1.0 ],
+                    "octatrack-scenes::classifier-crosspatch::live.numbox": [ 16.0 ],
+                    "octatrack-scenes::classifier-crosspatch::live.tab": [ 0.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[10]::dk_sustainverb": [ -1 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[10]::eviSustainverb::early": [ 0.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[10]::eviSustainverb::feedback": [ 0.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[10]::eviSustainverb::damp": [ 0.9 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[10]::eviSustainverb::crossover": [ 3000.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[10]::eviSustainverb::highPass": [ 0.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[10]::eviSustainverb::fdnGain": [ 1.5836249209524964 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[10]::eviSustainverb::dryWet": [ 1.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[10]::eviSustainverb::smoothTime": [ 20.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[9]::dk_sustainverb": [ -1 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[9]::eviSustainverb::early": [ 0.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[9]::eviSustainverb::feedback": [ 0.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[9]::eviSustainverb::damp": [ 0.9 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[9]::eviSustainverb::crossover": [ 3000.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[9]::eviSustainverb::highPass": [ 0.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[9]::eviSustainverb::fdnGain": [ 1.5836249209524964 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[9]::eviSustainverb::dryWet": [ 1.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[9]::eviSustainverb::smoothTime": [ 20.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[8]::dk_sustainverb": [ -1 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[8]::eviSustainverb::early": [ 0.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[8]::eviSustainverb::feedback": [ 0.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[8]::eviSustainverb::damp": [ 0.9 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[8]::eviSustainverb::crossover": [ 3000.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[8]::eviSustainverb::highPass": [ 0.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[8]::eviSustainverb::fdnGain": [ 1.5836249209524964 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[8]::eviSustainverb::dryWet": [ 1.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[8]::eviSustainverb::smoothTime": [ 20.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[7]::dk_sustainverb": [ -1 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[7]::eviSustainverb::early": [ 0.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[7]::eviSustainverb::feedback": [ 0.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[7]::eviSustainverb::damp": [ 0.9 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[7]::eviSustainverb::crossover": [ 3000.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[7]::eviSustainverb::highPass": [ 0.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[7]::eviSustainverb::fdnGain": [ 1.5836249209524964 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[7]::eviSustainverb::dryWet": [ 1.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[7]::eviSustainverb::smoothTime": [ 20.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[4]::dk_sustainverb": [ -1 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[4]::eviSustainverb::early": [ 0.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[4]::eviSustainverb::feedback": [ 0.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[4]::eviSustainverb::damp": [ 0.9 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[4]::eviSustainverb::crossover": [ 3000.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[4]::eviSustainverb::highPass": [ 0.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[4]::eviSustainverb::fdnGain": [ 1.5836249209524964 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[4]::eviSustainverb::dryWet": [ 1.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[4]::eviSustainverb::smoothTime": [ 20.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[3]::dk_sustainverb": [ -1 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[3]::eviSustainverb::early": [ 0.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[3]::eviSustainverb::feedback": [ 1.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[3]::eviSustainverb::damp": [ 0.9 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[3]::eviSustainverb::crossover": [ 3000.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[3]::eviSustainverb::highPass": [ 0.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[3]::eviSustainverb::fdnGain": [ 1.5836249209524964 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[3]::eviSustainverb::dryWet": [ 1.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[3]::eviSustainverb::smoothTime": [ 20.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[2]::dk_sustainverb": [ -1 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[2]::eviSustainverb::early": [ 0.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[2]::eviSustainverb::feedback": [ 1.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[2]::eviSustainverb::damp": [ 0.9 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[2]::eviSustainverb::crossover": [ 3000.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[2]::eviSustainverb::highPass": [ 0.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[2]::eviSustainverb::fdnGain": [ 1.5836249209524964 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[2]::eviSustainverb::dryWet": [ 1.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[2]::eviSustainverb::smoothTime": [ 20.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[1]::dk_sustainverb": [ -1 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[1]::eviSustainverb::early": [ 0.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[1]::eviSustainverb::feedback": [ 0.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[1]::eviSustainverb::damp": [ 0.9 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[1]::eviSustainverb::crossover": [ 3000.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[1]::eviSustainverb::highPass": [ 0.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[1]::eviSustainverb::fdnGain": [ 1.5836249209524964 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[1]::eviSustainverb::dryWet": [ 1.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[1]::eviSustainverb::smoothTime": [ 20.0 ],
+                    "waveguide-patcher::a1[3]": [ 23.193653766065836 ],
+                    "waveguide-patcher::a2[3]": [ 22.111634933389723 ],
+                    "waveguide-patcher::brightness[3]": [ 11.97323037777096 ],
+                    "waveguide-patcher::damping[3]": [ 54.74952198565006 ],
+                    "waveguide-patcher::decay[3]": [ 9.451013509554956 ],
+                    "waveguide-patcher::impout[3]": [ 56.68792724609375 ],
+                    "waveguide-patcher::impulse[3]": [ 54.51718627009541 ],
+                    "waveguide-patcher::input[3]": [ 85.650634765625 ],
+                    "waveguide-patcher::live.menu": [ 0.0 ],
+                    "waveguide-patcher::position[3]": [ 35.53714193403721 ],
+                    "waveguide-patcher::reflect[3]": [ 90.98837945906075 ],
+                    "waveguide-patcher::reflectmode[3]": [ 2.0 ],
+                    "waveguide-patcher::resonance[3]": [ 23.438268899917603 ],
+                    "waveguide-patcher::sharpness[3]": [ 0.5914270877838135 ],
+                    "waveguide-patcher::u576011214": [ -1 ],
+                    "corpus-voice-pitch[1]::live.menu": [ 11.0 ],
+                    "corpus-voice-pitch[1]::live.menu[1]": [ 12.0 ],
+                    "corpus-voice-pitch[1]::live.numbox": [ 0.0 ],
+                    "corpus-voice-pitch[1]::scale-max": [ 100.0 ],
+                    "corpus-voice-pitch[1]::scale-max[1]": [ 100.0 ],
+                    "corpus-voice-pitch[1]::scale-max[2]": [ 3.0 ],
+                    "corpus-voice-pitch[1]::scale-max[3]": [ 6.0 ],
+                    "corpus-voice-pitch[1]::scale-max[4]": [ 1.0 ],
+                    "corpus-voice-pitch[1]::scale-max[5]": [ 1.0 ],
+                    "corpus-voice-pitch[1]::scale-min": [ 0.0 ],
+                    "corpus-voice-pitch[1]::scale-min[1]": [ 0.0 ],
+                    "corpus-voice-pitch[1]::scale-min[2]": [ -3.0 ],
+                    "corpus-voice-pitch[1]::scale-min[3]": [ -6.0 ],
+                    "corpus-voice-pitch[1]::scale-min[4]": [ 0.0 ],
+                    "corpus-voice-pitch[1]::scale-min[5]": [ 0.5748031496062993 ],
+                    "corpus-voice-pitch[1]::xpat-hhmm-voice": [
+                        {
+                            "data": {
+                                "numins": 14,
+                                "numouts": 8,
+                                "connections": [
+                                    {
+                                        "in": 12,
+                                        "out": 5,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 1,
+                                        "out": 0,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 3,
+                                        "out": 1,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 8,
+                                        "out": 4,
+                                        "gain": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "corpus-voice-pitch[1]::xpatch-onset-corpus-style": [
+                        {
+                            "data": {
+                                "numins": 6,
+                                "numouts": 8,
+                                "connections": [
+                                    {
+                                        "in": 0,
+                                        "out": 0,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 2,
+                                        "out": 0,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 3,
+                                        "out": 0,
+                                        "gain": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "corpus-voice-pitch[1]::u902011358": [ 1.0 ],
+                    "corpus-voice-pitch[1]::u560011771": [ -1 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::comp-loudness": [ 47.3765 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::comp-spectral": [ 53.13927 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::corpus-menu": [ 9 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::data-transpose-loudness": [ 2.77281 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::data-transpose-pitch": [ 0.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::live.button[1]": [ 0.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::live.dial[2]": [ 0.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::live.text": [ 1.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::mod-loop-length": [ 0.791753 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::mod-loop-speed": [ 0.875015 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::pitch-tonality-quantize-tab": [ 0.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::reset-bang-speed-len": [ 1 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::setup-matching-length": [ 0.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::setup-range": [ 3.5573122529644268, 95.25691699604744 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::toggle-enabled": [ 1.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::toggle-use-setup": [ 1.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::weight-centroid": [ 100.00000000000004 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::weight-loudness": [ 100.00000000000004 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::weight-pitch": [ 0.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::centroid-corpus-filter-slider::comparator": [ 1.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::centroid-corpus-filter-slider::filter-name-menu": [ 2 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::centroid-corpus-filter-slider::live.button[2]": [ 0.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::centroid-corpus-filter-slider::slider": [ 127.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::pitch-corpus-filter-slider::comparator": [ 1.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::pitch-corpus-filter-slider::filter-name-menu": [ 0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::pitch-corpus-filter-slider::live.button[2]": [ 0.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::pitch-corpus-filter-slider::slider": [ 127.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::confidence-corpus-filter-slider::comparator": [ 1.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::confidence-corpus-filter-slider::filter-name-menu": [ 0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::confidence-corpus-filter-slider::live.button[2]": [ 0.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::confidence-corpus-filter-slider::slider": [ 1.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::loudness-corpus-filter-slider::comparator": [ 1.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::loudness-corpus-filter-slider::filter-name-menu": [ 0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::loudness-corpus-filter-slider::live.button[2]": [ 0.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::loudness-corpus-filter-slider::slider": [ 75.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::sp-sampler::absoluteview": [ 0.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::sp-sampler::algorithm": [ 2.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::sp-sampler::gain": [ 100.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::sp-sampler::in": [ 0.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::sp-sampler::incurve": [ 0.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::sp-sampler::length": [ 100.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::sp-sampler::lengthabsolute": [ 4999.999999999998 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::sp-sampler::live.drop[4]": [ "" ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::sp-sampler::loop": [ 0.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::sp-sampler::out": [ 0.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::sp-sampler::outcurve": [ 0.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::sp-sampler::pitch": [ 0.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::sp-sampler::speed": [ 100.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::sp-sampler::start": [ 0.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::sp-sampler::startabsolute": [ 0.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::sp-sampler::steal": [ 1.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::sp-sampler::tabopen": [ 0.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::sp-sampler::timestretch": [ 1.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::sp-sampler::voices": [ 5.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::time-centroid-corpus-filter-slider::comparator": [ 0.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::time-centroid-corpus-filter-slider::live.button[2]": [ 0.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::time-centroid-corpus-filter-slider::slider": [ 150 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::duration-corpus-filter-slider::comparator": [ 1.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::duration-corpus-filter-slider::filter-name-menu": [ 0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::duration-corpus-filter-slider::live.button[2]": [ 0.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::duration-corpus-filter-slider::slider": [ 731.8310657596372 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::flatness-corpus-filter-slider::comparator": [ 1.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::flatness-corpus-filter-slider::filter-name-menu": [ 2 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::flatness-corpus-filter-slider::live.button[2]": [ 0.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::flatness-corpus-filter-slider::slider": [ 80.0 ],
+                    "corpus-voice-pitch[1]::classifier-crosspatch::live.numbox": [ 16.0 ],
+                    "corpus-voice-pitch[1]::classifier-crosspatch::live.tab": [ 0.0 ]
+                }
+            },
+            "3": {
+                "id": 3,
+                "data": {
+                    "gain-freeze": [ -70.0 ],
+                    "gain-master": [ -3.803990602493286 ],
+                    "gain-perc": [ -1.5223097112860668 ],
+                    "gain-pitch": [ -6.796116504854368 ],
+                    "gate-send-scenes[1]": [ 1.0 ],
+                    "live.dial": [ 1375.0 ],
+                    "live.gain~[1]": [ 2.4539408302117676 ],
+                    "live.text[1]": [ 0.0 ],
+                    "live.text[2]": [ 0.0 ],
+                    "live.text[3]": [ 1.0 ],
+                    "live.text[4]": [ 0.0 ],
+                    "live.text[5]": [ 0.0 ],
+                    "qkey": [ 0 ],
+                    "qscale": [ 5 ],
+                    "xpat-hhmm-voice": [
+                        {
+                            "data": {
+                                "numins": 6,
+                                "numouts": 8,
+                                "connections": [
+                                    {
+                                        "in": 0,
+                                        "out": 0,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 1,
+                                        "out": 0,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 3,
+                                        "out": 0,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 4,
+                                        "out": 0,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 2,
+                                        "out": 1,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 3,
+                                        "out": 1,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 1,
+                                        "out": 3,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 0,
+                                        "out": 3,
+                                        "gain": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "multi-model-classifier::umenu": [ 0 ],
+                    "corpus-voice-pitch::live.menu": [ 11.0 ],
+                    "corpus-voice-pitch::live.menu[1]": [ 11.0 ],
+                    "corpus-voice-pitch::live.numbox": [ 0.0 ],
+                    "corpus-voice-pitch::scale-max": [ 100.0 ],
+                    "corpus-voice-pitch::scale-max[1]": [ 100.0 ],
+                    "corpus-voice-pitch::scale-max[2]": [ 3.0 ],
+                    "corpus-voice-pitch::scale-max[3]": [ 3.0 ],
+                    "corpus-voice-pitch::scale-max[4]": [ 0.30000000000000004 ],
+                    "corpus-voice-pitch::scale-max[5]": [ 1.0 ],
+                    "corpus-voice-pitch::scale-min": [ 0.0 ],
+                    "corpus-voice-pitch::scale-min[1]": [ 0.0 ],
+                    "corpus-voice-pitch::scale-min[2]": [ -3.0 ],
+                    "corpus-voice-pitch::scale-min[3]": [ -3.0 ],
+                    "corpus-voice-pitch::scale-min[4]": [ 0.0 ],
+                    "corpus-voice-pitch::scale-min[5]": [ 0.0 ],
+                    "corpus-voice-pitch::xpat-hhmm-voice": [
+                        {
+                            "data": {
+                                "numins": 14,
+                                "numouts": 8,
+                                "connections": [
+                                    {
+                                        "in": 6,
+                                        "out": 2,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 11,
+                                        "out": 3,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 2,
+                                        "out": 4,
+                                        "gain": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "corpus-voice-pitch::xpatch-onset-corpus-style": [
+                        {
+                            "data": {
+                                "numins": 6,
+                                "numouts": 8,
+                                "connections": [
+                                    {
+                                        "in": 0,
+                                        "out": 0,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 1,
+                                        "out": 0,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 2,
+                                        "out": 0,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 0,
+                                        "out": 1,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 3,
+                                        "out": 1,
+                                        "gain": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "corpus-voice-pitch::u902011358": [ 0.0 ],
+                    "corpus-voice-pitch::u560011771": [ -1 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::corpus-menu": [ 16 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::comp-loudness": [ 36.829343 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::comp-spectral": [ 52.843011 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::data-transpose-loudness": [ -0.758292 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::data-transpose-pitch": [ 0.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::live.button[1]": [ 0.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::live.dial[2]": [ 100.00000000000004 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::live.text": [ 1.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::mod-loop-length": [ 0.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::mod-loop-speed": [ 0.23 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::pitch-tonality-quantize-tab": [ 1.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::reset-bang-speed-len": [ 1 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::setup-matching-length": [ 0.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::setup-range": [ 9.848482995165195, 86.84123368131313 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::toggle-enabled": [ 0.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::toggle-use-setup": [ 0.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::weight-centroid": [ 100.00000000000004 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::weight-loudness": [ 100.00000000000004 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::weight-pitch": [ 100.00000000000004 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::centroid-corpus-filter-slider::comparator": [ 1.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::centroid-corpus-filter-slider::filter-name-menu": [ 0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::centroid-corpus-filter-slider::live.button[2]": [ 0.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::centroid-corpus-filter-slider::slider": [ 127.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::pitch-corpus-filter-slider::comparator": [ 1.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::pitch-corpus-filter-slider::filter-name-menu": [ 0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::pitch-corpus-filter-slider::live.button[2]": [ 0.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::pitch-corpus-filter-slider::slider": [ 127.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::confidence-corpus-filter-slider::comparator": [ 1.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::confidence-corpus-filter-slider::filter-name-menu": [ 0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::confidence-corpus-filter-slider::live.button[2]": [ 0.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::confidence-corpus-filter-slider::slider": [ 1.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::loudness-corpus-filter-slider::comparator": [ 1.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::loudness-corpus-filter-slider::filter-name-menu": [ 0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::loudness-corpus-filter-slider::live.button[2]": [ 0.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::loudness-corpus-filter-slider::slider": [ 75.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::sp-sampler::absoluteview": [ 0.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::sp-sampler::algorithm": [ 4.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::sp-sampler::gain": [ 100.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::sp-sampler::in": [ 0.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::sp-sampler::incurve": [ 0.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::sp-sampler::length": [ 100.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::sp-sampler::lengthabsolute": [ 4999.999999999998 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::sp-sampler::live.drop[4]": [ "" ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::sp-sampler::loop": [ 0.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::sp-sampler::out": [ 0.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::sp-sampler::outcurve": [ 0.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::sp-sampler::pitch": [ 0.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::sp-sampler::speed": [ 100.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::sp-sampler::start": [ 0.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::sp-sampler::startabsolute": [ 0.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::sp-sampler::steal": [ 1.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::sp-sampler::tabopen": [ 0.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::sp-sampler::timestretch": [ 1.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::sp-sampler::voices": [ 16.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::time-centroid-corpus-filter-slider::comparator": [ 0.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::time-centroid-corpus-filter-slider::live.button[2]": [ 0.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::time-centroid-corpus-filter-slider::slider": [ 90 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::duration-corpus-filter-slider::comparator": [ 1.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::duration-corpus-filter-slider::filter-name-menu": [ 0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::duration-corpus-filter-slider::live.button[2]": [ 0.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::duration-corpus-filter-slider::slider": [ 1553.265306122449 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::flatness-corpus-filter-slider::comparator": [ 1.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::flatness-corpus-filter-slider::filter-name-menu": [ 0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::flatness-corpus-filter-slider::live.button[2]": [ 0.0 ],
+                    "corpus-voice-pitch::_filter-to-corpus-1::flatness-corpus-filter-slider::slider": [ 80.0 ],
+                    "corpus-voice-pitch::classifier-crosspatch::live.numbox": [ 16.0 ],
+                    "corpus-voice-pitch::classifier-crosspatch::live.tab": [ 1.0 ],
+                    "octatrack-scenes::classifier-crosspatch::live.numbox": [ 16.0 ],
+                    "octatrack-scenes::classifier-crosspatch::live.tab": [ 0.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[10]::dk_sustainverb": [ -1 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[10]::eviSustainverb::early": [ 0.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[10]::eviSustainverb::feedback": [ 0.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[10]::eviSustainverb::damp": [ 0.9 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[10]::eviSustainverb::crossover": [ 3000.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[10]::eviSustainverb::highPass": [ 0.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[10]::eviSustainverb::fdnGain": [ 1.5836249209524964 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[10]::eviSustainverb::dryWet": [ 1.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[10]::eviSustainverb::smoothTime": [ 20.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[9]::dk_sustainverb": [ -1 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[9]::eviSustainverb::early": [ 0.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[9]::eviSustainverb::feedback": [ 0.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[9]::eviSustainverb::damp": [ 0.9 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[9]::eviSustainverb::crossover": [ 3000.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[9]::eviSustainverb::highPass": [ 0.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[9]::eviSustainverb::fdnGain": [ 1.5836249209524964 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[9]::eviSustainverb::dryWet": [ 1.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[9]::eviSustainverb::smoothTime": [ 20.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[8]::dk_sustainverb": [ -1 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[8]::eviSustainverb::early": [ 0.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[8]::eviSustainverb::feedback": [ 0.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[8]::eviSustainverb::damp": [ 0.9 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[8]::eviSustainverb::crossover": [ 3000.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[8]::eviSustainverb::highPass": [ 0.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[8]::eviSustainverb::fdnGain": [ 1.5836249209524964 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[8]::eviSustainverb::dryWet": [ 1.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[8]::eviSustainverb::smoothTime": [ 20.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[7]::dk_sustainverb": [ -1 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[7]::eviSustainverb::early": [ 0.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[7]::eviSustainverb::feedback": [ 1.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[7]::eviSustainverb::damp": [ 0.9 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[7]::eviSustainverb::crossover": [ 3000.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[7]::eviSustainverb::highPass": [ 0.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[7]::eviSustainverb::fdnGain": [ 1.5836249209524964 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[7]::eviSustainverb::dryWet": [ 1.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[7]::eviSustainverb::smoothTime": [ 20.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[4]::dk_sustainverb": [ -1 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[4]::eviSustainverb::early": [ 0.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[4]::eviSustainverb::feedback": [ 1.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[4]::eviSustainverb::damp": [ 0.9 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[4]::eviSustainverb::crossover": [ 3000.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[4]::eviSustainverb::highPass": [ 0.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[4]::eviSustainverb::fdnGain": [ 1.5836249209524964 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[4]::eviSustainverb::dryWet": [ 1.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[4]::eviSustainverb::smoothTime": [ 20.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[3]::dk_sustainverb": [ -1 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[3]::eviSustainverb::early": [ 0.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[3]::eviSustainverb::feedback": [ 0.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[3]::eviSustainverb::damp": [ 0.9 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[3]::eviSustainverb::crossover": [ 3000.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[3]::eviSustainverb::highPass": [ 0.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[3]::eviSustainverb::fdnGain": [ 1.5836249209524964 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[3]::eviSustainverb::dryWet": [ 1.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[3]::eviSustainverb::smoothTime": [ 20.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[2]::dk_sustainverb": [ -1 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[2]::eviSustainverb::early": [ 0.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[2]::eviSustainverb::feedback": [ 0.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[2]::eviSustainverb::damp": [ 0.9 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[2]::eviSustainverb::crossover": [ 3000.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[2]::eviSustainverb::highPass": [ 0.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[2]::eviSustainverb::fdnGain": [ 1.5836249209524964 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[2]::eviSustainverb::dryWet": [ 1.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[2]::eviSustainverb::smoothTime": [ 20.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[1]::dk_sustainverb": [ -1 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[1]::eviSustainverb::early": [ 0.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[1]::eviSustainverb::feedback": [ 0.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[1]::eviSustainverb::damp": [ 0.9 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[1]::eviSustainverb::crossover": [ 3000.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[1]::eviSustainverb::highPass": [ 0.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[1]::eviSustainverb::fdnGain": [ 1.5836249209524964 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[1]::eviSustainverb::dryWet": [ 1.0 ],
+                    "patcher::dk.onsetfreeze~::patcher[2]::ial.zitaverb~[1]::eviSustainverb::smoothTime": [ 20.0 ],
+                    "waveguide-patcher::a1[3]": [ 1.0693382704630494 ],
+                    "waveguide-patcher::a2[3]": [ 0.1051375875249505 ],
+                    "waveguide-patcher::brightness[3]": [ 3.5632783779874444 ],
+                    "waveguide-patcher::damping[3]": [ 68.53361884132028 ],
+                    "waveguide-patcher::decay[3]": [ 0.04503946809371009 ],
+                    "waveguide-patcher::impout[3]": [ 59.75341796875 ],
+                    "waveguide-patcher::impulse[3]": [ 0.580680463463068 ],
+                    "waveguide-patcher::input[3]": [ 96.1273193359375 ],
+                    "waveguide-patcher::live.menu": [ 2.0 ],
+                    "waveguide-patcher::position[3]": [ 6.33343702647835 ],
+                    "waveguide-patcher::reflect[3]": [ 98.9653747845163 ],
+                    "waveguide-patcher::reflectmode[3]": [ 2.0 ],
+                    "waveguide-patcher::resonance[3]": [ 49.275532737374306 ],
+                    "waveguide-patcher::sharpness[3]": [ 2.178524830378592 ],
+                    "waveguide-patcher::u576011214": [ -1 ],
+                    "corpus-voice-pitch[1]::live.menu": [ 15.0 ],
+                    "corpus-voice-pitch[1]::live.menu[1]": [ 14.0 ],
+                    "corpus-voice-pitch[1]::live.numbox": [ 0.0 ],
+                    "corpus-voice-pitch[1]::scale-max": [ 100.0 ],
+                    "corpus-voice-pitch[1]::scale-max[1]": [ 100.0 ],
+                    "corpus-voice-pitch[1]::scale-max[2]": [ 3.0 ],
+                    "corpus-voice-pitch[1]::scale-max[3]": [ 6.0 ],
+                    "corpus-voice-pitch[1]::scale-max[4]": [ 1.0 ],
+                    "corpus-voice-pitch[1]::scale-max[5]": [ 1.0 ],
+                    "corpus-voice-pitch[1]::scale-min": [ 0.0 ],
+                    "corpus-voice-pitch[1]::scale-min[1]": [ 0.0 ],
+                    "corpus-voice-pitch[1]::scale-min[2]": [ -3.0 ],
+                    "corpus-voice-pitch[1]::scale-min[3]": [ -6.0 ],
+                    "corpus-voice-pitch[1]::scale-min[4]": [ 0.0 ],
+                    "corpus-voice-pitch[1]::scale-min[5]": [ 0.5748031496062993 ],
+                    "corpus-voice-pitch[1]::xpat-hhmm-voice": [
+                        {
+                            "data": {
+                                "numins": 14,
+                                "numouts": 8,
+                                "connections": [
+                                    {
+                                        "in": 13,
+                                        "out": 1,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 12,
+                                        "out": 0,
+                                        "gain": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "corpus-voice-pitch[1]::xpatch-onset-corpus-style": [
+                        {
+                            "data": {
+                                "numins": 6,
+                                "numouts": 8,
+                                "connections": [
+                                    {
+                                        "in": 0,
+                                        "out": 0,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 1,
+                                        "out": 0,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 2,
+                                        "out": 1,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 3,
+                                        "out": 1,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 3,
+                                        "out": 2,
+                                        "gain": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "corpus-voice-pitch[1]::u902011358": [ 0.0 ],
+                    "corpus-voice-pitch[1]::u560011771": [ -1 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::comp-loudness": [ 47.3765 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::comp-spectral": [ 53.13927 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::corpus-menu": [ 22 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::data-transpose-loudness": [ -5.830556 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::data-transpose-pitch": [ 0.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::live.button[1]": [ 0.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::live.dial[2]": [ 100.00000000000004 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::live.text": [ 1.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::mod-loop-length": [ 0.766845 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::mod-loop-speed": [ 0.967208 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::pitch-tonality-quantize-tab": [ 0.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::reset-bang-speed-len": [ 1 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::setup-matching-length": [ 0.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::setup-range": [ 4.743083003952569, 91.30434782608695 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::toggle-enabled": [ 0.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::toggle-use-setup": [ 1.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::weight-centroid": [ 100.00000000000004 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::weight-loudness": [ 100.00000000000004 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::weight-pitch": [ 100.00000000000004 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::centroid-corpus-filter-slider::comparator": [ 1.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::centroid-corpus-filter-slider::filter-name-menu": [ 2 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::centroid-corpus-filter-slider::live.button[2]": [ 0.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::centroid-corpus-filter-slider::slider": [ 127.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::pitch-corpus-filter-slider::comparator": [ 1.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::pitch-corpus-filter-slider::filter-name-menu": [ 0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::pitch-corpus-filter-slider::live.button[2]": [ 0.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::pitch-corpus-filter-slider::slider": [ 127.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::confidence-corpus-filter-slider::comparator": [ 1.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::confidence-corpus-filter-slider::filter-name-menu": [ 0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::confidence-corpus-filter-slider::live.button[2]": [ 0.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::confidence-corpus-filter-slider::slider": [ 1.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::loudness-corpus-filter-slider::comparator": [ 0.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::loudness-corpus-filter-slider::filter-name-menu": [ 1 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::loudness-corpus-filter-slider::live.button[2]": [ 0.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::loudness-corpus-filter-slider::slider": [ 13.750000772997737 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::sp-sampler::absoluteview": [ 0.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::sp-sampler::algorithm": [ 2.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::sp-sampler::gain": [ 100.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::sp-sampler::in": [ 0.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::sp-sampler::incurve": [ 0.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::sp-sampler::length": [ 100.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::sp-sampler::lengthabsolute": [ 4999.999999999998 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::sp-sampler::live.drop[4]": [ "" ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::sp-sampler::loop": [ 0.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::sp-sampler::out": [ 0.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::sp-sampler::outcurve": [ 0.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::sp-sampler::pitch": [ 0.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::sp-sampler::speed": [ 100.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::sp-sampler::start": [ 0.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::sp-sampler::startabsolute": [ 0.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::sp-sampler::steal": [ 1.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::sp-sampler::tabopen": [ 0.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::sp-sampler::timestretch": [ 1.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::sp-sampler::voices": [ 2.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::time-centroid-corpus-filter-slider::comparator": [ 1.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::time-centroid-corpus-filter-slider::live.button[2]": [ 0.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::time-centroid-corpus-filter-slider::slider": [ 250 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::duration-corpus-filter-slider::comparator": [ 1.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::duration-corpus-filter-slider::filter-name-menu": [ 0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::duration-corpus-filter-slider::live.button[2]": [ 0.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::duration-corpus-filter-slider::slider": [ 688.3560090702948 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::flatness-corpus-filter-slider::comparator": [ 1.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::flatness-corpus-filter-slider::filter-name-menu": [ 2 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::flatness-corpus-filter-slider::live.button[2]": [ 0.0 ],
+                    "corpus-voice-pitch[1]::_filter-to-corpus-2::flatness-corpus-filter-slider::slider": [ 80.0 ],
+                    "corpus-voice-pitch[1]::classifier-crosspatch::live.numbox": [ 16.0 ],
+                    "corpus-voice-pitch[1]::classifier-crosspatch::live.tab": [ 0.0 ]
+                }
+            }
+        }
+    }
+}
