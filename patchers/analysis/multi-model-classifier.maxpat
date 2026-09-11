@@ -4,7 +4,7 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 0,
+            "revision": 3,
             "architecture": "x64",
             "modernui": 1
         },
@@ -14,24 +14,207 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-23",
+                    "maxclass": "toggle",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "int" ],
+                    "parameter_enable": 0,
+                    "patching_rect": [ 892.0, 988.0, 24.0, 24.0 ]
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-17",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "int" ],
+                    "patching_rect": [ 892.0, 952.0, 29.5, 22.0 ],
+                    "text": "> 2"
+                }
+            },
+            {
+                "box": {
+                    "fontname": "Ableton Sans",
+                    "fontsize": 24.0,
+                    "id": "obj-13",
+                    "linecount": 5,
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 1328.0, 990.0, 299.0, 151.0 ],
+                    "presentation": 1,
+                    "presentation_linecount": 5,
+                    "presentation_rect": [ 181.0, 264.0, 338.0, 151.0 ],
+                    "text": "bow-high-dbl-rhythm bow-open-accel col-legno-density pizz-high-register pizz-open-5ths",
+                    "textcolor": [ 0.42745098039215684, 0.8431372549019608, 1.0, 1.0 ]
+                }
+            },
+            {
+                "box": {
+                    "bgcolor": [ 0.125, 0.125, 0.125, 0.0 ],
+                    "id": "obj-84",
+                    "knobcolor": [ 1.0, 0.34509803921568627, 0.2980392156862745, 1.0 ],
+                    "knobshape": 5,
+                    "maxclass": "slider",
+                    "min": -5.0,
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "orientation": 2,
+                    "outlettype": [ "" ],
+                    "parameter_enable": 0,
+                    "patching_rect": [ 1306.0, 1005.0, 20.0, 98.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 178.0, 263.40625, 278.0, 152.59375 ],
+                    "size": 5.0
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-91",
+                    "maxclass": "newobj",
+                    "numinlets": 6,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 1172.0, 945.0, 77.0, 22.0 ],
+                    "text": "scale 1 5 5 0"
+                }
+            },
+            {
+                "box": {
+                    "attr": "min",
+                    "id": "obj-87",
+                    "maxclass": "attrui",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "parameter_enable": 0,
+                    "patching_rect": [ 1396.0, 945.0, 150.0, 22.0 ]
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-85",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "int" ],
+                    "patching_rect": [ 1546.0, 911.0, 29.5, 22.0 ],
+                    "text": "* -1"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-77",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "bang" ],
+                    "patching_rect": [ 947.1666950583458, 244.0, 58.0, 22.0 ],
+                    "text": "loadbang"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-75",
+                    "maxclass": "message",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 947.1666950583458, 269.0, 35.0, 22.0 ],
+                    "text": "set 1"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-29",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "int" ],
+                    "patching_rect": [ 1278.0, 891.0, 29.5, 22.0 ],
+                    "text": "- 1"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-26",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "patching_rect": [ 1177.0, 858.0, 47.0, 22.0 ],
+                    "text": "zl nth 1"
+                }
+            },
+            {
+                "box": {
+                    "attr": "size",
+                    "id": "obj-25",
+                    "maxclass": "attrui",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "parameter_enable": 0,
+                    "patching_rect": [ 1483.0, 853.0, 150.0, 22.0 ]
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-22",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "patching_rect": [ 1445.0, 828.0, 37.0, 22.0 ],
+                    "text": "zl len"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-18",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "patching_rect": [ 1456.0, 796.0, 43.0, 22.0 ],
+                    "text": "zl lace"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-16",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 1320.0, 853.0, 72.0, 22.0 ],
+                    "text": "prepend set"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-10",
                     "linecount": 2,
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 1402.75, 74.71264243125916, 394.0, 33.0 ],
-                    "presentation_linecount": 2,
-                    "text": "it will auto record and train the hhmm in mubu container. when its done \"writeall\" to save the mubu file, then bang the \"reload-menu\" "
+                    "patching_rect": [ 1447.0, 55.09195375442505, 394.0, 33.0 ],
+                    "text": "it will auto record and train the hhmm in mubu container. when its done \"writeall\" to save the mubu file, then bang the \"reload-menu\" ",
+                    "textcolor": [ 0.8470588235294118, 0.2901960784313726, 0.25098039215686274, 1.0 ]
                 }
             },
             {
                 "box": {
+                    "fontsize": 18.0,
                     "id": "obj-8",
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 1260.999998052915, 26.09195375442505, 394.0, 20.0 ],
-                    "text": "to train HHMM, first use readfolder to load in examples of audio gestures"
+                    "patching_rect": [ 1260.999998052915, 26.09195375442505, 587.0, 27.0 ],
+                    "text": "to train HHMM, first use readfolder to load in examples of audio gestures",
+                    "textcolor": [ 1.0, 0.34509803921568627, 0.2980392156862745, 1.0 ]
                 }
             },
             {
@@ -151,9 +334,9 @@
                     "numinlets": 1,
                     "numoutlets": 4,
                     "outlettype": [ "", "", "", "" ],
-                    "patching_rect": [ 1061.0, 42.0, 93.0, 22.0 ],
+                    "patching_rect": [ 1054.0, 184.0, 93.0, 22.0 ],
                     "restore": {
-                        "umenu": [ 0 ]
+                        "umenu": [ 1 ]
                     },
                     "text": "autopattr",
                     "varname": "u049017746"
@@ -181,7 +364,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 3,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -246,7 +429,7 @@
                             {
                                 "box": {
                                     "coll_data": {
-                                        "count": 3,
+                                        "count": 4,
                                         "data": [
                                             {
                                                 "key": 0,
@@ -254,10 +437,14 @@
                                             },
                                             {
                                                 "key": 1,
-                                                "value": [ "/Users/jamesstaub/Library/CloudStorage/GoogleDrive-james.staub@gmail.com/My Drive/audio/cello-gestures/percussive/percussive.mubu" ]
+                                                "value": [ "/Users/jamesstaub/Library/CloudStorage/GoogleDrive-james.staub@gmail.com/My Drive/audio/cello-gestures/high-techniques/high-techniques.mubu" ]
                                             },
                                             {
                                                 "key": 2,
+                                                "value": [ "/Users/jamesstaub/Library/CloudStorage/GoogleDrive-james.staub@gmail.com/My Drive/audio/cello-gestures/percussive/percussive.mubu" ]
+                                            },
+                                            {
+                                                "key": 3,
                                                 "value": [ "/Users/jamesstaub/Library/CloudStorage/GoogleDrive-james.staub@gmail.com/My Drive/audio/cello-gestures/techniques-1/techniques-1.mubu" ]
                                             }
                                         ]
@@ -350,7 +537,7 @@
                             }
                         ]
                     },
-                    "patching_rect": [ 1187.0, 358.0, 64.0, 22.0 ],
+                    "patching_rect": [ 1227.999998052915, 383.0, 64.0, 22.0 ],
                     "text": "p mubufile"
                 }
             },
@@ -366,7 +553,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 3,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -420,27 +607,23 @@
                             {
                                 "box": {
                                     "coll_data": {
-                                        "count": 5,
+                                        "count": 4,
                                         "data": [
                                             {
                                                 "key": 1,
-                                                "value": [ "cello-phrases.1", "bow-squeel-smacks" ]
+                                                "value": [ "cello-phrases.1", "bow-high-dbl-rhythm" ]
                                             },
                                             {
                                                 "key": 2,
-                                                "value": [ "cello-phrases.2", "bow-then-pizz" ]
+                                                "value": [ "cello-phrases.2", "bow-squeel-smacks" ]
                                             },
                                             {
                                                 "key": 3,
-                                                "value": [ "cello-phrases.3", "jete-bounce-harmonic" ]
+                                                "value": [ "cello-phrases.3", "pizz-harmonic-descend" ]
                                             },
                                             {
                                                 "key": 4,
-                                                "value": [ "cello-phrases.4", "pizz-gliss" ]
-                                            },
-                                            {
-                                                "key": 5,
-                                                "value": [ "cello-phrases.5", "pizz-harmonic-descend" ]
+                                                "value": [ "cello-phrases.4", "strum-diads" ]
                                             }
                                         ]
                                     },
@@ -526,7 +709,7 @@
                             }
                         ]
                     },
-                    "patching_rect": [ 932.0, 769.0, 161.0, 22.0 ],
+                    "patching_rect": [ 930.0, 713.0, 161.0, 22.0 ],
                     "text": "p load-buffers-on-end-record"
                 }
             },
@@ -553,7 +736,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 3,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -654,14 +837,15 @@
             },
             {
                 "box": {
+                    "fontsize": 12.0,
                     "id": "obj-21",
-                    "items": [ "basic", ",", "percussive", ",", "techniques-1" ],
+                    "items": [ "basic", ",", "high-techniques", ",", "percussive", ",", "techniques-1" ],
                     "maxclass": "umenu",
                     "numinlets": 1,
                     "numoutlets": 3,
                     "outlettype": [ "int", "", "" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 1061.0, 347.0, 100.0, 22.0 ],
+                    "patching_rect": [ 951.0, 347.0, 261.0, 22.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 462.0, 14.0, 100.0, 22.0 ],
                     "varname": "umenu"
@@ -748,7 +932,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 932.0, 806.0, 96.0, 22.0 ],
+                    "patching_rect": [ 930.0, 750.0, 96.0, 22.0 ],
                     "text": "prepend classes"
                 }
             },
@@ -771,7 +955,7 @@
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 1235.0, 845.0, 30.0, 30.0 ]
+                    "patching_rect": [ 1241.75, 834.0, 30.0, 30.0 ]
                 }
             },
             {
@@ -782,7 +966,7 @@
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 932.0, 858.0, 30.0, 30.0 ]
+                    "patching_rect": [ 930.0, 802.0, 30.0, 30.0 ]
                 }
             },
             {
@@ -949,7 +1133,7 @@
                     "numinlets": 1,
                     "numoutlets": 3,
                     "outlettype": [ "", "", "" ],
-                    "patching_rect": [ 1322.5625, 358.0, 41.0, 22.0 ],
+                    "patching_rect": [ 1311.3333313862486, 197.0, 41.0, 22.0 ],
                     "text": "unjoin"
                 }
             },
@@ -965,7 +1149,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 3,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -984,7 +1168,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 0,
+                                            "revision": 3,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -1223,7 +1407,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 0,
+                                            "revision": 3,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -1461,13 +1645,13 @@
                             {
                                 "box": {
                                     "id": "obj-8",
-                                    "linecount": 3,
+                                    "linecount": 2,
                                     "maxclass": "message",
                                     "numinlets": 2,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
                                     "patching_rect": [ 516.6666820645332, 461.96581664681435, 124.66667038202286, 35.0 ],
-                                    "text": "cello-phrases.5 pizz-harmonic-descend"
+                                    "text": "cello-phrases.4 strum-diads"
                                 }
                             },
                             {
@@ -1550,27 +1734,23 @@
                             {
                                 "box": {
                                     "coll_data": {
-                                        "count": 5,
+                                        "count": 4,
                                         "data": [
                                             {
                                                 "key": 1,
-                                                "value": [ "cello-phrases.1", "bow-squeel-smacks" ]
+                                                "value": [ "cello-phrases.1", "bow-high-dbl-rhythm" ]
                                             },
                                             {
                                                 "key": 2,
-                                                "value": [ "cello-phrases.2", "bow-then-pizz" ]
+                                                "value": [ "cello-phrases.2", "bow-squeel-smacks" ]
                                             },
                                             {
                                                 "key": 3,
-                                                "value": [ "cello-phrases.3", "jete-bounce-harmonic" ]
+                                                "value": [ "cello-phrases.3", "pizz-harmonic-descend" ]
                                             },
                                             {
                                                 "key": 4,
-                                                "value": [ "cello-phrases.4", "pizz-gliss" ]
-                                            },
-                                            {
-                                                "key": 5,
-                                                "value": [ "cello-phrases.5", "pizz-harmonic-descend" ]
+                                                "value": [ "cello-phrases.4", "strum-diads" ]
                                             }
                                         ]
                                     },
@@ -1680,27 +1860,23 @@
                             {
                                 "box": {
                                     "coll_data": {
-                                        "count": 5,
+                                        "count": 4,
                                         "data": [
                                             {
                                                 "key": 1,
-                                                "value": [ "cello-phrases.1", "bow-squeel-smacks" ]
+                                                "value": [ "cello-phrases.1", "bow-high-dbl-rhythm" ]
                                             },
                                             {
                                                 "key": 2,
-                                                "value": [ "cello-phrases.2", "bow-then-pizz" ]
+                                                "value": [ "cello-phrases.2", "bow-squeel-smacks" ]
                                             },
                                             {
                                                 "key": 3,
-                                                "value": [ "cello-phrases.3", "jete-bounce-harmonic" ]
+                                                "value": [ "cello-phrases.3", "pizz-harmonic-descend" ]
                                             },
                                             {
                                                 "key": 4,
-                                                "value": [ "cello-phrases.4", "pizz-gliss" ]
-                                            },
-                                            {
-                                                "key": 5,
-                                                "value": [ "cello-phrases.5", "pizz-harmonic-descend" ]
+                                                "value": [ "cello-phrases.4", "strum-diads" ]
                                             }
                                         ]
                                     },
@@ -2344,6 +2520,7 @@
             },
             {
                 "box": {
+                    "hidden": 1,
                     "id": "obj-80",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -2858,7 +3035,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 3,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -2877,7 +3054,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 0,
+                                            "revision": 3,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -3418,7 +3595,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 0,
+                                            "revision": 3,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -3814,6 +3991,7 @@
             },
             {
                 "box": {
+                    "hidden": 1,
                     "id": "obj-147",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -3824,7 +4002,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 3,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -4000,6 +4178,7 @@
             },
             {
                 "box": {
+                    "hidden": 1,
                     "id": "obj-148",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -4010,7 +4189,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 3,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -4186,6 +4365,7 @@
             },
             {
                 "box": {
+                    "hidden": 1,
                     "id": "obj-155",
                     "maxclass": "newobj",
                     "numinlets": 2,
@@ -4207,7 +4387,7 @@
                     "fontsize": 10.0,
                     "hint": "",
                     "id": "obj-156",
-                    "items": [ "None", ",", "System Device: MacBook Air Speakers", ",", "Preference: PreSonus AudioBox iTwo, Current: MacBook Air Speakers", ",", "ASUS VE258", ",", "BlackHole 16ch", ",", "BlackHole 2ch", ",", "MacBook Air Speakers", ",", "Presonus+Zoom" ],
+                    "items": [ "None", ",", "System Device: PreSonus AudioBox iTwo", ",", "ASUS VE258", ",", "PreSonus AudioBox iTwo", ",", "BlackHole 16ch", ",", "BlackHole 2ch", ",", "MacBook Air Speakers" ],
                     "maxclass": "umenu",
                     "numinlets": 1,
                     "numoutlets": 3,
@@ -4224,6 +4404,7 @@
             },
             {
                 "box": {
+                    "hidden": 1,
                     "id": "obj-157",
                     "maxclass": "newobj",
                     "numinlets": 2,
@@ -4245,7 +4426,7 @@
                     "fontsize": 10.0,
                     "hint": "",
                     "id": "obj-158",
-                    "items": [ "None", ",", "System Device: MacBook Air Microphone", ",", "Preference: PreSonus AudioBox iTwo, Current: MacBook Air Microphone", ",", "BlackHole 16ch", ",", "BlackHole 2ch", ",", "MacBook Air Microphone", ",", "Presonus+Zoom" ],
+                    "items": [ "None", ",", "System Device: MacBook Air Microphone", ",", "PreSonus AudioBox iTwo", ",", "BlackHole 16ch", ",", "BlackHole 2ch", ",", "MacBook Air Microphone" ],
                     "maxclass": "umenu",
                     "numinlets": 1,
                     "numoutlets": 3,
@@ -4262,6 +4443,7 @@
             },
             {
                 "box": {
+                    "hidden": 1,
                     "id": "obj-132",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -4272,7 +4454,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 3,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -4407,6 +4589,7 @@
             },
             {
                 "box": {
+                    "hidden": 1,
                     "id": "obj-134",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -4417,7 +4600,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 3,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -4586,6 +4769,7 @@
             },
             {
                 "box": {
+                    "hidden": 1,
                     "id": "obj-137",
                     "maxclass": "newobj",
                     "numinlets": 2,
@@ -4627,6 +4811,7 @@
             },
             {
                 "box": {
+                    "hidden": 1,
                     "id": "obj-139",
                     "maxclass": "newobj",
                     "numinlets": 2,
@@ -4731,34 +4916,6 @@
                     "outlettype": [ "float", "float" ],
                     "patching_rect": [ 1524.0, 406.0, 29.5, 22.0 ],
                     "text": "t f f"
-                }
-            },
-            {
-                "box": {
-                    "bgcolor": [ 0.0, 0.0, 0.0, 0.81 ],
-                    "bgcolor2": [ 0.0, 0.0, 0.0, 0.24 ],
-                    "bgfillcolor_angle": 270.0,
-                    "bgfillcolor_autogradient": 0.0,
-                    "bgfillcolor_color": [ 0.0, 0.0, 0.0, 0.24 ],
-                    "bgfillcolor_color1": [ 0.0, 0.0, 0.0, 0.81 ],
-                    "bgfillcolor_color2": [ 0.0, 0.0, 0.0, 0.24 ],
-                    "bgfillcolor_proportion": 0.5,
-                    "bgfillcolor_type": "gradient",
-                    "fontface": 1,
-                    "fontname": "Ableton Sans",
-                    "fontsize": 18.0,
-                    "gradient": 1,
-                    "id": "obj-36",
-                    "maxclass": "message",
-                    "numinlets": 2,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 1009.9999980529151, 695.0, 282.0, 30.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 255.0, 105.9375, 282.0, 30.0 ],
-                    "text": "3 col-legno-density",
-                    "textcolor": [ 1.0, 0.34509803921568627, 0.2980392156862745, 1.0 ],
-                    "textjustification": 1
                 }
             },
             {
@@ -4870,7 +5027,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 3,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -5058,7 +5215,7 @@
                             }
                         ]
                     },
-                    "patching_rect": [ 955.0, 739.0, 103.0, 22.0 ],
+                    "patching_rect": [ 953.0, 683.0, 103.0, 22.0 ],
                     "text": "p max-confidence"
                 }
             },
@@ -5078,9 +5235,9 @@
                     "numoutlets": 5,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "", "", "", "float", "" ],
-                    "patching_rect": [ 955.0, 461.0, 402.0, 264.0 ],
+                    "patching_rect": [ 953.0, 461.0, 404.0, 204.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 178.0, 6.0, 407.0, 261.0 ],
+                    "presentation_rect": [ 178.0, 6.0, 399.0, 189.0 ],
                     "viewvisibility": 1
                 }
             },
@@ -5115,6 +5272,31 @@
                     "numoutlets": 0,
                     "patching_rect": [ 72.0, 837.0, 312.42528319358826, 167.0 ],
                     "text": "can derive 4 classes from variance:\n\ncrescendo\ndecrescendo\nsustained\ndynamic\n\nuse combo of rate, direction, hysteresis\n\nfirst deriv should be the acceleration \n\ncan be used to drive ramps for modulations"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-6",
+                    "maxclass": "panel",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 484.0, 11.5, 411.0, 339.5 ]
+                }
+            },
+            {
+                "box": {
+                    "angle": 270.0,
+                    "grad1": [ 0.09411764705882353, 0.09411764705882353, 0.09411764705882353, 1.0 ],
+                    "grad2": [ 0.09411764705882353, 0.09411764705882353, 0.09411764705882353, 1.0 ],
+                    "id": "obj-54",
+                    "maxclass": "panel",
+                    "mode": 1,
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 749.0, 299.0, 128.0, 128.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 178.0, 259.90625, 350.0, 161.0 ],
+                    "proportion": 0.5
                 }
             }
         ],
@@ -5469,6 +5651,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-13", 0 ],
+                    "source": [ "obj-16", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-192", 0 ],
                     "order": 0,
                     "source": [ "obj-160", 0 ]
@@ -5486,6 +5674,12 @@
                     "destination": [ "obj-65", 0 ],
                     "order": 1,
                     "source": [ "obj-160", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-23", 0 ],
+                    "source": [ "obj-17", 0 ]
                 }
             },
             {
@@ -5564,8 +5758,42 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-25", 0 ],
+                    "order": 1,
+                    "source": [ "obj-22", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-85", 0 ],
+                    "order": 0,
+                    "source": [ "obj-22", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-464", 4 ],
                     "source": [ "obj-232", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-84", 0 ],
+                    "source": [ "obj-25", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-17", 0 ],
+                    "order": 1,
+                    "source": [ "obj-26", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-91", 0 ],
+                    "order": 0,
+                    "source": [ "obj-26", 0 ]
                 }
             },
             {
@@ -5767,7 +5995,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-36", 1 ],
+                    "destination": [ "obj-26", 0 ],
                     "order": 0,
                     "source": [ "obj-464", 2 ]
                 }
@@ -5892,7 +6120,22 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-16", 0 ],
+                    "order": 1,
+                    "source": [ "obj-60", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-22", 0 ],
+                    "order": 0,
+                    "source": [ "obj-60", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-92", 0 ],
+                    "order": 2,
                     "source": [ "obj-60", 0 ]
                 }
             },
@@ -5952,6 +6195,18 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-21", 0 ],
+                    "source": [ "obj-75", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-75", 0 ],
+                    "source": [ "obj-77", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-83", 0 ],
                     "source": [ "obj-78", 0 ]
                 }
@@ -5976,6 +6231,18 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-87", 0 ],
+                    "source": [ "obj-85", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-84", 0 ],
+                    "source": [ "obj-87", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-129", 0 ],
                     "source": [ "obj-89", 0 ]
                 }
@@ -5984,6 +6251,12 @@
                 "patchline": {
                     "destination": [ "obj-89", 0 ],
                     "source": [ "obj-90", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-84", 0 ],
+                    "source": [ "obj-91", 0 ]
                 }
             },
             {

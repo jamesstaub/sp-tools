@@ -4,7 +4,7 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 0,
+            "revision": 3,
             "architecture": "x64",
             "modernui": 1
         },
@@ -156,52 +156,115 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 3,
                             "architecture": "x64",
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 0.0, 66.0, 490.0, 890.0 ],
+                        "rect": [ 294.0, 275.0, 473.0, 372.0 ],
                         "openinpresentation": 1,
                         "toolbarvisible": 0,
+                        "visible": 1,
                         "boxes": [
                             {
                                 "box": {
-                                    "id": "obj-10",
-                                    "maxclass": "message",
-                                    "numinlets": 2,
-                                    "numoutlets": 1,
-                                    "outlettype": [ "" ],
-                                    "patching_rect": [ -444.0, 534.0, 50.0, 22.0 ],
-                                    "presentation": 1,
-                                    "presentation_rect": [ -14.0, 0.0, 50.0, 22.0 ]
-                                }
-                            },
-                            {
-                                "box": {
-                                    "attr": "speed",
-                                    "id": "obj-2",
-                                    "maxclass": "attrui",
-                                    "numinlets": 1,
-                                    "numoutlets": 1,
-                                    "outlettype": [ "" ],
-                                    "parameter_enable": 0,
-                                    "patching_rect": [ 174.0, 50.0, 150.0, 22.0 ],
-                                    "presentation": 1,
-                                    "presentation_rect": [ 213.0, 246.0, 184.0, 22.0 ]
-                                }
-                            },
-                            {
-                                "box": {
-                                    "clipheight": 83.0,
+                                    "clipheight": 30.4,
                                     "data": {
                                         "clips": [
                                             {
-                                                "absolutepath": "Macintosh HD:/Users/jamesstaub/Downloads/cello-schertler-dpa-timbres.wav",
-                                                "filename": "cello-schertler-dpa-timbres.wav",
+                                                "absolutepath": "Macintosh HD:/Users/jamesstaub/Library/CloudStorage/GoogleDrive-james.staub@gmail.com/My Drive/audio/cello-gestures/bow-forte-squeel.wav",
+                                                "filename": "bow-forte-squeel.wav",
                                                 "filekind": "audiofile",
-                                                "id": "u906014118",
-                                                "selection": [ 0.09677419354838694, 0.12741935483870967 ],
+                                                "id": "u287015903",
+                                                "loop": 1,
+                                                "content_state": {
+                                                    "loop": 1
+                                                }
+                                            },
+                                            {
+                                                "absolutepath": "Macintosh HD:/Users/jamesstaub/Library/CloudStorage/GoogleDrive-james.staub@gmail.com/My Drive/audio/cello-gestures/bow-harmonic-arpeggio.wav",
+                                                "filename": "bow-harmonic-arpeggio.wav",
+                                                "filekind": "audiofile",
+                                                "id": "u777015908",
+                                                "selection": [ 0.403022670025189, 0.4130982367758187 ],
+                                                "loop": 1,
+                                                "content_state": {
+                                                    "loop": 1
+                                                }
+                                            },
+                                            {
+                                                "absolutepath": "Macintosh HD:/Users/jamesstaub/Library/CloudStorage/GoogleDrive-james.staub@gmail.com/My Drive/audio/cello-gestures/bow-squeel-smacks.wav",
+                                                "filename": "bow-squeel-smacks.wav",
+                                                "filekind": "audiofile",
+                                                "id": "u305015913",
+                                                "loop": 1,
+                                                "content_state": {
+                                                    "loop": 1
+                                                }
+                                            },
+                                            {
+                                                "absolutepath": "Macintosh HD:/Users/jamesstaub/Library/CloudStorage/GoogleDrive-james.staub@gmail.com/My Drive/audio/cello-gestures/col-legno-density.wav",
+                                                "filename": "col-legno-density.wav",
+                                                "filekind": "audiofile",
+                                                "id": "u279015918",
+                                                "loop": 1,
+                                                "content_state": {
+                                                    "loop": 1
+                                                }
+                                            },
+                                            {
+                                                "absolutepath": "Macintosh HD:/Users/jamesstaub/Library/CloudStorage/GoogleDrive-james.staub@gmail.com/My Drive/audio/cello-gestures/jete-bounces.wav",
+                                                "filename": "jete-bounces.wav",
+                                                "filekind": "audiofile",
+                                                "id": "u483015923",
+                                                "loop": 1,
+                                                "content_state": {
+                                                    "loop": 1
+                                                }
+                                            },
+                                            {
+                                                "absolutepath": "Macintosh HD:/Users/jamesstaub/Library/CloudStorage/GoogleDrive-james.staub@gmail.com/My Drive/audio/cello-gestures/pizz-ascend-triads-1.wav",
+                                                "filename": "pizz-ascend-triads-1.wav",
+                                                "filekind": "audiofile",
+                                                "id": "u258015928",
+                                                "loop": 1,
+                                                "content_state": {
+                                                    "loop": 1
+                                                }
+                                            },
+                                            {
+                                                "absolutepath": "Macintosh HD:/Users/jamesstaub/Library/CloudStorage/GoogleDrive-james.staub@gmail.com/My Drive/audio/cello-gestures/pizz-gliss.wav",
+                                                "filename": "pizz-gliss.wav",
+                                                "filekind": "audiofile",
+                                                "id": "u787015933",
+                                                "loop": 1,
+                                                "content_state": {
+                                                    "loop": 1
+                                                }
+                                            },
+                                            {
+                                                "absolutepath": "Macintosh HD:/Users/jamesstaub/Library/CloudStorage/GoogleDrive-james.staub@gmail.com/My Drive/audio/cello-gestures/pizz-harmonic-descend.wav",
+                                                "filename": "pizz-harmonic-descend.wav",
+                                                "filekind": "audiofile",
+                                                "id": "u787015938",
+                                                "loop": 1,
+                                                "content_state": {
+                                                    "loop": 1
+                                                }
+                                            },
+                                            {
+                                                "absolutepath": "Macintosh HD:/Users/jamesstaub/Library/CloudStorage/GoogleDrive-james.staub@gmail.com/My Drive/audio/cello-gestures/pizz-open-5ths.wav",
+                                                "filename": "pizz-open-5ths.wav",
+                                                "filekind": "audiofile",
+                                                "id": "u528015943",
+                                                "loop": 0,
+                                                "content_state": {                                                }
+                                            },
+                                            {
+                                                "absolutepath": "Macintosh HD:/Users/jamesstaub/Library/CloudStorage/GoogleDrive-james.staub@gmail.com/My Drive/audio/cello-gestures/strum-diads.wav",
+                                                "filename": "strum-diads.wav",
+                                                "filekind": "audiofile",
+                                                "id": "u262015948",
                                                 "loop": 1,
                                                 "content_state": {
                                                     "loop": 1
@@ -209,16 +272,16 @@
                                             }
                                         ]
                                     },
-                                    "id": "obj-7",
+                                    "id": "obj-10",
                                     "maxclass": "playlist~",
                                     "mode": "basic",
                                     "numinlets": 1,
                                     "numoutlets": 5,
                                     "outlettype": [ "signal", "signal", "signal", "", "dictionary" ],
                                     "parameter_enable": 0,
-                                    "patching_rect": [ 816.0, 88.0, 643.0, 84.0 ],
+                                    "patching_rect": [ 31.0, 90.0, 451.0, 314.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 3.0, 149.0, 675.0, 84.0 ],
+                                    "presentation_rect": [ -4.819277286529541, 6.024096608161926, 451.0, 314.0 ],
                                     "quality": "basic",
                                     "saved_attribute_attributes": {
                                         "candicane2": {
@@ -247,12 +310,26 @@
                             },
                             {
                                 "box": {
+                                    "attr": "speed",
+                                    "id": "obj-2",
+                                    "maxclass": "attrui",
+                                    "numinlets": 1,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "" ],
+                                    "parameter_enable": 0,
+                                    "patching_rect": [ 300.0, 44.0, 150.0, 22.0 ],
+                                    "presentation": 1,
+                                    "presentation_rect": [ 213.0, 246.0, 184.0, 22.0 ]
+                                }
+                            },
+                            {
+                                "box": {
                                     "id": "obj-6",
                                     "maxclass": "newobj",
                                     "numinlets": 2,
                                     "numoutlets": 2,
                                     "outlettype": [ "bang", "" ],
-                                    "patching_rect": [ 564.0, 40.0, 34.0, 22.0 ],
+                                    "patching_rect": [ 588.0, 86.0, 34.0, 22.0 ],
                                     "text": "sel 1"
                                 }
                             },
@@ -265,7 +342,7 @@
                                     "numinlets": 0,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 141.0, 27.0, 30.0, 30.0 ]
+                                    "patching_rect": [ 105.0, 40.0, 30.0, 30.0 ]
                                 }
                             },
                             {
@@ -275,7 +352,7 @@
                                     "numinlets": 2,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 482.0, 16.0, 33.0, 22.0 ],
+                                    "patching_rect": [ 506.0, 62.0, 33.0, 22.0 ],
                                     "text": "front"
                                 }
                             },
@@ -286,7 +363,7 @@
                                     "numinlets": 1,
                                     "numoutlets": 2,
                                     "outlettype": [ "", "" ],
-                                    "patching_rect": [ 482.0, 44.0, 67.0, 22.0 ],
+                                    "patching_rect": [ 506.0, 90.0, 67.0, 22.0 ],
                                     "save": [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
                                     "text": "thispatcher"
                                 }
@@ -301,9 +378,9 @@
                                     "orientation": 1,
                                     "outlettype": [ "signal", "signal", "", "float", "list" ],
                                     "parameter_enable": 1,
-                                    "patching_rect": [ 593.0, 472.0, 136.0, 36.0 ],
+                                    "patching_rect": [ 346.0, 423.0, 136.0, 36.0 ],
                                     "presentation": 1,
-                                    "presentation_rect": [ 3.0, 246.0, 195.0, 36.0 ],
+                                    "presentation_rect": [ 2.0, 322.0, 413.0, 36.0 ],
                                     "saved_attribute_attributes": {
                                         "valueof": {
                                             "parameter_longname": "live.gain~[5]",
@@ -321,81 +398,11 @@
                             },
                             {
                                 "box": {
-                                    "clipheight": 46.666666666666664,
-                                    "data": {
-                                        "clips": [
-                                            {
-                                                "absolutepath": "/Users/jamesstaub/Documents/Live/cello-examples Project/phrases.aif",
-                                                "filename": "phrases.aif",
-                                                "filekind": "audiofile",
-                                                "id": "u813326545",
-                                                "selection": [ 0.162903225806452, 0.204838709677419 ],
-                                                "loop": 1,
-                                                "content_state": {
-                                                    "loop": 1
-                                                }
-                                            },
-                                            {
-                                                "absolutepath": "/Users/jamesstaub/Library/CloudStorage/GoogleDrive-james.staub@gmail.com/My Drive/audio/handpan cello jam.mp3",
-                                                "filename": "handpan cello jam.mp3",
-                                                "filekind": "audiofile",
-                                                "id": "u488024517",
-                                                "loop": 0,
-                                                "content_state": {                                                }
-                                            },
-                                            {
-                                                "absolutepath": "/Users/jamesstaub/Library/CloudStorage/GoogleDrive-james.staub@gmail.com/My Drive/audio/sp-tools-corpora/staub-cello-examples.aif",
-                                                "filename": "staub-cello-examples.aif",
-                                                "filekind": "audiofile",
-                                                "id": "u128002608",
-                                                "loop": 0,
-                                                "content_state": {                                                }
-                                            }
-                                        ]
-                                    },
-                                    "id": "obj-16",
-                                    "maxclass": "playlist~",
-                                    "mode": "basic",
-                                    "numinlets": 1,
-                                    "numoutlets": 5,
-                                    "outlettype": [ "signal", "signal", "signal", "", "dictionary" ],
-                                    "parameter_enable": 0,
-                                    "patching_rect": [ 50.0, 80.0, 623.0, 143.0 ],
-                                    "presentation": 1,
-                                    "presentation_rect": [ 3.0, 2.0, 675.0, 143.0 ],
-                                    "quality": "basic",
-                                    "saved_attribute_attributes": {
-                                        "candicane2": {
-                                            "expression": ""
-                                        },
-                                        "candicane3": {
-                                            "expression": ""
-                                        },
-                                        "candicane4": {
-                                            "expression": ""
-                                        },
-                                        "candicane5": {
-                                            "expression": ""
-                                        },
-                                        "candicane6": {
-                                            "expression": ""
-                                        },
-                                        "candicane7": {
-                                            "expression": ""
-                                        },
-                                        "candicane8": {
-                                            "expression": ""
-                                        }
-                                    }
-                                }
-                            },
-                            {
-                                "box": {
                                     "id": "obj-159",
                                     "maxclass": "newobj",
                                     "numinlets": 2,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 593.0, 520.0, 35.0, 22.0 ],
+                                    "patching_rect": [ 346.0, 480.0, 35.0, 22.0 ],
                                     "text": "dac~"
                                 }
                             },
@@ -408,7 +415,7 @@
                                     "numinlets": 0,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 50.0, 40.0, 30.0, 30.0 ]
+                                    "patching_rect": [ 31.0, 40.0, 30.0, 30.0 ]
                                 }
                             },
                             {
@@ -419,7 +426,7 @@
                                     "maxclass": "outlet",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 118.0, 349.0, 30.0, 30.0 ]
+                                    "patching_rect": [ 139.0, 450.0, 30.0, 30.0 ]
                                 }
                             },
                             {
@@ -430,7 +437,7 @@
                                     "maxclass": "outlet",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 13.0, 305.0, 30.0, 30.0 ]
+                                    "patching_rect": [ 29.0, 450.0, 30.0, 30.0 ]
                                 }
                             }
                         ],
@@ -439,28 +446,28 @@
                                 "patchline": {
                                     "destination": [ "obj-11", 0 ],
                                     "order": 1,
-                                    "source": [ "obj-16", 0 ]
+                                    "source": [ "obj-10", 0 ]
                                 }
                             },
                             {
                                 "patchline": {
                                     "destination": [ "obj-19", 1 ],
                                     "order": 0,
-                                    "source": [ "obj-16", 1 ]
+                                    "source": [ "obj-10", 1 ]
                                 }
                             },
                             {
                                 "patchline": {
                                     "destination": [ "obj-19", 0 ],
                                     "order": 0,
-                                    "source": [ "obj-16", 0 ]
+                                    "source": [ "obj-10", 0 ]
                                 }
                             },
                             {
                                 "patchline": {
                                     "destination": [ "obj-9", 0 ],
                                     "order": 1,
-                                    "source": [ "obj-16", 1 ]
+                                    "source": [ "obj-10", 1 ]
                                 }
                             },
                             {
@@ -477,15 +484,7 @@
                             },
                             {
                                 "patchline": {
-                                    "destination": [ "obj-16", 0 ],
-                                    "order": 1,
-                                    "source": [ "obj-2", 0 ]
-                                }
-                            },
-                            {
-                                "patchline": {
-                                    "destination": [ "obj-7", 0 ],
-                                    "order": 0,
+                                    "destination": [ "obj-10", 0 ],
                                     "source": [ "obj-2", 0 ]
                                 }
                             },
@@ -497,7 +496,7 @@
                             },
                             {
                                 "patchline": {
-                                    "destination": [ "obj-16", 0 ],
+                                    "destination": [ "obj-10", 0 ],
                                     "source": [ "obj-4", 0 ]
                                 }
                             },
@@ -511,34 +510,6 @@
                                 "patchline": {
                                     "destination": [ "obj-3", 0 ],
                                     "source": [ "obj-6", 0 ]
-                                }
-                            },
-                            {
-                                "patchline": {
-                                    "destination": [ "obj-11", 0 ],
-                                    "order": 1,
-                                    "source": [ "obj-7", 1 ]
-                                }
-                            },
-                            {
-                                "patchline": {
-                                    "destination": [ "obj-19", 0 ],
-                                    "order": 0,
-                                    "source": [ "obj-7", 1 ]
-                                }
-                            },
-                            {
-                                "patchline": {
-                                    "destination": [ "obj-19", 1 ],
-                                    "order": 0,
-                                    "source": [ "obj-7", 0 ]
-                                }
-                            },
-                            {
-                                "patchline": {
-                                    "destination": [ "obj-9", 0 ],
-                                    "order": 1,
-                                    "source": [ "obj-7", 0 ]
                                 }
                             }
                         ]

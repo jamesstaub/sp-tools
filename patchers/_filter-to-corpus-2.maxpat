@@ -4,7 +4,7 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 0,
+            "revision": 3,
             "architecture": "x64",
             "modernui": 1
         },
@@ -12,6 +12,28 @@
         "rect": [ 34.0, 100.0, 1402.0, 822.0 ],
         "openinpresentation": 1,
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-113",
+                    "maxclass": "number",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "bang" ],
+                    "parameter_enable": 0,
+                    "patching_rect": [ 732.0, 724.0, 50.0, 22.0 ]
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-88",
+                    "maxclass": "button",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "bang" ],
+                    "parameter_enable": 0,
+                    "patching_rect": [ 38.0, 282.0, 24.0, 24.0 ]
+                }
+            },
             {
                 "box": {
                     "id": "obj-90",
@@ -131,8 +153,8 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 1001.0, 859.0, 199.0, 76.0 ],
-                    "text": "filter time_centroid >= 0. and centroid <= 127. and pitch <= 127. and pitch_confidence >= 0.102083 and loudness <= 0. and duration <= 5808.94 and flatness <= 0."
+                    "patching_rect": [ 1001.0, 859.0, 201.0, 76.0 ],
+                    "text": "filter time_centroid <= 0. and centroid >= 138.61 and centroid >= 138.61 and centroid >= 12.61 and centroid >= 86.61 and duration <= 688.356009 and centroid >= 91.61"
                 }
             },
             {
@@ -158,7 +180,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 3,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -378,7 +400,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 3,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -1183,12 +1205,12 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 3,
                             "architecture": "x64",
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 154.0, 362.0, 1187.0, 822.0 ],
+                        "rect": [ -1164.0, 87.0, 892.0, 959.0 ],
                         "boxes": [
                             {
                                 "box": {
@@ -1199,7 +1221,7 @@
                                     "numinlets": 0,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 937.0, 39.99999975, 30.0, 30.0 ]
+                                    "patching_rect": [ 828.0, 91.0, 30.0, 30.0 ]
                                 }
                             },
                             {
@@ -1221,7 +1243,7 @@
                                     "numinlets": 1,
                                     "numoutlets": 2,
                                     "outlettype": [ "", "" ],
-                                    "patching_rect": [ 937.0, 273.0, 95.0, 22.0 ],
+                                    "patching_rect": [ 828.0, 278.0, 95.0, 22.0 ],
                                     "text": "dk.quantizepitch"
                                 }
                             },
@@ -1232,7 +1254,7 @@
                                     "numinlets": 1,
                                     "numoutlets": 2,
                                     "outlettype": [ "", "" ],
-                                    "patching_rect": [ 756.0, 202.0, 29.5, 22.0 ],
+                                    "patching_rect": [ 647.0, 253.0, 29.5, 22.0 ],
                                     "text": "t l l"
                                 }
                             },
@@ -1243,7 +1265,7 @@
                                     "numinlets": 2,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 756.0, 309.0, 200.0, 22.0 ],
+                                    "patching_rect": [ 647.0, 314.0, 200.0, 22.0 ],
                                     "text": "dk.descriptorreplace @replace pitch"
                                 }
                             },
@@ -1276,7 +1298,7 @@
                                     "numinlets": 1,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 297.0, 451.0, 101.0, 22.0 ],
+                                    "patching_rect": [ 318.0, 341.0, 101.0, 22.0 ],
                                     "text": "dk.datatranspose"
                                 }
                             },
@@ -1309,7 +1331,7 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 119.0, 497.0, 150.0, 47.0 ],
+                                    "patching_rect": [ 309.0, 527.0, 150.0, 47.0 ],
                                     "text": "corpus match expects\n\ndescBuf descBuf melBuf"
                                 }
                             },
@@ -1320,7 +1342,7 @@
                                     "numinlets": 3,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 52.0, 497.0, 62.0, 22.0 ],
+                                    "patching_rect": [ 38.0, 364.0, 62.0, 22.0 ],
                                     "text": "pack s s s"
                                 }
                             },
@@ -1329,10 +1351,10 @@
                                     "id": "obj-26",
                                     "maxclass": "newobj",
                                     "numinlets": 1,
-                                    "numoutlets": 4,
-                                    "outlettype": [ "", "", "", "" ],
-                                    "patching_rect": [ 52.0, 171.0, 85.0, 22.0 ],
-                                    "text": "unpack s s s s"
+                                    "numoutlets": 6,
+                                    "outlettype": [ "", "", "", "", "", "" ],
+                                    "patching_rect": [ 52.0, 171.0, 71.5, 22.0 ],
+                                    "text": "unjoin 5"
                                 }
                             },
                             {
@@ -1379,7 +1401,7 @@
                                     "maxclass": "outlet",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 52.0, 581.0, 30.0, 30.0 ]
+                                    "patching_rect": [ 38.0, 448.0, 30.0, 30.0 ]
                                 }
                             }
                         ],
@@ -1953,7 +1975,7 @@
                 "box": {
                     "fontname": "Ableton Sans",
                     "id": "obj-126",
-                    "items": [ "all-harp", ",", "harp-cluster-1-corpus", ",", "harp-cluster-2-corpus", ",", "harp-cluster-3-corpus", ",", "harp-cluster-4-corpus", ",", "harp-cluster-5-corpus", ",", "nova-switches", ",", "nova-tones", ",", "aux-percussion", ",", "bassoon-keyslaps-corpus", ",", "cello-corpus", ",", "ceramics-corpus", ",", "elec-c", ",", "harp-novachord", ",", "kalimba-corpus", ",", "mammoxdrums", ",", "mandolin-corpus", ",", "moog-0", ",", "moog-1", ",", "moog-2", ",", "moog-3", ",", "ob3-corpus", ",", "pbass-traynor-wham", ",", "rock-tumblr", ",", "sax-sliced-corpus" ],
+                    "items": [ "all-harp", ",", "harp-cluster-1-corpus", ",", "harp-cluster-2-corpus", ",", "harp-cluster-3-corpus", ",", "harp-cluster-4-corpus", ",", "harp-cluster-5-corpus", ",", "nova-switches", ",", "nova-tones", ",", "aux-percussion", ",", "bassoon-keyslaps-corpus", ",", "cello-corpus", ",", "ceramics-corpus", ",", "elec-c", ",", "harp-novachord", ",", "kalimba-corpus", ",", "mammoxdrums", ",", "mandolin-corpus", ",", "moog-0", ",", "moog-1", ",", "moog-2", ",", "moog-3", ",", "ob3-boogie-exploration", ",", "pbass-traynor-wham", ",", "rock-tumblr", ",", "sax-sliced-corpus" ],
                     "maxclass": "umenu",
                     "numinlets": 1,
                     "numoutlets": 3,
@@ -2054,7 +2076,7 @@
                     "patching_rect": [ 1331.0, 349.0, 198.0, 26.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 655.0, 10.0, 246.0, 26.0 ],
-                    "text": "ob3-corpus"
+                    "text": "pbass-traynor-wham"
                 }
             },
             {
@@ -2172,7 +2194,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 3,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -2343,7 +2365,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 3,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -2373,7 +2395,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 0,
+                                            "revision": 3,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -2635,7 +2657,7 @@
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
                                     "patching_rect": [ 76.0, 288.0, 200.0, 22.0 ],
-                                    "text": "set 249.977324 5808.94"
+                                    "text": "set 103.446712 688.356009"
                                 }
                             },
                             {
@@ -2928,20 +2950,20 @@
                     "restore": {
                         "comp-loudness": [ 47.3765 ],
                         "comp-spectral": [ 53.13927 ],
-                        "corpus-menu": [ 21 ],
-                        "data-transpose-loudness": [ 0.0 ],
+                        "corpus-menu": [ 22 ],
+                        "data-transpose-loudness": [ -5.830556 ],
                         "data-transpose-pitch": [ 0.0 ],
                         "live.button[1]": [ 0.0 ],
                         "live.dial[2]": [ 100.00000000000004 ],
                         "live.text": [ 1.0 ],
-                        "mod-loop-length": [ 0.591965 ],
-                        "mod-loop-speed": [ 0.726258 ],
+                        "mod-loop-length": [ 0.817963 ],
+                        "mod-loop-speed": [ 0.877159 ],
                         "pitch-tonality-quantize-tab": [ 0.0 ],
-                        "reset-bang-speed-len": [ 0 ],
+                        "reset-bang-speed-len": [ 1 ],
                         "setup-matching-length": [ 0.0 ],
-                        "setup-range": [ 9.848482995165195, 86.84123368131313 ],
-                        "toggle-enabled": [ 1.0 ],
-                        "toggle-use-setup": [ 0.0 ],
+                        "setup-range": [ 4.743083003952569, 91.30434782608695 ],
+                        "toggle-enabled": [ 0.0 ],
+                        "toggle-use-setup": [ 1.0 ],
                         "weight-centroid": [ 100.00000000000004 ],
                         "weight-loudness": [ 100.00000000000004 ],
                         "weight-pitch": [ 100.00000000000004 ]
@@ -3025,7 +3047,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 3,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -3321,7 +3343,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 3,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -3862,7 +3884,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 3,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -4302,7 +4324,7 @@
                             },
                             {
                                 "key": 21,
-                                "value": [ "/Users/jamesstaub/Library/CloudStorage/GoogleDrive-james.staub@gmail.com/My Drive/audio/sp-tools-corpora/ob3-boogie-exploration/slices/ob3-corpus.json" ]
+                                "value": [ "/Users/jamesstaub/Library/CloudStorage/GoogleDrive-james.staub@gmail.com/My Drive/audio/sp-tools-corpora/ob3-boogie-exploration/slices/ob3-boogie-exploration.json" ]
                             },
                             {
                                 "key": 22,
@@ -4399,6 +4421,12 @@
                 "patchline": {
                     "destination": [ "obj-135", 0 ],
                     "source": [ "obj-11", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-104", 0 ],
+                    "source": [ "obj-113", 0 ]
                 }
             },
             {
@@ -5043,7 +5071,7 @@
                     "destination": [ "obj-104", 0 ],
                     "source": [ "obj-50", 0 ],
                     "watchpoint_flags": 1,
-                    "watchpoint_id": 2
+                    "watchpoint_id": 1
                 }
             },
             {
@@ -5394,6 +5422,14 @@
             {
                 "patchline": {
                     "destination": [ "obj-104", 0 ],
+                    "order": 1,
+                    "source": [ "obj-99", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-88", 0 ],
+                    "order": 0,
                     "source": [ "obj-99", 0 ]
                 }
             }

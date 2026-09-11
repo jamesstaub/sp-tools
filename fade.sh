@@ -12,7 +12,7 @@ DIR="$1"
 # Set the fade-in and fade-out durations (in seconds)
 FADE_IN_DURATION=0.005
 FADE_IN_CURVE=0.2
-FADE_OUT_DURATION=0.1
+FADE_OUT_DURATION=0.05
 
 # Loop over all audio files in the specified directory
 for file in "$DIR"/*.{mp3,wav,flac,aif}; do
