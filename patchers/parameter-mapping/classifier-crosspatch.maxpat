@@ -101,7 +101,7 @@
                         "valueof": {
                             "parameter_initial": [ 16.0 ],
                             "parameter_initial_enable": 1,
-                            "parameter_longname": "live.numbox[29]",
+                            "parameter_longname": "live.numbox[16]",
                             "parameter_modmode": 3,
                             "parameter_shortname": "live.numbox[14]",
                             "parameter_type": 0,
@@ -1018,8 +1018,16 @@
                     "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 292.5, 199.0, 71.0, 22.0 ],
                     "restore": {
+                        "classifier-crosspatch-gestures": [
+                            {
+                                "data": {
+                                    "numins": 5,
+                                    "numouts": 5
+                                }
+                            }
+                        ],
                         "live.numbox": [ 16.0 ],
-                        "live.tab": [ 0.0 ]
+                        "live.tab": [ 1.0 ]
                     },
                     "text": "autopattr",
                     "varname": "u126022913"
@@ -1054,7 +1062,7 @@
                             "parameter_enum": [ "mean", "sum" ],
                             "parameter_initial": [ 1.0 ],
                             "parameter_initial_enable": 1,
-                            "parameter_longname": "live.tab[9]",
+                            "parameter_longname": "live.tab[11]",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
                             "parameter_shortname": "live.tab",
@@ -3170,7 +3178,8 @@
                     "parameter_enable": 0,
                     "patching_rect": [ 526.0, 354.0, 481.0, 118.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 57.0, 32.0, 361.0, 120.0 ]
+                    "presentation_rect": [ 57.0, 32.0, 361.0, 120.0 ],
+                    "varname": "classifier-crosspatch-gestures"
                 }
             },
             {
